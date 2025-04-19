@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 
 // Helper function to validate locale
 function validateLocale(locale: string) {
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale)) {
     notFound()
   }
   return locale
@@ -71,6 +71,7 @@ export async function generateMetadata({
       },
     }
   } catch (error) {
+    console.error('Metadata generation error:', error) // Keeps error for debugging
     return {
       title: 'MGZon E-commerce',
       description: 'Your ultimate shopping destination',
@@ -127,7 +128,7 @@ export default async function AppLayout({
       </html>
     )
   } catch (error) {
-    console.error('Layout error:', error)
+    console.error('Layout error:', error) // Keeps error for debugging
     notFound()
   }
 }
