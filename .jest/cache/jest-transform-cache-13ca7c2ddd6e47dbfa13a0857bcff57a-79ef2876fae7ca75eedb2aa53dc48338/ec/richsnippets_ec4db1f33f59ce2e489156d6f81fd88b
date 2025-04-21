@@ -1,0 +1,493 @@
+41e71dd27b3255b1fc7104aa4e2d086f
+"use strict";
+
+/* istanbul ignore next */
+function cov_1gv3bkbuxe() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/seo/rich-snippets.ts";
+  var hash = "796585ee84db765cd5bf88e9f81eac1fd201b15c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/seo/rich-snippets.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 42
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 39
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 24
+        },
+        end: {
+          line: 19,
+          column: 61
+        }
+      },
+      "7": {
+        start: {
+          line: 21,
+          column: 49
+        },
+        end: {
+          line: 21,
+          column: 88
+        }
+      },
+      "8": {
+        start: {
+          line: 22,
+          column: 20
+        },
+        end: {
+          line: 22,
+          column: 57
+        }
+      },
+      "9": {
+        start: {
+          line: 23,
+          column: 4
+        },
+        end: {
+          line: 45,
+          column: 6
+        }
+      },
+      "10": {
+        start: {
+          line: 48,
+          column: 36
+        },
+        end: {
+          line: 48,
+          column: 75
+        }
+      },
+      "11": {
+        start: {
+          line: 49,
+          column: 20
+        },
+        end: {
+          line: 49,
+          column: 57
+        }
+      },
+      "12": {
+        start: {
+          line: 50,
+          column: 4
+        },
+        end: {
+          line: 63,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 32
+          },
+          end: {
+            line: 12,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 43
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 29
+          },
+          end: {
+            line: 15,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 40
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "generateOrganizationSchema",
+        decl: {
+          start: {
+            line: 20,
+            column: 15
+          },
+          end: {
+            line: 20,
+            column: 41
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 44
+          },
+          end: {
+            line: 46,
+            column: 1
+          }
+        },
+        line: 20
+      },
+      "4": {
+        name: "generateSearchBoxSchema",
+        decl: {
+          start: {
+            line: 47,
+            column: 15
+          },
+          end: {
+            line: 47,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 47,
+            column: 41
+          },
+          end: {
+            line: 64,
+            column: 1
+          }
+        },
+        line: 47
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 22,
+            column: 20
+          },
+          end: {
+            line: 22,
+            column: 57
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 22,
+            column: 20
+          },
+          end: {
+            line: 22,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 22,
+            column: 27
+          },
+          end: {
+            line: 22,
+            column: 57
+          }
+        }],
+        line: 22
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 49,
+            column: 20
+          },
+          end: {
+            line: 49,
+            column: 57
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 49,
+            column: 20
+          },
+          end: {
+            line: 49,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 49,
+            column: 27
+          },
+          end: {
+            line: 49,
+            column: 57
+          }
+        }],
+        line: 49
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/seo/rich-snippets.ts"],
+      sourcesContent: ["import { getSetting } from '../actions/setting.actions'\n\nexport async function generateOrganizationSchema() {\n  const {\n    site: { url, name, description },\n  } = await getSetting()\n  const baseUrl = url || 'https://hager-zon.vercel.app'\n\n  return {\n    '@context': 'https://schema.org',\n    '@type': 'Organization',\n    name: name,\n    description: description,\n    url: baseUrl,\n    logo: `${baseUrl}/icons/icon-512x512.png`,\n    sameAs: [\n      'https://twitter.com/ibrahim_lasfar',\n      'https://github.com/Mark-Lasfar',\n      // Add other social media profiles\n    ],\n    contactPoint: {\n      '@type': 'ContactPoint',\n      telephone: '+20121244617',\n      contactType: 'customer service',\n      email: 'support@hager-zon.vercel.app',\n      availableLanguage: ['English', 'French', 'Arabic'],\n    },\n  }\n}\n\nexport async function generateSearchBoxSchema() {\n  const {\n    site: { url, name },\n  } = await getSetting()\n  const baseUrl = url || 'https://hager-zon.vercel.app'\n\n  return {\n    '@context': 'https://schema.org',\n    '@type': 'WebSite',\n    name: name,\n    url: baseUrl,\n    potentialAction: {\n      '@type': 'SearchAction',\n      target: {\n        '@type': 'EntryPoint',\n        urlTemplate: `${baseUrl}/search?q={search_term_string}`,\n      },\n      'query-input': 'required name=search_term_string',\n    },\n  }\n}\n"],
+      names: ["generateOrganizationSchema", "generateSearchBoxSchema", "site", "url", "name", "description", "getSetting", "baseUrl", "logo", "sameAs", "contactPoint", "telephone", "contactType", "email", "availableLanguage", "potentialAction", "target", "urlTemplate"],
+      mappings: ";;;;;;;;;;;IAEsBA,0BAA0B;eAA1BA;;IA4BAC,uBAAuB;eAAvBA;;;gCA9BK;AAEpB,eAAeD;IACpB,MAAM,EACJE,MAAM,EAAEC,GAAG,EAAEC,IAAI,EAAEC,WAAW,EAAE,EACjC,GAAG,MAAMC,IAAAA,0BAAU;IACpB,MAAMC,UAAUJ,OAAO;IAEvB,OAAO;QACL,YAAY;QACZ,SAAS;QACTC,MAAMA;QACNC,aAAaA;QACbF,KAAKI;QACLC,MAAM,GAAGD,QAAQ,uBAAuB,CAAC;QACzCE,QAAQ;YACN;YACA;SAED;QACDC,cAAc;YACZ,SAAS;YACTC,WAAW;YACXC,aAAa;YACbC,OAAO;YACPC,mBAAmB;gBAAC;gBAAW;gBAAU;aAAS;QACpD;IACF;AACF;AAEO,eAAeb;IACpB,MAAM,EACJC,MAAM,EAAEC,GAAG,EAAEC,IAAI,EAAE,EACpB,GAAG,MAAME,IAAAA,0BAAU;IACpB,MAAMC,UAAUJ,OAAO;IAEvB,OAAO;QACL,YAAY;QACZ,SAAS;QACTC,MAAMA;QACND,KAAKI;QACLQ,iBAAiB;YACf,SAAS;YACTC,QAAQ;gBACN,SAAS;gBACTC,aAAa,GAAGV,QAAQ,8BAA8B,CAAC;YACzD;YACA,eAAe;QACjB;IACF;AACF"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "796585ee84db765cd5bf88e9f81eac1fd201b15c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1gv3bkbuxe = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1gv3bkbuxe();
+cov_1gv3bkbuxe().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_1gv3bkbuxe().f[0]++;
+  cov_1gv3bkbuxe().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_1gv3bkbuxe().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_1gv3bkbuxe().s[3]++;
+_export(exports, {
+  generateOrganizationSchema: function () {
+    /* istanbul ignore next */
+    cov_1gv3bkbuxe().f[1]++;
+    cov_1gv3bkbuxe().s[4]++;
+    return generateOrganizationSchema;
+  },
+  generateSearchBoxSchema: function () {
+    /* istanbul ignore next */
+    cov_1gv3bkbuxe().f[2]++;
+    cov_1gv3bkbuxe().s[5]++;
+    return generateSearchBoxSchema;
+  }
+});
+const _settingactions =
+/* istanbul ignore next */
+(cov_1gv3bkbuxe().s[6]++, require("../actions/setting.actions"));
+async function generateOrganizationSchema() {
+  /* istanbul ignore next */
+  cov_1gv3bkbuxe().f[3]++;
+  const {
+    site: {
+      url,
+      name,
+      description
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().s[7]++, await (0, _settingactions.getSetting)());
+  const baseUrl =
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().s[8]++,
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().b[0][0]++, url) ||
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().b[0][1]++, 'https://hager-zon.vercel.app'));
+  /* istanbul ignore next */
+  cov_1gv3bkbuxe().s[9]++;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: name,
+    description: description,
+    url: baseUrl,
+    logo: `${baseUrl}/icons/icon-512x512.png`,
+    sameAs: ['https://twitter.com/ibrahim_lasfar', 'https://github.com/Mark-Lasfar'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+20121244617',
+      contactType: 'customer service',
+      email: 'support@hager-zon.vercel.app',
+      availableLanguage: ['English', 'French', 'Arabic']
+    }
+  };
+}
+async function generateSearchBoxSchema() {
+  /* istanbul ignore next */
+  cov_1gv3bkbuxe().f[4]++;
+  const {
+    site: {
+      url,
+      name
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().s[10]++, await (0, _settingactions.getSetting)());
+  const baseUrl =
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().s[11]++,
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().b[1][0]++, url) ||
+  /* istanbul ignore next */
+  (cov_1gv3bkbuxe().b[1][1]++, 'https://hager-zon.vercel.app'));
+  /* istanbul ignore next */
+  cov_1gv3bkbuxe().s[12]++;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: name,
+    url: baseUrl,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${baseUrl}/search?q={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJnZW5lcmF0ZU9yZ2FuaXphdGlvblNjaGVtYSIsImNvdl8xZ3YzYmtidXhlIiwiZiIsInMiLCJnZW5lcmF0ZVNlYXJjaEJveFNjaGVtYSIsInNpdGUiLCJ1cmwiLCJuYW1lIiwiZGVzY3JpcHRpb24iLCJfc2V0dGluZ2FjdGlvbnMiLCJnZXRTZXR0aW5nIiwiYmFzZVVybCIsImIiLCJsb2dvIiwic2FtZUFzIiwiY29udGFjdFBvaW50IiwidGVsZXBob25lIiwiY29udGFjdFR5cGUiLCJlbWFpbCIsImF2YWlsYWJsZUxhbmd1YWdlIiwicG90ZW50aWFsQWN0aW9uIiwidGFyZ2V0IiwidXJsVGVtcGxhdGUiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2xpYi9zZW8vcmljaC1zbmlwcGV0cy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBnZXRTZXR0aW5nIH0gZnJvbSAnLi4vYWN0aW9ucy9zZXR0aW5nLmFjdGlvbnMnXG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZW5lcmF0ZU9yZ2FuaXphdGlvblNjaGVtYSgpIHtcbiAgY29uc3Qge1xuICAgIHNpdGU6IHsgdXJsLCBuYW1lLCBkZXNjcmlwdGlvbiB9LFxuICB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG4gIGNvbnN0IGJhc2VVcmwgPSB1cmwgfHwgJ2h0dHBzOi8vaGFnZXItem9uLnZlcmNlbC5hcHAnXG5cbiAgcmV0dXJuIHtcbiAgICAnQGNvbnRleHQnOiAnaHR0cHM6Ly9zY2hlbWEub3JnJyxcbiAgICAnQHR5cGUnOiAnT3JnYW5pemF0aW9uJyxcbiAgICBuYW1lOiBuYW1lLFxuICAgIGRlc2NyaXB0aW9uOiBkZXNjcmlwdGlvbixcbiAgICB1cmw6IGJhc2VVcmwsXG4gICAgbG9nbzogYCR7YmFzZVVybH0vaWNvbnMvaWNvbi01MTJ4NTEyLnBuZ2AsXG4gICAgc2FtZUFzOiBbXG4gICAgICAnaHR0cHM6Ly90d2l0dGVyLmNvbS9pYnJhaGltX2xhc2ZhcicsXG4gICAgICAnaHR0cHM6Ly9naXRodWIuY29tL01hcmstTGFzZmFyJyxcbiAgICAgIC8vIEFkZCBvdGhlciBzb2NpYWwgbWVkaWEgcHJvZmlsZXNcbiAgICBdLFxuICAgIGNvbnRhY3RQb2ludDoge1xuICAgICAgJ0B0eXBlJzogJ0NvbnRhY3RQb2ludCcsXG4gICAgICB0ZWxlcGhvbmU6ICcrMjAxMjEyNDQ2MTcnLFxuICAgICAgY29udGFjdFR5cGU6ICdjdXN0b21lciBzZXJ2aWNlJyxcbiAgICAgIGVtYWlsOiAnc3VwcG9ydEBoYWdlci16b24udmVyY2VsLmFwcCcsXG4gICAgICBhdmFpbGFibGVMYW5ndWFnZTogWydFbmdsaXNoJywgJ0ZyZW5jaCcsICdBcmFiaWMnXSxcbiAgICB9LFxuICB9XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZW5lcmF0ZVNlYXJjaEJveFNjaGVtYSgpIHtcbiAgY29uc3Qge1xuICAgIHNpdGU6IHsgdXJsLCBuYW1lIH0sXG4gIH0gPSBhd2FpdCBnZXRTZXR0aW5nKClcbiAgY29uc3QgYmFzZVVybCA9IHVybCB8fCAnaHR0cHM6Ly9oYWdlci16b24udmVyY2VsLmFwcCdcblxuICByZXR1cm4ge1xuICAgICdAY29udGV4dCc6ICdodHRwczovL3NjaGVtYS5vcmcnLFxuICAgICdAdHlwZSc6ICdXZWJTaXRlJyxcbiAgICBuYW1lOiBuYW1lLFxuICAgIHVybDogYmFzZVVybCxcbiAgICBwb3RlbnRpYWxBY3Rpb246IHtcbiAgICAgICdAdHlwZSc6ICdTZWFyY2hBY3Rpb24nLFxuICAgICAgdGFyZ2V0OiB7XG4gICAgICAgICdAdHlwZSc6ICdFbnRyeVBvaW50JyxcbiAgICAgICAgdXJsVGVtcGxhdGU6IGAke2Jhc2VVcmx9L3NlYXJjaD9xPXtzZWFyY2hfdGVybV9zdHJpbmd9YCxcbiAgICAgIH0sXG4gICAgICAncXVlcnktaW5wdXQnOiAncmVxdWlyZWQgbmFtZT1zZWFyY2hfdGVybV9zdHJpbmcnLFxuICAgIH0sXG4gIH1cbn1cbiJdLCJtYXBw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

@@ -1,0 +1,10 @@
+# Created: 2025-04-19 07:14:36
+# Contact: ibrahim-lasfar
+Contact: mailto:security@hager-zon.vercel.app
+Contact: https://github.com/ibrahim-lasfar
+Expires: 2026-04-19T07:14:36.000Z
+Encryption: https://hager-zon.vercel.app/pgp-key.txt
+Preferred-Languages: en, fr, ar
+Canonical: https://hager-zon.vercel.app/.well-known/security.txt
+Policy: https://hager-zon.vercel.app/security-policy
+Hiring: https://hager-zon.vercel.app/careers

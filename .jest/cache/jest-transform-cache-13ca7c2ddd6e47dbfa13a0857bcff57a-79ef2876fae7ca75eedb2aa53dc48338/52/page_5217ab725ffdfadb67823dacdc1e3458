@@ -1,0 +1,426 @@
+d9aa8ee73e275105eab4e22aab44255f
+"use strict";
+
+/* istanbul ignore next */
+function cov_2ojqzpcv5r() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/admin/products/page.tsx";
+  var hash = "69070106950916a4324a207cc19f2efd4c9f1cc9";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/admin/products/page.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 28
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 20
+        },
+        end: {
+          line: 19,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 35
+        },
+        end: {
+          line: 20,
+          column: 86
+        }
+      },
+      "8": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 24,
+          column: 6
+        }
+      },
+      "9": {
+        start: {
+          line: 26,
+          column: 17
+        },
+        end: {
+          line: 28,
+          column: 1
+        }
+      },
+      "10": {
+        start: {
+          line: 30,
+          column: 4
+        },
+        end: {
+          line: 30,
+          column: 72
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 12,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 14
+          },
+          end: {
+            line: 15,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 25
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 21,
+            column: 9
+          },
+          end: {
+            line: 21,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 39
+          },
+          end: {
+            line: 25,
+            column: 1
+          }
+        },
+        line: 21
+      },
+      "4": {
+        name: "AdminProduct",
+        decl: {
+          start: {
+            line: 29,
+            column: 15
+          },
+          end: {
+            line: 29,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 29,
+            column: 30
+          },
+          end: {
+            line: 31,
+            column: 1
+          }
+        },
+        line: 29
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 22,
+            column: 11
+          },
+          end: {
+            line: 24,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 22,
+            column: 35
+          },
+          end: {
+            line: 22,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 22,
+            column: 41
+          },
+          end: {
+            line: 24,
+            column: 5
+          }
+        }],
+        line: 22
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 22,
+            column: 11
+          },
+          end: {
+            line: 22,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 22,
+            column: 11
+          },
+          end: {
+            line: 22,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 22,
+            column: 18
+          },
+          end: {
+            line: 22,
+            column: 32
+          }
+        }],
+        line: 22
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/admin/products/page.tsx"],
+      sourcesContent: ["import { Metadata } from 'next'\nimport ProductList from './product-list'\n\nexport const metadata: Metadata = {\n  title: 'Admin Products',\n}\n\nexport default async function AdminProduct() {\n  return <ProductList />\n}\n"],
+      names: ["AdminProduct", "metadata", "title", "ProductList"],
+      mappings: ";;;;;;;;;;;IAOA,OAEC;eAF6BA;;IAJjBC,QAAQ;eAARA;;;;oEAFW;;;;;;AAEjB,MAAMA,WAAqB;IAChCC,OAAO;AACT;AAEe,eAAeF;IAC5B,qBAAO,qBAACG,oBAAW;AACrB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "69070106950916a4324a207cc19f2efd4c9f1cc9"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2ojqzpcv5r = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2ojqzpcv5r();
+cov_2ojqzpcv5r().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_2ojqzpcv5r().f[0]++;
+  cov_2ojqzpcv5r().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_2ojqzpcv5r().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_2ojqzpcv5r().s[3]++;
+_export(exports, {
+  default: function () {
+    /* istanbul ignore next */
+    cov_2ojqzpcv5r().f[1]++;
+    cov_2ojqzpcv5r().s[4]++;
+    return AdminProduct;
+  },
+  metadata: function () {
+    /* istanbul ignore next */
+    cov_2ojqzpcv5r().f[2]++;
+    cov_2ojqzpcv5r().s[5]++;
+    return metadata;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_2ojqzpcv5r().s[6]++, require("react/jsx-runtime"));
+const _productlist =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_2ojqzpcv5r().s[7]++, _interop_require_default(require("./product-list")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_2ojqzpcv5r().f[3]++;
+  cov_2ojqzpcv5r().s[8]++;
+  return /* istanbul ignore next */(cov_2ojqzpcv5r().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_2ojqzpcv5r().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_2ojqzpcv5r().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_2ojqzpcv5r().b[0][1]++, {
+    default: obj
+  });
+}
+const metadata =
+/* istanbul ignore next */
+(cov_2ojqzpcv5r().s[9]++, {
+  title: 'Admin Products'
+});
+async function AdminProduct() {
+  /* istanbul ignore next */
+  cov_2ojqzpcv5r().f[4]++;
+  cov_2ojqzpcv5r().s[10]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)(_productlist.default, {});
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZWZhdWx0IiwiY292XzJvanF6cGN2NXIiLCJmIiwicyIsIkFkbWluUHJvZHVjdCIsIm1ldGFkYXRhIiwidGl0bGUiLCJfanN4cnVudGltZSIsImpzeCIsIl9wcm9kdWN0bGlzdCJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vYXBwL1tsb2NhbGVdL2FkbWluL3Byb2R1Y3RzL3BhZ2UudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE1ldGFkYXRhIH0gZnJvbSAnbmV4dCdcbmltcG9ydCBQcm9kdWN0TGlzdCBmcm9tICcuL3Byb2R1Y3QtbGlzdCdcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHtcbiAgdGl0bGU6ICdBZG1pbiBQcm9kdWN0cycsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIEFkbWluUHJvZHVjdCgpIHtcbiAgcmV0dXJuIDxQcm9kdWN0TGlzdCAvPlxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQU9BQSxPQUVDLFdBQUFBLENBQUE7SUFBQTtJQUFBQyxjQUFBLEdBQUFDLENBQUE7SUFBQUQsY0FBQSxHQUFBRSxDQUFBO1dBRjZCQyxZQUFBOztFQUpqQkMsUUFBUSxXQUFBQSxDQUFBO0lBQUE7SUFBQUosY0FBQSxHQUFBQyxDQUFBO0lBQUFELGNBQUEsR0FBQUUsQ0FBQTtXQUFSRSxRQUFBOzs7Ozs7Ozt3RUFGVzs7Ozs7Ozs7Ozs7Ozs7O0FBRWpCLE1BQU1BLFFBQUE7QUFBQTtBQUFBLENBQUFKLGNBQUEsR0FBQUUsQ0FBQSxPQUFxQjtFQUNoQ0csS0FBQSxFQUFPO0FBQ1Q7QUFFZSxlQUFlRixhQUFBO0VBQUE7RUFBQUgsY0FBQSxHQUFBQyxDQUFBO0VBQUFELGNBQUEsR0FBQUUsQ0FBQTtFQUM1QixvQkFBTyxJQUFBSSxXQUFBLENBQUFDLEdBQUEsRUFBQ0MsWUFBQSxDQUFBVCxPQUFXO0FBQ3JCIiwiaWdub3JlTGlzdCI6W119

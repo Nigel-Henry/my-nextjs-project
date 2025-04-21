@@ -1,0 +1,424 @@
+c3a790363e51570136e238d49af06725
+"use strict";
+
+/* istanbul ignore next */
+function cov_2182pqmhji() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/hooks/use-device-type.ts";
+  var hash = "08a7fc62f414b58dfe1b22fb1d1622c7b5f3b560";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/hooks/use-device-type.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 15
+        },
+        end: {
+          line: 11,
+          column: 31
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 40
+        },
+        end: {
+          line: 13,
+          column: 71
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 22,
+          column: 11
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 29
+        },
+        end: {
+          line: 17,
+          column: 9
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 12
+        },
+        end: {
+          line: 16,
+          column: 75
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 9
+        }
+      },
+      "9": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 56
+        }
+      },
+      "10": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 70
+        }
+      },
+      "11": {
+        start: {
+          line: 21,
+          column: 19
+        },
+        end: {
+          line: 21,
+          column: 69
+        }
+      },
+      "12": {
+        start: {
+          line: 23,
+          column: 4
+        },
+        end: {
+          line: 23,
+          column: 22
+        }
+      },
+      "13": {
+        start: {
+          line: 25,
+          column: 17
+        },
+        end: {
+          line: 25,
+          column: 30
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "useDeviceType",
+        decl: {
+          start: {
+            line: 12,
+            column: 9
+          },
+          end: {
+            line: 12,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 25
+          },
+          end: {
+            line: 24,
+            column: 1
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 14,
+            column: 26
+          },
+          end: {
+            line: 14,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 30
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        line: 14
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 15,
+            column: 29
+          },
+          end: {
+            line: 15,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 33
+          },
+          end: {
+            line: 17,
+            column: 9
+          }
+        },
+        line: 15
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 21,
+            column: 15
+          },
+          end: {
+            line: 21,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 19
+          },
+          end: {
+            line: 21,
+            column: 69
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 16,
+            column: 26
+          },
+          end: {
+            line: 16,
+            column: 73
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 53
+          },
+          end: {
+            line: 16,
+            column: 61
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 64
+          },
+          end: {
+            line: 16,
+            column: 73
+          }
+        }],
+        line: 16
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/hooks/use-device-type.ts"],
+      sourcesContent: ["import { useState, useEffect } from 'react'\n\nfunction useDeviceType() {\n  const [deviceType, setDeviceType] = useState('unknown')\n\n  useEffect(() => {\n    const handleResize = () => {\n      setDeviceType(window.innerWidth <= 768 ? 'mobile' : 'desktop')\n    }\n\n    handleResize() // Set initial value\n    window.addEventListener('resize', handleResize)\n\n    return () => window.removeEventListener('resize', handleResize)\n  }, [])\n\n  return deviceType\n}\n\nexport default useDeviceType\n"],
+      names: ["useDeviceType", "deviceType", "setDeviceType", "useState", "useEffect", "handleResize", "window", "innerWidth", "addEventListener", "removeEventListener"],
+      mappings: ";;;;+BAmBA;;;eAAA;;;uBAnBoC;AAEpC,SAASA;IACP,MAAM,CAACC,YAAYC,cAAc,GAAGC,IAAAA,eAAQ,EAAC;IAE7CC,IAAAA,gBAAS,EAAC;QACR,MAAMC,eAAe;YACnBH,cAAcI,OAAOC,UAAU,IAAI,MAAM,WAAW;QACtD;QAEAF,eAAe,oBAAoB;;QACnCC,OAAOE,gBAAgB,CAAC,UAAUH;QAElC,OAAO,IAAMC,OAAOG,mBAAmB,CAAC,UAAUJ;IACpD,GAAG,EAAE;IAEL,OAAOJ;AACT;MAEA,WAAeD"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "08a7fc62f414b58dfe1b22fb1d1622c7b5f3b560"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2182pqmhji = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2182pqmhji();
+cov_2182pqmhji().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2182pqmhji().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_2182pqmhji().f[0]++;
+    cov_2182pqmhji().s[2]++;
+    return _default;
+  }
+});
+const _react =
+/* istanbul ignore next */
+(cov_2182pqmhji().s[3]++, require("react"));
+function useDeviceType() {
+  /* istanbul ignore next */
+  cov_2182pqmhji().f[1]++;
+  const [deviceType, setDeviceType] =
+  /* istanbul ignore next */
+  (cov_2182pqmhji().s[4]++, (0, _react.useState)('unknown'));
+  /* istanbul ignore next */
+  cov_2182pqmhji().s[5]++;
+  (0, _react.useEffect)(() => {
+    /* istanbul ignore next */
+    cov_2182pqmhji().f[2]++;
+    cov_2182pqmhji().s[6]++;
+    const handleResize = () => {
+      /* istanbul ignore next */
+      cov_2182pqmhji().f[3]++;
+      cov_2182pqmhji().s[7]++;
+      setDeviceType(window.innerWidth <= 768 ?
+      /* istanbul ignore next */
+      (cov_2182pqmhji().b[0][0]++, 'mobile') :
+      /* istanbul ignore next */
+      (cov_2182pqmhji().b[0][1]++, 'desktop'));
+    };
+    /* istanbul ignore next */
+    cov_2182pqmhji().s[8]++;
+    handleResize() // Set initial value
+    ;
+    /* istanbul ignore next */
+    cov_2182pqmhji().s[9]++;
+    window.addEventListener('resize', handleResize);
+    /* istanbul ignore next */
+    cov_2182pqmhji().s[10]++;
+    return () => {
+      /* istanbul ignore next */
+      cov_2182pqmhji().f[4]++;
+      cov_2182pqmhji().s[11]++;
+      return window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  /* istanbul ignore next */
+  cov_2182pqmhji().s[12]++;
+  return deviceType;
+}
+const _default =
+/* istanbul ignore next */
+(cov_2182pqmhji().s[13]++, useDeviceType);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMjE4MnBxbWhqaSIsImFjdHVhbENvdmVyYWdlIiwicyIsIl9kZWZhdWx0IiwidXNlRGV2aWNlVHlwZSIsImYiLCJkZXZpY2VUeXBlIiwic2V0RGV2aWNlVHlwZSIsIl9yZWFjdCIsInVzZVN0YXRlIiwidXNlRWZmZWN0IiwiaGFuZGxlUmVzaXplIiwid2luZG93IiwiaW5uZXJXaWR0aCIsImIiLCJhZGRFdmVudExpc3RlbmVyIiwicmVtb3ZlRXZlbnRMaXN0ZW5lciJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vaG9va3MvdXNlLWRldmljZS10eXBlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCdcblxuZnVuY3Rpb24gdXNlRGV2aWNlVHlwZSgpIHtcbiAgY29uc3QgW2RldmljZVR5cGUsIHNldERldmljZVR5cGVdID0gdXNlU3RhdGUoJ3Vua25vd24nKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgaGFuZGxlUmVzaXplID0gKCkgPT4ge1xuICAgICAgc2V0RGV2aWNlVHlwZSh3aW5kb3cuaW5uZXJXaWR0aCA8PSA3NjggPyAnbW9iaWxlJyA6ICdkZXNrdG9wJylcbiAgICB9XG5cbiAgICBoYW5kbGVSZXNpemUoKSAvLyBTZXQgaW5pdGlhbCB2YWx1ZVxuICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdyZXNpemUnLCBoYW5kbGVSZXNpemUpXG5cbiAgICByZXR1cm4gKCkgPT4gd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIGhhbmRsZVJlc2l6ZSlcbiAgfSwgW10pXG5cbiAgcmV0dXJuIGRldmljZVR5cGVcbn1cblxuZXhwb3J0IGRlZmF1bHQgdXNlRGV2aWNlVHlwZVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFPTTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBQUFBLGNBQUEsR0FBQUUsQ0FBQTs7Ozs7OytCQVlOOzs7Ozs7V0FBQUMsUUFBQTs7Ozs7a0NBbkJvQztBQUVwQyxTQUFTQyxjQUFBO0VBQUE7RUFBQUosY0FBQSxHQUFBSyxDQUFBO0VBQ1AsTUFBTSxDQUFDQyxVQUFBLEVBQVlDLGFBQUEsQ0FBYztFQUFBO0VBQUEsQ0FBQVAsY0FBQSxHQUFBRSxDQUFBLE9BQUcsSUFBQU0sTUFBQSxDQUFBQyxRQUFRLEVBQUM7RUFBQTtFQUFBVCxjQUFBLEdBQUFFLENBQUE7RUFFN0MsSUFBQU0sTUFBQSxDQUFBRSxTQUFTLEVBQUM7SUFBQTtJQUFBVixjQUFBLEdBQUFLLENBQUE7SUFBQUwsY0FBQSxHQUFBRSxDQUFBO0lBQ1IsTUFBTVMsWUFBQSxHQUFlQSxDQUFBO01BQUE7TUFBQVgsY0FBQSxHQUFBSyxDQUFBO01BQUFMLGNBQUEsR0FBQUUsQ0FBQTtNQUNuQkssYUFBQSxDQUFjSyxNQUFBLENBQU9DLFVBQVUsSUFBSTtNQUFBO01BQUEsQ0FBQWIsY0FBQSxHQUFBYyxDQUFBLFVBQU07TUFBQTtNQUFBLENBQUFkLGNBQUEsR0FBQWMsQ0FBQSxVQUFXO0lBQ3REO0lBQUE7SUFBQWQsY0FBQSxHQUFBRSxDQUFBO0lBRUFTLFlBQUEsR0FBZTtJQUFBOzs7SUFDZkMsTUFBQSxDQUFPRyxnQkFBZ0IsQ0FBQyxVQUFVSixZQUFBO0lBQUE7SUFBQVgsY0FBQSxHQUFBRSxDQUFBO0lBRWxDLE9BQU8sTUFBTTtNQUFBO01BQUFGLGNBQUEsR0FBQUssQ0FBQTtNQUFBTCxjQUFBLEdBQUFFLENBQUE7TUFBQSxPQUFBVSxNQUFBLENBQU9JLG1CQUFtQixDQUFDLFVBQVVMLFlBQUE7SUFBQTtFQUNwRCxHQUFHLEVBQUU7RUFBQTtFQUFBWCxjQUFBLEdBQUFFLENBQUE7RUFFTCxPQUFPSSxVQUFBO0FBQ1Q7TUFFQUgsUUFBQTtBQUFBO0FBQUEsQ0FBQUgsY0FBQSxHQUFBRSxDQUFBLFFBQWVFLGFBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

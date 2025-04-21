@@ -1,0 +1,267 @@
+51e91874a1aa40b7dcf8e4464a9c7308
+"use strict";
+
+/* istanbul ignore next */
+function cov_1pxzni2hbv() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/route.ts";
+  var hash = "85e15c6d7e02b6b02140fc378c573fd349854342";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/route.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 19
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 20
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 14
+        },
+        end: {
+          line: 19,
+          column: 41
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 14
+        },
+        end: {
+          line: 20,
+          column: 31
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 22
+        },
+        end: {
+          line: 23,
+          column: 2
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 9
+          },
+          end: {
+            line: 12,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 20
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 10
+          },
+          end: {
+            line: 15,
+            column: 11
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 21
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/route.ts"],
+      sourcesContent: ["import { createRouteHandler } from 'uploadthing/next'\n\nimport { ourFileRouter } from './core'\n\n// Export routes for Next App Router\nexport const { GET, POST } = createRouteHandler({\n  router: ourFileRouter,\n\n  // Apply an (optional) custom config:\n  // config: { ... },\n})\n"],
+      names: ["GET", "POST", "createRouteHandler", "router", "ourFileRouter"],
+      mappings: ";;;;;;;;;;;IAKeA,GAAG;eAAHA;;IAAKC,IAAI;eAAJA;;;sBALe;sBAEL;AAGvB,MAAM,EAAED,GAAG,EAAEC,IAAI,EAAE,GAAGC,IAAAA,wBAAkB,EAAC;IAC9CC,QAAQC,mBAAa;AAIvB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "85e15c6d7e02b6b02140fc378c573fd349854342"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1pxzni2hbv = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1pxzni2hbv();
+cov_1pxzni2hbv().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_1pxzni2hbv().f[0]++;
+  cov_1pxzni2hbv().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_1pxzni2hbv().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_1pxzni2hbv().s[3]++;
+_export(exports, {
+  GET: function () {
+    /* istanbul ignore next */
+    cov_1pxzni2hbv().f[1]++;
+    cov_1pxzni2hbv().s[4]++;
+    return GET;
+  },
+  POST: function () {
+    /* istanbul ignore next */
+    cov_1pxzni2hbv().f[2]++;
+    cov_1pxzni2hbv().s[5]++;
+    return POST;
+  }
+});
+const _next =
+/* istanbul ignore next */
+(cov_1pxzni2hbv().s[6]++, require("uploadthing/next"));
+const _core =
+/* istanbul ignore next */
+(cov_1pxzni2hbv().s[7]++, require("./core"));
+const {
+  GET,
+  POST
+} =
+/* istanbul ignore next */
+(cov_1pxzni2hbv().s[8]++, (0, _next.createRouteHandler)({
+  router: _core.ourFileRouter
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJHRVQiLCJjb3ZfMXB4em5pMmhidiIsImYiLCJzIiwiUE9TVCIsIl9uZXh0IiwiY3JlYXRlUm91dGVIYW5kbGVyIiwicm91dGVyIiwiX2NvcmUiLCJvdXJGaWxlUm91dGVyIl0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9hcHAvYXBpL3VwbG9hZHRoaW5nL3JvdXRlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZVJvdXRlSGFuZGxlciB9IGZyb20gJ3VwbG9hZHRoaW5nL25leHQnXG5cbmltcG9ydCB7IG91ckZpbGVSb3V0ZXIgfSBmcm9tICcuL2NvcmUnXG5cbi8vIEV4cG9ydCByb3V0ZXMgZm9yIE5leHQgQXBwIFJvdXRlclxuZXhwb3J0IGNvbnN0IHsgR0VULCBQT1NUIH0gPSBjcmVhdGVSb3V0ZUhhbmRsZXIoe1xuICByb3V0ZXI6IG91ckZpbGVSb3V0ZXIsXG5cbiAgLy8gQXBwbHkgYW4gKG9wdGlvbmFsKSBjdXN0b20gY29uZmlnOlxuICAvLyBjb25maWc6IHsgLi4uIH0sXG59KVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0VBS2VBLEdBQUcsV0FBQUEsQ0FBQTtJQUFBO0lBQUFDLGNBQUEsR0FBQUMsQ0FBQTtJQUFBRCxjQUFBLEdBQUFFLENBQUE7V0FBSEgsR0FBQTs7RUFBS0ksSUFBSSxXQUFBQSxDQUFBO0lBQUE7SUFBQUgsY0FBQSxHQUFBQyxDQUFBO0lBQUFELGNBQUEsR0FBQUUsQ0FBQTtXQUFKQyxJQUFBOzs7OztrQ0FMZTs7O2tDQUVMO0FBR3ZCLE1BQU07RUFBRUosR0FBRztFQUFFSTtBQUFJLENBQUU7QUFBQTtBQUFBLENBQUFILGNBQUEsR0FBQUUsQ0FBQSxPQUFHLElBQUFFLEtBQUEsQ0FBQUMsa0JBQWtCLEVBQUM7RUFDOUNDLE1BQUEsRUFBUUMsS0FBQSxDQUFBQztBQUlWIiwiaWdub3JlTGlzdCI6W119

@@ -1,0 +1,536 @@
+48abef81ff0fd30536affc8be03ebd53
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_1w505pystl() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/action-button.tsx";
+  var hash = "9b5a286df778a2d4987d7ee5d233765dc1046093";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/action-button.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 28
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 31
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 16
+        },
+        end: {
+          line: 14,
+          column: 39
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 18
+        },
+        end: {
+          line: 15,
+          column: 50
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 15
+        },
+        end: {
+          line: 16,
+          column: 41
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 41
+        },
+        end: {
+          line: 18,
+          column: 68
+        }
+      },
+      "9": {
+        start: {
+          line: 19,
+          column: 22
+        },
+        end: {
+          line: 19,
+          column: 47
+        }
+      },
+      "10": {
+        start: {
+          line: 20,
+          column: 4
+        },
+        end: {
+          line: 34,
+          column: 7
+        }
+      },
+      "11": {
+        start: {
+          line: 26,
+          column: 21
+        },
+        end: {
+          line: 32,
+          column: 14
+        }
+      },
+      "12": {
+        start: {
+          line: 27,
+          column: 28
+        },
+        end: {
+          line: 27,
+          column: 42
+        }
+      },
+      "13": {
+        start: {
+          line: 28,
+          column: 16
+        },
+        end: {
+          line: 31,
+          column: 19
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "ActionButton",
+        decl: {
+          start: {
+            line: 17,
+            column: 9
+          },
+          end: {
+            line: 17,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 104
+          },
+          end: {
+            line: 35,
+            column: 1
+          }
+        },
+        line: 17
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 26,
+            column: 17
+          },
+          end: {
+            line: 26,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 26,
+            column: 21
+          },
+          end: {
+            line: 32,
+            column: 14
+          }
+        },
+        line: 26
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 26,
+            column: 37
+          },
+          end: {
+            line: 26,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 26,
+            column: 47
+          },
+          end: {
+            line: 32,
+            column: 13
+          }
+        },
+        line: 26
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 17,
+            column: 41
+          },
+          end: {
+            line: 17,
+            column: 61
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 17,
+            column: 53
+          },
+          end: {
+            line: 17,
+            column: 61
+          }
+        }],
+        line: 17
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 17,
+            column: 63
+          },
+          end: {
+            line: 17,
+            column: 82
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 17,
+            column: 73
+          },
+          end: {
+            line: 17,
+            column: 82
+          }
+        }],
+        line: 17
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 17,
+            column: 84
+          },
+          end: {
+            line: 17,
+            column: 100
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 17,
+            column: 91
+          },
+          end: {
+            line: 17,
+            column: 100
+          }
+        }],
+        line: 17
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 29,
+            column: 29
+          },
+          end: {
+            line: 29,
+            column: 68
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 29,
+            column: 43
+          },
+          end: {
+            line: 29,
+            column: 52
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 55
+          },
+          end: {
+            line: 29,
+            column: 68
+          }
+        }],
+        line: 29
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 33,
+            column: 18
+          },
+          end: {
+            line: 33,
+            column: 55
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 33,
+            column: 30
+          },
+          end: {
+            line: 33,
+            column: 45
+          }
+        }, {
+          start: {
+            line: 33,
+            column: 48
+          },
+          end: {
+            line: 33,
+            column: 55
+          }
+        }],
+        line: 33
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0],
+      "1": [0],
+      "2": [0],
+      "3": [0, 0],
+      "4": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/action-button.tsx"],
+      sourcesContent: ["'use client'\nimport { useTransition } from 'react'\n\nimport { Button } from '@/components/ui/button'\nimport { useToast } from '@/hooks/use-toast'\nimport { cn } from '@/lib/utils'\n\nexport default function ActionButton({\n  caption,\n  action,\n  className = 'w-full',\n  variant = 'default',\n  size = 'default',\n}: {\n  caption: string\n  action: () => Promise<{ success: boolean; message: string }>\n  className?: string\n  variant?: 'default' | 'outline' | 'destructive'\n  size?: 'default' | 'sm' | 'lg'\n}) {\n  const [isPending, startTransition] = useTransition()\n  const { toast } = useToast()\n  return (\n    <Button\n      type=\"button\"\n      className={cn('rounded-full', className)}\n      variant={variant}\n      size={size}\n      disabled={isPending}\n      onClick={() =>\n        startTransition(async () => {\n          const res = await action()\n          toast({\n            variant: res.success ? 'default' : 'destructive',\n            description: res.message,\n          })\n        })\n      }\n    >\n      {isPending ? 'processing...' : caption}\n    </Button>\n  )\n}\n"],
+      names: ["ActionButton", "caption", "action", "className", "variant", "size", "isPending", "startTransition", "useTransition", "toast", "useToast", "Button", "type", "cn", "disabled", "onClick", "res", "success", "description", "message"],
+      mappings: "AAAA;;;;;+BAOA;;;eAAwBA;;;;uBANM;wBAEP;0BACE;uBACN;AAEJ,SAASA,aAAa,EACnCC,OAAO,EACPC,MAAM,EACNC,YAAY,QAAQ,EACpBC,UAAU,SAAS,EACnBC,OAAO,SAAS,EAOjB;IACC,MAAM,CAACC,WAAWC,gBAAgB,GAAGC,IAAAA,oBAAa;IAClD,MAAM,EAAEC,KAAK,EAAE,GAAGC,IAAAA,kBAAQ;IAC1B,qBACE,qBAACC,cAAM;QACLC,MAAK;QACLT,WAAWU,IAAAA,SAAE,EAAC,gBAAgBV;QAC9BC,SAASA;QACTC,MAAMA;QACNS,UAAUR;QACVS,SAAS,IACPR,gBAAgB;gBACd,MAAMS,MAAM,MAAMd;gBAClBO,MAAM;oBACJL,SAASY,IAAIC,OAAO,GAAG,YAAY;oBACnCC,aAAaF,IAAIG,OAAO;gBAC1B;YACF;kBAGDb,YAAY,kBAAkBL;;AAGrC"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "9b5a286df778a2d4987d7ee5d233765dc1046093"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1w505pystl = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1w505pystl();
+cov_1w505pystl().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1w505pystl().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1w505pystl().f[0]++;
+    cov_1w505pystl().s[2]++;
+    return ActionButton;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1w505pystl().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(cov_1w505pystl().s[4]++, require("react"));
+const _button =
+/* istanbul ignore next */
+(cov_1w505pystl().s[5]++, require("../ui/button"));
+const _usetoast =
+/* istanbul ignore next */
+(cov_1w505pystl().s[6]++, require("../../hooks/use-toast"));
+const _utils =
+/* istanbul ignore next */
+(cov_1w505pystl().s[7]++, require("../../lib/utils"));
+function ActionButton({
+  caption,
+  action,
+  className =
+  /* istanbul ignore next */
+  (cov_1w505pystl().b[0][0]++, 'w-full'),
+  variant =
+  /* istanbul ignore next */
+  (cov_1w505pystl().b[1][0]++, 'default'),
+  size =
+  /* istanbul ignore next */
+  (cov_1w505pystl().b[2][0]++, 'default')
+}) {
+  /* istanbul ignore next */
+  cov_1w505pystl().f[1]++;
+  const [isPending, startTransition] =
+  /* istanbul ignore next */
+  (cov_1w505pystl().s[8]++, (0, _react.useTransition)());
+  const {
+    toast
+  } =
+  /* istanbul ignore next */
+  (cov_1w505pystl().s[9]++, (0, _usetoast.useToast)());
+  /* istanbul ignore next */
+  cov_1w505pystl().s[10]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+    type: "button",
+    className: (0, _utils.cn)('rounded-full', className),
+    variant: variant,
+    size: size,
+    disabled: isPending,
+    onClick: () => {
+      /* istanbul ignore next */
+      cov_1w505pystl().f[2]++;
+      cov_1w505pystl().s[11]++;
+      return startTransition(async () => {
+        /* istanbul ignore next */
+        cov_1w505pystl().f[3]++;
+        const res =
+        /* istanbul ignore next */
+        (cov_1w505pystl().s[12]++, await action());
+        /* istanbul ignore next */
+        cov_1w505pystl().s[13]++;
+        toast({
+          variant: res.success ?
+          /* istanbul ignore next */
+          (cov_1w505pystl().b[3][0]++, 'default') :
+          /* istanbul ignore next */
+          (cov_1w505pystl().b[3][1]++, 'destructive'),
+          description: res.message
+        });
+      });
+    },
+    children: isPending ?
+    /* istanbul ignore next */
+    (cov_1w505pystl().b[4][0]++, 'processing...') :
+    /* istanbul ignore next */
+    (cov_1w505pystl().b[4][1]++, caption)
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJBY3Rpb25CdXR0b24iLCJjYXB0aW9uIiwiYWN0aW9uIiwiY2xhc3NOYW1lIiwiY292XzF3NTA1cHlzdGwiLCJiIiwidmFyaWFudCIsInNpemUiLCJmIiwiaXNQZW5kaW5nIiwic3RhcnRUcmFuc2l0aW9uIiwicyIsIl9yZWFjdCIsInVzZVRyYW5zaXRpb24iLCJ0b2FzdCIsIl91c2V0b2FzdCIsInVzZVRvYXN0IiwiX2pzeHJ1bnRpbWUiLCJqc3giLCJfYnV0dG9uIiwiQnV0dG9uIiwidHlwZSIsIl91dGlscyIsImNuIiwiZGlzYWJsZWQiLCJvbkNsaWNrIiwicmVzIiwic3VjY2VzcyIsImRlc2NyaXB0aW9uIiwibWVzc2FnZSJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vY29tcG9uZW50cy9zaGFyZWQvYWN0aW9uLWJ1dHRvbi50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5pbXBvcnQgeyB1c2VUcmFuc2l0aW9uIH0gZnJvbSAncmVhY3QnXG5cbmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nXG5pbXBvcnQgeyB1c2VUb2FzdCB9IGZyb20gJ0AvaG9va3MvdXNlLXRvYXN0J1xuaW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscydcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQWN0aW9uQnV0dG9uKHtcbiAgY2FwdGlvbixcbiAgYWN0aW9uLFxuICBjbGFzc05hbWUgPSAndy1mdWxsJyxcbiAgdmFyaWFudCA9ICdkZWZhdWx0JyxcbiAgc2l6ZSA9ICdkZWZhdWx0Jyxcbn06IHtcbiAgY2FwdGlvbjogc3RyaW5nXG4gIGFjdGlvbjogKCkgPT4gUHJvbWlzZTx7IHN1Y2Nlc3M6IGJvb2xlYW47IG1lc3NhZ2U6IHN0cmluZyB9PlxuICBjbGFzc05hbWU/OiBzdHJpbmdcbiAgdmFyaWFudD86ICdkZWZhdWx0JyB8ICdvdXRsaW5lJyB8ICdkZXN0cnVjdGl2ZSdcbiAgc2l6ZT86ICdkZWZhdWx0JyB8ICdzbScgfCAnbGcnXG59KSB7XG4gIGNvbnN0IFtpc1BlbmRpbmcsIHN0YXJ0VHJhbnNpdGlvbl0gPSB1c2VUcmFuc2l0aW9uKClcbiAgY29uc3QgeyB0b2FzdCB9ID0gdXNlVG9hc3QoKVxuICByZXR1cm4gKFxuICAgIDxCdXR0b25cbiAgICAgIHR5cGU9XCJidXR0b25cIlxuICAgICAgY2xhc3NOYW1lPXtjbigncm91bmRlZC1mdWxsJywgY2xhc3NOYW1lKX1cbiAgICAgIHZhcmlhbnQ9e3ZhcmlhbnR9XG4gICAgICBzaXplPXtzaXplfVxuICAgICAgZGlzYWJsZWQ9e2lzUGVuZGluZ31cbiAgICAgIG9uQ2xpY2s9eygpID0+XG4gICAgICAgIHN0YXJ0VHJhbnNpdGlvbihhc3luYyAoKSA9PiB7XG4gICAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgYWN0aW9uKClcbiAgICAgICAgICB0b2FzdCh7XG4gICAgICAgICAgICB2YXJpYW50OiByZXMuc3VjY2VzcyA/ICdkZWZhdWx0JyA6ICdkZXN0cnVjdGl2ZScsXG4gICAgICAgICAgICBkZXNjcmlwdGlvbjogcmVzLm1lc3NhZ2UsXG4gICAgICAgICAgfSlcbiAgICAgICAgfSlcbiAgICAgIH1cbiAgICA+XG4gICAgICB7aXNQZW5kaW5nID8gJ3Byb2Nlc3NpbmcuLi4nIDogY2FwdGlvbn1cbiAgICA8L0J1dHRvbj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OytCQU9BOzs7Ozs7V0FBd0JBLFlBQUE7Ozs7Ozs7O2tDQU5NOzs7a0NBRVA7OztrQ0FDRTs7O2tDQUNOO0FBRUosU0FBU0EsYUFBYTtFQUNuQ0MsT0FBTztFQUNQQyxNQUFNO0VBQ05DLFNBQUE7RUFBQTtFQUFBLENBQUFDLGNBQUEsR0FBQUMsQ0FBQSxVQUFZLFFBQVE7RUFDcEJDLE9BQUE7RUFBQTtFQUFBLENBQUFGLGNBQUEsR0FBQUMsQ0FBQSxVQUFVLFNBQVM7RUFDbkJFLElBQUE7RUFBQTtFQUFBLENBQUFILGNBQUEsR0FBQUMsQ0FBQSxVQUFPLFNBQVM7QUFBQSxDQU9qQjtFQUFBO0VBQUFELGNBQUEsR0FBQUksQ0FBQTtFQUNDLE1BQU0sQ0FBQ0MsU0FBQSxFQUFXQyxlQUFBLENBQWdCO0VBQUE7RUFBQSxDQUFBTixjQUFBLEdBQUFPLENBQUEsT0FBRyxJQUFBQyxNQUFBLENBQUFDLGFBQWE7RUFDbEQsTUFBTTtJQUFFQztFQUFLLENBQUU7RUFBQTtFQUFBLENBQUFWLGNBQUEsR0FBQU8sQ0FBQSxPQUFHLElBQUFJLFNBQUEsQ0FBQUMsUUFBUTtFQUFBO0VBQUFaLGNBQUEsR0FBQU8sQ0FBQTtFQUMxQixvQkFDRSxJQUFBTSxXQUFBLENBQUFDLEdBQUEsRUFBQ0MsT0FBQSxDQUFBQyxNQUFNO0lBQ0xDLElBQUEsRUFBSztJQUNMbEIsU0FBQSxFQUFXLElBQUFtQixNQUFBLENBQUFDLEVBQUUsRUFBQyxnQkFBZ0JwQixTQUFBO0lBQzlCRyxPQUFBLEVBQVNBLE9BQUE7SUFDVEMsSUFBQSxFQUFNQSxJQUFBO0lBQ05pQixRQUFBLEVBQVVmLFNBQUE7SUFDVmdCLE9BQUEsRUFBU0EsQ0FBQSxLQUNQO01BQUE7TUFBQXJCLGNBQUEsR0FBQUksQ0FBQTtNQUFBSixjQUFBLEdBQUFPLENBQUE7TUFBQSxPQUFBRCxlQUFBLENBQWdCO1FBQUE7UUFBQU4sY0FBQSxHQUFBSSxDQUFBO1FBQ2QsTUFBTWtCLEdBQUE7UUFBQTtRQUFBLENBQUF0QixjQUFBLEdBQUFPLENBQUEsUUFBTSxNQUFNVCxNQUFBO1FBQUE7UUFBQUUsY0FBQSxHQUFBTyxDQUFBO1FBQ2xCRyxLQUFBLENBQU07VUFDSlIsT0FBQSxFQUFTb0IsR0FBQSxDQUFJQyxPQUFPO1VBQUE7VUFBQSxDQUFBdkIsY0FBQSxHQUFBQyxDQUFBLFVBQUc7VUFBQTtVQUFBLENBQUFELGNBQUEsR0FBQUMsQ0FBQSxVQUFZO1VBQ25DdUIsV0FBQSxFQUFhRixHQUFBLENBQUlHO1FBQ25CO01BQ0Y7SUFBQTtjQUdEcEIsU0FBQTtJQUFBO0lBQUEsQ0FBQUwsY0FBQSxHQUFBQyxDQUFBLFVBQVk7SUFBQTtJQUFBLENBQUFELGNBQUEsR0FBQUMsQ0FBQSxVQUFrQkosT0FBQTs7QUFHckMiLCJpZ25vcmVMaXN0IjpbXX0=

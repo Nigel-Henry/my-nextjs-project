@@ -1,0 +1,536 @@
+acf058102a16d986cd2afd87a1e5b0fe
+"use strict";
+
+/* istanbul ignore next */
+function cov_tlvt2lhnk() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/page.tsx";
+  var hash = "f968e88267c3c7cfe55e6a7d553f5e4cdcda737a";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/page.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 28
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 20
+        },
+        end: {
+          line: 19,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 36
+        },
+        end: {
+          line: 20,
+          column: 88
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 14
+        },
+        end: {
+          line: 21,
+          column: 38
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 20
+        },
+        end: {
+          line: 22,
+          column: 46
+        }
+      },
+      "10": {
+        start: {
+          line: 24,
+          column: 4
+        },
+        end: {
+          line: 26,
+          column: 6
+        }
+      },
+      "11": {
+        start: {
+          line: 28,
+          column: 17
+        },
+        end: {
+          line: 30,
+          column: 1
+        }
+      },
+      "12": {
+        start: {
+          line: 32,
+          column: 20
+        },
+        end: {
+          line: 32,
+          column: 43
+        }
+      },
+      "13": {
+        start: {
+          line: 33,
+          column: 4
+        },
+        end: {
+          line: 35,
+          column: 5
+        }
+      },
+      "14": {
+        start: {
+          line: 34,
+          column: 8
+        },
+        end: {
+          line: 34,
+          column: 68
+        }
+      },
+      "15": {
+        start: {
+          line: 36,
+          column: 4
+        },
+        end: {
+          line: 36,
+          column: 73
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 12,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 14
+          },
+          end: {
+            line: 15,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 25
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 23,
+            column: 9
+          },
+          end: {
+            line: 23,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 23,
+            column: 39
+          },
+          end: {
+            line: 27,
+            column: 1
+          }
+        },
+        line: 23
+      },
+      "4": {
+        name: "CheckoutPage",
+        decl: {
+          start: {
+            line: 31,
+            column: 15
+          },
+          end: {
+            line: 31,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 30
+          },
+          end: {
+            line: 37,
+            column: 1
+          }
+        },
+        line: 31
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 24,
+            column: 11
+          },
+          end: {
+            line: 26,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 24,
+            column: 35
+          },
+          end: {
+            line: 24,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 24,
+            column: 41
+          },
+          end: {
+            line: 26,
+            column: 5
+          }
+        }],
+        line: 24
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 24,
+            column: 11
+          },
+          end: {
+            line: 24,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 24,
+            column: 11
+          },
+          end: {
+            line: 24,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 24,
+            column: 18
+          },
+          end: {
+            line: 24,
+            column: 32
+          }
+        }],
+        line: 24
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 33,
+            column: 4
+          },
+          end: {
+            line: 35,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 33,
+            column: 4
+          },
+          end: {
+            line: 35,
+            column: 5
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 33
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/page.tsx"],
+      sourcesContent: ["import { Metadata } from 'next'\nimport CheckoutForm from './checkout-form'\nimport { auth } from '@/auth'\nimport { redirect } from 'next/navigation'\n\nexport const metadata: Metadata = {\n  title: 'Checkout',\n}\n\nexport default async function CheckoutPage() {\n  const session = await auth()\n  if (!session?.user) {\n    redirect('/sign-in?callbackUrl=/checkout')\n  }\n  return <CheckoutForm />\n}\n"],
+      names: ["CheckoutPage", "metadata", "title", "session", "auth", "user", "redirect", "CheckoutForm"],
+      mappings: ";;;;;;;;;;;IASA,OAMC;eAN6BA;;IAJjBC,QAAQ;eAARA;;;;qEAJY;sBACJ;4BACI;;;;;;AAElB,MAAMA,WAAqB;IAChCC,OAAO;AACT;AAEe,eAAeF;IAC5B,MAAMG,UAAU,MAAMC,IAAAA,UAAI;IAC1B,IAAI,CAACD,SAASE,MAAM;QAClBC,IAAAA,oBAAQ,EAAC;IACX;IACA,qBAAO,qBAACC,qBAAY;AACtB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f968e88267c3c7cfe55e6a7d553f5e4cdcda737a"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_tlvt2lhnk = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_tlvt2lhnk();
+cov_tlvt2lhnk().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_tlvt2lhnk().f[0]++;
+  cov_tlvt2lhnk().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_tlvt2lhnk().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_tlvt2lhnk().s[3]++;
+_export(exports, {
+  default: function () {
+    /* istanbul ignore next */
+    cov_tlvt2lhnk().f[1]++;
+    cov_tlvt2lhnk().s[4]++;
+    return CheckoutPage;
+  },
+  metadata: function () {
+    /* istanbul ignore next */
+    cov_tlvt2lhnk().f[2]++;
+    cov_tlvt2lhnk().s[5]++;
+    return metadata;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_tlvt2lhnk().s[6]++, require("react/jsx-runtime"));
+const _checkoutform =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_tlvt2lhnk().s[7]++, _interop_require_default(require("./checkout-form")));
+const _auth =
+/* istanbul ignore next */
+(cov_tlvt2lhnk().s[8]++, require("../../../auth"));
+const _navigation =
+/* istanbul ignore next */
+(cov_tlvt2lhnk().s[9]++, require("next/navigation"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_tlvt2lhnk().f[3]++;
+  cov_tlvt2lhnk().s[10]++;
+  return /* istanbul ignore next */(cov_tlvt2lhnk().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_tlvt2lhnk().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_tlvt2lhnk().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_tlvt2lhnk().b[0][1]++, {
+    default: obj
+  });
+}
+const metadata =
+/* istanbul ignore next */
+(cov_tlvt2lhnk().s[11]++, {
+  title: 'Checkout'
+});
+async function CheckoutPage() {
+  /* istanbul ignore next */
+  cov_tlvt2lhnk().f[4]++;
+  const session =
+  /* istanbul ignore next */
+  (cov_tlvt2lhnk().s[12]++, await (0, _auth.auth)());
+  /* istanbul ignore next */
+  cov_tlvt2lhnk().s[13]++;
+  if (!session?.user) {
+    /* istanbul ignore next */
+    cov_tlvt2lhnk().b[2][0]++;
+    cov_tlvt2lhnk().s[14]++;
+    (0, _navigation.redirect)('/sign-in?callbackUrl=/checkout');
+  } else
+  /* istanbul ignore next */
+  {
+    cov_tlvt2lhnk().b[2][1]++;
+  }
+  cov_tlvt2lhnk().s[15]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)(_checkoutform.default, {});
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZWZhdWx0IiwiY292X3RsdnQybGhuayIsImYiLCJzIiwiQ2hlY2tvdXRQYWdlIiwibWV0YWRhdGEiLCJ0aXRsZSIsInNlc3Npb24iLCJfYXV0aCIsImF1dGgiLCJ1c2VyIiwiYiIsIl9uYXZpZ2F0aW9uIiwicmVkaXJlY3QiLCJfanN4cnVudGltZSIsImpzeCIsIl9jaGVja291dGZvcm0iXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2FwcC9bbG9jYWxlXS9jaGVja291dC9wYWdlLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnXG5pbXBvcnQgQ2hlY2tvdXRGb3JtIGZyb20gJy4vY2hlY2tvdXQtZm9ybSdcbmltcG9ydCB7IGF1dGggfSBmcm9tICdAL2F1dGgnXG5pbXBvcnQgeyByZWRpcmVjdCB9IGZyb20gJ25leHQvbmF2aWdhdGlvbidcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHtcbiAgdGl0bGU6ICdDaGVja291dCcsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIENoZWNrb3V0UGFnZSgpIHtcbiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IGF1dGgoKVxuICBpZiAoIXNlc3Npb24/LnVzZXIpIHtcbiAgICByZWRpcmVjdCgnL3NpZ24taW4/Y2FsbGJhY2tVcmw9L2NoZWNrb3V0JylcbiAgfVxuICByZXR1cm4gPENoZWNrb3V0Rm9ybSAvPlxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0VBU0FBLE9BTUMsV0FBQUEsQ0FBQTtJQUFBO0lBQUFDLGFBQUEsR0FBQUMsQ0FBQTtJQUFBRCxhQUFBLEdBQUFFLENBQUE7V0FONkJDLFlBQUE7O0VBSmpCQyxRQUFRLFdBQUFBLENBQUE7SUFBQTtJQUFBSixhQUFBLEdBQUFDLENBQUE7SUFBQUQsYUFBQSxHQUFBRSxDQUFBO1dBQVJFLFFBQUE7Ozs7Ozs7O3VFQUpZOzs7aUNBQ0o7OztpQ0FDSTs7Ozs7Ozs7Ozs7Ozs7O0FBRWxCLE1BQU1BLFFBQUE7QUFBQTtBQUFBLENBQUFKLGFBQUEsR0FBQUUsQ0FBQSxRQUFxQjtFQUNoQ0csS0FBQSxFQUFPO0FBQ1Q7QUFFZSxlQUFlRixhQUFBO0VBQUE7RUFBQUgsYUFBQSxHQUFBQyxDQUFBO0VBQzVCLE1BQU1LLE9BQUE7RUFBQTtFQUFBLENBQUFOLGFBQUEsR0FBQUUsQ0FBQSxRQUFVLE1BQU0sSUFBQUssS0FBQSxDQUFBQyxJQUFJO0VBQUE7RUFBQVIsYUFBQSxHQUFBRSxDQUFBO0VBQzFCLElBQUksQ0FBQ0ksT0FBQSxFQUFTRyxJQUFBLEVBQU07SUFBQTtJQUFBVCxhQUFBLEdBQUFVLENBQUE7SUFBQVYsYUFBQSxHQUFBRSxDQUFBO0lBQ2xCLElBQUFTLFdBQUEsQ0FBQUMsUUFBUSxFQUFDO0VBQ1g7RUFBQTtFQUFBO0lBQUFaLGFBQUEsR0FBQVUsQ0FBQTtFQUFBO0VBQUFWLGFBQUEsR0FBQUUsQ0FBQTtFQUNBLG9CQUFPLElBQUFXLFdBQUEsQ0FBQUMsR0FBQSxFQUFDQyxhQUFBLENBQUFoQixPQUFZO0FBQ3RCIiwiaWdub3JlTGlzdCI6W119

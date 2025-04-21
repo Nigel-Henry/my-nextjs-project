@@ -35,7 +35,7 @@ export default function AddToCart({
 
   return minimal ? (
     <Button
-      className='rounded-full w-auto'
+      className="rounded-full w-auto"
       onClick={() => {
         try {
           addItem(item, 1)
@@ -62,17 +62,17 @@ export default function AddToCart({
       {t('Product.Add to Cart')}
     </Button>
   ) : (
-    <div className='w-full space-y-2'>
+    <div className="w-full space-y-2">
       <Select
         value={quantity.toString()}
         onValueChange={(i) => setQuantity(Number(i))}
       >
-        <SelectTrigger className=''>
+        <SelectTrigger className="">
           <SelectValue>
             {t('Product.Quantity')}: {quantity}
           </SelectValue>
         </SelectTrigger>
-        <SelectContent position='popper'>
+        <SelectContent position="popper">
           {Array.from({ length: item.countInStock }).map((_, i) => (
             <SelectItem key={i + 1} value={`${i + 1}`}>
               {i + 1}
@@ -82,8 +82,8 @@ export default function AddToCart({
       </Select>
 
       <Button
-        className='rounded-full w-full'
-        type='button'
+        className="rounded-full w-full"
+        type="button"
         onClick={async () => {
           try {
             const itemId = await addItem(item, quantity)
@@ -99,7 +99,7 @@ export default function AddToCart({
         {t('Product.Add to Cart')}
       </Button>
       <Button
-        variant='secondary'
+        variant="secondary"
         onClick={() => {
           try {
             addItem(item, quantity)
@@ -111,7 +111,7 @@ export default function AddToCart({
             })
           }
         }}
-        className='w-full rounded-full '
+        className="w-full rounded-full "
       >
         {t('Product.Buy Now')}
       </Button>

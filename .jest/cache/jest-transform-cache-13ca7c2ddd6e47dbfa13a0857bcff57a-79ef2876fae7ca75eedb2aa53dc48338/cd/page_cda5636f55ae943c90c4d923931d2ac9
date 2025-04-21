@@ -1,0 +1,566 @@
+795d455217d34f51b9b6ff51e3532703
+"use strict";
+
+/* istanbul ignore next */
+function cov_1m6l06t0oo() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/page.tsx";
+  var hash = "12b1aed4137836a132fd9bea5964e6e8615c5a2c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/page.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 27
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 20
+        },
+        end: {
+          line: 19,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 43
+        },
+        end: {
+          line: 20,
+          column: 131
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 14
+        },
+        end: {
+          line: 21,
+          column: 55
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 21
+        },
+        end: {
+          line: 22,
+          column: 44
+        }
+      },
+      "10": {
+        start: {
+          line: 23,
+          column: 28
+        },
+        end: {
+          line: 23,
+          column: 74
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 29
+        },
+        end: {
+          line: 24,
+          column: 71
+        }
+      },
+      "12": {
+        start: {
+          line: 26,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 6
+        }
+      },
+      "13": {
+        start: {
+          line: 30,
+          column: 19
+        },
+        end: {
+          line: 30,
+          column: 33
+        }
+      },
+      "14": {
+        start: {
+          line: 31,
+          column: 17
+        },
+        end: {
+          line: 33,
+          column: 1
+        }
+      },
+      "15": {
+        start: {
+          line: 35,
+          column: 4
+        },
+        end: {
+          line: 131,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 12,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 14
+          },
+          end: {
+            line: 15,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 25
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 25,
+            column: 9
+          },
+          end: {
+            line: 25,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 25,
+            column: 39
+          },
+          end: {
+            line: 29,
+            column: 1
+          }
+        },
+        line: 25
+      },
+      "4": {
+        name: "AccountPage",
+        decl: {
+          start: {
+            line: 34,
+            column: 9
+          },
+          end: {
+            line: 34,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 34,
+            column: 23
+          },
+          end: {
+            line: 132,
+            column: 1
+          }
+        },
+        line: 34
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 26,
+            column: 11
+          },
+          end: {
+            line: 28,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 26,
+            column: 35
+          },
+          end: {
+            line: 26,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 26,
+            column: 41
+          },
+          end: {
+            line: 28,
+            column: 5
+          }
+        }],
+        line: 26
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 26,
+            column: 11
+          },
+          end: {
+            line: 26,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 26,
+            column: 11
+          },
+          end: {
+            line: 26,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 26,
+            column: 18
+          },
+          end: {
+            line: 26,
+            column: 32
+          }
+        }],
+        line: 26
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/page.tsx"],
+      sourcesContent: ["import BrowsingHistoryList from '@/components/shared/browsing-history-list'\nimport { Card, CardContent } from '@/components/ui/card'\nimport { Home, PackageCheckIcon, User } from 'lucide-react'\nimport { Metadata } from 'next'\nimport Link from 'next/link'\nimport React from 'react'\n\nconst PAGE_TITLE = 'Your Account'\nexport const metadata: Metadata = {\n  title: PAGE_TITLE,\n}\nexport default function AccountPage() {\n  return (\n    <div>\n      <h1 className=\"h1-bold py-4\">{PAGE_TITLE}</h1>\n      <div className=\"grid md:grid-cols-3 gap-4 items-stretch\">\n        <Card>\n          <Link href=\"/account/orders\">\n            <CardContent className=\"flex items-start gap-4 p-6\">\n              <div>\n                <PackageCheckIcon className=\"w-12 h-12\" />\n              </div>\n              <div>\n                <h2 className=\"text-xl font-bold\">Orders</h2>\n                <p className=\"text-muted-foreground\">\n                  Track, return, cancel an order, download invoice or buy again\n                </p>\n              </div>\n            </CardContent>\n          </Link>\n        </Card>\n\n        <Card>\n          <Link href=\"/account/manage\">\n            <CardContent className=\"flex items-start gap-4 p-6\">\n              <div>\n                <User className=\"w-12 h-12\" />\n              </div>\n              <div>\n                <h2 className=\"text-xl font-bold\">Login & security</h2>\n                <p className=\"text-muted-foreground\">\n                  Manage password, email and mobile number\n                </p>\n              </div>\n            </CardContent>\n          </Link>\n        </Card>\n\n        <Card>\n          <Link href=\"/account/addresses\">\n            <CardContent className=\"flex items-start gap-4 p-6\">\n              <div>\n                <Home className=\"w-12 h-12\" />\n              </div>\n              <div>\n                <h2 className=\"text-xl font-bold\">Addresses</h2>\n                <p className=\"text-muted-foreground\">\n                  Edit, remove or set default address\n                </p>\n              </div>\n            </CardContent>\n          </Link>\n        </Card>\n      </div>\n      <BrowsingHistoryList className=\"mt-16\" />\n    </div>\n  )\n}\n"],
+      names: ["AccountPage", "metadata", "PAGE_TITLE", "title", "div", "h1", "className", "Card", "Link", "href", "CardContent", "PackageCheckIcon", "h2", "p", "User", "Home", "BrowsingHistoryList"],
+      mappings: ";;;;;;;;;;;IAWA,OAwDC;eAxDuBA;;IAHXC,QAAQ;eAARA;;;;4EARmB;sBACE;6BACW;6DAE5B;8DACC;;;;;;AAElB,MAAMC,aAAa;AACZ,MAAMD,WAAqB;IAChCE,OAAOD;AACT;AACe,SAASF;IACtB,qBACE,sBAACI;;0BACC,qBAACC;gBAAGC,WAAU;0BAAgBJ;;0BAC9B,sBAACE;gBAAIE,WAAU;;kCACb,qBAACC,UAAI;kCACH,cAAA,qBAACC,aAAI;4BAACC,MAAK;sCACT,cAAA,sBAACC,iBAAW;gCAACJ,WAAU;;kDACrB,qBAACF;kDACC,cAAA,qBAACO,6BAAgB;4CAACL,WAAU;;;kDAE9B,sBAACF;;0DACC,qBAACQ;gDAAGN,WAAU;0DAAoB;;0DAClC,qBAACO;gDAAEP,WAAU;0DAAwB;;;;;;;;kCAQ7C,qBAACC,UAAI;kCACH,cAAA,qBAACC,aAAI;4BAACC,MAAK;sCACT,cAAA,sBAACC,iBAAW;gCAACJ,WAAU;;kDACrB,qBAACF;kDACC,cAAA,qBAACU,iBAAI;4CAACR,WAAU;;;kDAElB,sBAACF;;0DACC,qBAACQ;gDAAGN,WAAU;0DAAoB;;0DAClC,qBAACO;gDAAEP,WAAU;0DAAwB;;;;;;;;kCAQ7C,qBAACC,UAAI;kCACH,cAAA,qBAACC,aAAI;4BAACC,MAAK;sCACT,cAAA,sBAACC,iBAAW;gCAACJ,WAAU;;kDACrB,qBAACF;kDACC,cAAA,qBAACW,iBAAI;4CAACT,WAAU;;;kDAElB,sBAACF;;0DACC,qBAACQ;gDAAGN,WAAU;0DAAoB;;0DAClC,qBAACO;gDAAEP,WAAU;0DAAwB;;;;;;;;;;0BAQ/C,qBAACU,4BAAmB;gBAACV,WAAU;;;;AAGrC"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "12b1aed4137836a132fd9bea5964e6e8615c5a2c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1m6l06t0oo = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1m6l06t0oo();
+cov_1m6l06t0oo().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_1m6l06t0oo().f[0]++;
+  cov_1m6l06t0oo().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_1m6l06t0oo().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_1m6l06t0oo().s[3]++;
+_export(exports, {
+  default: function () {
+    /* istanbul ignore next */
+    cov_1m6l06t0oo().f[1]++;
+    cov_1m6l06t0oo().s[4]++;
+    return AccountPage;
+  },
+  metadata: function () {
+    /* istanbul ignore next */
+    cov_1m6l06t0oo().f[2]++;
+    cov_1m6l06t0oo().s[5]++;
+    return metadata;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1m6l06t0oo().s[6]++, require("react/jsx-runtime"));
+const _browsinghistorylist =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1m6l06t0oo().s[7]++, _interop_require_default(require("../../../../components/shared/browsing-history-list")));
+const _card =
+/* istanbul ignore next */
+(cov_1m6l06t0oo().s[8]++, require("../../../../components/ui/card"));
+const _lucidereact =
+/* istanbul ignore next */
+(cov_1m6l06t0oo().s[9]++, require("lucide-react"));
+const _link =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1m6l06t0oo().s[10]++, _interop_require_default(require("next/link")));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1m6l06t0oo().s[11]++, _interop_require_default(require("react")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_1m6l06t0oo().f[3]++;
+  cov_1m6l06t0oo().s[12]++;
+  return /* istanbul ignore next */(cov_1m6l06t0oo().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_1m6l06t0oo().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_1m6l06t0oo().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_1m6l06t0oo().b[0][1]++, {
+    default: obj
+  });
+}
+const PAGE_TITLE =
+/* istanbul ignore next */
+(cov_1m6l06t0oo().s[13]++, 'Your Account');
+const metadata =
+/* istanbul ignore next */
+(cov_1m6l06t0oo().s[14]++, {
+  title: PAGE_TITLE
+});
+function AccountPage() {
+  /* istanbul ignore next */
+  cov_1m6l06t0oo().f[4]++;
+  cov_1m6l06t0oo().s[15]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h1", {
+      className: "h1-bold py-4",
+      children: PAGE_TITLE
+    }), /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+      className: "grid md:grid-cols-3 gap-4 items-stretch",
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_card.Card, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/account/orders",
+          children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_card.CardContent, {
+            className: "flex items-start gap-4 p-6",
+            children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+              children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.PackageCheckIcon, {
+                className: "w-12 h-12"
+              })
+            }), /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+              children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h2", {
+                className: "text-xl font-bold",
+                children: "Orders"
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)("p", {
+                className: "text-muted-foreground",
+                children: "Track, return, cancel an order, download invoice or buy again"
+              })]
+            })]
+          })
+        })
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_card.Card, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/account/manage",
+          children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_card.CardContent, {
+            className: "flex items-start gap-4 p-6",
+            children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+              children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.User, {
+                className: "w-12 h-12"
+              })
+            }), /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+              children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h2", {
+                className: "text-xl font-bold",
+                children: "Login & security"
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)("p", {
+                className: "text-muted-foreground",
+                children: "Manage password, email and mobile number"
+              })]
+            })]
+          })
+        })
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_card.Card, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/account/addresses",
+          children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_card.CardContent, {
+            className: "flex items-start gap-4 p-6",
+            children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+              children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.Home, {
+                className: "w-12 h-12"
+              })
+            }), /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+              children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h2", {
+                className: "text-xl font-bold",
+                children: "Addresses"
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)("p", {
+                className: "text-muted-foreground",
+                children: "Edit, remove or set default address"
+              })]
+            })]
+          })
+        })
+      })]
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)(_browsinghistorylist.default, {
+      className: "mt-16"
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZWZhdWx0IiwiY292XzFtNmwwNnQwb28iLCJmIiwicyIsIkFjY291bnRQYWdlIiwibWV0YWRhdGEiLCJQQUdFX1RJVExFIiwidGl0bGUiLCJfanN4cnVudGltZSIsImpzeHMiLCJqc3giLCJjbGFzc05hbWUiLCJfY2FyZCIsIkNhcmQiLCJfbGluayIsImhyZWYiLCJDYXJkQ29udGVudCIsIl9sdWNpZGVyZWFjdCIsIlBhY2thZ2VDaGVja0ljb24iLCJVc2VyIiwiSG9tZSIsIl9icm93c2luZ2hpc3RvcnlsaXN0Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9hcHAvW2xvY2FsZV0vKHJvb3QpL2FjY291bnQvcGFnZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEJyb3dzaW5nSGlzdG9yeUxpc3QgZnJvbSAnQC9jb21wb25lbnRzL3NoYXJlZC9icm93c2luZy1oaXN0b3J5LWxpc3QnXG5pbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9jYXJkJ1xuaW1wb3J0IHsgSG9tZSwgUGFja2FnZUNoZWNrSWNvbiwgVXNlciB9IGZyb20gJ2x1Y2lkZS1yZWFjdCdcbmltcG9ydCB7IE1ldGFkYXRhIH0gZnJvbSAnbmV4dCdcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuY29uc3QgUEFHRV9USVRMRSA9ICdZb3VyIEFjY291bnQnXG5leHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0ge1xuICB0aXRsZTogUEFHRV9USVRMRSxcbn1cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFjY291bnRQYWdlKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8aDEgY2xhc3NOYW1lPVwiaDEtYm9sZCBweS00XCI+e1BBR0VfVElUTEV9PC9oMT5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ3JpZCBtZDpncmlkLWNvbHMtMyBnYXAtNCBpdGVtcy1zdHJldGNoXCI+XG4gICAgICAgIDxDYXJkPlxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYWNjb3VudC9vcmRlcnNcIj5cbiAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC00IHAtNlwiPlxuICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgIDxQYWNrYWdlQ2hlY2tJY29uIGNsYXNzTmFtZT1cInctMTIgaC0xMlwiIC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LXhsIGZvbnQtYm9sZFwiPk9yZGVyczwvaDI+XG4gICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1tdXRlZC1mb3JlZ3JvdW5kXCI+XG4gICAgICAgICAgICAgICAgICBUcmFjaywgcmV0dXJuLCBjYW5jZWwgYW4gb3JkZXIsIGRvd25sb2FkIGludm9pY2Ugb3IgYnV5IGFnYWluXG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICA8L0NhcmQ+XG5cbiAgICAgICAgPENhcmQ+XG4gICAgICAgICAgPExpbmsgaHJlZj1cIi9hY2NvdW50L21hbmFnZVwiPlxuICAgICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtc3RhcnQgZ2FwLTQgcC02XCI+XG4gICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPFVzZXIgY2xhc3NOYW1lPVwidy0xMiBoLTEyXCIgLz5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRleHQteGwgZm9udC1ib2xkXCI+TG9naW4gJiBzZWN1cml0eTwvaDI+XG4gICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1tdXRlZC1mb3JlZ3JvdW5kXCI+XG4gICAgICAgICAgICAgICAgICBNYW5hZ2UgcGFzc3dvcmQsIGVtYWlsIGFuZCBtb2JpbGUgbnVtYmVyXG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICA8L0NhcmQ+XG5cbiAgICAgICAgPENhcmQ+XG4gICAgICAgICAgPExpbmsgaHJlZj1cIi9hY2NvdW50L2FkZHJlc3Nlc1wiPlxuICAgICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtc3RhcnQgZ2FwLTQgcC02XCI+XG4gICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPEhvbWUgY2xhc3NOYW1lPVwidy0xMiBoLTEyXCIgLz5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRleHQteGwgZm9udC1ib2xkXCI+QWRkcmVzc2VzPC9oMj5cbiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LW11dGVkLWZvcmVncm91bmRcIj5cbiAgICAgICAgICAgICAgICAgIEVkaXQsIHJlbW92ZSBvciBzZXQgZGVmYXVsdCBhZGRyZXNzXG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICA8L0NhcmQ+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxCcm93c2luZ0hpc3RvcnlMaXN0IGNsYXNzTmFtZT1cIm10LTE2XCIgLz5cbiAgICA8L2Rpdj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7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

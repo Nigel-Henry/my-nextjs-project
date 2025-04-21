@@ -126,19 +126,19 @@ const ProductForm = ({
   return (
     <Form {...form}>
       <form
-        method='post'
+        method="post"
         onSubmit={form.handleSubmit(onSubmit)}
-        className='space-y-8'
+        className="space-y-8"
       >
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='name'
+            name="name"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Name</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter product name' {...field} />
+                  <Input placeholder="Enter product name" {...field} />
                 </FormControl>
 
                 <FormMessage />
@@ -148,24 +148,24 @@ const ProductForm = ({
 
           <FormField
             control={form.control}
-            name='slug'
+            name="slug"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Slug</FormLabel>
 
                 <FormControl>
-                  <div className='relative'>
+                  <div className="relative">
                     <Input
-                      placeholder='Enter product slug'
-                      className='pl-8'
+                      placeholder="Enter product slug"
+                      className="pl-8"
                       {...field}
                     />
                     <button
-                      type='button'
+                      type="button"
                       onClick={() => {
                         form.setValue('slug', toSlug(form.getValues('name')))
                       }}
-                      className='absolute right-2 top-2.5'
+                      className="absolute right-2 top-2.5"
                     >
                       Generate
                     </button>
@@ -177,15 +177,15 @@ const ProductForm = ({
             )}
           />
         </div>
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='category'
+            name="category"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Category</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter category' {...field} />
+                  <Input placeholder="Enter category" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -194,12 +194,12 @@ const ProductForm = ({
 
           <FormField
             control={form.control}
-            name='brand'
+            name="brand"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Brand</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter product brand' {...field} />
+                  <Input placeholder="Enter product brand" {...field} />
                 </FormControl>
 
                 <FormMessage />
@@ -207,15 +207,15 @@ const ProductForm = ({
             )}
           />
         </div>
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='listPrice'
+            name="listPrice"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>List Price</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter product list price' {...field} />
+                  <Input placeholder="Enter product list price" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -223,12 +223,12 @@ const ProductForm = ({
           />
           <FormField
             control={form.control}
-            name='price'
+            name="price"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Net Price</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter product price' {...field} />
+                  <Input placeholder="Enter product price" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -236,14 +236,14 @@ const ProductForm = ({
           />
           <FormField
             control={form.control}
-            name='countInStock'
+            name="countInStock"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Count In Stock</FormLabel>
                 <FormControl>
                   <Input
-                    type='number'
-                    placeholder='Enter product count in stock'
+                    type="number"
+                    placeholder="Enter product count in stock"
                     {...field}
                   />
                 </FormControl>
@@ -253,29 +253,29 @@ const ProductForm = ({
           />
         </div>
 
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='images'
+            name="images"
             render={() => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Images</FormLabel>
                 <Card>
-                  <CardContent className='space-y-2 mt-2 min-h-48'>
-                    <div className='flex justify-start items-center space-x-2'>
+                  <CardContent className="space-y-2 mt-2 min-h-48">
+                    <div className="flex justify-start items-center space-x-2">
                       {images.map((image: string) => (
                         <Image
                           key={image}
                           src={image}
-                          alt='product image'
-                          className='w-20 h-20 object-cover object-center rounded-sm'
+                          alt="product image"
+                          className="w-20 h-20 object-cover object-center rounded-sm"
                           width={100}
                           height={100}
                         />
                       ))}
                       <FormControl>
                         <UploadButton
-                          endpoint='imageUploader'
+                          endpoint="imageUploader"
                           onClientUploadComplete={(res: { url: string }[]) => {
                             form.setValue('images', [...images, res[0].url])
                           }}
@@ -300,14 +300,14 @@ const ProductForm = ({
         <div>
           <FormField
             control={form.control}
-            name='description'
+            name="description"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Description</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder='Tell us a little bit about yourself'
-                    className='resize-none'
+                    placeholder="Tell us a little bit about yourself"
+                    className="resize-none"
                     {...field}
                   />
                 </FormControl>
@@ -323,9 +323,9 @@ const ProductForm = ({
         <div>
           <FormField
             control={form.control}
-            name='isPublished'
+            name="isPublished"
             render={({ field }) => (
-              <FormItem className='space-x-2 items-center'>
+              <FormItem className="space-x-2 items-center">
                 <FormControl>
                   <Checkbox
                     checked={field.value}
@@ -339,10 +339,10 @@ const ProductForm = ({
         </div>
         <div>
           <Button
-            type='submit'
-            size='lg'
+            type="submit"
+            size="lg"
             disabled={form.formState.isSubmitting}
-            className='button col-span-2 w-full'
+            className="button col-span-2 w-full"
           >
             {form.formState.isSubmitting ? 'Submitting...' : `${type} Product `}
           </Button>

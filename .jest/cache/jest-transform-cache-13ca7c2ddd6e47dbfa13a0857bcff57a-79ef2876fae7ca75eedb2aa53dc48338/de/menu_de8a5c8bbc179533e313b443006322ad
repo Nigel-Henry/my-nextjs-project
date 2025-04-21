@@ -1,0 +1,530 @@
+74531701bdceab89a5de1e25bb958146
+"use strict";
+
+/* istanbul ignore next */
+function cov_27wye5p3di() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/header/menu.tsx";
+  var hash = "d818f44cb02eb1d9e86a329dfefe00c2d66809fa";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/header/menu.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 21
+        },
+        end: {
+          line: 12,
+          column: 44
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 40
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 34
+        },
+        end: {
+          line: 14,
+          column: 84
+        }
+      },
+      "7": {
+        start: {
+          line: 15,
+          column: 34
+        },
+        end: {
+          line: 15,
+          column: 84
+        }
+      },
+      "8": {
+        start: {
+          line: 16,
+          column: 37
+        },
+        end: {
+          line: 16,
+          column: 90
+        }
+      },
+      "9": {
+        start: {
+          line: 17,
+          column: 40
+        },
+        end: {
+          line: 17,
+          column: 96
+        }
+      },
+      "10": {
+        start: {
+          line: 18,
+          column: 18
+        },
+        end: {
+          line: 18,
+          column: 38
+        }
+      },
+      "11": {
+        start: {
+          line: 20,
+          column: 4
+        },
+        end: {
+          line: 22,
+          column: 6
+        }
+      },
+      "12": {
+        start: {
+          line: 24,
+          column: 13
+        },
+        end: {
+          line: 75,
+          column: 1
+        }
+      },
+      "13": {
+        start: {
+          line: 25,
+          column: 14
+        },
+        end: {
+          line: 25,
+          column: 46
+        }
+      },
+      "14": {
+        start: {
+          line: 26,
+          column: 4
+        },
+        end: {
+          line: 74,
+          column: 7
+        }
+      },
+      "15": {
+        start: {
+          line: 76,
+          column: 17
+        },
+        end: {
+          line: 76,
+          column: 21
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 19,
+            column: 9
+          },
+          end: {
+            line: 19,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 39
+          },
+          end: {
+            line: 23,
+            column: 1
+          }
+        },
+        line: 19
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 24,
+            column: 13
+          },
+          end: {
+            line: 24,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 37
+          },
+          end: {
+            line: 75,
+            column: 1
+          }
+        },
+        line: 24
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 20,
+            column: 35
+          },
+          end: {
+            line: 20,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 20,
+            column: 41
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        }],
+        line: 20
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 20,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 20,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 20,
+            column: 18
+          },
+          end: {
+            line: 20,
+            column: 32
+          }
+        }],
+        line: 20
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 24,
+            column: 16
+          },
+          end: {
+            line: 24,
+            column: 32
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 24,
+            column: 27
+          },
+          end: {
+            line: 24,
+            column: 32
+          }
+        }],
+        line: 24
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 35,
+            column: 20
+          },
+          end: {
+            line: 35,
+            column: 97
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 35,
+            column: 31
+          },
+          end: {
+            line: 35,
+            column: 35
+          }
+        }, {
+          start: {
+            line: 35,
+            column: 52
+          },
+          end: {
+            line: 35,
+            column: 97
+          }
+        }],
+        line: 35
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0],
+      "3": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/header/menu.tsx"],
+      sourcesContent: ["import { EllipsisVertical } from 'lucide-react'\nimport {\n  Sheet,\n  SheetContent,\n  SheetDescription,\n  SheetHeader,\n  SheetTitle,\n  SheetTrigger,\n} from '@/components/ui/sheet'\nimport CartButton from './cart-button'\nimport UserButton from './user-button'\nimport ThemeSwitcher from './theme-switcher'\nimport LanguageSwitcher from './language-switcher'\nimport { useTranslations } from 'next-intl'\n\nconst Menu = ({ forAdmin = false }: { forAdmin?: boolean }) => {\n  const t = useTranslations()\n  return (\n    <div className=\"flex justify-end\">\n      <nav className=\"md:flex gap-3 hidden w-full\">\n        <LanguageSwitcher />\n        <ThemeSwitcher />\n        <UserButton />\n        {forAdmin ? null : <CartButton />}\n      </nav>\n      <nav className=\"md:hidden\">\n        <Sheet>\n          <SheetTrigger className=\"align-middle header-button\">\n            <EllipsisVertical className=\"h-6 w-6\" />\n          </SheetTrigger>\n          <SheetContent className=\"bg-black text-white  flex flex-col items-start  \">\n            <SheetHeader className=\"w-full\">\n              <div className=\"flex items-center justify-between \">\n                <SheetTitle className=\"  \">{t('Header.Site Menu')}</SheetTitle>\n                <SheetDescription></SheetDescription>\n              </div>\n            </SheetHeader>\n            <LanguageSwitcher />\n            <ThemeSwitcher />\n            <UserButton />\n            <CartButton />\n          </SheetContent>\n        </Sheet>\n      </nav>\n    </div>\n  )\n}\n\nexport default Menu\n"],
+      names: ["Menu", "forAdmin", "t", "useTranslations", "div", "className", "nav", "LanguageSwitcher", "ThemeSwitcher", "UserButton", "CartButton", "Sheet", "SheetTrigger", "EllipsisVertical", "SheetContent", "SheetHeader", "SheetTitle", "SheetDescription"],
+      mappings: ";;;;+BAgDA;;;eAAA;;;;6BAhDiC;uBAQ1B;mEACgB;mEACA;sEACG;yEACG;0BACG;;;;;;AAEhC,MAAMA,OAAO,CAAC,EAAEC,WAAW,KAAK,EAA0B;IACxD,MAAMC,IAAIC,IAAAA,yBAAe;IACzB,qBACE,sBAACC;QAAIC,WAAU;;0BACb,sBAACC;gBAAID,WAAU;;kCACb,qBAACE,yBAAgB;kCACjB,qBAACC,sBAAa;kCACd,qBAACC,mBAAU;oBACVR,WAAW,qBAAO,qBAACS,mBAAU;;;0BAEhC,qBAACJ;gBAAID,WAAU;0BACb,cAAA,sBAACM,YAAK;;sCACJ,qBAACC,mBAAY;4BAACP,WAAU;sCACtB,cAAA,qBAACQ,6BAAgB;gCAACR,WAAU;;;sCAE9B,sBAACS,mBAAY;4BAACT,WAAU;;8CACtB,qBAACU,kBAAW;oCAACV,WAAU;8CACrB,cAAA,sBAACD;wCAAIC,WAAU;;0DACb,qBAACW,iBAAU;gDAACX,WAAU;0DAAMH,EAAE;;0DAC9B,qBAACe,uBAAgB;;;;8CAGrB,qBAACV,yBAAgB;8CACjB,qBAACC,sBAAa;8CACd,qBAACC,mBAAU;8CACX,qBAACC,mBAAU;;;;;;;;AAMvB;MAEA,WAAeV"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "d818f44cb02eb1d9e86a329dfefe00c2d66809fa"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_27wye5p3di = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_27wye5p3di();
+cov_27wye5p3di().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_27wye5p3di().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_27wye5p3di().f[0]++;
+    cov_27wye5p3di().s[2]++;
+    return _default;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_27wye5p3di().s[3]++, require("react/jsx-runtime"));
+const _lucidereact =
+/* istanbul ignore next */
+(cov_27wye5p3di().s[4]++, require("lucide-react"));
+const _sheet =
+/* istanbul ignore next */
+(cov_27wye5p3di().s[5]++, require("../../ui/sheet"));
+const _cartbutton =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_27wye5p3di().s[6]++, _interop_require_default(require("./cart-button")));
+const _userbutton =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_27wye5p3di().s[7]++, _interop_require_default(require("./user-button")));
+const _themeswitcher =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_27wye5p3di().s[8]++, _interop_require_default(require("./theme-switcher")));
+const _languageswitcher =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_27wye5p3di().s[9]++, _interop_require_default(require("./language-switcher")));
+const _nextintl =
+/* istanbul ignore next */
+(cov_27wye5p3di().s[10]++, require("next-intl"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_27wye5p3di().f[1]++;
+  cov_27wye5p3di().s[11]++;
+  return /* istanbul ignore next */(cov_27wye5p3di().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_27wye5p3di().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_27wye5p3di().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_27wye5p3di().b[0][1]++, {
+    default: obj
+  });
+}
+/* istanbul ignore next */
+cov_27wye5p3di().s[12]++;
+const Menu = ({
+  forAdmin =
+  /* istanbul ignore next */
+  (cov_27wye5p3di().b[2][0]++, false)
+}) => {
+  /* istanbul ignore next */
+  cov_27wye5p3di().f[2]++;
+  const t =
+  /* istanbul ignore next */
+  (cov_27wye5p3di().s[13]++, (0, _nextintl.useTranslations)());
+  /* istanbul ignore next */
+  cov_27wye5p3di().s[14]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    className: "flex justify-end",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsxs)("nav", {
+      className: "md:flex gap-3 hidden w-full",
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_languageswitcher.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_themeswitcher.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_userbutton.default, {}), forAdmin ?
+      /* istanbul ignore next */
+      (cov_27wye5p3di().b[3][0]++, null) :
+      /* istanbul ignore next */
+      (/*#__PURE__*/cov_27wye5p3di().b[3][1]++, (0, _jsxruntime.jsx)(_cartbutton.default, {}))]
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)("nav", {
+      className: "md:hidden",
+      children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_sheet.Sheet, {
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_sheet.SheetTrigger, {
+          className: "align-middle header-button",
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.EllipsisVertical, {
+            className: "h-6 w-6"
+          })
+        }), /*#__PURE__*/(0, _jsxruntime.jsxs)(_sheet.SheetContent, {
+          className: "bg-black text-white  flex flex-col items-start  ",
+          children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_sheet.SheetHeader, {
+            className: "w-full",
+            children: /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+              className: "flex items-center justify-between ",
+              children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_sheet.SheetTitle, {
+                className: "  ",
+                children: t('Header.Site Menu')
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)(_sheet.SheetDescription, {})]
+            })
+          }), /*#__PURE__*/(0, _jsxruntime.jsx)(_languageswitcher.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_themeswitcher.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_userbutton.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_cartbutton.default, {})]
+        })]
+      })
+    })]
+  });
+};
+const _default =
+/* istanbul ignore next */
+(cov_27wye5p3di().s[15]++, Menu);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfZGVmYXVsdCIsIk1lbnUiLCJmb3JBZG1pbiIsImNvdl8yN3d5ZTVwM2RpIiwiYiIsImYiLCJ0IiwicyIsIl9uZXh0aW50bCIsInVzZVRyYW5zbGF0aW9ucyIsIl9qc3hydW50aW1lIiwianN4cyIsImNsYXNzTmFtZSIsImpzeCIsIl9sYW5ndWFnZXN3aXRjaGVyIiwiZGVmYXVsdCIsIl90aGVtZXN3aXRjaGVyIiwiX3VzZXJidXR0b24iLCJfY2FydGJ1dHRvbiIsIl9zaGVldCIsIlNoZWV0IiwiU2hlZXRUcmlnZ2VyIiwiX2x1Y2lkZXJlYWN0IiwiRWxsaXBzaXNWZXJ0aWNhbCIsIlNoZWV0Q29udGVudCIsIlNoZWV0SGVhZGVyIiwiU2hlZXRUaXRsZSIsIlNoZWV0RGVzY3JpcHRpb24iXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2NvbXBvbmVudHMvc2hhcmVkL2hlYWRlci9tZW51LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBFbGxpcHNpc1ZlcnRpY2FsIH0gZnJvbSAnbHVjaWRlLXJlYWN0J1xuaW1wb3J0IHtcbiAgU2hlZXQsXG4gIFNoZWV0Q29udGVudCxcbiAgU2hlZXREZXNjcmlwdGlvbixcbiAgU2hlZXRIZWFkZXIsXG4gIFNoZWV0VGl0bGUsXG4gIFNoZWV0VHJpZ2dlcixcbn0gZnJvbSAnQC9jb21wb25lbnRzL3VpL3NoZWV0J1xuaW1wb3J0IENhcnRCdXR0b24gZnJvbSAnLi9jYXJ0LWJ1dHRvbidcbmltcG9ydCBVc2VyQnV0dG9uIGZyb20gJy4vdXNlci1idXR0b24nXG5pbXBvcnQgVGhlbWVTd2l0Y2hlciBmcm9tICcuL3RoZW1lLXN3aXRjaGVyJ1xuaW1wb3J0IExhbmd1YWdlU3dpdGNoZXIgZnJvbSAnLi9sYW5ndWFnZS1zd2l0Y2hlcidcbmltcG9ydCB7IHVzZVRyYW5zbGF0aW9ucyB9IGZyb20gJ25leHQtaW50bCdcblxuY29uc3QgTWVudSA9ICh7IGZvckFkbWluID0gZmFsc2UgfTogeyBmb3JBZG1pbj86IGJvb2xlYW4gfSkgPT4ge1xuICBjb25zdCB0ID0gdXNlVHJhbnNsYXRpb25zKClcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgganVzdGlmeS1lbmRcIj5cbiAgICAgIDxuYXYgY2xhc3NOYW1lPVwibWQ6ZmxleCBnYXAtMyBoaWRkZW4gdy1mdWxsXCI+XG4gICAgICAgIDxMYW5ndWFnZVN3aXRjaGVyIC8+XG4gICAgICAgIDxUaGVtZVN3aXRjaGVyIC8+XG4gICAgICAgIDxVc2VyQnV0dG9uIC8+XG4gICAgICAgIHtmb3JBZG1pbiA/IG51bGwgOiA8Q2FydEJ1dHRvbiAvPn1cbiAgICAgIDwvbmF2PlxuICAgICAgPG5hdiBjbGFzc05hbWU9XCJtZDpoaWRkZW5cIj5cbiAgICAgICAgPFNoZWV0PlxuICAgICAgICAgIDxTaGVldFRyaWdnZXIgY2xhc3NOYW1lPVwiYWxpZ24tbWlkZGxlIGhlYWRlci1idXR0b25cIj5cbiAgICAgICAgICAgIDxFbGxpcHNpc1ZlcnRpY2FsIGNsYXNzTmFtZT1cImgtNiB3LTZcIiAvPlxuICAgICAgICAgIDwvU2hlZXRUcmlnZ2VyPlxuICAgICAgICAgIDxTaGVldENvbnRlbnQgY2xhc3NOYW1lPVwiYmctYmxhY2sgdGV4dC13aGl0ZSAgZmxleCBmbGV4LWNvbCBpdGVtcy1zdGFydCAgXCI+XG4gICAgICAgICAgICA8U2hlZXRIZWFkZXIgY2xhc3NOYW1lPVwidy1mdWxsXCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIFwiPlxuICAgICAgICAgICAgICAgIDxTaGVldFRpdGxlIGNsYXNzTmFtZT1cIiAgXCI+e3QoJ0hlYWRlci5TaXRlIE1lbnUnKX08L1NoZWV0VGl0bGU+XG4gICAgICAgICAgICAgICAgPFNoZWV0RGVzY3JpcHRpb24+PC9TaGVldERlc2NyaXB0aW9uPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvU2hlZXRIZWFkZXI+XG4gICAgICAgICAgICA8TGFuZ3VhZ2VTd2l0Y2hlciAvPlxuICAgICAgICAgICAgPFRoZW1lU3dpdGNoZXIgLz5cbiAgICAgICAgICAgIDxVc2VyQnV0dG9uIC8+XG4gICAgICAgICAgICA8Q2FydEJ1dHRvbiAvPlxuICAgICAgICAgIDwvU2hlZXRDb250ZW50PlxuICAgICAgICA8L1NoZWV0PlxuICAgICAgPC9uYXY+XG4gICAgPC9kaXY+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgTWVudVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OytCQWdEQTs7Ozs7O1dBQUFBLFFBQUE7Ozs7Ozs7O2tDQWhEaUM7OztrQ0FRMUI7Ozt3RUFDZ0I7Ozt3RUFDQTs7O3dFQUNHOzs7d0VBQ0c7OzttQ0FDRzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFFaEMsTUFBTUMsSUFBQSxHQUFPQSxDQUFDO0VBQUVDLFFBQUE7RUFBQTtFQUFBLENBQUFDLGNBQUEsR0FBQUMsQ0FBQSxVQUFXLEtBQUs7QUFBQSxDQUEwQjtFQUFBO0VBQUFELGNBQUEsR0FBQUUsQ0FBQTtFQUN4RCxNQUFNQyxDQUFBO0VBQUE7RUFBQSxDQUFBSCxjQUFBLEdBQUFJLENBQUEsUUFBSSxJQUFBQyxTQUFBLENBQUFDLGVBQWU7RUFBQTtFQUFBTixjQUFBLEdBQUFJLENBQUE7RUFDekIsb0JBQ0UsSUFBQUcsV0FBQSxDQUFBQyxJQUFBLEVBQUM7SUFBSUMsU0FBQSxFQUFVOzRCQUNiLElBQUFGLFdBQUEsQ0FBQUMsSUFBQSxFQUFDO01BQUlDLFNBQUEsRUFBVTs4QkFDYixJQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQ0MsaUJBQUEsQ0FBQUMsT0FBZ0IsTyxhQUNqQixJQUFBTCxXQUFBLENBQUFHLEdBQUEsRUFBQ0csY0FBQSxDQUFBRCxPQUFhLE8sYUFDZCxJQUFBTCxXQUFBLENBQUFHLEdBQUEsRUFBQ0ksV0FBQSxDQUFBRixPQUFVLE9BQ1ZiLFFBQUE7TUFBQTtNQUFBLENBQUFDLGNBQUEsR0FBQUMsQ0FBQSxVQUFXO01BQUE7TUFBQSxjQUFBRCxjQUFBLEdBQUFDLENBQUEsVUFBTyxJQUFBTSxXQUFBLENBQUFHLEdBQUEsRUFBQ0ssV0FBQSxDQUFBSCxPQUFVO3FCQUVoQyxJQUFBTCxXQUFBLENBQUFHLEdBQUEsRUFBQztNQUFJRCxTQUFBLEVBQVU7Z0JBQ2IsaUJBQUFGLFdBQUEsQ0FBQUMsSUFBQSxFQUFDUSxNQUFBLENBQUFDLEtBQUs7Z0NBQ0osSUFBQVYsV0FBQSxDQUFBRyxHQUFBLEVBQUNNLE1BQUEsQ0FBQUUsWUFBWTtVQUFDVCxTQUFBLEVBQVU7b0JBQ3RCLGlCQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQ1MsWUFBQSxDQUFBQyxnQkFBZ0I7WUFBQ1gsU0FBQSxFQUFVOzt5QkFFOUIsSUFBQUYsV0FBQSxDQUFBQyxJQUFBLEVBQUNRLE1BQUEsQ0FBQUssWUFBWTtVQUFDWixTQUFBLEVBQVU7a0NBQ3RCLElBQUFGLFdBQUEsQ0FBQUcsR0FBQSxFQUFDTSxNQUFBLENBQUFNLFdBQVc7WUFBQ2IsU0FBQSxFQUFVO3NCQUNyQixpQkFBQUYsV0FBQSxDQUFBQyxJQUFBLEVBQUM7Y0FBSUMsU0FBQSxFQUFVO3NDQUNiLElBQUFGLFdBQUEsQ0FBQUcsR0FBQSxFQUFDTSxNQUFBLENBQUFPLFVBQVU7Z0JBQUNkLFNBQUEsRUFBVTswQkFBTU4sQ0FBQSxDQUFFOytCQUM5QixJQUFBSSxXQUFBLENBQUFHLEdBQUEsRUFBQ00sTUFBQSxDQUFBUSxnQkFBZ0I7OzJCQUdyQixJQUFBakIsV0FBQSxDQUFBRyxHQUFBLEVBQUNDLGlCQUFBLENBQUFDLE9BQWdCLE8sYUFDakIsSUFBQUwsV0FBQSxDQUFBRyxHQUFBLEVBQUNHLGNBQUEsQ0FBQUQsT0FBYSxPLGFBQ2QsSUFBQUwsV0FBQSxDQUFBRyxHQUFBLEVBQUNJLFdBQUEsQ0FBQUYsT0FBVSxPLGFBQ1gsSUFBQUwsV0FBQSxDQUFBRyxHQUFBLEVBQUNLLFdBQUEsQ0FBQUgsT0FBVTs7Ozs7QUFNdkI7TUFFQWYsUUFBQTtBQUFBO0FBQUEsQ0FBQUcsY0FBQSxHQUFBSSxDQUFBLFFBQWVOLElBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

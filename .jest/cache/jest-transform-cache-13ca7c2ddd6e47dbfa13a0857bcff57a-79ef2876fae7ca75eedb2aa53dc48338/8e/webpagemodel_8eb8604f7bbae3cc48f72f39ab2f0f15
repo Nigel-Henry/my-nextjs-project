@@ -1,0 +1,236 @@
+668b4a093dd76af6ebf206b126ade800
+"use strict";
+
+/* istanbul ignore next */
+function cov_25h26aqbf7() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/web-page.model.ts";
+  var hash = "949f7402b7a7dcbb2222f81e2d78f452d0e11564";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/web-page.model.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 18
+        },
+        end: {
+          line: 11,
+          column: 37
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 22
+        },
+        end: {
+          line: 33,
+          column: 2
+        }
+      },
+      "5": {
+        start: {
+          line: 34,
+          column: 16
+        },
+        end: {
+          line: 34,
+          column: 90
+        }
+      },
+      "6": {
+        start: {
+          line: 35,
+          column: 17
+        },
+        end: {
+          line: 35,
+          column: 24
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 34,
+            column: 16
+          },
+          end: {
+            line: 34,
+            column: 90
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 34,
+            column: 16
+          },
+          end: {
+            line: 34,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 34,
+            column: 44
+          },
+          end: {
+            line: 34,
+            column: 90
+          }
+        }],
+        line: 34
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/db/models/web-page.model.ts"],
+      sourcesContent: ["import { IWebPageInput } from '@/types'\nimport { Document, Model, model, models, Schema } from 'mongoose'\n\nexport interface IWebPage extends Document, IWebPageInput {\n  _id: string\n  createdAt: Date\n  updatedAt: Date\n}\n\nconst webPageSchema = new Schema<IWebPage>(\n  {\n    title: {\n      type: String,\n      required: true,\n    },\n    slug: {\n      type: String,\n      required: true,\n      unique: true,\n    },\n    content: {\n      type: String,\n      required: true,\n    },\n    isPublished: {\n      type: Boolean,\n      required: true,\n      default: false,\n    },\n  },\n  {\n    timestamps: true,\n  }\n)\n\nconst WebPage =\n  (models.WebPage as Model<IWebPage>) ||\n  model<IWebPage>('WebPage', webPageSchema)\n\nexport default WebPage\n"],
+      names: ["webPageSchema", "Schema", "title", "type", "String", "required", "slug", "unique", "content", "isPublished", "Boolean", "default", "timestamps", "WebPage", "models", "model"],
+      mappings: ";;;;+BAuCA;;;eAAA;;;0BAtCuD;AAQvD,MAAMA,gBAAgB,IAAIC,gBAAM,CAC9B;IACEC,OAAO;QACLC,MAAMC;QACNC,UAAU;IACZ;IACAC,MAAM;QACJH,MAAMC;QACNC,UAAU;QACVE,QAAQ;IACV;IACAC,SAAS;QACPL,MAAMC;QACNC,UAAU;IACZ;IACAI,aAAa;QACXN,MAAMO;QACNL,UAAU;QACVM,SAAS;IACX;AACF,GACA;IACEC,YAAY;AACd;AAGF,MAAMC,UACJ,AAACC,gBAAM,CAACD,OAAO,IACfE,IAAAA,eAAK,EAAW,WAAWf;MAE7B,WAAea"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "949f7402b7a7dcbb2222f81e2d78f452d0e11564"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_25h26aqbf7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_25h26aqbf7();
+cov_25h26aqbf7().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_25h26aqbf7().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_25h26aqbf7().f[0]++;
+    cov_25h26aqbf7().s[2]++;
+    return _default;
+  }
+});
+const _mongoose =
+/* istanbul ignore next */
+(cov_25h26aqbf7().s[3]++, require("mongoose"));
+const webPageSchema =
+/* istanbul ignore next */
+(cov_25h26aqbf7().s[4]++, new _mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
+  slug: {
+    type: String,
+    required: true,
+    unique: true
+  },
+  content: {
+    type: String,
+    required: true
+  },
+  isPublished: {
+    type: Boolean,
+    required: true,
+    default: false
+  }
+}, {
+  timestamps: true
+}));
+const WebPage =
+/* istanbul ignore next */
+(cov_25h26aqbf7().s[5]++,
+/* istanbul ignore next */
+(cov_25h26aqbf7().b[0][0]++, _mongoose.models.WebPage) ||
+/* istanbul ignore next */
+(cov_25h26aqbf7().b[0][1]++, (0, _mongoose.model)('WebPage', webPageSchema)));
+const _default =
+/* istanbul ignore next */
+(cov_25h26aqbf7().s[6]++, WebPage);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMjVoMjZhcWJmNyIsImFjdHVhbENvdmVyYWdlIiwicyIsIl9kZWZhdWx0Iiwid2ViUGFnZVNjaGVtYSIsIl9tb25nb29zZSIsIlNjaGVtYSIsInRpdGxlIiwidHlwZSIsIlN0cmluZyIsInJlcXVpcmVkIiwic2x1ZyIsInVuaXF1ZSIsImNvbnRlbnQiLCJpc1B1Ymxpc2hlZCIsIkJvb2xlYW4iLCJkZWZhdWx0IiwidGltZXN0YW1wcyIsIldlYlBhZ2UiLCJiIiwibW9kZWxzIiwibW9kZWwiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2xpYi9kYi9tb2RlbHMvd2ViLXBhZ2UubW9kZWwudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSVdlYlBhZ2VJbnB1dCB9IGZyb20gJ0AvdHlwZXMnXG5pbXBvcnQgeyBEb2N1bWVudCwgTW9kZWwsIG1vZGVsLCBtb2RlbHMsIFNjaGVtYSB9IGZyb20gJ21vbmdvb3NlJ1xuXG5leHBvcnQgaW50ZXJmYWNlIElXZWJQYWdlIGV4dGVuZHMgRG9jdW1lbnQsIElXZWJQYWdlSW5wdXQge1xuICBfaWQ6IHN0cmluZ1xuICBjcmVhdGVkQXQ6IERhdGVcbiAgdXBkYXRlZEF0OiBEYXRlXG59XG5cbmNvbnN0IHdlYlBhZ2VTY2hlbWEgPSBuZXcgU2NoZW1hPElXZWJQYWdlPihcbiAge1xuICAgIHRpdGxlOiB7XG4gICAgICB0eXBlOiBTdHJpbmcsXG4gICAgICByZXF1aXJlZDogdHJ1ZSxcbiAgICB9LFxuICAgIHNsdWc6IHtcbiAgICAgIHR5cGU6IFN0cmluZyxcbiAgICAgIHJlcXVpcmVkOiB0cnVlLFxuICAgICAgdW5pcXVlOiB0cnVlLFxuICAgIH0sXG4gICAgY29udGVudDoge1xuICAgICAgdHlwZTogU3RyaW5nLFxuICAgICAgcmVxdWlyZWQ6IHRydWUsXG4gICAgfSxcbiAgICBpc1B1Ymxpc2hlZDoge1xuICAgICAgdHlwZTogQm9vbGVhbixcbiAgICAgIHJlcXVpcmVkOiB0cnVlLFxuICAgICAgZGVmYXVsdDogZmFsc2UsXG4gICAgfSxcbiAgfSxcbiAge1xuICAgIHRpbWVzdGFtcHM6IHRydWUsXG4gIH1cbilcblxuY29uc3QgV2ViUGFnZSA9XG4gIChtb2RlbHMuV2ViUGFnZSBhcyBNb2RlbDxJV2ViUGFnZT4pIHx8XG4gIG1vZGVsPElXZWJQYWdlPignV2ViUGFnZScsIHdlYlBhZ2VTY2hlbWEpXG5cbmV4cG9ydCBkZWZhdWx0IFdlYlBhZ2VcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBY0k7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkF5Qko7Ozs7OztXQUFBQyxRQUFBOzs7OztrQ0F0Q3VEO0FBUXZELE1BQU1DLGFBQUE7QUFBQTtBQUFBLENBQUFKLGNBQUEsR0FBQUUsQ0FBQSxPQUFnQixJQUFJRyxTQUFBLENBQUFDLE1BQU0sQ0FDOUI7RUFDRUMsS0FBQSxFQUFPO0lBQ0xDLElBQUEsRUFBTUMsTUFBQTtJQUNOQyxRQUFBLEVBQVU7RUFDWjtFQUNBQyxJQUFBLEVBQU07SUFDSkgsSUFBQSxFQUFNQyxNQUFBO0lBQ05DLFFBQUEsRUFBVTtJQUNWRSxNQUFBLEVBQVE7RUFDVjtFQUNBQyxPQUFBLEVBQVM7SUFDUEwsSUFBQSxFQUFNQyxNQUFBO0lBQ05DLFFBQUEsRUFBVTtFQUNaO0VBQ0FJLFdBQUEsRUFBYTtJQUNYTixJQUFBLEVBQU1PLE9BQUE7SUFDTkwsUUFBQSxFQUFVO0lBQ1ZNLE9BQUEsRUFBUztFQUNYO0FBQ0YsR0FDQTtFQUNFQyxVQUFBLEVBQVk7QUFDZDtBQUdGLE1BQU1DLE9BQUE7QUFBQTtBQUFBLENBQUFsQixjQUFBLEdBQUFFLENBQUE7QUFDSjtBQUFBLENBQUFGLGNBQUEsR0FBQW1CLENBQUEsVUFBQWQsU0FBQyxDQUFBZSxNQUFNLENBQUNGLE9BQU87QUFBQTtBQUFBLENBQUFsQixjQUFBLEdBQUFtQixDQUFBLFVBQ2YsSUFBQWQsU0FBQSxDQUFBZ0IsS0FBSyxFQUFXLFdBQVdqQixhQUFBO01BRTdCRCxRQUFBO0FBQUE7QUFBQSxDQUFBSCxjQUFBLEdBQUFFLENBQUEsT0FBZWdCLE9BQUEiLCJpZ25vcmVMaXN0IjpbXX0=

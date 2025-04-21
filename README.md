@@ -1,14 +1,13 @@
 Build a Full E-Commerce Website with Next.js 15 & MongoDB
 
-Feature	Details
-Framework	Next.js 15, React 19
-UI	Tailwind CSS, Shadcn UI, Recharts
-Database	MongoDB, Mongoose
-Payment	PayPal, Stripe
-Deployment	GitHub, Vercel
-Authentication	Auth.js, Google Auth, Magic Link
-Other Tools	Uploadthing, Resend, Zod, etc.
-
+Feature Details
+Framework Next.js 15, React 19
+UI Tailwind CSS, Shadcn UI, Recharts
+Database MongoDB, Mongoose
+Payment PayPal, Stripe
+Deployment GitHub, Vercel
+Authentication Auth.js, Google Auth, Magic Link
+Other Tools Uploadthing, Resend, Zod, etc.
 
 Live Demo
 Explore the full demo of the project here:
@@ -77,4 +76,3 @@ npm install --legacy-peer-deps
 npm run dev
 Contact the Developer
 Email: marklasfar@gmail.com
-

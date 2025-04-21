@@ -1,0 +1,242 @@
+97a2155a4e64012fbc4e922912b38d85
+"use strict";
+
+/* istanbul ignore next */
+function cov_16rr9thyfo() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/user.model.ts";
+  var hash = "541544c442163bff5399c659dda04da9c40146d2";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/user.model.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 18
+        },
+        end: {
+          line: 11,
+          column: 37
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 19
+        },
+        end: {
+          line: 39,
+          column: 2
+        }
+      },
+      "5": {
+        start: {
+          line: 40,
+          column: 13
+        },
+        end: {
+          line: 40,
+          column: 78
+        }
+      },
+      "6": {
+        start: {
+          line: 41,
+          column: 17
+        },
+        end: {
+          line: 41,
+          column: 21
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 40,
+            column: 13
+          },
+          end: {
+            line: 40,
+            column: 78
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 40,
+            column: 13
+          },
+          end: {
+            line: 40,
+            column: 34
+          }
+        }, {
+          start: {
+            line: 40,
+            column: 38
+          },
+          end: {
+            line: 40,
+            column: 78
+          }
+        }],
+        line: 40
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/db/models/user.model.ts"],
+      sourcesContent: ["import { IUserInput } from '@/types'\nimport { Document, Model, model, models, Schema } from 'mongoose'\n\nexport interface IUser extends Document, IUserInput {\n  _id: string\n  createdAt: Date\n  updatedAt: Date\n}\n\nconst userSchema = new Schema<IUser>(\n  {\n    email: { type: String, required: true, unique: true },\n    name: { type: String, required: true },\n    role: { type: String, required: true, default: 'User' },\n    password: { type: String },\n    image: { type: String },\n    emailVerified: { type: Boolean, default: false },\n  },\n  {\n    timestamps: true,\n  }\n)\n\nconst User = (models.User as Model<IUser>) || model<IUser>('User', userSchema)\n\nexport default User\n"],
+      names: ["userSchema", "Schema", "email", "type", "String", "required", "unique", "name", "role", "default", "password", "image", "emailVerified", "Boolean", "timestamps", "User", "models", "model"],
+      mappings: ";;;;+BAyBA;;;eAAA;;;0BAxBuD;AAQvD,MAAMA,aAAa,IAAIC,gBAAM,CAC3B;IACEC,OAAO;QAAEC,MAAMC;QAAQC,UAAU;QAAMC,QAAQ;IAAK;IACpDC,MAAM;QAAEJ,MAAMC;QAAQC,UAAU;IAAK;IACrCG,MAAM;QAAEL,MAAMC;QAAQC,UAAU;QAAMI,SAAS;IAAO;IACtDC,UAAU;QAAEP,MAAMC;IAAO;IACzBO,OAAO;QAAER,MAAMC;IAAO;IACtBQ,eAAe;QAAET,MAAMU;QAASJ,SAAS;IAAM;AACjD,GACA;IACEK,YAAY;AACd;AAGF,MAAMC,OAAO,AAACC,gBAAM,CAACD,IAAI,IAAqBE,IAAAA,eAAK,EAAQ,QAAQjB;MAEnE,WAAee"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "541544c442163bff5399c659dda04da9c40146d2"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_16rr9thyfo = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_16rr9thyfo();
+cov_16rr9thyfo().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_16rr9thyfo().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_16rr9thyfo().f[0]++;
+    cov_16rr9thyfo().s[2]++;
+    return _default;
+  }
+});
+const _mongoose =
+/* istanbul ignore next */
+(cov_16rr9thyfo().s[3]++, require("mongoose"));
+const userSchema =
+/* istanbul ignore next */
+(cov_16rr9thyfo().s[4]++, new _mongoose.Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  role: {
+    type: String,
+    required: true,
+    default: 'User'
+  },
+  password: {
+    type: String
+  },
+  image: {
+    type: String
+  },
+  emailVerified: {
+    type: Boolean,
+    default: false
+  }
+}, {
+  timestamps: true
+}));
+const User =
+/* istanbul ignore next */
+(cov_16rr9thyfo().s[5]++,
+/* istanbul ignore next */
+(cov_16rr9thyfo().b[0][0]++, _mongoose.models.User) ||
+/* istanbul ignore next */
+(cov_16rr9thyfo().b[0][1]++, (0, _mongoose.model)('User', userSchema)));
+const _default =
+/* istanbul ignore next */
+(cov_16rr9thyfo().s[6]++, User);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTZycjl0aHlmbyIsImFjdHVhbENvdmVyYWdlIiwicyIsIl9kZWZhdWx0IiwidXNlclNjaGVtYSIsIl9tb25nb29zZSIsIlNjaGVtYSIsImVtYWlsIiwidHlwZSIsIlN0cmluZyIsInJlcXVpcmVkIiwidW5pcXVlIiwibmFtZSIsInJvbGUiLCJkZWZhdWx0IiwicGFzc3dvcmQiLCJpbWFnZSIsImVtYWlsVmVyaWZpZWQiLCJCb29sZWFuIiwidGltZXN0YW1wcyIsIlVzZXIiLCJiIiwibW9kZWxzIiwibW9kZWwiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2xpYi9kYi9tb2RlbHMvdXNlci5tb2RlbC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJVXNlcklucHV0IH0gZnJvbSAnQC90eXBlcydcbmltcG9ydCB7IERvY3VtZW50LCBNb2RlbCwgbW9kZWwsIG1vZGVscywgU2NoZW1hIH0gZnJvbSAnbW9uZ29vc2UnXG5cbmV4cG9ydCBpbnRlcmZhY2UgSVVzZXIgZXh0ZW5kcyBEb2N1bWVudCwgSVVzZXJJbnB1dCB7XG4gIF9pZDogc3RyaW5nXG4gIGNyZWF0ZWRBdDogRGF0ZVxuICB1cGRhdGVkQXQ6IERhdGVcbn1cblxuY29uc3QgdXNlclNjaGVtYSA9IG5ldyBTY2hlbWE8SVVzZXI+KFxuICB7XG4gICAgZW1haWw6IHsgdHlwZTogU3RyaW5nLCByZXF1aXJlZDogdHJ1ZSwgdW5pcXVlOiB0cnVlIH0sXG4gICAgbmFtZTogeyB0eXBlOiBTdHJpbmcsIHJlcXVpcmVkOiB0cnVlIH0sXG4gICAgcm9sZTogeyB0eXBlOiBTdHJpbmcsIHJlcXVpcmVkOiB0cnVlLCBkZWZhdWx0OiAnVXNlcicgfSxcbiAgICBwYXNzd29yZDogeyB0eXBlOiBTdHJpbmcgfSxcbiAgICBpbWFnZTogeyB0eXBlOiBTdHJpbmcgfSxcbiAgICBlbWFpbFZlcmlmaWVkOiB7IHR5cGU6IEJvb2xlYW4sIGRlZmF1bHQ6IGZhbHNlIH0sXG4gIH0sXG4gIHtcbiAgICB0aW1lc3RhbXBzOiB0cnVlLFxuICB9XG4pXG5cbmNvbnN0IFVzZXIgPSAobW9kZWxzLlVzZXIgYXMgTW9kZWw8SVVzZXI+KSB8fCBtb2RlbDxJVXNlcj4oJ1VzZXInLCB1c2VyU2NoZW1hKVxuXG5leHBvcnQgZGVmYXVsdCBVc2VyXG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQVcyQztJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBQUFBLGNBQUEsR0FBQUUsQ0FBQTs7Ozs7OytCQWMzQzs7Ozs7O1dBQUFDLFFBQUE7Ozs7O2tDQXhCdUQ7QUFRdkQsTUFBTUMsVUFBQTtBQUFBO0FBQUEsQ0FBQUosY0FBQSxHQUFBRSxDQUFBLE9BQWEsSUFBSUcsU0FBQSxDQUFBQyxNQUFNLENBQzNCO0VBQ0VDLEtBQUEsRUFBTztJQUFFQyxJQUFBLEVBQU1DLE1BQUE7SUFBUUMsUUFBQSxFQUFVO0lBQU1DLE1BQUEsRUFBUTtFQUFLO0VBQ3BEQyxJQUFBLEVBQU07SUFBRUosSUFBQSxFQUFNQyxNQUFBO0lBQVFDLFFBQUEsRUFBVTtFQUFLO0VBQ3JDRyxJQUFBLEVBQU07SUFBRUwsSUFBQSxFQUFNQyxNQUFBO0lBQVFDLFFBQUEsRUFBVTtJQUFNSSxPQUFBLEVBQVM7RUFBTztFQUN0REMsUUFBQSxFQUFVO0lBQUVQLElBQUEsRUFBTUM7RUFBTztFQUN6Qk8sS0FBQSxFQUFPO0lBQUVSLElBQUEsRUFBTUM7RUFBTztFQUN0QlEsYUFBQSxFQUFlO0lBQUVULElBQUEsRUFBTVUsT0FBQTtJQUFTSixPQUFBLEVBQVM7RUFBTTtBQUNqRCxHQUNBO0VBQ0VLLFVBQUEsRUFBWTtBQUNkO0FBR0YsTUFBTUMsSUFBQTtBQUFBO0FBQUEsQ0FBQXBCLGNBQUEsR0FBQUUsQ0FBQTtBQUFPO0FBQUEsQ0FBQUYsY0FBQSxHQUFBcUIsQ0FBQSxVQUFBaEIsU0FBQyxDQUFBaUIsTUFBTSxDQUFDRixJQUFJO0FBQUE7QUFBQSxDQUFBcEIsY0FBQSxHQUFBcUIsQ0FBQSxVQUFxQixJQUFBaEIsU0FBQSxDQUFBa0IsS0FBSyxFQUFRLFFBQVFuQixVQUFBO01BRW5FRCxRQUFBO0FBQUE7QUFBQSxDQUFBSCxjQUFBLEdBQUFFLENBQUEsT0FBZWtCLElBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

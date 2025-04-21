@@ -47,28 +47,28 @@ const SettingForm = ({ setting }: { setting: ISettingInput }) => {
   return (
     <Form {...form}>
       <form
-        className='space-y-4'
-        method='post'
+        className="space-y-4"
+        method="post"
         onSubmit={form.handleSubmit(onSubmit)}
       >
-        <SiteInfoForm id='setting-site-info' form={form} />
-        <CommonForm id='setting-common' form={form} />
-        <CarouselForm id='setting-carousels' form={form} />
+        <SiteInfoForm id="setting-site-info" form={form} />
+        <CommonForm id="setting-common" form={form} />
+        <CarouselForm id="setting-carousels" form={form} />
 
-        <LanguageForm id='setting-languages' form={form} />
+        <LanguageForm id="setting-languages" form={form} />
 
-        <CurrencyForm id='setting-currencies' form={form} />
+        <CurrencyForm id="setting-currencies" form={form} />
 
-        <PaymentMethodForm id='setting-payment-methods' form={form} />
+        <PaymentMethodForm id="setting-payment-methods" form={form} />
 
-        <DeliveryDateForm id='setting-delivery-dates' form={form} />
+        <DeliveryDateForm id="setting-delivery-dates" form={form} />
 
         <div>
           <Button
-            type='submit'
-            size='lg'
+            type="submit"
+            size="lg"
             disabled={isSubmitting}
-            className='w-full mb-24'
+            className="w-full mb-24"
           >
             {isSubmitting ? 'Submitting...' : `Save Setting`}
           </Button>

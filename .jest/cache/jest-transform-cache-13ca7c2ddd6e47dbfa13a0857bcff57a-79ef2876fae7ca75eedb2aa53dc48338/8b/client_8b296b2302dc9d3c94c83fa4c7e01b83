@@ -1,0 +1,421 @@
+f8b42c7061a71230b7b947fb3fc93021
+// This approach is taken from https://github.com/vercel/next.js/tree/canary/examples/with-mongodb
+"use strict";
+
+/* istanbul ignore next */
+function cov_20p7g0w7dj() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/db/client.ts";
+  var hash = "c6264d6eb95188283aa2a64b99d15a95c22abdbe";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/db/client.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 14,
+          column: 17
+        },
+        end: {
+          line: 14,
+          column: 35
+        }
+      },
+      "4": {
+        start: {
+          line: 15,
+          column: 0
+        },
+        end: {
+          line: 17,
+          column: 1
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 16,
+          column: 75
+        }
+      },
+      "6": {
+        start: {
+          line: 18,
+          column: 12
+        },
+        end: {
+          line: 18,
+          column: 35
+        }
+      },
+      "7": {
+        start: {
+          line: 19,
+          column: 16
+        },
+        end: {
+          line: 25,
+          column: 1
+        }
+      },
+      "8": {
+        start: {
+          line: 27,
+          column: 0
+        },
+        end: {
+          line: 38,
+          column: 1
+        }
+      },
+      "9": {
+        start: {
+          line: 30,
+          column: 28
+        },
+        end: {
+          line: 30,
+          column: 34
+        }
+      },
+      "10": {
+        start: {
+          line: 31,
+          column: 4
+        },
+        end: {
+          line: 33,
+          column: 5
+        }
+      },
+      "11": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 32,
+          column: 78
+        }
+      },
+      "12": {
+        start: {
+          line: 34,
+          column: 4
+        },
+        end: {
+          line: 34,
+          column: 42
+        }
+      },
+      "13": {
+        start: {
+          line: 37,
+          column: 4
+        },
+        end: {
+          line: 37,
+          column: 52
+        }
+      },
+      "14": {
+        start: {
+          line: 39,
+          column: 17
+        },
+        end: {
+          line: 39,
+          column: 23
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 10,
+            column: 9
+          },
+          end: {
+            line: 10,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 20
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        line: 10
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 15,
+            column: 0
+          },
+          end: {
+            line: 17,
+            column: 1
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 15,
+            column: 0
+          },
+          end: {
+            line: 17,
+            column: 1
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 15
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 27,
+            column: 0
+          },
+          end: {
+            line: 38,
+            column: 1
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 27,
+            column: 0
+          },
+          end: {
+            line: 38,
+            column: 1
+          }
+        }, {
+          start: {
+            line: 35,
+            column: 7
+          },
+          end: {
+            line: 38,
+            column: 1
+          }
+        }],
+        line: 27
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 31,
+            column: 4
+          },
+          end: {
+            line: 33,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 31,
+            column: 4
+          },
+          end: {
+            line: 33,
+            column: 5
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 31
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/db/client.ts"],
+      sourcesContent: ["// This approach is taken from https://github.com/vercel/next.js/tree/canary/examples/with-mongodb\nimport { MongoClient, ServerApiVersion } from 'mongodb'\n\nif (!process.env.MONGODB_URI) {\n  throw new Error('Invalid/Missing environment variable: \"MONGODB_URI\"')\n}\n\nconst uri = process.env.MONGODB_URI\nconst options = {\n  serverApi: {\n    version: ServerApiVersion.v1,\n    strict: true,\n    deprecationErrors: true,\n  },\n}\n\nlet client: MongoClient\n\nif (process.env.NODE_ENV === 'development') {\n  // In development mode, use a global variable so that the value\n  // is preserved across module reloads caused by HMR (Hot Module Replacement).\n  const globalWithMongo = global as typeof globalThis & {\n    _mongoClient?: MongoClient\n  }\n\n  if (!globalWithMongo._mongoClient) {\n    globalWithMongo._mongoClient = new MongoClient(uri, options)\n  }\n  client = globalWithMongo._mongoClient\n} else {\n  // In production mode, it's best to not use a global variable.\n  client = new MongoClient(uri, options)\n}\n\n// Export a module-scoped MongoClient. By doing this in a\n// separate module, the client can be shared across functions.\nexport default client\n"],
+      names: ["process", "env", "MONGODB_URI", "Error", "uri", "options", "serverApi", "version", "ServerApiVersion", "v1", "strict", "deprecationErrors", "client", "NODE_ENV", "globalWithMongo", "global", "_mongoClient", "MongoClient"],
+      mappings: "AAAA,kGAAkG;;;;;+BAkClG,yDAAyD;AACzD,8DAA8D;AAC9D;;;eAAA;;;yBAnC8C;AAE9C,IAAI,CAACA,QAAQC,GAAG,CAACC,WAAW,EAAE;IAC5B,MAAM,IAAIC,MAAM;AAClB;AAEA,MAAMC,MAAMJ,QAAQC,GAAG,CAACC,WAAW;AACnC,MAAMG,UAAU;IACdC,WAAW;QACTC,SAASC,yBAAgB,CAACC,EAAE;QAC5BC,QAAQ;QACRC,mBAAmB;IACrB;AACF;AAEA,IAAIC;AAEJ,IAAIZ,QAAQC,GAAG,CAACY,QAAQ,KAAK,eAAe;IAC1C,+DAA+D;IAC/D,6EAA6E;IAC7E,MAAMC,kBAAkBC;IAIxB,IAAI,CAACD,gBAAgBE,YAAY,EAAE;QACjCF,gBAAgBE,YAAY,GAAG,IAAIC,oBAAW,CAACb,KAAKC;IACtD;IACAO,SAASE,gBAAgBE,YAAY;AACvC,OAAO;IACL,8DAA8D;IAC9DJ,SAAS,IAAIK,oBAAW,CAACb,KAAKC;AAChC;MAIA,WAAeO"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c6264d6eb95188283aa2a64b99d15a95c22abdbe"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_20p7g0w7dj = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_20p7g0w7dj();
+cov_20p7g0w7dj().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_20p7g0w7dj().s[1]++;
+Object.defineProperty(exports,
+// Export a module-scoped MongoClient. By doing this in a
+// separate module, the client can be shared across functions.
+"default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_20p7g0w7dj().f[0]++;
+    cov_20p7g0w7dj().s[2]++;
+    return _default;
+  }
+});
+const _mongodb =
+/* istanbul ignore next */
+(cov_20p7g0w7dj().s[3]++, require("mongodb"));
+/* istanbul ignore next */
+cov_20p7g0w7dj().s[4]++;
+if (!process.env.MONGODB_URI) {
+  /* istanbul ignore next */
+  cov_20p7g0w7dj().b[0][0]++;
+  cov_20p7g0w7dj().s[5]++;
+  throw new Error('Invalid/Missing environment variable: "MONGODB_URI"');
+} else
+/* istanbul ignore next */
+{
+  cov_20p7g0w7dj().b[0][1]++;
+}
+const uri =
+/* istanbul ignore next */
+(cov_20p7g0w7dj().s[6]++, process.env.MONGODB_URI);
+const options =
+/* istanbul ignore next */
+(cov_20p7g0w7dj().s[7]++, {
+  serverApi: {
+    version: _mongodb.ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true
+  }
+});
+let client;
+/* istanbul ignore next */
+cov_20p7g0w7dj().s[8]++;
+if (process.env.NODE_ENV === 'development') {
+  /* istanbul ignore next */
+  cov_20p7g0w7dj().b[1][0]++;
+  // In development mode, use a global variable so that the value
+  // is preserved across module reloads caused by HMR (Hot Module Replacement).
+  const globalWithMongo =
+  /* istanbul ignore next */
+  (cov_20p7g0w7dj().s[9]++, global);
+  /* istanbul ignore next */
+  cov_20p7g0w7dj().s[10]++;
+  if (!globalWithMongo._mongoClient) {
+    /* istanbul ignore next */
+    cov_20p7g0w7dj().b[2][0]++;
+    cov_20p7g0w7dj().s[11]++;
+    globalWithMongo._mongoClient = new _mongodb.MongoClient(uri, options);
+  } else
+  /* istanbul ignore next */
+  {
+    cov_20p7g0w7dj().b[2][1]++;
+  }
+  cov_20p7g0w7dj().s[12]++;
+  client = globalWithMongo._mongoClient;
+} else {
+  /* istanbul ignore next */
+  cov_20p7g0w7dj().b[1][1]++;
+  cov_20p7g0w7dj().s[13]++;
+  // In production mode, it's best to not use a global variable.
+  client = new _mongodb.MongoClient(uri, options);
+}
+const _default =
+/* istanbul ignore next */
+(cov_20p7g0w7dj().s[14]++, client);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMjBwN2cwdzdkaiIsImFjdHVhbENvdmVyYWdlIiwicyIsIl9kZWZhdWx0IiwicHJvY2VzcyIsImVudiIsIk1PTkdPREJfVVJJIiwiYiIsIkVycm9yIiwidXJpIiwib3B0aW9ucyIsInNlcnZlckFwaSIsInZlcnNpb24iLCJfbW9uZ29kYiIsIlNlcnZlckFwaVZlcnNpb24iLCJ2MSIsInN0cmljdCIsImRlcHJlY2F0aW9uRXJyb3JzIiwiY2xpZW50IiwiTk9ERV9FTlYiLCJnbG9iYWxXaXRoTW9uZ28iLCJnbG9iYWwiLCJfbW9uZ29DbGllbnQiLCJNb25nb0NsaWVudCJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vbGliL2RiL2NsaWVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUaGlzIGFwcHJvYWNoIGlzIHRha2VuIGZyb20gaHR0cHM6Ly9naXRodWIuY29tL3ZlcmNlbC9uZXh0LmpzL3RyZWUvY2FuYXJ5L2V4YW1wbGVzL3dpdGgtbW9uZ29kYlxuaW1wb3J0IHsgTW9uZ29DbGllbnQsIFNlcnZlckFwaVZlcnNpb24gfSBmcm9tICdtb25nb2RiJ1xuXG5pZiAoIXByb2Nlc3MuZW52Lk1PTkdPREJfVVJJKSB7XG4gIHRocm93IG5ldyBFcnJvcignSW52YWxpZC9NaXNzaW5nIGVudmlyb25tZW50IHZhcmlhYmxlOiBcIk1PTkdPREJfVVJJXCInKVxufVxuXG5jb25zdCB1cmkgPSBwcm9jZXNzLmVudi5NT05HT0RCX1VSSVxuY29uc3Qgb3B0aW9ucyA9IHtcbiAgc2VydmVyQXBpOiB7XG4gICAgdmVyc2lvbjogU2VydmVyQXBpVmVyc2lvbi52MSxcbiAgICBzdHJpY3Q6IHRydWUsXG4gICAgZGVwcmVjYXRpb25FcnJvcnM6IHRydWUsXG4gIH0sXG59XG5cbmxldCBjbGllbnQ6IE1vbmdvQ2xpZW50XG5cbmlmIChwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ2RldmVsb3BtZW50Jykge1xuICAvLyBJbiBkZXZlbG9wbWVudCBtb2RlLCB1c2UgYSBnbG9iYWwgdmFyaWFibGUgc28gdGhhdCB0aGUgdmFsdWVcbiAgLy8gaXMgcHJlc2VydmVkIGFjcm9zcyBtb2R1bGUgcmVsb2FkcyBjYXVzZWQgYnkgSE1SIChIb3QgTW9kdWxlIFJlcGxhY2VtZW50KS5cbiAgY29uc3QgZ2xvYmFsV2l0aE1vbmdvID0gZ2xvYmFsIGFzIHR5cGVvZiBnbG9iYWxUaGlzICYge1xuICAgIF9tb25nb0NsaWVudD86IE1vbmdvQ2xpZW50XG4gIH1cblxuICBpZiAoIWdsb2JhbFdpdGhNb25nby5fbW9uZ29DbGllbnQpIHtcbiAgICBnbG9iYWxXaXRoTW9uZ28uX21vbmdvQ2xpZW50ID0gbmV3IE1vbmdvQ2xpZW50KHVyaSwgb3B0aW9ucylcbiAgfVxuICBjbGllbnQgPSBnbG9iYWxXaXRoTW9uZ28uX21vbmdvQ2xpZW50XG59IGVsc2Uge1xuICAvLyBJbiBwcm9kdWN0aW9uIG1vZGUsIGl0J3MgYmVzdCB0byBub3QgdXNlIGEgZ2xvYmFsIHZhcmlhYmxlLlxuICBjbGllbnQgPSBuZXcgTW9uZ29DbGllbnQodXJpLCBvcHRpb25zKVxufVxuXG4vLyBFeHBvcnQgYSBtb2R1bGUtc2NvcGVkIE1vbmdvQ2xpZW50LiBCeSBkb2luZyB0aGlzIGluIGFcbi8vIHNlcGFyYXRlIG1vZHVsZSwgdGhlIGNsaWVudCBjYW4gYmUgc2hhcmVkIGFjcm9zcyBmdW5jdGlvbnMuXG5leHBvcnQgZGVmYXVsdCBjbGllbnRcbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFJUTtJQUFBQSxjQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxjQUFBO0FBQUFBLGNBQUEsR0FBQUUsQ0FBQTs7Ozs7OztBQThCUjtBQUNBO0FBQ0E7Ozs7OztXQUFBQyxRQUFBOzs7OztrQ0FuQzhDO0FBQUE7QUFBQUgsY0FBQSxHQUFBRSxDQUFBO0FBRTlDLElBQUksQ0FBQ0UsT0FBQSxDQUFRQyxHQUFHLENBQUNDLFdBQVcsRUFBRTtFQUFBO0VBQUFOLGNBQUEsR0FBQU8sQ0FBQTtFQUFBUCxjQUFBLEdBQUFFLENBQUE7RUFDNUIsTUFBTSxJQUFJTSxLQUFBLENBQU07QUFDbEI7QUFBQTtBQUFBO0VBQUFSLGNBQUEsR0FBQU8sQ0FBQTtBQUFBO0FBRUEsTUFBTUUsR0FBQTtBQUFBO0FBQUEsQ0FBQVQsY0FBQSxHQUFBRSxDQUFBLE9BQU1FLE9BQUEsQ0FBUUMsR0FBRyxDQUFDQyxXQUFXO0FBQ25DLE1BQU1JLE9BQUE7QUFBQTtBQUFBLENBQUFWLGNBQUEsR0FBQUUsQ0FBQSxPQUFVO0VBQ2RTLFNBQUEsRUFBVztJQUNUQyxPQUFBLEVBQVNDLFFBQUEsQ0FBQUMsZ0JBQWdCLENBQUNDLEVBQUU7SUFDNUJDLE1BQUEsRUFBUTtJQUNSQyxpQkFBQSxFQUFtQjtFQUNyQjtBQUNGO0FBRUEsSUFBSUMsTUFBQTtBQUFBO0FBQUFsQixjQUFBLEdBQUFFLENBQUE7QUFFSixJQUFJRSxPQUFBLENBQVFDLEdBQUcsQ0FBQ2MsUUFBUSxLQUFLLGVBQWU7RUFBQTtFQUFBbkIsY0FBQSxHQUFBTyxDQUFBO0VBQzFDO0VBQ0E7RUFDQSxNQUFNYSxlQUFBO0VBQUE7RUFBQSxDQUFBcEIsY0FBQSxHQUFBRSxDQUFBLE9BQWtCbUIsTUFBQTtFQUFBO0VBQUFyQixjQUFBLEdBQUFFLENBQUE7RUFJeEIsSUFBSSxDQUFDa0IsZUFBQSxDQUFnQkUsWUFBWSxFQUFFO0lBQUE7SUFBQXRCLGNBQUEsR0FBQU8sQ0FBQTtJQUFBUCxjQUFBLEdBQUFFLENBQUE7SUFDakNrQixlQUFBLENBQWdCRSxZQUFZLEdBQUcsSUFBSVQsUUFBQSxDQUFBVSxXQUFXLENBQUNkLEdBQUEsRUFBS0MsT0FBQTtFQUN0RDtFQUFBO0VBQUE7SUFBQVYsY0FBQSxHQUFBTyxDQUFBO0VBQUE7RUFBQVAsY0FBQSxHQUFBRSxDQUFBO0VBQ0FnQixNQUFBLEdBQVNFLGVBQUEsQ0FBZ0JFLFlBQVk7QUFDdkMsT0FBTztFQUFBO0VBQUF0QixjQUFBLEdBQUFPLENBQUE7RUFBQVAsY0FBQSxHQUFBRSxDQUFBO0VBQ0w7RUFDQWdCLE1BQUEsR0FBUyxJQUFJTCxRQUFBLENBQUFVLFdBQVcsQ0FBQ2QsR0FBQSxFQUFLQyxPQUFBO0FBQ2hDO01BSUFQLFFBQUE7QUFBQTtBQUFBLENBQUFILGNBQUEsR0FBQUUsQ0FBQSxRQUFlZ0IsTUFBQSIsImlnbm9yZUxpc3QiOltdfQ==

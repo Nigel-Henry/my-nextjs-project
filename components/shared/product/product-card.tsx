@@ -81,7 +81,9 @@ const ProductCard = ({
       </div>
 
       <ProductPrice
-        isDeal={Array.isArray(product.tags) && product.tags.includes('todays-deal')} // Ensure tags is valid
+        isDeal={
+          Array.isArray(product.tags) && product.tags.includes('todays-deal')
+        } // Ensure tags is valid
         price={product.price}
         listPrice={product.listPrice}
         forListing
@@ -104,7 +106,10 @@ const ProductCard = ({
           category: product.category,
           price: round2(product.price),
           quantity: 1,
-          image: Array.isArray(product.images) && product.images.length > 0 ? product.images[0] : '/images/fallback.jpg',
+          image:
+            Array.isArray(product.images) && product.images.length > 0
+              ? product.images[0]
+              : '/images/fallback.jpg',
         }}
       />
     </div>

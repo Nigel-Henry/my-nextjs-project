@@ -33,23 +33,23 @@ const Pagination = ({ page, totalPages, urlParamName }: PaginationProps) => {
 
   const t = useTranslations()
   return (
-    <div className='flex items-center gap-2'>
+    <div className="flex items-center gap-2">
       <Button
-        size='lg'
-        variant='outline'
+        size="lg"
+        variant="outline"
         onClick={() => onClick('prev')}
         disabled={Number(page) <= 1}
-        className='w-24'
+        className="w-24"
       >
         <ChevronLeft /> {t('Search.Previous')}
       </Button>
       {t('Search.Page')} {page} {t('Search.of')} {totalPages}
       <Button
-        size='lg'
-        variant='outline'
+        size="lg"
+        variant="outline"
         onClick={() => onClick('next')}
         disabled={Number(page) >= totalPages}
-        className='w-24'
+        className="w-24"
       >
         {t('Search.Next')} <ChevronRight />
       </Button>

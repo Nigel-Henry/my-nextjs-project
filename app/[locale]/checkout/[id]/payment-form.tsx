@@ -81,18 +81,18 @@ export default function OrderDetailsForm({
 
   const CheckoutSummary = () => (
     <Card>
-      <CardContent className='p-4'>
+      <CardContent className="p-4">
         <div>
-          <div className='text-lg font-bold'>Order Summary</div>
-          <div className='space-y-2'>
-            <div className='flex justify-between'>
+          <div className="text-lg font-bold">Order Summary</div>
+          <div className="space-y-2">
+            <div className="flex justify-between">
               <span>Items:</span>
               <span>
                 {' '}
                 <ProductPrice price={itemsPrice} plain />
               </span>
             </div>
-            <div className='flex justify-between'>
+            <div className="flex justify-between">
               <span>Shipping & Handling:</span>
               <span>
                 {shippingPrice === undefined ? (
@@ -104,7 +104,7 @@ export default function OrderDetailsForm({
                 )}
               </span>
             </div>
-            <div className='flex justify-between'>
+            <div className="flex justify-between">
               <span> Tax:</span>
               <span>
                 {taxPrice === undefined ? (
@@ -114,7 +114,7 @@ export default function OrderDetailsForm({
                 )}
               </span>
             </div>
-            <div className='flex justify-between  pt-1 font-bold text-lg'>
+            <div className="flex justify-between  pt-1 font-bold text-lg">
               <span> Order Total:</span>
               <span>
                 {' '}
@@ -149,7 +149,7 @@ export default function OrderDetailsForm({
 
             {!isPaid && paymentMethod === 'Cash On Delivery' && (
               <Button
-                className='w-full rounded-full'
+                className="w-full rounded-full"
                 onClick={() => router.push(`/account/orders/${order._id}`)}
               >
                 View Order
@@ -162,16 +162,16 @@ export default function OrderDetailsForm({
   )
 
   return (
-    <main className='max-w-6xl mx-auto'>
-      <div className='grid md:grid-cols-4 gap-6'>
-        <div className='md:col-span-3'>
+    <main className="max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-4 gap-6">
+        <div className="md:col-span-3">
           {/* Shipping Address */}
           <div>
-            <div className='grid md:grid-cols-3 my-3 pb-3'>
-              <div className='text-lg font-bold'>
+            <div className="grid md:grid-cols-3 my-3 pb-3">
+              <div className="text-lg font-bold">
                 <span>Shipping Address</span>
               </div>
-              <div className='col-span-2'>
+              <div className="col-span-2">
                 <p>
                   {shippingAddress.fullName} <br />
                   {shippingAddress.street} <br />
@@ -182,22 +182,22 @@ export default function OrderDetailsForm({
           </div>
 
           {/* payment method */}
-          <div className='border-y'>
-            <div className='grid md:grid-cols-3 my-3 pb-3'>
-              <div className='text-lg font-bold'>
+          <div className="border-y">
+            <div className="grid md:grid-cols-3 my-3 pb-3">
+              <div className="text-lg font-bold">
                 <span>Payment Method</span>
               </div>
-              <div className='col-span-2'>
+              <div className="col-span-2">
                 <p>{paymentMethod}</p>
               </div>
             </div>
           </div>
 
-          <div className='grid md:grid-cols-3 my-3 pb-3'>
-            <div className='flex text-lg font-bold'>
+          <div className="grid md:grid-cols-3 my-3 pb-3">
+            <div className="flex text-lg font-bold">
               <span>Items and shipping</span>
             </div>
-            <div className='col-span-2'>
+            <div className="col-span-2">
               <p>
                 Delivery date:
                 {formatDateTime(expectedDeliveryDate).dateOnly}
@@ -211,13 +211,13 @@ export default function OrderDetailsForm({
               </ul>
             </div>
           </div>
-          <div className='block md:hidden'>
+          <div className="block md:hidden">
             <CheckoutSummary />
           </div>
 
           <CheckoutFooter />
         </div>
-        <div className='hidden md:block'>
+        <div className="hidden md:block">
           <CheckoutSummary />
         </div>
       </div>

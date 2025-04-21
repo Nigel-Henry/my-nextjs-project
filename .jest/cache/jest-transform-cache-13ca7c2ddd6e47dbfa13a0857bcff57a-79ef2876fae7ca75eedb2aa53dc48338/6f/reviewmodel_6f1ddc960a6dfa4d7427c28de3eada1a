@@ -1,0 +1,245 @@
+2780635de20363d0db82079dc1f4021a
+"use strict";
+
+/* istanbul ignore next */
+function cov_5rwfes7nb() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/review.model.ts";
+  var hash = "3dca437c6bfc1e7545148be0d40eb7b4b7599110";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/db/models/review.model.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 18
+        },
+        end: {
+          line: 11,
+          column: 37
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 21
+        },
+        end: {
+          line: 42,
+          column: 2
+        }
+      },
+      "5": {
+        start: {
+          line: 43,
+          column: 15
+        },
+        end: {
+          line: 43,
+          column: 86
+        }
+      },
+      "6": {
+        start: {
+          line: 44,
+          column: 17
+        },
+        end: {
+          line: 44,
+          column: 23
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 43,
+            column: 15
+          },
+          end: {
+            line: 43,
+            column: 86
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 43,
+            column: 15
+          },
+          end: {
+            line: 43,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 43,
+            column: 42
+          },
+          end: {
+            line: 43,
+            column: 86
+          }
+        }],
+        line: 43
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/db/models/review.model.ts"],
+      sourcesContent: ["import { IReviewInput } from '@/types'\nimport { Document, Model, model, models, Schema } from 'mongoose'\n\nexport interface IReview extends Document, IReviewInput {\n  _id: string\n  createdAt: Date\n  updatedAt: Date\n}\nconst reviewSchema = new Schema<IReview>(\n  {\n    user: {\n      type: Schema.Types.ObjectId as unknown as typeof String,\n      ref: 'User',\n    },\n    isVerifiedPurchase: {\n      type: Boolean,\n      required: true,\n      default: false,\n    },\n    product: {\n      type: Schema.Types.ObjectId as unknown as typeof String,\n      ref: 'Product',\n    },\n    rating: {\n      type: Number,\n      required: true,\n      min: 1,\n      max: 5,\n    },\n    title: {\n      type: String,\n      required: true,\n    },\n    comment: {\n      type: String,\n      required: true,\n    },\n  },\n  {\n    timestamps: true,\n  }\n)\n\nconst Review =\n  (models.Review as Model<IReview>) || model<IReview>('Review', reviewSchema)\n\nexport default Review\n"],
+      names: ["reviewSchema", "Schema", "user", "type", "Types", "ObjectId", "ref", "isVerifiedPurchase", "Boolean", "required", "default", "product", "rating", "Number", "min", "max", "title", "String", "comment", "timestamps", "Review", "models", "model"],
+      mappings: ";;;;+BA8CA;;;eAAA;;;0BA7CuD;AAOvD,MAAMA,eAAe,IAAIC,gBAAM,CAC7B;IACEC,MAAM;QACJC,MAAMF,gBAAM,CAACG,KAAK,CAACC,QAAQ;QAC3BC,KAAK;IACP;IACAC,oBAAoB;QAClBJ,MAAMK;QACNC,UAAU;QACVC,SAAS;IACX;IACAC,SAAS;QACPR,MAAMF,gBAAM,CAACG,KAAK,CAACC,QAAQ;QAC3BC,KAAK;IACP;IACAM,QAAQ;QACNT,MAAMU;QACNJ,UAAU;QACVK,KAAK;QACLC,KAAK;IACP;IACAC,OAAO;QACLb,MAAMc;QACNR,UAAU;IACZ;IACAS,SAAS;QACPf,MAAMc;QACNR,UAAU;IACZ;AACF,GACA;IACEU,YAAY;AACd;AAGF,MAAMC,SACJ,AAACC,gBAAM,CAACD,MAAM,IAAuBE,IAAAA,eAAK,EAAU,UAAUtB;MAEhE,WAAeoB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "3dca437c6bfc1e7545148be0d40eb7b4b7599110"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_5rwfes7nb = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_5rwfes7nb();
+cov_5rwfes7nb().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_5rwfes7nb().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_5rwfes7nb().f[0]++;
+    cov_5rwfes7nb().s[2]++;
+    return _default;
+  }
+});
+const _mongoose =
+/* istanbul ignore next */
+(cov_5rwfes7nb().s[3]++, require("mongoose"));
+const reviewSchema =
+/* istanbul ignore next */
+(cov_5rwfes7nb().s[4]++, new _mongoose.Schema({
+  user: {
+    type: _mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  isVerifiedPurchase: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  product: {
+    type: _mongoose.Schema.Types.ObjectId,
+    ref: 'Product'
+  },
+  rating: {
+    type: Number,
+    required: true,
+    min: 1,
+    max: 5
+  },
+  title: {
+    type: String,
+    required: true
+  },
+  comment: {
+    type: String,
+    required: true
+  }
+}, {
+  timestamps: true
+}));
+const Review =
+/* istanbul ignore next */
+(cov_5rwfes7nb().s[5]++,
+/* istanbul ignore next */
+(cov_5rwfes7nb().b[0][0]++, _mongoose.models.Review) ||
+/* istanbul ignore next */
+(cov_5rwfes7nb().b[0][1]++, (0, _mongoose.model)('Review', reviewSchema)));
+const _default =
+/* istanbul ignore next */
+(cov_5rwfes7nb().s[6]++, Review);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfNXJ3ZmVzN25iIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiX2RlZmF1bHQiLCJyZXZpZXdTY2hlbWEiLCJfbW9uZ29vc2UiLCJTY2hlbWEiLCJ1c2VyIiwidHlwZSIsIlR5cGVzIiwiT2JqZWN0SWQiLCJyZWYiLCJpc1ZlcmlmaWVkUHVyY2hhc2UiLCJCb29sZWFuIiwicmVxdWlyZWQiLCJkZWZhdWx0IiwicHJvZHVjdCIsInJhdGluZyIsIk51bWJlciIsIm1pbiIsIm1heCIsInRpdGxlIiwiU3RyaW5nIiwiY29tbWVudCIsInRpbWVzdGFtcHMiLCJSZXZpZXciLCJiIiwibW9kZWxzIiwibW9kZWwiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2xpYi9kYi9tb2RlbHMvcmV2aWV3Lm1vZGVsLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IElSZXZpZXdJbnB1dCB9IGZyb20gJ0AvdHlwZXMnXG5pbXBvcnQgeyBEb2N1bWVudCwgTW9kZWwsIG1vZGVsLCBtb2RlbHMsIFNjaGVtYSB9IGZyb20gJ21vbmdvb3NlJ1xuXG5leHBvcnQgaW50ZXJmYWNlIElSZXZpZXcgZXh0ZW5kcyBEb2N1bWVudCwgSVJldmlld0lucHV0IHtcbiAgX2lkOiBzdHJpbmdcbiAgY3JlYXRlZEF0OiBEYXRlXG4gIHVwZGF0ZWRBdDogRGF0ZVxufVxuY29uc3QgcmV2aWV3U2NoZW1hID0gbmV3IFNjaGVtYTxJUmV2aWV3PihcbiAge1xuICAgIHVzZXI6IHtcbiAgICAgIHR5cGU6IFNjaGVtYS5UeXBlcy5PYmplY3RJZCBhcyB1bmtub3duIGFzIHR5cGVvZiBTdHJpbmcsXG4gICAgICByZWY6ICdVc2VyJyxcbiAgICB9LFxuICAgIGlzVmVyaWZpZWRQdXJjaGFzZToge1xuICAgICAgdHlwZTogQm9vbGVhbixcbiAgICAgIHJlcXVpcmVkOiB0cnVlLFxuICAgICAgZGVmYXVsdDogZmFsc2UsXG4gICAgfSxcbiAgICBwcm9kdWN0OiB7XG4gICAgICB0eXBlOiBTY2hlbWEuVHlwZXMuT2JqZWN0SWQgYXMgdW5rbm93biBhcyB0eXBlb2YgU3RyaW5nLFxuICAgICAgcmVmOiAnUHJvZHVjdCcsXG4gICAgfSxcbiAgICByYXRpbmc6IHtcbiAgICAgIHR5cGU6IE51bWJlcixcbiAgICAgIHJlcXVpcmVkOiB0cnVlLFxuICAgICAgbWluOiAxLFxuICAgICAgbWF4OiA1LFxuICAgIH0sXG4gICAgdGl0bGU6IHtcbiAgICAgIHR5cGU6IFN0cmluZyxcbiAgICAgIHJlcXVpcmVkOiB0cnVlLFxuICAgIH0sXG4gICAgY29tbWVudDoge1xuICAgICAgdHlwZTogU3RyaW5nLFxuICAgICAgcmVxdWlyZWQ6IHRydWUsXG4gICAgfSxcbiAgfSxcbiAge1xuICAgIHRpbWVzdGFtcHM6IHRydWUsXG4gIH1cbilcblxuY29uc3QgUmV2aWV3ID1cbiAgKG1vZGVscy5SZXZpZXcgYXMgTW9kZWw8SVJldmlldz4pIHx8IG1vZGVsPElSZXZpZXc+KCdSZXZpZXcnLCByZXZpZXdTY2hlbWEpXG5cbmV4cG9ydCBkZWZhdWx0IFJldmlld1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFhSTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBQUFBLGFBQUEsR0FBQUUsQ0FBQTs7Ozs7OytCQWlDSjs7Ozs7O1dBQUFDLFFBQUE7Ozs7O2lDQTdDdUQ7QUFPdkQsTUFBTUMsWUFBQTtBQUFBO0FBQUEsQ0FBQUosYUFBQSxHQUFBRSxDQUFBLE9BQWUsSUFBSUcsU0FBQSxDQUFBQyxNQUFNLENBQzdCO0VBQ0VDLElBQUEsRUFBTTtJQUNKQyxJQUFBLEVBQU1ILFNBQUEsQ0FBQUMsTUFBTSxDQUFDRyxLQUFLLENBQUNDLFFBQVE7SUFDM0JDLEdBQUEsRUFBSztFQUNQO0VBQ0FDLGtCQUFBLEVBQW9CO0lBQ2xCSixJQUFBLEVBQU1LLE9BQUE7SUFDTkMsUUFBQSxFQUFVO0lBQ1ZDLE9BQUEsRUFBUztFQUNYO0VBQ0FDLE9BQUEsRUFBUztJQUNQUixJQUFBLEVBQU1ILFNBQUEsQ0FBQUMsTUFBTSxDQUFDRyxLQUFLLENBQUNDLFFBQVE7SUFDM0JDLEdBQUEsRUFBSztFQUNQO0VBQ0FNLE1BQUEsRUFBUTtJQUNOVCxJQUFBLEVBQU1VLE1BQUE7SUFDTkosUUFBQSxFQUFVO0lBQ1ZLLEdBQUEsRUFBSztJQUNMQyxHQUFBLEVBQUs7RUFDUDtFQUNBQyxLQUFBLEVBQU87SUFDTGIsSUFBQSxFQUFNYyxNQUFBO0lBQ05SLFFBQUEsRUFBVTtFQUNaO0VBQ0FTLE9BQUEsRUFBUztJQUNQZixJQUFBLEVBQU1jLE1BQUE7SUFDTlIsUUFBQSxFQUFVO0VBQ1o7QUFDRixHQUNBO0VBQ0VVLFVBQUEsRUFBWTtBQUNkO0FBR0YsTUFBTUMsTUFBQTtBQUFBO0FBQUEsQ0FBQXpCLGFBQUEsR0FBQUUsQ0FBQTtBQUNKO0FBQUEsQ0FBQUYsYUFBQSxHQUFBMEIsQ0FBQSxVQUFBckIsU0FBQyxDQUFBc0IsTUFBTSxDQUFDRixNQUFNO0FBQUE7QUFBQSxDQUFBekIsYUFBQSxHQUFBMEIsQ0FBQSxVQUF1QixJQUFBckIsU0FBQSxDQUFBdUIsS0FBSyxFQUFVLFVBQVV4QixZQUFBO01BRWhFRCxRQUFBO0FBQUE7QUFBQSxDQUFBSCxhQUFBLEdBQUFFLENBQUEsT0FBZXVCLE1BQUEiLCJpZ25vcmVMaXN0IjpbXX0=

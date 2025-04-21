@@ -41,8 +41,8 @@ const SettingNav = () => {
 
   return (
     <div>
-      <h1 className='h1-bold'>Setting</h1>
-      <nav className='flex md:flex-col gap-2 md:fixed mt-4 flex-wrap'>
+      <h1 className="h1-bold">Setting</h1>
+      <nav className="flex md:flex-col gap-2 md:fixed mt-4 flex-wrap">
         {[
           { name: 'Site Info', hash: 'setting-site-info', icon: <Info /> },
           {

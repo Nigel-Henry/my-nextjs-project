@@ -1,0 +1,342 @@
+266b1f26676e62f4dd85e98ce7803533
+"use strict";
+
+/* istanbul ignore next */
+function cov_t071djjvp() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/seo/breadcrumbs-schema.ts";
+  var hash = "f1267fb7ad51dcb4db33970eee3a5b1eaa0fffab";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/seo/breadcrumbs-schema.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 40
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 24
+        },
+        end: {
+          line: 11,
+          column: 61
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 46
+        },
+        end: {
+          line: 13,
+          column: 85
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 20
+        },
+        end: {
+          line: 14,
+          column: 57
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 4
+        },
+        end: {
+          line: 32,
+          column: 6
+        }
+      },
+      "7": {
+        start: {
+          line: 25,
+          column: 41
+        },
+        end: {
+          line: 30,
+          column: 17
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "generateBreadcrumbSchema",
+        decl: {
+          start: {
+            line: 12,
+            column: 15
+          },
+          end: {
+            line: 12,
+            column: 39
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 47
+          },
+          end: {
+            line: 33,
+            column: 1
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 25,
+            column: 25
+          },
+          end: {
+            line: 25,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 25,
+            column: 41
+          },
+          end: {
+            line: 30,
+            column: 17
+          }
+        },
+        line: 25
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 14,
+            column: 20
+          },
+          end: {
+            line: 14,
+            column: 57
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 14,
+            column: 20
+          },
+          end: {
+            line: 14,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 14,
+            column: 27
+          },
+          end: {
+            line: 14,
+            column: 57
+          }
+        }],
+        line: 14
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 29,
+            column: 26
+          },
+          end: {
+            line: 29,
+            column: 90
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 29,
+            column: 56
+          },
+          end: {
+            line: 29,
+            column: 64
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 67
+          },
+          end: {
+            line: 29,
+            column: 90
+          }
+        }],
+        line: 29
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/seo/breadcrumbs-schema.ts"],
+      sourcesContent: ["import { getSetting } from '../actions/setting.actions'\n\nexport async function generateBreadcrumbSchema(\n  items: {\n    name: string\n    url: string\n  }[]\n) {\n  const {\n    site: { url, name: siteName },\n  } = await getSetting()\n  const baseUrl = url || 'https://hager-zon.vercel.app'\n\n  return {\n    '@context': 'https://schema.org',\n    '@type': 'BreadcrumbList',\n    itemListElement: [\n      {\n        '@type': 'ListItem',\n        position: 1,\n        name: siteName,\n        item: baseUrl,\n      },\n      ...items.map((item, index) => ({\n        '@type': 'ListItem',\n        position: index + 2,\n        name: item.name,\n        item: item.url.startsWith('http') ? item.url : `${baseUrl}${item.url}`,\n      })),\n    ],\n  }\n}\n"],
+      names: ["generateBreadcrumbSchema", "items", "site", "url", "name", "siteName", "getSetting", "baseUrl", "itemListElement", "position", "item", "map", "index", "startsWith"],
+      mappings: ";;;;+BAEsBA;;;eAAAA;;;gCAFK;AAEpB,eAAeA,yBACpBC,KAGG;IAEH,MAAM,EACJC,MAAM,EAAEC,GAAG,EAAEC,MAAMC,QAAQ,EAAE,EAC9B,GAAG,MAAMC,IAAAA,0BAAU;IACpB,MAAMC,UAAUJ,OAAO;IAEvB,OAAO;QACL,YAAY;QACZ,SAAS;QACTK,iBAAiB;YACf;gBACE,SAAS;gBACTC,UAAU;gBACVL,MAAMC;gBACNK,MAAMH;YACR;eACGN,MAAMU,GAAG,CAAC,CAACD,MAAME,QAAW,CAAA;oBAC7B,SAAS;oBACTH,UAAUG,QAAQ;oBAClBR,MAAMM,KAAKN,IAAI;oBACfM,MAAMA,KAAKP,GAAG,CAACU,UAAU,CAAC,UAAUH,KAAKP,GAAG,GAAG,GAAGI,UAAUG,KAAKP,GAAG,EAAE;gBACxE,CAAA;SACD;IACH;AACF"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f1267fb7ad51dcb4db33970eee3a5b1eaa0fffab"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_t071djjvp = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_t071djjvp();
+cov_t071djjvp().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_t071djjvp().s[1]++;
+Object.defineProperty(exports, "generateBreadcrumbSchema", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_t071djjvp().f[0]++;
+    cov_t071djjvp().s[2]++;
+    return generateBreadcrumbSchema;
+  }
+});
+const _settingactions =
+/* istanbul ignore next */
+(cov_t071djjvp().s[3]++, require("../actions/setting.actions"));
+async function generateBreadcrumbSchema(items) {
+  /* istanbul ignore next */
+  cov_t071djjvp().f[1]++;
+  const {
+    site: {
+      url,
+      name: siteName
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_t071djjvp().s[4]++, await (0, _settingactions.getSetting)());
+  const baseUrl =
+  /* istanbul ignore next */
+  (cov_t071djjvp().s[5]++,
+  /* istanbul ignore next */
+  (cov_t071djjvp().b[0][0]++, url) ||
+  /* istanbul ignore next */
+  (cov_t071djjvp().b[0][1]++, 'https://hager-zon.vercel.app'));
+  /* istanbul ignore next */
+  cov_t071djjvp().s[6]++;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [{
+      '@type': 'ListItem',
+      position: 1,
+      name: siteName,
+      item: baseUrl
+    }, ...items.map((item, index) => {
+      /* istanbul ignore next */
+      cov_t071djjvp().f[2]++;
+      cov_t071djjvp().s[7]++;
+      return {
+        '@type': 'ListItem',
+        position: index + 2,
+        name: item.name,
+        item: item.url.startsWith('http') ?
+        /* istanbul ignore next */
+        (cov_t071djjvp().b[1][0]++, item.url) :
+        /* istanbul ignore next */
+        (cov_t071djjvp().b[1][1]++, `${baseUrl}${item.url}`)
+      };
+    })]
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfdDA3MWRqanZwIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiZ2VuZXJhdGVCcmVhZGNydW1iU2NoZW1hIiwiaXRlbXMiLCJmIiwic2l0ZSIsInVybCIsIm5hbWUiLCJzaXRlTmFtZSIsIl9zZXR0aW5nYWN0aW9ucyIsImdldFNldHRpbmciLCJiYXNlVXJsIiwiYiIsIml0ZW1MaXN0RWxlbWVudCIsInBvc2l0aW9uIiwiaXRlbSIsIm1hcCIsImluZGV4Iiwic3RhcnRzV2l0aCJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vbGliL3Nlby9icmVhZGNydW1icy1zY2hlbWEudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZ2V0U2V0dGluZyB9IGZyb20gJy4uL2FjdGlvbnMvc2V0dGluZy5hY3Rpb25zJ1xuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVCcmVhZGNydW1iU2NoZW1hKFxuICBpdGVtczoge1xuICAgIG5hbWU6IHN0cmluZ1xuICAgIHVybDogc3RyaW5nXG4gIH1bXVxuKSB7XG4gIGNvbnN0IHtcbiAgICBzaXRlOiB7IHVybCwgbmFtZTogc2l0ZU5hbWUgfSxcbiAgfSA9IGF3YWl0IGdldFNldHRpbmcoKVxuICBjb25zdCBiYXNlVXJsID0gdXJsIHx8ICdodHRwczovL2hhZ2VyLXpvbi52ZXJjZWwuYXBwJ1xuXG4gIHJldHVybiB7XG4gICAgJ0Bjb250ZXh0JzogJ2h0dHBzOi8vc2NoZW1hLm9yZycsXG4gICAgJ0B0eXBlJzogJ0JyZWFkY3J1bWJMaXN0JyxcbiAgICBpdGVtTGlzdEVsZW1lbnQ6IFtcbiAgICAgIHtcbiAgICAgICAgJ0B0eXBlJzogJ0xpc3RJdGVtJyxcbiAgICAgICAgcG9zaXRpb246IDEsXG4gICAgICAgIG5hbWU6IHNpdGVOYW1lLFxuICAgICAgICBpdGVtOiBiYXNlVXJsLFxuICAgICAgfSxcbiAgICAgIC4uLml0ZW1zLm1hcCgoaXRlbSwgaW5kZXgpID0+ICh7XG4gICAgICAgICdAdHlwZSc6ICdMaXN0SXRlbScsXG4gICAgICAgIHBvc2l0aW9uOiBpbmRleCArIDIsXG4gICAgICAgIG5hbWU6IGl0ZW0ubmFtZSxcbiAgICAgICAgaXRlbTogaXRlbS51cmwuc3RhcnRzV2l0aCgnaHR0cCcpID8gaXRlbS51cmwgOiBgJHtiYXNlVXJsfSR7aXRlbS51cmx9YCxcbiAgICAgIH0pKSxcbiAgICBdLFxuICB9XG59XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBY0k7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQUFBQSxhQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFaa0I7Ozs7OztXQUFBQyx3QkFBQTs7Ozs7aUNBRks7QUFFcEIsZUFBZUEseUJBQ3BCQyxLQUdHO0VBQUE7RUFBQUosYUFBQSxHQUFBSyxDQUFBO0VBRUgsTUFBTTtJQUNKQyxJQUFBLEVBQU07TUFBRUMsR0FBRztNQUFFQyxJQUFBLEVBQU1DO0lBQVE7RUFBRSxDQUM5QjtFQUFBO0VBQUEsQ0FBQVQsYUFBQSxHQUFBRSxDQUFBLE9BQUcsTUFBTSxJQUFBUSxlQUFBLENBQUFDLFVBQVU7RUFDcEIsTUFBTUMsT0FBQTtFQUFBO0VBQUEsQ0FBQVosYUFBQSxHQUFBRSxDQUFBO0VBQVU7RUFBQSxDQUFBRixhQUFBLEdBQUFhLENBQUEsVUFBQU4sR0FBQTtFQUFBO0VBQUEsQ0FBQVAsYUFBQSxHQUFBYSxDQUFBLFVBQU87RUFBQTtFQUFBYixhQUFBLEdBQUFFLENBQUE7RUFFdkIsT0FBTztJQUNMLFlBQVk7SUFDWixTQUFTO0lBQ1RZLGVBQUEsRUFBaUIsQ0FDZjtNQUNFLFNBQVM7TUFDVEMsUUFBQSxFQUFVO01BQ1ZQLElBQUEsRUFBTUMsUUFBQTtNQUNOTyxJQUFBLEVBQU1KO0lBQ1IsRyxHQUNHUixLQUFBLENBQU1hLEdBQUcsQ0FBQyxDQUFDRCxJQUFBLEVBQU1FLEtBQUEsS0FBVztNQUFBO01BQUFsQixhQUFBLEdBQUFLLENBQUE7TUFBQUwsYUFBQSxHQUFBRSxDQUFBO01BQUE7UUFDN0IsU0FBUztRQUNUYSxRQUFBLEVBQVVHLEtBQUEsR0FBUTtRQUNsQlYsSUFBQSxFQUFNUSxJQUFBLENBQUtSLElBQUk7UUFDZlEsSUFBQSxFQUFNQSxJQUFBLENBQUtULEdBQUcsQ0FBQ1ksVUFBVSxDQUFDO1FBQUE7UUFBQSxDQUFBbkIsYUFBQSxHQUFBYSxDQUFBLFVBQVVHLElBQUEsQ0FBS1QsR0FBRztRQUFBO1FBQUEsQ0FBQVAsYUFBQSxHQUFBYSxDQUFBLFVBQUcsR0FBR0QsT0FBQSxHQUFVSSxJQUFBLENBQUtULEdBQUcsRUFBRTtNQUN4RTtJQUFBO0VBRUo7QUFDRiIsImlnbm9yZUxpc3QiOltdfQ==

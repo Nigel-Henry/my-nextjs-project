@@ -1,0 +1,451 @@
+9d58922c0e9e59eb9a67cac0d1a8c0ad
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_zd5ru01jx() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/client-providers.tsx";
+  var hash = "44733b0b4424c5345e93d49628d57365f821ff6e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/client-providers.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 31
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 29
+        },
+        end: {
+          line: 13,
+          column: 71
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 38
+        },
+        end: {
+          line: 14,
+          column: 103
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 35
+        },
+        end: {
+          line: 15,
+          column: 86
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 23
+        },
+        end: {
+          line: 16,
+          column: 50
+        }
+      },
+      "8": {
+        start: {
+          line: 17,
+          column: 17
+        },
+        end: {
+          line: 17,
+          column: 41
+        }
+      },
+      "9": {
+        start: {
+          line: 18,
+          column: 38
+        },
+        end: {
+          line: 18,
+          column: 92
+        }
+      },
+      "10": {
+        start: {
+          line: 20,
+          column: 4
+        },
+        end: {
+          line: 22,
+          column: 6
+        }
+      },
+      "11": {
+        start: {
+          line: 25,
+          column: 20
+        },
+        end: {
+          line: 25,
+          column: 50
+        }
+      },
+      "12": {
+        start: {
+          line: 26,
+          column: 4
+        },
+        end: {
+          line: 47,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 19,
+            column: 9
+          },
+          end: {
+            line: 19,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 39
+          },
+          end: {
+            line: 23,
+            column: 1
+          }
+        },
+        line: 19
+      },
+      "2": {
+        name: "ClientProviders",
+        decl: {
+          start: {
+            line: 24,
+            column: 9
+          },
+          end: {
+            line: 24,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 48
+          },
+          end: {
+            line: 48,
+            column: 1
+          }
+        },
+        line: 24
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 20,
+            column: 35
+          },
+          end: {
+            line: 20,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 20,
+            column: 41
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        }],
+        line: 20
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 20,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 20,
+            column: 11
+          },
+          end: {
+            line: 20,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 20,
+            column: 18
+          },
+          end: {
+            line: 20,
+            column: 32
+          }
+        }],
+        line: 20
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 32,
+            column: 16
+          },
+          end: {
+            line: 43,
+            column: 18
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 32,
+            column: 40
+          },
+          end: {
+            line: 41,
+            column: 18
+          }
+        }, {
+          start: {
+            line: 41,
+            column: 35
+          },
+          end: {
+            line: 43,
+            column: 18
+          }
+        }],
+        line: 32
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/client-providers.tsx"],
+      sourcesContent: ["'use client'\nimport React from 'react'\nimport useCartSidebar from '@/hooks/use-cart-sidebar'\nimport CartSidebar from './cart-sidebar'\nimport { ThemeProvider } from './theme-provider'\nimport { Toaster } from '../ui/toaster'\nimport AppInitializer from './app-initializer'\nimport { ClientSetting } from '@/types'\n\nexport default function ClientProviders({\n  setting,\n  children,\n}: {\n  setting: ClientSetting\n  children: React.ReactNode\n}) {\n  const visible = useCartSidebar()\n\n  return (\n    <AppInitializer setting={setting}>\n      <ThemeProvider\n        attribute=\"class\"\n        defaultTheme={setting.common.defaultTheme.toLocaleLowerCase()}\n      >\n        {visible ? (\n          <div className=\"flex min-h-screen\">\n            <div className=\"flex-1 overflow-hidden\">{children}</div>\n            <CartSidebar />\n          </div>\n        ) : (\n          <div>{children}</div>\n        )}\n        <Toaster />\n      </ThemeProvider>\n    </AppInitializer>\n  )\n}\n"],
+      names: ["ClientProviders", "setting", "children", "visible", "useCartSidebar", "AppInitializer", "ThemeProvider", "attribute", "defaultTheme", "common", "toLocaleLowerCase", "div", "className", "CartSidebar", "Toaster"],
+      mappings: "AAAA;;;;;+BASA;;;eAAwBA;;;;8DARN;uEACS;oEACH;+BACM;yBACN;uEACG;;;;;;AAGZ,SAASA,gBAAgB,EACtCC,OAAO,EACPC,QAAQ,EAIT;IACC,MAAMC,UAAUC,IAAAA,uBAAc;IAE9B,qBACE,qBAACC,uBAAc;QAACJ,SAASA;kBACvB,cAAA,sBAACK,4BAAa;YACZC,WAAU;YACVC,cAAcP,QAAQQ,MAAM,CAACD,YAAY,CAACE,iBAAiB;;gBAE1DP,wBACC,sBAACQ;oBAAIC,WAAU;;sCACb,qBAACD;4BAAIC,WAAU;sCAA0BV;;sCACzC,qBAACW,oBAAW;;mCAGd,qBAACF;8BAAKT;;8BAER,qBAACY,gBAAO;;;;AAIhB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "44733b0b4424c5345e93d49628d57365f821ff6e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_zd5ru01jx = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_zd5ru01jx();
+cov_zd5ru01jx().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_zd5ru01jx().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_zd5ru01jx().f[0]++;
+    cov_zd5ru01jx().s[2]++;
+    return ClientProviders;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_zd5ru01jx().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_zd5ru01jx().s[4]++, _interop_require_default(require("react")));
+const _usecartsidebar =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_zd5ru01jx().s[5]++, _interop_require_default(require("../../hooks/use-cart-sidebar")));
+const _cartsidebar =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_zd5ru01jx().s[6]++, _interop_require_default(require("./cart-sidebar")));
+const _themeprovider =
+/* istanbul ignore next */
+(cov_zd5ru01jx().s[7]++, require("./theme-provider"));
+const _toaster =
+/* istanbul ignore next */
+(cov_zd5ru01jx().s[8]++, require("../ui/toaster"));
+const _appinitializer =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_zd5ru01jx().s[9]++, _interop_require_default(require("./app-initializer")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_zd5ru01jx().f[1]++;
+  cov_zd5ru01jx().s[10]++;
+  return /* istanbul ignore next */(cov_zd5ru01jx().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_zd5ru01jx().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_zd5ru01jx().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_zd5ru01jx().b[0][1]++, {
+    default: obj
+  });
+}
+function ClientProviders({
+  setting,
+  children
+}) {
+  /* istanbul ignore next */
+  cov_zd5ru01jx().f[2]++;
+  const visible =
+  /* istanbul ignore next */
+  (cov_zd5ru01jx().s[11]++, (0, _usecartsidebar.default)());
+  /* istanbul ignore next */
+  cov_zd5ru01jx().s[12]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)(_appinitializer.default, {
+    setting: setting,
+    children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_themeprovider.ThemeProvider, {
+      attribute: "class",
+      defaultTheme: setting.common.defaultTheme.toLocaleLowerCase(),
+      children: [visible ?
+      /* istanbul ignore next */
+      (/*#__PURE__*/cov_zd5ru01jx().b[2][0]++, (0, _jsxruntime.jsxs)("div", {
+        className: "flex min-h-screen",
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+          className: "flex-1 overflow-hidden",
+          children: children
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)(_cartsidebar.default, {})]
+      })) :
+      /* istanbul ignore next */
+      (/*#__PURE__*/cov_zd5ru01jx().b[2][1]++, (0, _jsxruntime.jsx)("div", {
+        children: children
+      })), /*#__PURE__*/(0, _jsxruntime.jsx)(_toaster.Toaster, {})]
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJDbGllbnRQcm92aWRlcnMiLCJzZXR0aW5nIiwiY2hpbGRyZW4iLCJjb3ZfemQ1cnUwMWp4IiwiZiIsInZpc2libGUiLCJzIiwiX3VzZWNhcnRzaWRlYmFyIiwiZGVmYXVsdCIsIl9qc3hydW50aW1lIiwianN4IiwiX2FwcGluaXRpYWxpemVyIiwianN4cyIsIl90aGVtZXByb3ZpZGVyIiwiVGhlbWVQcm92aWRlciIsImF0dHJpYnV0ZSIsImRlZmF1bHRUaGVtZSIsImNvbW1vbiIsInRvTG9jYWxlTG93ZXJDYXNlIiwiYiIsImNsYXNzTmFtZSIsIl9jYXJ0c2lkZWJhciIsIl90b2FzdGVyIiwiVG9hc3RlciJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vY29tcG9uZW50cy9zaGFyZWQvY2xpZW50LXByb3ZpZGVycy50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgdXNlQ2FydFNpZGViYXIgZnJvbSAnQC9ob29rcy91c2UtY2FydC1zaWRlYmFyJ1xuaW1wb3J0IENhcnRTaWRlYmFyIGZyb20gJy4vY2FydC1zaWRlYmFyJ1xuaW1wb3J0IHsgVGhlbWVQcm92aWRlciB9IGZyb20gJy4vdGhlbWUtcHJvdmlkZXInXG5pbXBvcnQgeyBUb2FzdGVyIH0gZnJvbSAnLi4vdWkvdG9hc3RlcidcbmltcG9ydCBBcHBJbml0aWFsaXplciBmcm9tICcuL2FwcC1pbml0aWFsaXplcidcbmltcG9ydCB7IENsaWVudFNldHRpbmcgfSBmcm9tICdAL3R5cGVzJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDbGllbnRQcm92aWRlcnMoe1xuICBzZXR0aW5nLFxuICBjaGlsZHJlbixcbn06IHtcbiAgc2V0dGluZzogQ2xpZW50U2V0dGluZ1xuICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlXG59KSB7XG4gIGNvbnN0IHZpc2libGUgPSB1c2VDYXJ0U2lkZWJhcigpXG5cbiAgcmV0dXJuIChcbiAgICA8QXBwSW5pdGlhbGl6ZXIgc2V0dGluZz17c2V0dGluZ30+XG4gICAgICA8VGhlbWVQcm92aWRlclxuICAgICAgICBhdHRyaWJ1dGU9XCJjbGFzc1wiXG4gICAgICAgIGRlZmF1bHRUaGVtZT17c2V0dGluZy5jb21tb24uZGVmYXVsdFRoZW1lLnRvTG9jYWxlTG93ZXJDYXNlKCl9XG4gICAgICA+XG4gICAgICAgIHt2aXNpYmxlID8gKFxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBtaW4taC1zY3JlZW5cIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleC0xIG92ZXJmbG93LWhpZGRlblwiPntjaGlsZHJlbn08L2Rpdj5cbiAgICAgICAgICAgIDxDYXJ0U2lkZWJhciAvPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICApIDogKFxuICAgICAgICAgIDxkaXY+e2NoaWxkcmVufTwvZGl2PlxuICAgICAgICApfVxuICAgICAgICA8VG9hc3RlciAvPlxuICAgICAgPC9UaGVtZVByb3ZpZGVyPlxuICAgIDwvQXBwSW5pdGlhbGl6ZXI+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBU0E7Ozs7OztXQUF3QkEsZUFBQTs7Ozs7Ozs7dUVBUk47Ozt1RUFDUzs7O3VFQUNIOzs7aUNBQ007OztpQ0FDTjs7O3VFQUNHOzs7Ozs7Ozs7Ozs7Ozs7QUFHWixTQUFTQSxnQkFBZ0I7RUFDdENDLE9BQU87RUFDUEM7QUFBUSxDQUlUO0VBQUE7RUFBQUMsYUFBQSxHQUFBQyxDQUFBO0VBQ0MsTUFBTUMsT0FBQTtFQUFBO0VBQUEsQ0FBQUYsYUFBQSxHQUFBRyxDQUFBLFFBQVUsSUFBQUMsZUFBQSxDQUFBQyxPQUFjO0VBQUE7RUFBQUwsYUFBQSxHQUFBRyxDQUFBO0VBRTlCLG9CQUNFLElBQUFHLFdBQUEsQ0FBQUMsR0FBQSxFQUFDQyxlQUFBLENBQUFILE9BQWM7SUFBQ1AsT0FBQSxFQUFTQSxPQUFBO2NBQ3ZCLGlCQUFBUSxXQUFBLENBQUFHLElBQUEsRUFBQ0MsY0FBQSxDQUFBQyxhQUFhO01BQ1pDLFNBQUEsRUFBVTtNQUNWQyxZQUFBLEVBQWNmLE9BQUEsQ0FBUWdCLE1BQU0sQ0FBQ0QsWUFBWSxDQUFDRSxpQkFBaUI7aUJBRTFEYixPQUFBO01BQUE7TUFBQSxjQUFBRixhQUFBLEdBQUFnQixDQUFBLFVBQ0MsSUFBQVYsV0FBQSxDQUFBRyxJQUFBLEVBQUM7UUFBSVEsU0FBQSxFQUFVO2dDQUNiLElBQUFYLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO1VBQUlVLFNBQUEsRUFBVTtvQkFBMEJsQjt5QkFDekMsSUFBQU8sV0FBQSxDQUFBQyxHQUFBLEVBQUNXLFlBQUEsQ0FBQWIsT0FBVzs7OytDQUdkLElBQUFDLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO2tCQUFLUjt3QkFFUixJQUFBTyxXQUFBLENBQUFDLEdBQUEsRUFBQ1ksUUFBQSxDQUFBQyxPQUFPOzs7QUFJaEIiLCJpZ25vcmVMaXN0IjpbXX0=

@@ -1,0 +1,719 @@
+c2416cc06a168e3368381830be79e658
+"use strict";
+
+/* istanbul ignore next */
+function cov_1e3dcxe0a4() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(auth)/sign-in/page.tsx";
+  var hash = "5f40b71427d9c1e13ae8fe7731a764515a7d39e6";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(auth)/sign-in/page.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 26
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 20
+        },
+        end: {
+          line: 19,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 28
+        },
+        end: {
+          line: 20,
+          column: 74
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 20
+        },
+        end: {
+          line: 21,
+          column: 46
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 14
+        },
+        end: {
+          line: 22,
+          column: 41
+        }
+      },
+      "10": {
+        start: {
+          line: 23,
+          column: 35
+        },
+        end: {
+          line: 23,
+          column: 114
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 14
+        },
+        end: {
+          line: 24,
+          column: 55
+        }
+      },
+      "12": {
+        start: {
+          line: 25,
+          column: 45
+        },
+        end: {
+          line: 25,
+          column: 107
+        }
+      },
+      "13": {
+        start: {
+          line: 26,
+          column: 26
+        },
+        end: {
+          line: 26,
+          column: 57
+        }
+      },
+      "14": {
+        start: {
+          line: 27,
+          column: 16
+        },
+        end: {
+          line: 27,
+          column: 59
+        }
+      },
+      "15": {
+        start: {
+          line: 28,
+          column: 24
+        },
+        end: {
+          line: 28,
+          column: 74
+        }
+      },
+      "16": {
+        start: {
+          line: 30,
+          column: 4
+        },
+        end: {
+          line: 32,
+          column: 6
+        }
+      },
+      "17": {
+        start: {
+          line: 34,
+          column: 17
+        },
+        end: {
+          line: 36,
+          column: 1
+        }
+      },
+      "18": {
+        start: {
+          line: 38,
+          column: 25
+        },
+        end: {
+          line: 38,
+          column: 49
+        }
+      },
+      "19": {
+        start: {
+          line: 39,
+          column: 21
+        },
+        end: {
+          line: 39,
+          column: 60
+        }
+      },
+      "20": {
+        start: {
+          line: 40,
+          column: 34
+        },
+        end: {
+          line: 40,
+          column: 46
+        }
+      },
+      "21": {
+        start: {
+          line: 41,
+          column: 20
+        },
+        end: {
+          line: 41,
+          column: 43
+        }
+      },
+      "22": {
+        start: {
+          line: 42,
+          column: 4
+        },
+        end: {
+          line: 44,
+          column: 5
+        }
+      },
+      "23": {
+        start: {
+          line: 43,
+          column: 8
+        },
+        end: {
+          line: 43,
+          column: 54
+        }
+      },
+      "24": {
+        start: {
+          line: 45,
+          column: 4
+        },
+        end: {
+          line: 90,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 12,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 14
+          },
+          end: {
+            line: 15,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 25
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 29,
+            column: 9
+          },
+          end: {
+            line: 29,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 29,
+            column: 39
+          },
+          end: {
+            line: 33,
+            column: 1
+          }
+        },
+        line: 29
+      },
+      "4": {
+        name: "SignInPage",
+        decl: {
+          start: {
+            line: 37,
+            column: 15
+          },
+          end: {
+            line: 37,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 37,
+            column: 33
+          },
+          end: {
+            line: 91,
+            column: 1
+          }
+        },
+        line: 37
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 30,
+            column: 11
+          },
+          end: {
+            line: 32,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 30,
+            column: 35
+          },
+          end: {
+            line: 30,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 30,
+            column: 41
+          },
+          end: {
+            line: 32,
+            column: 5
+          }
+        }],
+        line: 30
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 30,
+            column: 11
+          },
+          end: {
+            line: 30,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 30,
+            column: 11
+          },
+          end: {
+            line: 30,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 30,
+            column: 18
+          },
+          end: {
+            line: 30,
+            column: 32
+          }
+        }],
+        line: 30
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 40,
+            column: 12
+          },
+          end: {
+            line: 40,
+            column: 29
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 40,
+            column: 26
+          },
+          end: {
+            line: 40,
+            column: 29
+          }
+        }],
+        line: 40
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 42,
+            column: 4
+          },
+          end: {
+            line: 44,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 42,
+            column: 4
+          },
+          end: {
+            line: 44,
+            column: 5
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 42
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0],
+      "3": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(auth)/sign-in/page.tsx"],
+      sourcesContent: ["import { Metadata } from 'next'\nimport Link from 'next/link'\nimport { redirect } from 'next/navigation'\n\nimport { auth } from '@/auth'\nimport SeparatorWithOr from '@/components/shared/separator-or'\nimport { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'\n\nimport CredentialsSignInForm from './credentials-signin-form'\nimport { GoogleSignInForm } from './google-signin-form'\nimport { Button } from '@/components/ui/button'\nimport { getSetting } from '@/lib/actions/setting.actions'\n\nexport const metadata: Metadata = {\n  title: 'Sign In',\n}\n\nexport default async function SignInPage(props: {\n  searchParams: Promise<{\n    callbackUrl: string\n  }>\n}) {\n  const searchParams = await props.searchParams\n  const { site } = await getSetting()\n\n  const { callbackUrl = '/' } = searchParams\n\n  const session = await auth()\n  if (session) {\n    return redirect(callbackUrl)\n  }\n\n  return (\n    <div className=\"w-full\">\n      <Card>\n        <CardHeader>\n          <CardTitle className=\"text-2xl\">Sign In</CardTitle>\n        </CardHeader>\n        <CardContent>\n          <div>\n            <CredentialsSignInForm />\n            <SeparatorWithOr />\n            <div className=\"mt-4\">\n              <GoogleSignInForm />\n            </div>\n          </div>\n        </CardContent>\n      </Card>\n      <SeparatorWithOr>New to {site.name}?</SeparatorWithOr>\n\n      <Link href={`/sign-up?callbackUrl=${encodeURIComponent(callbackUrl)}`}>\n        <Button className=\"w-full\" variant=\"outline\">\n          Create your {site.name} account\n        </Button>\n      </Link>\n    </div>\n  )\n}\n"],
+      names: ["SignInPage", "metadata", "title", "props", "searchParams", "site", "getSetting", "callbackUrl", "session", "auth", "redirect", "div", "className", "Card", "CardHeader", "CardTitle", "CardContent", "CredentialsSignInForm", "SeparatorWithOr", "GoogleSignInForm", "name", "Link", "href", "encodeURIComponent", "Button", "variant"],
+      mappings: ";;;;;;;;;;;IAiBA,OAwCC;eAxC6BA;;IAJjBC,QAAQ;eAARA;;;;6DAZI;4BACQ;sBAEJ;oEACO;sBAC6B;8EAEvB;kCACD;wBACV;gCACI;;;;;;AAEpB,MAAMA,WAAqB;IAChCC,OAAO;AACT;AAEe,eAAeF,WAAWG,KAIxC;IACC,MAAMC,eAAe,MAAMD,MAAMC,YAAY;IAC7C,MAAM,EAAEC,IAAI,EAAE,GAAG,MAAMC,IAAAA,0BAAU;IAEjC,MAAM,EAAEC,cAAc,GAAG,EAAE,GAAGH;IAE9B,MAAMI,UAAU,MAAMC,IAAAA,UAAI;IAC1B,IAAID,SAAS;QACX,OAAOE,IAAAA,oBAAQ,EAACH;IAClB;IAEA,qBACE,sBAACI;QAAIC,WAAU;;0BACb,sBAACC,UAAI;;kCACH,qBAACC,gBAAU;kCACT,cAAA,qBAACC,eAAS;4BAACH,WAAU;sCAAW;;;kCAElC,qBAACI,iBAAW;kCACV,cAAA,sBAACL;;8CACC,qBAACM,8BAAqB;8CACtB,qBAACC,oBAAe;8CAChB,qBAACP;oCAAIC,WAAU;8CACb,cAAA,qBAACO,kCAAgB;;;;;;;0BAKzB,sBAACD,oBAAe;;oBAAC;oBAAQb,KAAKe,IAAI;oBAAC;;;0BAEnC,qBAACC,aAAI;gBAACC,MAAM,CAAC,qBAAqB,EAAEC,mBAAmBhB,cAAc;0BACnE,cAAA,sBAACiB,cAAM;oBAACZ,WAAU;oBAASa,SAAQ;;wBAAU;wBAC9BpB,KAAKe,IAAI;wBAAC;;;;;;AAKjC"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "5f40b71427d9c1e13ae8fe7731a764515a7d39e6"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1e3dcxe0a4 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1e3dcxe0a4();
+cov_1e3dcxe0a4().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_1e3dcxe0a4().f[0]++;
+  cov_1e3dcxe0a4().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_1e3dcxe0a4().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_1e3dcxe0a4().s[3]++;
+_export(exports, {
+  default: function () {
+    /* istanbul ignore next */
+    cov_1e3dcxe0a4().f[1]++;
+    cov_1e3dcxe0a4().s[4]++;
+    return SignInPage;
+  },
+  metadata: function () {
+    /* istanbul ignore next */
+    cov_1e3dcxe0a4().f[2]++;
+    cov_1e3dcxe0a4().s[5]++;
+    return metadata;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[6]++, require("react/jsx-runtime"));
+const _link =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1e3dcxe0a4().s[7]++, _interop_require_default(require("next/link")));
+const _navigation =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[8]++, require("next/navigation"));
+const _auth =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[9]++, require("../../../../auth"));
+const _separatoror =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1e3dcxe0a4().s[10]++, _interop_require_default(require("../../../../components/shared/separator-or")));
+const _card =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[11]++, require("../../../../components/ui/card"));
+const _credentialssigninform =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1e3dcxe0a4().s[12]++, _interop_require_default(require("./credentials-signin-form")));
+const _googlesigninform =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[13]++, require("./google-signin-form"));
+const _button =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[14]++, require("../../../../components/ui/button"));
+const _settingactions =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[15]++, require("../../../../lib/actions/setting.actions"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_1e3dcxe0a4().f[3]++;
+  cov_1e3dcxe0a4().s[16]++;
+  return /* istanbul ignore next */(cov_1e3dcxe0a4().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().b[0][1]++, {
+    default: obj
+  });
+}
+const metadata =
+/* istanbul ignore next */
+(cov_1e3dcxe0a4().s[17]++, {
+  title: 'Sign In'
+});
+async function SignInPage(props) {
+  /* istanbul ignore next */
+  cov_1e3dcxe0a4().f[4]++;
+  const searchParams =
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().s[18]++, await props.searchParams);
+  const {
+    site
+  } =
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().s[19]++, await (0, _settingactions.getSetting)());
+  const {
+    callbackUrl =
+    /* istanbul ignore next */
+    (cov_1e3dcxe0a4().b[2][0]++, '/')
+  } =
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().s[20]++, searchParams);
+  const session =
+  /* istanbul ignore next */
+  (cov_1e3dcxe0a4().s[21]++, await (0, _auth.auth)());
+  /* istanbul ignore next */
+  cov_1e3dcxe0a4().s[22]++;
+  if (session) {
+    /* istanbul ignore next */
+    cov_1e3dcxe0a4().b[3][0]++;
+    cov_1e3dcxe0a4().s[23]++;
+    return (0, _navigation.redirect)(callbackUrl);
+  } else
+  /* istanbul ignore next */
+  {
+    cov_1e3dcxe0a4().b[3][1]++;
+  }
+  cov_1e3dcxe0a4().s[24]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    className: "w-full",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsxs)(_card.Card, {
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_card.CardHeader, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_card.CardTitle, {
+          className: "text-2xl",
+          children: "Sign In"
+        })
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_card.CardContent, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+          children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_credentialssigninform.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)(_separatoror.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+            className: "mt-4",
+            children: /*#__PURE__*/(0, _jsxruntime.jsx)(_googlesigninform.GoogleSignInForm, {})
+          })]
+        })
+      })]
+    }), /*#__PURE__*/(0, _jsxruntime.jsxs)(_separatoror.default, {
+      children: ["New to ", site.name, "?"]
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+      href: `/sign-up?callbackUrl=${encodeURIComponent(callbackUrl)}`,
+      children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_button.Button, {
+        className: "w-full",
+        variant: "outline",
+        children: ["Create your ", site.name, " account"]
+      })
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZWZhdWx0IiwiY292XzFlM2RjeGUwYTQiLCJmIiwicyIsIlNpZ25JblBhZ2UiLCJtZXRhZGF0YSIsInRpdGxlIiwicHJvcHMiLCJzZWFyY2hQYXJhbXMiLCJzaXRlIiwiX3NldHRpbmdhY3Rpb25zIiwiZ2V0U2V0dGluZyIsImNhbGxiYWNrVXJsIiwiYiIsInNlc3Npb24iLCJfYXV0aCIsImF1dGgiLCJfbmF2aWdhdGlvbiIsInJlZGlyZWN0IiwiX2pzeHJ1bnRpbWUiLCJqc3hzIiwiY2xhc3NOYW1lIiwiX2NhcmQiLCJDYXJkIiwianN4IiwiQ2FyZEhlYWRlciIsIkNhcmRUaXRsZSIsIkNhcmRDb250ZW50IiwiX2NyZWRlbnRpYWxzc2lnbmluZm9ybSIsIl9zZXBhcmF0b3JvciIsIl9nb29nbGVzaWduaW5mb3JtIiwiR29vZ2xlU2lnbkluRm9ybSIsIm5hbWUiLCJfbGluayIsImhyZWYiLCJlbmNvZGVVUklDb21wb25lbnQiLCJfYnV0dG9uIiwiQnV0dG9uIiwidmFyaWFudCJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vYXBwL1tsb2NhbGVdLyhhdXRoKS9zaWduLWluL3BhZ2UudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE1ldGFkYXRhIH0gZnJvbSAnbmV4dCdcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCB7IHJlZGlyZWN0IH0gZnJvbSAnbmV4dC9uYXZpZ2F0aW9uJ1xuXG5pbXBvcnQgeyBhdXRoIH0gZnJvbSAnQC9hdXRoJ1xuaW1wb3J0IFNlcGFyYXRvcldpdGhPciBmcm9tICdAL2NvbXBvbmVudHMvc2hhcmVkL3NlcGFyYXRvci1vcidcbmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvY2FyZCdcblxuaW1wb3J0IENyZWRlbnRpYWxzU2lnbkluRm9ybSBmcm9tICcuL2NyZWRlbnRpYWxzLXNpZ25pbi1mb3JtJ1xuaW1wb3J0IHsgR29vZ2xlU2lnbkluRm9ybSB9IGZyb20gJy4vZ29vZ2xlLXNpZ25pbi1mb3JtJ1xuaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbidcbmltcG9ydCB7IGdldFNldHRpbmcgfSBmcm9tICdAL2xpYi9hY3Rpb25zL3NldHRpbmcuYWN0aW9ucydcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHtcbiAgdGl0bGU6ICdTaWduIEluJyxcbn1cblxuZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gU2lnbkluUGFnZShwcm9wczoge1xuICBzZWFyY2hQYXJhbXM6IFByb21pc2U8e1xuICAgIGNhbGxiYWNrVXJsOiBzdHJpbmdcbiAgfT5cbn0pIHtcbiAgY29uc3Qgc2VhcmNoUGFyYW1zID0gYXdhaXQgcHJvcHMuc2VhcmNoUGFyYW1zXG4gIGNvbnN0IHsgc2l0ZSB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG5cbiAgY29uc3QgeyBjYWxsYmFja1VybCA9ICcvJyB9ID0gc2VhcmNoUGFyYW1zXG5cbiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IGF1dGgoKVxuICBpZiAoc2Vzc2lvbikge1xuICAgIHJldHVybiByZWRpcmVjdChjYWxsYmFja1VybClcbiAgfVxuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJ3LWZ1bGxcIj5cbiAgICAgIDxDYXJkPlxuICAgICAgICA8Q2FyZEhlYWRlcj5cbiAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzTmFtZT1cInRleHQtMnhsXCI+U2lnbiBJbjwvQ2FyZFRpdGxlPlxuICAgICAgICA8L0NhcmRIZWFkZXI+XG4gICAgICAgIDxDYXJkQ29udGVudD5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPENyZWRlbnRpYWxzU2lnbkluRm9ybSAvPlxuICAgICAgICAgICAgPFNlcGFyYXRvcldpdGhPciAvPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtdC00XCI+XG4gICAgICAgICAgICAgIDxHb29nbGVTaWduSW5Gb3JtIC8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9DYXJkQ29udGVudD5cbiAgICAgIDwvQ2FyZD5cbiAgICAgIDxTZXBhcmF0b3JXaXRoT3I+TmV3IHRvIHtzaXRlLm5hbWV9PzwvU2VwYXJhdG9yV2l0aE9yPlxuXG4gICAgICA8TGluayBocmVmPXtgL3NpZ24tdXA/Y2FsbGJhY2tVcmw9JHtlbmNvZGVVUklDb21wb25lbnQoY2FsbGJhY2tVcmwpfWB9PlxuICAgICAgICA8QnV0dG9uIGNsYXNzTmFtZT1cInctZnVsbFwiIHZhcmlhbnQ9XCJvdXRsaW5lXCI+XG4gICAgICAgICAgQ3JlYXRlIHlvdXIge3NpdGUubmFtZX0gYWNjb3VudFxuICAgICAgICA8L0J1dHRvbj5cbiAgICAgIDwvTGluaz5cbiAgICA8L2Rpdj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQWlCQUEsT0F3Q0MsV0FBQUEsQ0FBQTtJQUFBO0lBQUFDLGNBQUEsR0FBQUMsQ0FBQTtJQUFBRCxjQUFBLEdBQUFFLENBQUE7V0F4QzZCQyxVQUFBOztFQUpqQkMsUUFBUSxXQUFBQSxDQUFBO0lBQUE7SUFBQUosY0FBQSxHQUFBQyxDQUFBO0lBQUFELGNBQUEsR0FBQUUsQ0FBQTtXQUFSRSxRQUFBOzs7Ozs7Ozt3RUFaSTs7O2tDQUNROzs7a0NBRUo7Ozt5RUFDTzs7O21DQUM2Qjs7O3lFQUV2Qjs7O21DQUNEOzs7bUNBQ1Y7OzttQ0FDSTs7Ozs7Ozs7Ozs7Ozs7O0FBRXBCLE1BQU1BLFFBQUE7QUFBQTtBQUFBLENBQUFKLGNBQUEsR0FBQUUsQ0FBQSxRQUFxQjtFQUNoQ0csS0FBQSxFQUFPO0FBQ1Q7QUFFZSxlQUFlRixXQUFXRyxLQUl4QztFQUFBO0VBQUFOLGNBQUEsR0FBQUMsQ0FBQTtFQUNDLE1BQU1NLFlBQUE7RUFBQTtFQUFBLENBQUFQLGNBQUEsR0FBQUUsQ0FBQSxRQUFlLE1BQU1JLEtBQUEsQ0FBTUMsWUFBWTtFQUM3QyxNQUFNO0lBQUVDO0VBQUksQ0FBRTtFQUFBO0VBQUEsQ0FBQVIsY0FBQSxHQUFBRSxDQUFBLFFBQUcsTUFBTSxJQUFBTyxlQUFBLENBQUFDLFVBQVU7RUFFakMsTUFBTTtJQUFFQyxXQUFBO0lBQUE7SUFBQSxDQUFBWCxjQUFBLEdBQUFZLENBQUEsVUFBYyxHQUFHO0VBQUEsQ0FBRTtFQUFBO0VBQUEsQ0FBQVosY0FBQSxHQUFBRSxDQUFBLFFBQUdLLFlBQUE7RUFFOUIsTUFBTU0sT0FBQTtFQUFBO0VBQUEsQ0FBQWIsY0FBQSxHQUFBRSxDQUFBLFFBQVUsTUFBTSxJQUFBWSxLQUFBLENBQUFDLElBQUk7RUFBQTtFQUFBZixjQUFBLEdBQUFFLENBQUE7RUFDMUIsSUFBSVcsT0FBQSxFQUFTO0lBQUE7SUFBQWIsY0FBQSxHQUFBWSxDQUFBO0lBQUFaLGNBQUEsR0FBQUUsQ0FBQTtJQUNYLE9BQU8sSUFBQWMsV0FBQSxDQUFBQyxRQUFRLEVBQUNOLFdBQUE7RUFDbEI7RUFBQTtFQUFBO0lBQUFYLGNBQUEsR0FBQVksQ0FBQTtFQUFBO0VBQUFaLGNBQUEsR0FBQUUsQ0FBQTtFQUVBLG9CQUNFLElBQUFnQixXQUFBLENBQUFDLElBQUEsRUFBQztJQUFJQyxTQUFBLEVBQVU7NEJBQ2IsSUFBQUYsV0FBQSxDQUFBQyxJQUFBLEVBQUNFLEtBQUEsQ0FBQUMsSUFBSTs4QkFDSCxJQUFBSixXQUFBLENBQUFLLEdBQUEsRUFBQ0YsS0FBQSxDQUFBRyxVQUFVO2tCQUNULGlCQUFBTixXQUFBLENBQUFLLEdBQUEsRUFBQ0YsS0FBQSxDQUFBSSxTQUFTO1VBQUNMLFNBQUEsRUFBVTtvQkFBVzs7dUJBRWxDLElBQUFGLFdBQUEsQ0FBQUssR0FBQSxFQUFDRixLQUFBLENBQUFLLFdBQVc7a0JBQ1YsaUJBQUFSLFdBQUEsQ0FBQUMsSUFBQSxFQUFDO2tDQUNDLElBQUFELFdBQUEsQ0FBQUssR0FBQSxFQUFDSSxzQkFBQSxDQUFBNUIsT0FBcUIsTyxhQUN0QixJQUFBbUIsV0FBQSxDQUFBSyxHQUFBLEVBQUNLLFlBQUEsQ0FBQTdCLE9BQWUsTyxhQUNoQixJQUFBbUIsV0FBQSxDQUFBSyxHQUFBLEVBQUM7WUFBSUgsU0FBQSxFQUFVO3NCQUNiLGlCQUFBRixXQUFBLENBQUFLLEdBQUEsRUFBQ00saUJBQUEsQ0FBQUMsZ0JBQWdCOzs7O3FCQUt6QixJQUFBWixXQUFBLENBQUFDLElBQUEsRUFBQ1MsWUFBQSxDQUFBN0IsT0FBZTtpQkFBQyxXQUFRUyxJQUFBLENBQUt1QixJQUFJLEVBQUM7cUJBRW5DLElBQUFiLFdBQUEsQ0FBQUssR0FBQSxFQUFDUyxLQUFBLENBQUFqQyxPQUFJO01BQUNrQyxJQUFBLEVBQU0sd0JBQXdCQyxrQkFBQSxDQUFtQnZCLFdBQUEsR0FBYztnQkFDbkUsaUJBQUFPLFdBQUEsQ0FBQUMsSUFBQSxFQUFDZ0IsT0FBQSxDQUFBQyxNQUFNO1FBQUNoQixTQUFBLEVBQVU7UUFBU2lCLE9BQUEsRUFBUTttQkFBVSxnQkFDOUI3QixJQUFBLENBQUt1QixJQUFJLEVBQUM7Ozs7QUFLakMiLCJpZ25vcmVMaXN0IjpbXX0=

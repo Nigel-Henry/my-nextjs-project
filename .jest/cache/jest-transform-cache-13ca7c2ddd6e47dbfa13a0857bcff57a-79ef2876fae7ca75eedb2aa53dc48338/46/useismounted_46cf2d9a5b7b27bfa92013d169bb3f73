@@ -1,0 +1,259 @@
+1cb82174c48fa59f329f795b78f3e08a
+"use strict";
+
+/* istanbul ignore next */
+function cov_1guft93ne3() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/hooks/use-is-mounted.ts";
+  var hash = "48fc657256edd80660ada9b03052bd442dc01998";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/hooks/use-is-mounted.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 15
+        },
+        end: {
+          line: 11,
+          column: 31
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 38
+        },
+        end: {
+          line: 13,
+          column: 65
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 16,
+          column: 11
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 8
+        },
+        end: {
+          line: 15,
+          column: 27
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 17,
+          column: 21
+        }
+      },
+      "8": {
+        start: {
+          line: 19,
+          column: 17
+        },
+        end: {
+          line: 19,
+          column: 29
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "useIsMounted",
+        decl: {
+          start: {
+            line: 12,
+            column: 9
+          },
+          end: {
+            line: 12,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 14,
+            column: 26
+          },
+          end: {
+            line: 14,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 30
+          },
+          end: {
+            line: 16,
+            column: 5
+          }
+        },
+        line: 14
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/hooks/use-is-mounted.ts"],
+      sourcesContent: ["import { useEffect, useState } from 'react'\n\nfunction useIsMounted() {\n  const [isMounted, setIsMounted] = useState(false)\n\n  useEffect(() => {\n    setIsMounted(true)\n  }, [])\n\n  return isMounted\n}\n\nexport default useIsMounted\n"],
+      names: ["useIsMounted", "isMounted", "setIsMounted", "useState", "useEffect"],
+      mappings: ";;;;+BAYA;;;eAAA;;;uBAZoC;AAEpC,SAASA;IACP,MAAM,CAACC,WAAWC,aAAa,GAAGC,IAAAA,eAAQ,EAAC;IAE3CC,IAAAA,gBAAS,EAAC;QACRF,aAAa;IACf,GAAG,EAAE;IAEL,OAAOD;AACT;MAEA,WAAeD"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "48fc657256edd80660ada9b03052bd442dc01998"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1guft93ne3 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1guft93ne3();
+cov_1guft93ne3().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1guft93ne3().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1guft93ne3().f[0]++;
+    cov_1guft93ne3().s[2]++;
+    return _default;
+  }
+});
+const _react =
+/* istanbul ignore next */
+(cov_1guft93ne3().s[3]++, require("react"));
+function useIsMounted() {
+  /* istanbul ignore next */
+  cov_1guft93ne3().f[1]++;
+  const [isMounted, setIsMounted] =
+  /* istanbul ignore next */
+  (cov_1guft93ne3().s[4]++, (0, _react.useState)(false));
+  /* istanbul ignore next */
+  cov_1guft93ne3().s[5]++;
+  (0, _react.useEffect)(() => {
+    /* istanbul ignore next */
+    cov_1guft93ne3().f[2]++;
+    cov_1guft93ne3().s[6]++;
+    setIsMounted(true);
+  }, []);
+  /* istanbul ignore next */
+  cov_1guft93ne3().s[7]++;
+  return isMounted;
+}
+const _default =
+/* istanbul ignore next */
+(cov_1guft93ne3().s[8]++, useIsMounted);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMWd1ZnQ5M25lMyIsImFjdHVhbENvdmVyYWdlIiwicyIsIl9kZWZhdWx0IiwidXNlSXNNb3VudGVkIiwiZiIsImlzTW91bnRlZCIsInNldElzTW91bnRlZCIsIl9yZWFjdCIsInVzZVN0YXRlIiwidXNlRWZmZWN0Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9ob29rcy91c2UtaXMtbW91bnRlZC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnXG5cbmZ1bmN0aW9uIHVzZUlzTW91bnRlZCgpIHtcbiAgY29uc3QgW2lzTW91bnRlZCwgc2V0SXNNb3VudGVkXSA9IHVzZVN0YXRlKGZhbHNlKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgc2V0SXNNb3VudGVkKHRydWUpXG4gIH0sIFtdKVxuXG4gIHJldHVybiBpc01vdW50ZWRcbn1cblxuZXhwb3J0IGRlZmF1bHQgdXNlSXNNb3VudGVkXG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQU9PO0lBQUFBLGNBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGNBQUE7QUFBQUEsY0FBQSxHQUFBRSxDQUFBOzs7Ozs7K0JBS1A7Ozs7OztXQUFBQyxRQUFBOzs7OztrQ0Fab0M7QUFFcEMsU0FBU0MsYUFBQTtFQUFBO0VBQUFKLGNBQUEsR0FBQUssQ0FBQTtFQUNQLE1BQU0sQ0FBQ0MsU0FBQSxFQUFXQyxZQUFBLENBQWE7RUFBQTtFQUFBLENBQUFQLGNBQUEsR0FBQUUsQ0FBQSxPQUFHLElBQUFNLE1BQUEsQ0FBQUMsUUFBUSxFQUFDO0VBQUE7RUFBQVQsY0FBQSxHQUFBRSxDQUFBO0VBRTNDLElBQUFNLE1BQUEsQ0FBQUUsU0FBUyxFQUFDO0lBQUE7SUFBQVYsY0FBQSxHQUFBSyxDQUFBO0lBQUFMLGNBQUEsR0FBQUUsQ0FBQTtJQUNSSyxZQUFBLENBQWE7RUFDZixHQUFHLEVBQUU7RUFBQTtFQUFBUCxjQUFBLEdBQUFFLENBQUE7RUFFTCxPQUFPSSxTQUFBO0FBQ1Q7TUFFQUgsUUFBQTtBQUFBO0FBQUEsQ0FBQUgsY0FBQSxHQUFBRSxDQUFBLE9BQWVFLFlBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

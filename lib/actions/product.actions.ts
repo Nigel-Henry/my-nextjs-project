@@ -58,7 +58,9 @@ export async function deleteProduct(id: string) {
 }
 
 // GET LATEST PRODUCTS
-export async function getLatestProducts({ limit = 4 }: { limit?: number } = {}) {
+export async function getLatestProducts({
+  limit = 4,
+}: { limit?: number } = {}) {
   try {
     await connectToDatabase()
     const products = await Product.find({ isPublished: true })
@@ -66,7 +68,7 @@ export async function getLatestProducts({ limit = 4 }: { limit?: number } = {}) 
       .limit(limit)
       .select('name images slug')
       .lean()
-    
+
     return JSON.parse(JSON.stringify(products)) as {
       name: string
       images: string[]

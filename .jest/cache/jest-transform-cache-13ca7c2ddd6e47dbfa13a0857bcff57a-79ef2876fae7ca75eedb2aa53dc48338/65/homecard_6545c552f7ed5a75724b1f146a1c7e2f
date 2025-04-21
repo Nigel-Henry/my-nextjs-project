@@ -1,0 +1,507 @@
+aeb3fde248030ed748bdadac070cd342
+"use strict";
+
+/* istanbul ignore next */
+function cov_x6qaqlge3() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/home/home-card.tsx";
+  var hash = "190100c157de96691c19a89c869bc884f2ce5ef3";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/home/home-card.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 29
+        },
+        end: {
+          line: 12,
+          column: 76
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 28
+        },
+        end: {
+          line: 13,
+          column: 74
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 29
+        },
+        end: {
+          line: 14,
+          column: 71
+        }
+      },
+      "7": {
+        start: {
+          line: 15,
+          column: 14
+        },
+        end: {
+          line: 15,
+          column: 38
+        }
+      },
+      "8": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 19,
+          column: 6
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 65,
+          column: 7
+        }
+      },
+      "10": {
+        start: {
+          line: 24,
+          column: 50
+        },
+        end: {
+          line: 64,
+          column: 26
+        }
+      },
+      "11": {
+        start: {
+          line: 36,
+          column: 79
+        },
+        end: {
+          line: 52,
+          column: 49
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 16,
+            column: 9
+          },
+          end: {
+            line: 16,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 39
+          },
+          end: {
+            line: 20,
+            column: 1
+          }
+        },
+        line: 16
+      },
+      "2": {
+        name: "HomeCard",
+        decl: {
+          start: {
+            line: 21,
+            column: 9
+          },
+          end: {
+            line: 21,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 29
+          },
+          end: {
+            line: 66,
+            column: 1
+          }
+        },
+        line: 21
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 24,
+            column: 28
+          },
+          end: {
+            line: 24,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 50
+          },
+          end: {
+            line: 64,
+            column: 26
+          }
+        },
+        line: 24
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 36,
+            column: 57
+          },
+          end: {
+            line: 36,
+            column: 58
+          }
+        },
+        loc: {
+          start: {
+            line: 36,
+            column: 79
+          },
+          end: {
+            line: 52,
+            column: 49
+          }
+        },
+        line: 36
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 17,
+            column: 35
+          },
+          end: {
+            line: 17,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 17,
+            column: 41
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        }],
+        line: 17
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 17,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 17,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 17,
+            column: 18
+          },
+          end: {
+            line: 17,
+            column: 32
+          }
+        }],
+        line: 17
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 56,
+            column: 20
+          },
+          end: {
+            line: 62,
+            column: 22
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 56,
+            column: 20
+          },
+          end: {
+            line: 56,
+            column: 29
+          }
+        }, {
+          start: {
+            line: 56,
+            column: 47
+          },
+          end: {
+            line: 62,
+            column: 22
+          }
+        }],
+        line: 56
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/home/home-card.tsx"],
+      sourcesContent: ["import Image from 'next/image'\nimport Link from 'next/link'\nimport React from 'react'\nimport { Card, CardContent, CardFooter } from '@/components/ui/card'\n\ntype CardItem = {\n  title: string\n  link: { text: string; href: string }\n  items: {\n    name: string\n    image: string\n    href: string\n  }[]\n}\n\nexport function HomeCard({ cards }: { cards: CardItem[] }) {\n  return (\n    <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4\">\n      {cards.map((card) => (\n        <Card key={card.title} className=\"rounded-none flex flex-col\">\n          <CardContent className=\"p-4 flex-1\">\n            <h3 className=\"text-xl font-bold mb-4\">{card.title}</h3>\n            <div className=\"grid grid-cols-2 gap-4\">\n              {card.items.map((item) => (\n                <Link\n                  key={item.name}\n                  href={item.href}\n                  className=\"flex flex-col\"\n                >\n                  <Image\n                    src={item.image}\n                    alt={item.name}\n                    className=\"aspect-square object-scale-down max-w-full h-auto mx-auto\"\n                    height={120}\n                    width={120}\n                  />\n                  <p className=\"text-center text-sm whitespace-nowrap overflow-hidden text-ellipsis\">\n                    {item.name}\n                  </p>\n                </Link>\n              ))}\n            </div>\n          </CardContent>\n          {card.link && (\n            <CardFooter>\n              <Link href={card.link.href} className=\"mt-4 block\">\n                {card.link.text}\n              </Link>\n            </CardFooter>\n          )}\n        </Card>\n      ))}\n    </div>\n  )\n}\n"],
+      names: ["HomeCard", "cards", "div", "className", "map", "card", "Card", "CardContent", "h3", "title", "items", "item", "Link", "href", "Image", "src", "image", "alt", "name", "height", "width", "p", "link", "CardFooter", "text"],
+      mappings: ";;;;+BAegBA;;;eAAAA;;;;8DAfE;6DACD;8DACC;sBAC4B;;;;;;AAYvC,SAASA,SAAS,EAAEC,KAAK,EAAyB;IACvD,qBACE,qBAACC;QAAIC,WAAU;kBACZF,MAAMG,GAAG,CAAC,CAACC,qBACV,sBAACC,UAAI;gBAAkBH,WAAU;;kCAC/B,sBAACI,iBAAW;wBAACJ,WAAU;;0CACrB,qBAACK;gCAAGL,WAAU;0CAA0BE,KAAKI,KAAK;;0CAClD,qBAACP;gCAAIC,WAAU;0CACZE,KAAKK,KAAK,CAACN,GAAG,CAAC,CAACO,qBACf,sBAACC,aAAI;wCAEHC,MAAMF,KAAKE,IAAI;wCACfV,WAAU;;0DAEV,qBAACW,cAAK;gDACJC,KAAKJ,KAAKK,KAAK;gDACfC,KAAKN,KAAKO,IAAI;gDACdf,WAAU;gDACVgB,QAAQ;gDACRC,OAAO;;0DAET,qBAACC;gDAAElB,WAAU;0DACVQ,KAAKO,IAAI;;;uCAZPP,KAAKO,IAAI;;;;oBAkBrBb,KAAKiB,IAAI,kBACR,qBAACC,gBAAU;kCACT,cAAA,qBAACX,aAAI;4BAACC,MAAMR,KAAKiB,IAAI,CAACT,IAAI;4BAAEV,WAAU;sCACnCE,KAAKiB,IAAI,CAACE,IAAI;;;;eA3BZnB,KAAKI,KAAK;;AAmC7B"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "190100c157de96691c19a89c869bc884f2ce5ef3"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_x6qaqlge3 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_x6qaqlge3();
+cov_x6qaqlge3().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_x6qaqlge3().s[1]++;
+Object.defineProperty(exports, "HomeCard", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_x6qaqlge3().f[0]++;
+    cov_x6qaqlge3().s[2]++;
+    return HomeCard;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_x6qaqlge3().s[3]++, require("react/jsx-runtime"));
+const _image =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_x6qaqlge3().s[4]++, _interop_require_default(require("next/image")));
+const _link =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_x6qaqlge3().s[5]++, _interop_require_default(require("next/link")));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_x6qaqlge3().s[6]++, _interop_require_default(require("react")));
+const _card =
+/* istanbul ignore next */
+(cov_x6qaqlge3().s[7]++, require("../../ui/card"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_x6qaqlge3().f[1]++;
+  cov_x6qaqlge3().s[8]++;
+  return /* istanbul ignore next */(cov_x6qaqlge3().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_x6qaqlge3().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_x6qaqlge3().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_x6qaqlge3().b[0][1]++, {
+    default: obj
+  });
+}
+function HomeCard({
+  cards
+}) {
+  /* istanbul ignore next */
+  cov_x6qaqlge3().f[2]++;
+  cov_x6qaqlge3().s[9]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4",
+    children: cards.map(card => {
+      /* istanbul ignore next */
+      cov_x6qaqlge3().f[3]++;
+      cov_x6qaqlge3().s[10]++;
+      return /*#__PURE__*/(0, _jsxruntime.jsxs)(_card.Card, {
+        className: "rounded-none flex flex-col",
+        children: [/*#__PURE__*/(0, _jsxruntime.jsxs)(_card.CardContent, {
+          className: "p-4 flex-1",
+          children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h3", {
+            className: "text-xl font-bold mb-4",
+            children: card.title
+          }), /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+            className: "grid grid-cols-2 gap-4",
+            children: card.items.map(item => {
+              /* istanbul ignore next */
+              cov_x6qaqlge3().f[4]++;
+              cov_x6qaqlge3().s[11]++;
+              return /*#__PURE__*/(0, _jsxruntime.jsxs)(_link.default, {
+                href: item.href,
+                className: "flex flex-col",
+                children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_image.default, {
+                  src: item.image,
+                  alt: item.name,
+                  className: "aspect-square object-scale-down max-w-full h-auto mx-auto",
+                  height: 120,
+                  width: 120
+                }), /*#__PURE__*/(0, _jsxruntime.jsx)("p", {
+                  className: "text-center text-sm whitespace-nowrap overflow-hidden text-ellipsis",
+                  children: item.name
+                })]
+              }, item.name);
+            })
+          })]
+        }),
+        /* istanbul ignore next */
+        (cov_x6qaqlge3().b[2][0]++, card.link) &&
+        /* istanbul ignore next */
+        (cov_x6qaqlge3().b[2][1]++, /*#__PURE__*/(0, _jsxruntime.jsx)(_card.CardFooter, {
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+            href: card.link.href,
+            className: "mt-4 block",
+            children: card.link.text
+          })
+        }))]
+      }, card.title);
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJIb21lQ2FyZCIsImNhcmRzIiwiY292X3g2cWFxbGdlMyIsImYiLCJzIiwiX2pzeHJ1bnRpbWUiLCJqc3giLCJjbGFzc05hbWUiLCJtYXAiLCJjYXJkIiwianN4cyIsIl9jYXJkIiwiQ2FyZCIsIkNhcmRDb250ZW50IiwidGl0bGUiLCJpdGVtcyIsIml0ZW0iLCJfbGluayIsImRlZmF1bHQiLCJocmVmIiwiX2ltYWdlIiwic3JjIiwiaW1hZ2UiLCJhbHQiLCJuYW1lIiwiaGVpZ2h0Iiwid2lkdGgiLCJiIiwibGluayIsIkNhcmRGb290ZXIiLCJ0ZXh0Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9jb21wb25lbnRzL3NoYXJlZC9ob21lL2hvbWUtY2FyZC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEltYWdlIGZyb20gJ25leHQvaW1hZ2UnXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEZvb3RlciB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9jYXJkJ1xuXG50eXBlIENhcmRJdGVtID0ge1xuICB0aXRsZTogc3RyaW5nXG4gIGxpbms6IHsgdGV4dDogc3RyaW5nOyBocmVmOiBzdHJpbmcgfVxuICBpdGVtczoge1xuICAgIG5hbWU6IHN0cmluZ1xuICAgIGltYWdlOiBzdHJpbmdcbiAgICBocmVmOiBzdHJpbmdcbiAgfVtdXG59XG5cbmV4cG9ydCBmdW5jdGlvbiBIb21lQ2FyZCh7IGNhcmRzIH06IHsgY2FyZHM6IENhcmRJdGVtW10gfSkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCBtZDpnYXAtNFwiPlxuICAgICAge2NhcmRzLm1hcCgoY2FyZCkgPT4gKFxuICAgICAgICA8Q2FyZCBrZXk9e2NhcmQudGl0bGV9IGNsYXNzTmFtZT1cInJvdW5kZWQtbm9uZSBmbGV4IGZsZXgtY29sXCI+XG4gICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT1cInAtNCBmbGV4LTFcIj5cbiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0ZXh0LXhsIGZvbnQtYm9sZCBtYi00XCI+e2NhcmQudGl0bGV9PC9oMz5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ3JpZCBncmlkLWNvbHMtMiBnYXAtNFwiPlxuICAgICAgICAgICAgICB7Y2FyZC5pdGVtcy5tYXAoKGl0ZW0pID0+IChcbiAgICAgICAgICAgICAgICA8TGlua1xuICAgICAgICAgICAgICAgICAga2V5PXtpdGVtLm5hbWV9XG4gICAgICAgICAgICAgICAgICBocmVmPXtpdGVtLmhyZWZ9XG4gICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sXCJcbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgICAgICAgICAgc3JjPXtpdGVtLmltYWdlfVxuICAgICAgICAgICAgICAgICAgICBhbHQ9e2l0ZW0ubmFtZX1cbiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiYXNwZWN0LXNxdWFyZSBvYmplY3Qtc2NhbGUtZG93biBtYXgtdy1mdWxsIGgtYXV0byBteC1hdXRvXCJcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0PXsxMjB9XG4gICAgICAgICAgICAgICAgICAgIHdpZHRoPXsxMjB9XG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXIgdGV4dC1zbSB3aGl0ZXNwYWNlLW5vd3JhcCBvdmVyZmxvdy1oaWRkZW4gdGV4dC1lbGxpcHNpc1wiPlxuICAgICAgICAgICAgICAgICAgICB7aXRlbS5uYW1lfVxuICAgICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L0NhcmRDb250ZW50PlxuICAgICAgICAgIHtjYXJkLmxpbmsgJiYgKFxuICAgICAgICAgICAgPENhcmRGb290ZXI+XG4gICAgICAgICAgICAgIDxMaW5rIGhyZWY9e2NhcmQubGluay5ocmVmfSBjbGFzc05hbWU9XCJtdC00IGJsb2NrXCI+XG4gICAgICAgICAgICAgICAge2NhcmQubGluay50ZXh0fVxuICAgICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgICA8L0NhcmRGb290ZXI+XG4gICAgICAgICAgKX1cbiAgICAgICAgPC9DYXJkPlxuICAgICAgKSl9XG4gICAgPC9kaXY+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OytCQWVnQjs7Ozs7O1dBQUFBLFFBQUE7Ozs7Ozs7O3VFQWZFOzs7dUVBQ0Q7Ozt1RUFDQzs7O2lDQUM0Qjs7Ozs7Ozs7Ozs7Ozs7O0FBWXZDLFNBQVNBLFNBQVM7RUFBRUM7QUFBSyxDQUF5QjtFQUFBO0VBQUFDLGFBQUEsR0FBQUMsQ0FBQTtFQUFBRCxhQUFBLEdBQUFFLENBQUE7RUFDdkQsb0JBQ0UsSUFBQUMsV0FBQSxDQUFBQyxHQUFBLEVBQUM7SUFBSUMsU0FBQSxFQUFVO2NBQ1pOLEtBQUEsQ0FBTU8sR0FBRyxDQUFFQyxJQUFBLElBQ1Y7TUFBQTtNQUFBUCxhQUFBLEdBQUFDLENBQUE7TUFBQUQsYUFBQSxHQUFBRSxDQUFBO01BQUEsT0FEVSxhQUNWLElBQUFDLFdBQUEsQ0FBQUssSUFBQSxFQUFDQyxLQUFBLENBQUFDLElBQUk7UUFBa0JMLFNBQUEsRUFBVTtnQ0FDL0IsSUFBQUYsV0FBQSxDQUFBSyxJQUFBLEVBQUNDLEtBQUEsQ0FBQUUsV0FBVztVQUFDTixTQUFBLEVBQVU7a0NBQ3JCLElBQUFGLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO1lBQUdDLFNBQUEsRUFBVTtzQkFBMEJFLElBQUEsQ0FBS0s7MkJBQzdDLElBQUFULFdBQUEsQ0FBQUMsR0FBQSxFQUFDO1lBQUlDLFNBQUEsRUFBVTtzQkFDWkUsSUFBQSxDQUFLTSxLQUFLLENBQUNQLEdBQUcsQ0FBRVEsSUFBQSxJQUNmO2NBQUE7Y0FBQWQsYUFBQSxHQUFBQyxDQUFBO2NBQUFELGFBQUEsR0FBQUUsQ0FBQTtjQUFBLE9BRGUsYUFDZixJQUFBQyxXQUFBLENBQUFLLElBQUEsRUFBQ08sS0FBQSxDQUFBQyxPQUFJO2dCQUVIQyxJQUFBLEVBQU1ILElBQUEsQ0FBS0csSUFBSTtnQkFDZlosU0FBQSxFQUFVO3dDQUVWLElBQUFGLFdBQUEsQ0FBQUMsR0FBQSxFQUFDYyxNQUFBLENBQUFGLE9BQUs7a0JBQ0pHLEdBQUEsRUFBS0wsSUFBQSxDQUFLTSxLQUFLO2tCQUNmQyxHQUFBLEVBQUtQLElBQUEsQ0FBS1EsSUFBSTtrQkFDZGpCLFNBQUEsRUFBVTtrQkFDVmtCLE1BQUEsRUFBUTtrQkFDUkMsS0FBQSxFQUFPO2lDQUVULElBQUFyQixXQUFBLENBQUFDLEdBQUEsRUFBQztrQkFBRUMsU0FBQSxFQUFVOzRCQUNWUyxJQUFBLENBQUtROztpQkFaSFIsSUFBQSxDQUFLUSxJQUFJO1lBQUE7OztRQWtCckI7UUFBQSxDQUFBdEIsYUFBQSxHQUFBeUIsQ0FBQSxVQUFBbEIsSUFBQSxDQUFLbUIsSUFBSTtRQUFBO1FBQUEsQ0FBQTFCLGFBQUEsR0FBQXlCLENBQUEsdUJBQ1IsSUFBQXRCLFdBQUEsQ0FBQUMsR0FBQSxFQUFDSyxLQUFBLENBQUFrQixVQUFVO29CQUNULGlCQUFBeEIsV0FBQSxDQUFBQyxHQUFBLEVBQUNXLEtBQUEsQ0FBQUMsT0FBSTtZQUFDQyxJQUFBLEVBQU1WLElBQUEsQ0FBS21CLElBQUksQ0FBQ1QsSUFBSTtZQUFFWixTQUFBLEVBQVU7c0JBQ25DRSxJQUFBLENBQUttQixJQUFJLENBQUNFOzs7U0EzQlJyQixJQUFBLENBQUtLLEtBQUs7SUFBQTs7QUFtQzdCIiwiaWdub3JlTGlzdCI6W119

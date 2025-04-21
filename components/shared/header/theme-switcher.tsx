@@ -27,26 +27,26 @@ export default function ThemeSwitcher() {
   const isMounted = useIsMounted()
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className='header-button h-[41px]'>
+      <DropdownMenuTrigger className="header-button h-[41px]">
         {theme === 'dark' && isMounted ? (
-          <div className='flex items-center gap-1'>
-            <Moon className='h-4 w-4' /> {t('Dark')} <ChevronDownIcon />
+          <div className="flex items-center gap-1">
+            <Moon className="h-4 w-4" /> {t('Dark')} <ChevronDownIcon />
           </div>
         ) : (
-          <div className='flex items-center gap-1'>
-            <Sun className='h-4 w-4' /> {t('Light')} <ChevronDownIcon />
+          <div className="flex items-center gap-1">
+            <Sun className="h-4 w-4" /> {t('Light')} <ChevronDownIcon />
           </div>
         )}
       </DropdownMenuTrigger>
-      <DropdownMenuContent className='w-56'>
+      <DropdownMenuContent className="w-56">
         <DropdownMenuLabel>Theme</DropdownMenuLabel>
 
         <DropdownMenuRadioGroup value={theme} onValueChange={changeTheme}>
-          <DropdownMenuRadioItem value='dark'>
-            <Moon className='h-4 w-4 mr-1' /> {t('Dark')}
+          <DropdownMenuRadioItem value="dark">
+            <Moon className="h-4 w-4 mr-1" /> {t('Dark')}
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem value='light'>
-            <Sun className='h-4 w-4 mr-1' /> {t('Light')}
+          <DropdownMenuRadioItem value="light">
+            <Sun className="h-4 w-4 mr-1" /> {t('Light')}
           </DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
         <DropdownMenuSeparator />
@@ -60,7 +60,7 @@ export default function ThemeSwitcher() {
             <DropdownMenuRadioItem key={c.name} value={c.name}>
               <div
                 style={{ backgroundColor: c.name }}
-                className='h-4 w-4 mr-1 rounded-full'
+                className="h-4 w-4 mr-1 rounded-full"
               ></div>
 
               {t(c.name)}

@@ -33,9 +33,9 @@ export default async function SuccessPage(props: {
   const isSuccess = paymentIntent.status === 'succeeded'
   if (!isSuccess) return redirect(`/checkout/${id}`)
   return (
-    <div className='max-w-4xl w-full mx-auto space-y-8'>
-      <div className='flex flex-col gap-6 items-center '>
-        <h1 className='font-bold text-2xl lg:text-3xl'>
+    <div className="max-w-4xl w-full mx-auto space-y-8">
+      <div className="flex flex-col gap-6 items-center ">
+        <h1 className="font-bold text-2xl lg:text-3xl">
           Thanks for your purchase
         </h1>
         <div>We are now processing your order.</div>

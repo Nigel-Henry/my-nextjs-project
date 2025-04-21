@@ -1,0 +1,358 @@
+151a7c79f49dc051efa0b14e86a0318c
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_ugpfved31() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/ui/toaster.tsx";
+  var hash = "d8ddad60c1a79a1f4dc625565d0f50d8b4d7aa96";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/ui/toaster.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 23
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 18
+        },
+        end: {
+          line: 13,
+          column: 50
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 15
+        },
+        end: {
+          line: 14,
+          column: 33
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 23
+        },
+        end: {
+          line: 16,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 41,
+          column: 7
+        }
+      },
+      "8": {
+        start: {
+          line: 20,
+          column: 16
+        },
+        end: {
+          line: 37,
+          column: 23
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "Toaster",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 19
+          },
+          end: {
+            line: 42,
+            column: 1
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 19,
+            column: 23
+          },
+          end: {
+            line: 19,
+            column: 24
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 78
+          },
+          end: {
+            line: 38,
+            column: 13
+          }
+        },
+        line: 19
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 26,
+            column: 32
+          },
+          end: {
+            line: 28,
+            column: 34
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 26,
+            column: 32
+          },
+          end: {
+            line: 26,
+            column: 37
+          }
+        }, {
+          start: {
+            line: 26,
+            column: 55
+          },
+          end: {
+            line: 28,
+            column: 34
+          }
+        }],
+        line: 26
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 29,
+            column: 32
+          },
+          end: {
+            line: 31,
+            column: 34
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 29,
+            column: 32
+          },
+          end: {
+            line: 29,
+            column: 43
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 61
+          },
+          end: {
+            line: 31,
+            column: 34
+          }
+        }],
+        line: 29
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/ui/toaster.tsx"],
+      sourcesContent: ["'use client'\n\nimport { useToast } from '@/hooks/use-toast'\nimport {\n  Toast,\n  ToastClose,\n  ToastDescription,\n  ToastProvider,\n  ToastTitle,\n  ToastViewport,\n} from '@/components/ui/toast'\n\nexport function Toaster() {\n  const { toasts } = useToast()\n\n  return (\n    <ToastProvider>\n      {toasts.map(function ({ id, title, description, action, ...props }) {\n        return (\n          <Toast key={id} {...props}>\n            <div className=\"grid gap-1\">\n              {title && <ToastTitle>{title}</ToastTitle>}\n              {description && (\n                <ToastDescription>{description}</ToastDescription>\n              )}\n            </div>\n            {action}\n            <ToastClose />\n          </Toast>\n        )\n      })}\n      <ToastViewport />\n    </ToastProvider>\n  )\n}\n"],
+      names: ["Toaster", "toasts", "useToast", "ToastProvider", "map", "id", "title", "description", "action", "props", "Toast", "div", "className", "ToastTitle", "ToastDescription", "ToastClose", "ToastViewport"],
+      mappings: "AAAA;;;;;+BAYgBA;;;eAAAA;;;;0BAVS;uBAQlB;AAEA,SAASA;IACd,MAAM,EAAEC,MAAM,EAAE,GAAGC,IAAAA,kBAAQ;IAE3B,qBACE,sBAACC,oBAAa;;YACXF,OAAOG,GAAG,CAAC,SAAU,EAAEC,EAAE,EAAEC,KAAK,EAAEC,WAAW,EAAEC,MAAM,EAAE,GAAGC,OAAO;gBAChE,qBACE,sBAACC,YAAK;oBAAW,GAAGD,KAAK;;sCACvB,sBAACE;4BAAIC,WAAU;;gCACZN,uBAAS,qBAACO,iBAAU;8CAAEP;;gCACtBC,6BACC,qBAACO,uBAAgB;8CAAEP;;;;wBAGtBC;sCACD,qBAACO,iBAAU;;mBARDV;YAWhB;0BACA,qBAACW,oBAAa;;;AAGpB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "d8ddad60c1a79a1f4dc625565d0f50d8b4d7aa96"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_ugpfved31 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_ugpfved31();
+cov_ugpfved31().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_ugpfved31().s[1]++;
+Object.defineProperty(exports, "Toaster", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_ugpfved31().f[0]++;
+    cov_ugpfved31().s[2]++;
+    return Toaster;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_ugpfved31().s[3]++, require("react/jsx-runtime"));
+const _usetoast =
+/* istanbul ignore next */
+(cov_ugpfved31().s[4]++, require("../../hooks/use-toast"));
+const _toast =
+/* istanbul ignore next */
+(cov_ugpfved31().s[5]++, require("./toast"));
+function Toaster() {
+  /* istanbul ignore next */
+  cov_ugpfved31().f[1]++;
+  const {
+    toasts
+  } =
+  /* istanbul ignore next */
+  (cov_ugpfved31().s[6]++, (0, _usetoast.useToast)());
+  /* istanbul ignore next */
+  cov_ugpfved31().s[7]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)(_toast.ToastProvider, {
+    children: [toasts.map(function ({
+      id,
+      title,
+      description,
+      action,
+      ...props
+    }) {
+      /* istanbul ignore next */
+      cov_ugpfved31().f[2]++;
+      cov_ugpfved31().s[8]++;
+      return /*#__PURE__*/(0, _jsxruntime.jsxs)(_toast.Toast, {
+        ...props,
+        children: [/*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+          className: "grid gap-1",
+          children: [
+          /* istanbul ignore next */
+          (cov_ugpfved31().b[0][0]++, title) &&
+          /* istanbul ignore next */
+          (cov_ugpfved31().b[0][1]++, /*#__PURE__*/(0, _jsxruntime.jsx)(_toast.ToastTitle, {
+            children: title
+          })),
+          /* istanbul ignore next */
+          (cov_ugpfved31().b[1][0]++, description) &&
+          /* istanbul ignore next */
+          (cov_ugpfved31().b[1][1]++, /*#__PURE__*/(0, _jsxruntime.jsx)(_toast.ToastDescription, {
+            children: description
+          }))]
+        }), action, /*#__PURE__*/(0, _jsxruntime.jsx)(_toast.ToastClose, {})]
+      }, id);
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)(_toast.ToastViewport, {})]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfdWdwZnZlZDMxIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiVG9hc3RlciIsImYiLCJ0b2FzdHMiLCJfdXNldG9hc3QiLCJ1c2VUb2FzdCIsIl9qc3hydW50aW1lIiwianN4cyIsIl90b2FzdCIsIlRvYXN0UHJvdmlkZXIiLCJtYXAiLCJpZCIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJhY3Rpb24iLCJwcm9wcyIsIlRvYXN0IiwiY2xhc3NOYW1lIiwiYiIsImpzeCIsIlRvYXN0VGl0bGUiLCJUb2FzdERlc2NyaXB0aW9uIiwiVG9hc3RDbG9zZSIsIlRvYXN0Vmlld3BvcnQiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2NvbXBvbmVudHMvdWkvdG9hc3Rlci50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5cbmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAnQC9ob29rcy91c2UtdG9hc3QnXG5pbXBvcnQge1xuICBUb2FzdCxcbiAgVG9hc3RDbG9zZSxcbiAgVG9hc3REZXNjcmlwdGlvbixcbiAgVG9hc3RQcm92aWRlcixcbiAgVG9hc3RUaXRsZSxcbiAgVG9hc3RWaWV3cG9ydCxcbn0gZnJvbSAnQC9jb21wb25lbnRzL3VpL3RvYXN0J1xuXG5leHBvcnQgZnVuY3Rpb24gVG9hc3RlcigpIHtcbiAgY29uc3QgeyB0b2FzdHMgfSA9IHVzZVRvYXN0KClcblxuICByZXR1cm4gKFxuICAgIDxUb2FzdFByb3ZpZGVyPlxuICAgICAge3RvYXN0cy5tYXAoZnVuY3Rpb24gKHsgaWQsIHRpdGxlLCBkZXNjcmlwdGlvbiwgYWN0aW9uLCAuLi5wcm9wcyB9KSB7XG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgPFRvYXN0IGtleT17aWR9IHsuLi5wcm9wc30+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdyaWQgZ2FwLTFcIj5cbiAgICAgICAgICAgICAge3RpdGxlICYmIDxUb2FzdFRpdGxlPnt0aXRsZX08L1RvYXN0VGl0bGU+fVxuICAgICAgICAgICAgICB7ZGVzY3JpcHRpb24gJiYgKFxuICAgICAgICAgICAgICAgIDxUb2FzdERlc2NyaXB0aW9uPntkZXNjcmlwdGlvbn08L1RvYXN0RGVzY3JpcHRpb24+XG4gICAgICAgICAgICAgICl9XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIHthY3Rpb259XG4gICAgICAgICAgICA8VG9hc3RDbG9zZSAvPlxuICAgICAgICAgIDwvVG9hc3Q+XG4gICAgICAgIClcbiAgICAgIH0pfVxuICAgICAgPFRvYXN0Vmlld3BvcnQgLz5cbiAgICA8L1RvYXN0UHJvdmlkZXI+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBYVU7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQUFBQSxhQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFETTs7Ozs7O1dBQUFDLE9BQUE7Ozs7Ozs7O2lDQVZTOzs7aUNBUWxCO0FBRUEsU0FBU0EsUUFBQTtFQUFBO0VBQUFILGFBQUEsR0FBQUksQ0FBQTtFQUNkLE1BQU07SUFBRUM7RUFBTSxDQUFFO0VBQUE7RUFBQSxDQUFBTCxhQUFBLEdBQUFFLENBQUEsT0FBRyxJQUFBSSxTQUFBLENBQUFDLFFBQVE7RUFBQTtFQUFBUCxhQUFBLEdBQUFFLENBQUE7RUFFM0Isb0JBQ0UsSUFBQU0sV0FBQSxDQUFBQyxJQUFBLEVBQUNDLE1BQUEsQ0FBQUMsYUFBYTtlQUNYTixNQUFBLENBQU9PLEdBQUcsQ0FBQyxVQUFVO01BQUVDLEVBQUU7TUFBRUMsS0FBSztNQUFFQyxXQUFXO01BQUVDLE1BQU07TUFBRSxHQUFHQztJQUFBLENBQU87TUFBQTtNQUFBakIsYUFBQSxHQUFBSSxDQUFBO01BQUFKLGFBQUEsR0FBQUUsQ0FBQTtNQUNoRSxvQkFDRSxJQUFBTSxXQUFBLENBQUFDLElBQUEsRUFBQ0MsTUFBQSxDQUFBUSxLQUFLO1FBQVcsR0FBR0QsS0FBSztnQ0FDdkIsSUFBQVQsV0FBQSxDQUFBQyxJQUFBLEVBQUM7VUFBSVUsU0FBQSxFQUFVOztVQUNaO1VBQUEsQ0FBQW5CLGFBQUEsR0FBQW9CLENBQUEsVUFBQU4sS0FBQTtVQUFBO1VBQUEsQ0FBQWQsYUFBQSxHQUFBb0IsQ0FBQSx1QkFBUyxJQUFBWixXQUFBLENBQUFhLEdBQUEsRUFBQ1gsTUFBQSxDQUFBWSxVQUFVO3NCQUFFUjs7VUFDdEI7VUFBQSxDQUFBZCxhQUFBLEdBQUFvQixDQUFBLFVBQUFMLFdBQUE7VUFBQTtVQUFBLENBQUFmLGFBQUEsR0FBQW9CLENBQUEsdUJBQ0MsSUFBQVosV0FBQSxDQUFBYSxHQUFBLEVBQUNYLE1BQUEsQ0FBQWEsZ0JBQWdCO3NCQUFFUjs7WUFHdEJDLE1BQUEsRSxhQUNELElBQUFSLFdBQUEsQ0FBQWEsR0FBQSxFQUFDWCxNQUFBLENBQUFjLFVBQVU7U0FSRFgsRUFBQTtJQVdoQixJLGFBQ0EsSUFBQUwsV0FBQSxDQUFBYSxHQUFBLEVBQUNYLE1BQUEsQ0FBQWUsYUFBYTs7QUFHcEIiLCJpZ25vcmVMaXN0IjpbXX0=

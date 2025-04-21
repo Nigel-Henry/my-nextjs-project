@@ -1,0 +1,600 @@
+778f577fc47718cd5b2d6b176b2acacb
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_1ipjh9wawv() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/delete-dialog.tsx";
+  var hash = "27937be9e668841286d1ed4587d49b51d1043b23";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/delete-dialog.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 28
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 31
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 21
+        },
+        end: {
+          line: 14,
+          column: 50
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 16
+        },
+        end: {
+          line: 15,
+          column: 39
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 18
+        },
+        end: {
+          line: 16,
+          column: 50
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 28
+        },
+        end: {
+          line: 18,
+          column: 55
+        }
+      },
+      "9": {
+        start: {
+          line: 19,
+          column: 41
+        },
+        end: {
+          line: 19,
+          column: 68
+        }
+      },
+      "10": {
+        start: {
+          line: 20,
+          column: 22
+        },
+        end: {
+          line: 20,
+          column: 47
+        }
+      },
+      "11": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 76,
+          column: 7
+        }
+      },
+      "12": {
+        start: {
+          line: 54,
+          column: 45
+        },
+        end: {
+          line: 68,
+          column: 38
+        }
+      },
+      "13": {
+        start: {
+          line: 55,
+          column: 52
+        },
+        end: {
+          line: 55,
+          column: 68
+        }
+      },
+      "14": {
+        start: {
+          line: 56,
+          column: 40
+        },
+        end: {
+          line: 67,
+          column: 41
+        }
+      },
+      "15": {
+        start: {
+          line: 57,
+          column: 44
+        },
+        end: {
+          line: 60,
+          column: 47
+        }
+      },
+      "16": {
+        start: {
+          line: 62,
+          column: 44
+        },
+        end: {
+          line: 62,
+          column: 59
+        }
+      },
+      "17": {
+        start: {
+          line: 63,
+          column: 44
+        },
+        end: {
+          line: 65,
+          column: 47
+        }
+      },
+      "18": {
+        start: {
+          line: 66,
+          column: 44
+        },
+        end: {
+          line: 66,
+          column: 81
+        }
+      },
+      "19": {
+        start: {
+          line: 66,
+          column: 64
+        },
+        end: {
+          line: 66,
+          column: 81
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "DeleteDialog",
+        decl: {
+          start: {
+            line: 17,
+            column: 9
+          },
+          end: {
+            line: 17,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 54
+          },
+          end: {
+            line: 77,
+            column: 1
+          }
+        },
+        line: 17
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 54,
+            column: 41
+          },
+          end: {
+            line: 54,
+            column: 42
+          }
+        },
+        loc: {
+          start: {
+            line: 54,
+            column: 45
+          },
+          end: {
+            line: 68,
+            column: 38
+          }
+        },
+        line: 54
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 54,
+            column: 61
+          },
+          end: {
+            line: 54,
+            column: 62
+          }
+        },
+        loc: {
+          start: {
+            line: 54,
+            column: 71
+          },
+          end: {
+            line: 68,
+            column: 37
+          }
+        },
+        line: 54
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 56,
+            column: 40
+          },
+          end: {
+            line: 67,
+            column: 41
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 56,
+            column: 40
+          },
+          end: {
+            line: 67,
+            column: 41
+          }
+        }, {
+          start: {
+            line: 61,
+            column: 47
+          },
+          end: {
+            line: 67,
+            column: 41
+          }
+        }],
+        line: 56
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 66,
+            column: 44
+          },
+          end: {
+            line: 66,
+            column: 81
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 66,
+            column: 44
+          },
+          end: {
+            line: 66,
+            column: 81
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 66
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 69,
+            column: 42
+          },
+          end: {
+            line: 69,
+            column: 78
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 69,
+            column: 54
+          },
+          end: {
+            line: 69,
+            column: 67
+          }
+        }, {
+          start: {
+            line: 69,
+            column: 70
+          },
+          end: {
+            line: 69,
+            column: 78
+          }
+        }],
+        line: 69
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/delete-dialog.tsx"],
+      sourcesContent: ["'use client'\nimport { useState, useTransition } from 'react'\n\nimport {\n  AlertDialog,\n  AlertDialogCancel,\n  AlertDialogContent,\n  AlertDialogDescription,\n  AlertDialogFooter,\n  AlertDialogHeader,\n  AlertDialogTitle,\n  AlertDialogTrigger,\n} from '@/components/ui/alert-dialog'\nimport { Button } from '@/components/ui/button'\nimport { useToast } from '@/hooks/use-toast'\n\nexport default function DeleteDialog({\n  id,\n  action,\n  callbackAction,\n}: {\n  id: string\n  action: (id: string) => Promise<{ success: boolean; message: string }>\n  callbackAction?: () => void\n}) {\n  const [open, setOpen] = useState(false)\n  const [isPending, startTransition] = useTransition()\n  const { toast } = useToast()\n  return (\n    <AlertDialog open={open} onOpenChange={setOpen}>\n      <AlertDialogTrigger asChild>\n        <Button size=\"sm\" variant=\"outline\">\n          Delete\n        </Button>\n      </AlertDialogTrigger>\n      <AlertDialogContent>\n        <AlertDialogHeader>\n          <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>\n          <AlertDialogDescription>\n            This action cannot be undone.\n          </AlertDialogDescription>\n        </AlertDialogHeader>\n        <AlertDialogFooter>\n          <AlertDialogCancel>Cancel</AlertDialogCancel>\n\n          <Button\n            variant=\"destructive\"\n            size=\"sm\"\n            disabled={isPending}\n            onClick={() =>\n              startTransition(async () => {\n                const res = await action(id)\n                if (!res.success) {\n                  toast({\n                    variant: 'destructive',\n                    description: res.message,\n                  })\n                } else {\n                  setOpen(false)\n                  toast({\n                    description: res.message,\n                  })\n                  if (callbackAction) callbackAction()\n                }\n              })\n            }\n          >\n            {isPending ? 'Deleting...' : 'Delete'}\n          </Button>\n        </AlertDialogFooter>\n      </AlertDialogContent>\n    </AlertDialog>\n  )\n}\n"],
+      names: ["DeleteDialog", "id", "action", "callbackAction", "open", "setOpen", "useState", "isPending", "startTransition", "useTransition", "toast", "useToast", "AlertDialog", "onOpenChange", "AlertDialogTrigger", "asChild", "Button", "size", "variant", "AlertDialogContent", "AlertDialogHeader", "AlertDialogTitle", "AlertDialogDescription", "AlertDialogFooter", "AlertDialogCancel", "disabled", "onClick", "res", "success", "description", "message"],
+      mappings: "AAAA;;;;;+BAgBA;;;eAAwBA;;;;uBAfgB;6BAWjC;wBACgB;0BACE;AAEV,SAASA,aAAa,EACnCC,EAAE,EACFC,MAAM,EACNC,cAAc,EAKf;IACC,MAAM,CAACC,MAAMC,QAAQ,GAAGC,IAAAA,eAAQ,EAAC;IACjC,MAAM,CAACC,WAAWC,gBAAgB,GAAGC,IAAAA,oBAAa;IAClD,MAAM,EAAEC,KAAK,EAAE,GAAGC,IAAAA,kBAAQ;IAC1B,qBACE,sBAACC,wBAAW;QAACR,MAAMA;QAAMS,cAAcR;;0BACrC,qBAACS,+BAAkB;gBAACC,OAAO;0BACzB,cAAA,qBAACC,cAAM;oBAACC,MAAK;oBAAKC,SAAQ;8BAAU;;;0BAItC,sBAACC,+BAAkB;;kCACjB,sBAACC,8BAAiB;;0CAChB,qBAACC,6BAAgB;0CAAC;;0CAClB,qBAACC,mCAAsB;0CAAC;;;;kCAI1B,sBAACC,8BAAiB;;0CAChB,qBAACC,8BAAiB;0CAAC;;0CAEnB,qBAACR,cAAM;gCACLE,SAAQ;gCACRD,MAAK;gCACLQ,UAAUlB;gCACVmB,SAAS,IACPlB,gBAAgB;wCACd,MAAMmB,MAAM,MAAMzB,OAAOD;wCACzB,IAAI,CAAC0B,IAAIC,OAAO,EAAE;4CAChBlB,MAAM;gDACJQ,SAAS;gDACTW,aAAaF,IAAIG,OAAO;4CAC1B;wCACF,OAAO;4CACLzB,QAAQ;4CACRK,MAAM;gDACJmB,aAAaF,IAAIG,OAAO;4CAC1B;4CACA,IAAI3B,gBAAgBA;wCACtB;oCACF;0CAGDI,YAAY,gBAAgB;;;;;;;;AAMzC"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "27937be9e668841286d1ed4587d49b51d1043b23"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1ipjh9wawv = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1ipjh9wawv();
+cov_1ipjh9wawv().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1ipjh9wawv().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1ipjh9wawv().f[0]++;
+    cov_1ipjh9wawv().s[2]++;
+    return DeleteDialog;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1ipjh9wawv().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(cov_1ipjh9wawv().s[4]++, require("react"));
+const _alertdialog =
+/* istanbul ignore next */
+(cov_1ipjh9wawv().s[5]++, require("../ui/alert-dialog"));
+const _button =
+/* istanbul ignore next */
+(cov_1ipjh9wawv().s[6]++, require("../ui/button"));
+const _usetoast =
+/* istanbul ignore next */
+(cov_1ipjh9wawv().s[7]++, require("../../hooks/use-toast"));
+function DeleteDialog({
+  id,
+  action,
+  callbackAction
+}) {
+  /* istanbul ignore next */
+  cov_1ipjh9wawv().f[1]++;
+  const [open, setOpen] =
+  /* istanbul ignore next */
+  (cov_1ipjh9wawv().s[8]++, (0, _react.useState)(false));
+  const [isPending, startTransition] =
+  /* istanbul ignore next */
+  (cov_1ipjh9wawv().s[9]++, (0, _react.useTransition)());
+  const {
+    toast
+  } =
+  /* istanbul ignore next */
+  (cov_1ipjh9wawv().s[10]++, (0, _usetoast.useToast)());
+  /* istanbul ignore next */
+  cov_1ipjh9wawv().s[11]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)(_alertdialog.AlertDialog, {
+    open: open,
+    onOpenChange: setOpen,
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_alertdialog.AlertDialogTrigger, {
+      asChild: true,
+      children: /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+        size: "sm",
+        variant: "outline",
+        children: "Delete"
+      })
+    }), /*#__PURE__*/(0, _jsxruntime.jsxs)(_alertdialog.AlertDialogContent, {
+      children: [/*#__PURE__*/(0, _jsxruntime.jsxs)(_alertdialog.AlertDialogHeader, {
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_alertdialog.AlertDialogTitle, {
+          children: "Are you absolutely sure?"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)(_alertdialog.AlertDialogDescription, {
+          children: "This action cannot be undone."
+        })]
+      }), /*#__PURE__*/(0, _jsxruntime.jsxs)(_alertdialog.AlertDialogFooter, {
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_alertdialog.AlertDialogCancel, {
+          children: "Cancel"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+          variant: "destructive",
+          size: "sm",
+          disabled: isPending,
+          onClick: () => {
+            /* istanbul ignore next */
+            cov_1ipjh9wawv().f[2]++;
+            cov_1ipjh9wawv().s[12]++;
+            return startTransition(async () => {
+              /* istanbul ignore next */
+              cov_1ipjh9wawv().f[3]++;
+              const res =
+              /* istanbul ignore next */
+              (cov_1ipjh9wawv().s[13]++, await action(id));
+              /* istanbul ignore next */
+              cov_1ipjh9wawv().s[14]++;
+              if (!res.success) {
+                /* istanbul ignore next */
+                cov_1ipjh9wawv().b[0][0]++;
+                cov_1ipjh9wawv().s[15]++;
+                toast({
+                  variant: 'destructive',
+                  description: res.message
+                });
+              } else {
+                /* istanbul ignore next */
+                cov_1ipjh9wawv().b[0][1]++;
+                cov_1ipjh9wawv().s[16]++;
+                setOpen(false);
+                /* istanbul ignore next */
+                cov_1ipjh9wawv().s[17]++;
+                toast({
+                  description: res.message
+                });
+                /* istanbul ignore next */
+                cov_1ipjh9wawv().s[18]++;
+                if (callbackAction) {
+                  /* istanbul ignore next */
+                  cov_1ipjh9wawv().b[1][0]++;
+                  cov_1ipjh9wawv().s[19]++;
+                  callbackAction();
+                } else
+                /* istanbul ignore next */
+                {
+                  cov_1ipjh9wawv().b[1][1]++;
+                }
+              }
+            });
+          },
+          children: isPending ?
+          /* istanbul ignore next */
+          (cov_1ipjh9wawv().b[2][0]++, 'Deleting...') :
+          /* istanbul ignore next */
+          (cov_1ipjh9wawv().b[2][1]++, 'Delete')
+        })]
+      })]
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJEZWxldGVEaWFsb2ciLCJpZCIsImFjdGlvbiIsImNhbGxiYWNrQWN0aW9uIiwiY292XzFpcGpoOXdhd3YiLCJmIiwib3BlbiIsInNldE9wZW4iLCJzIiwiX3JlYWN0IiwidXNlU3RhdGUiLCJpc1BlbmRpbmciLCJzdGFydFRyYW5zaXRpb24iLCJ1c2VUcmFuc2l0aW9uIiwidG9hc3QiLCJfdXNldG9hc3QiLCJ1c2VUb2FzdCIsIl9qc3hydW50aW1lIiwianN4cyIsIl9hbGVydGRpYWxvZyIsIkFsZXJ0RGlhbG9nIiwib25PcGVuQ2hhbmdlIiwianN4IiwiQWxlcnREaWFsb2dUcmlnZ2VyIiwiYXNDaGlsZCIsIl9idXR0b24iLCJCdXR0b24iLCJzaXplIiwidmFyaWFudCIsIkFsZXJ0RGlhbG9nQ29udGVudCIsIkFsZXJ0RGlhbG9nSGVhZGVyIiwiQWxlcnREaWFsb2dUaXRsZSIsIkFsZXJ0RGlhbG9nRGVzY3JpcHRpb24iLCJBbGVydERpYWxvZ0Zvb3RlciIsIkFsZXJ0RGlhbG9nQ2FuY2VsIiwiZGlzYWJsZWQiLCJvbkNsaWNrIiwicmVzIiwic3VjY2VzcyIsImIiLCJkZXNjcmlwdGlvbiIsIm1lc3NhZ2UiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2NvbXBvbmVudHMvc2hhcmVkL2RlbGV0ZS1kaWFsb2cudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2UgY2xpZW50J1xuaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVRyYW5zaXRpb24gfSBmcm9tICdyZWFjdCdcblxuaW1wb3J0IHtcbiAgQWxlcnREaWFsb2csXG4gIEFsZXJ0RGlhbG9nQ2FuY2VsLFxuICBBbGVydERpYWxvZ0NvbnRlbnQsXG4gIEFsZXJ0RGlhbG9nRGVzY3JpcHRpb24sXG4gIEFsZXJ0RGlhbG9nRm9vdGVyLFxuICBBbGVydERpYWxvZ0hlYWRlcixcbiAgQWxlcnREaWFsb2dUaXRsZSxcbiAgQWxlcnREaWFsb2dUcmlnZ2VyLFxufSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYWxlcnQtZGlhbG9nJ1xuaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbidcbmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAnQC9ob29rcy91c2UtdG9hc3QnXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERlbGV0ZURpYWxvZyh7XG4gIGlkLFxuICBhY3Rpb24sXG4gIGNhbGxiYWNrQWN0aW9uLFxufToge1xuICBpZDogc3RyaW5nXG4gIGFjdGlvbjogKGlkOiBzdHJpbmcpID0+IFByb21pc2U8eyBzdWNjZXNzOiBib29sZWFuOyBtZXNzYWdlOiBzdHJpbmcgfT5cbiAgY2FsbGJhY2tBY3Rpb24/OiAoKSA9PiB2b2lkXG59KSB7XG4gIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKVxuICBjb25zdCBbaXNQZW5kaW5nLCBzdGFydFRyYW5zaXRpb25dID0gdXNlVHJhbnNpdGlvbigpXG4gIGNvbnN0IHsgdG9hc3QgfSA9IHVzZVRvYXN0KClcbiAgcmV0dXJuIChcbiAgICA8QWxlcnREaWFsb2cgb3Blbj17b3Blbn0gb25PcGVuQ2hhbmdlPXtzZXRPcGVufT5cbiAgICAgIDxBbGVydERpYWxvZ1RyaWdnZXIgYXNDaGlsZD5cbiAgICAgICAgPEJ1dHRvbiBzaXplPVwic21cIiB2YXJpYW50PVwib3V0bGluZVwiPlxuICAgICAgICAgIERlbGV0ZVxuICAgICAgICA8L0J1dHRvbj5cbiAgICAgIDwvQWxlcnREaWFsb2dUcmlnZ2VyPlxuICAgICAgPEFsZXJ0RGlhbG9nQ29udGVudD5cbiAgICAgICAgPEFsZXJ0RGlhbG9nSGVhZGVyPlxuICAgICAgICAgIDxBbGVydERpYWxvZ1RpdGxlPkFyZSB5b3UgYWJzb2x1dGVseSBzdXJlPzwvQWxlcnREaWFsb2dUaXRsZT5cbiAgICAgICAgICA8QWxlcnREaWFsb2dEZXNjcmlwdGlvbj5cbiAgICAgICAgICAgIFRoaXMgYWN0aW9uIGNhbm5vdCBiZSB1bmRvbmUuXG4gICAgICAgICAgPC9BbGVydERpYWxvZ0Rlc2NyaXB0aW9uPlxuICAgICAgICA8L0FsZXJ0RGlhbG9nSGVhZGVyPlxuICAgICAgICA8QWxlcnREaWFsb2dGb290ZXI+XG4gICAgICAgICAgPEFsZXJ0RGlhbG9nQ2FuY2VsPkNhbmNlbDwvQWxlcnREaWFsb2dDYW5jZWw+XG5cbiAgICAgICAgICA8QnV0dG9uXG4gICAgICAgICAgICB2YXJpYW50PVwiZGVzdHJ1Y3RpdmVcIlxuICAgICAgICAgICAgc2l6ZT1cInNtXCJcbiAgICAgICAgICAgIGRpc2FibGVkPXtpc1BlbmRpbmd9XG4gICAgICAgICAgICBvbkNsaWNrPXsoKSA9PlxuICAgICAgICAgICAgICBzdGFydFRyYW5zaXRpb24oYXN5bmMgKCkgPT4ge1xuICAgICAgICAgICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGFjdGlvbihpZClcbiAgICAgICAgICAgICAgICBpZiAoIXJlcy5zdWNjZXNzKSB7XG4gICAgICAgICAgICAgICAgICB0b2FzdCh7XG4gICAgICAgICAgICAgICAgICAgIHZhcmlhbnQ6ICdkZXN0cnVjdGl2ZScsXG4gICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXMubWVzc2FnZSxcbiAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICAgICAgICAgIHNldE9wZW4oZmFsc2UpXG4gICAgICAgICAgICAgICAgICB0b2FzdCh7XG4gICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiByZXMubWVzc2FnZSxcbiAgICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICAgICAgICBpZiAoY2FsbGJhY2tBY3Rpb24pIGNhbGxiYWNrQWN0aW9uKClcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICB9XG4gICAgICAgICAgPlxuICAgICAgICAgICAge2lzUGVuZGluZyA/ICdEZWxldGluZy4uLicgOiAnRGVsZXRlJ31cbiAgICAgICAgICA8L0J1dHRvbj5cbiAgICAgICAgPC9BbGVydERpYWxvZ0Zvb3Rlcj5cbiAgICAgIDwvQWxlcnREaWFsb2dDb250ZW50PlxuICAgIDwvQWxlcnREaWFsb2c+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBZ0JBOzs7Ozs7V0FBd0JBLFlBQUE7Ozs7Ozs7O2tDQWZnQjs7O2tDQVdqQzs7O2tDQUNnQjs7O2tDQUNFO0FBRVYsU0FBU0EsYUFBYTtFQUNuQ0MsRUFBRTtFQUNGQyxNQUFNO0VBQ05DO0FBQWMsQ0FLZjtFQUFBO0VBQUFDLGNBQUEsR0FBQUMsQ0FBQTtFQUNDLE1BQU0sQ0FBQ0MsSUFBQSxFQUFNQyxPQUFBLENBQVE7RUFBQTtFQUFBLENBQUFILGNBQUEsR0FBQUksQ0FBQSxPQUFHLElBQUFDLE1BQUEsQ0FBQUMsUUFBUSxFQUFDO0VBQ2pDLE1BQU0sQ0FBQ0MsU0FBQSxFQUFXQyxlQUFBLENBQWdCO0VBQUE7RUFBQSxDQUFBUixj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

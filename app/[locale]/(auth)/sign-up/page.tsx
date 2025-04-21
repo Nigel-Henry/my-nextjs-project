@@ -25,10 +25,10 @@ export default async function SignUpPage(props: {
   }
 
   return (
-    <div className='w-full'>
+    <div className="w-full">
       <Card>
         <CardHeader>
-          <CardTitle className='text-2xl'>Create account</CardTitle>
+          <CardTitle className="text-2xl">Create account</CardTitle>
         </CardHeader>
         <CardContent>
           <SignUpForm />

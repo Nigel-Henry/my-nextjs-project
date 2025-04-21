@@ -20,9 +20,9 @@ export default function CartButton() {
 
   const locale = useLocale()
   return (
-    <Link href='/cart' className='px-1 header-button'>
-      <div className='flex items-end text-xs relative'>
-        <ShoppingCartIcon className='h-8 w-8' />
+    <Link href="/cart" className="px-1 header-button">
+      <div className="flex items-end text-xs relative">
+        <ShoppingCartIcon className="h-8 w-8" />
 
         {isMounted && (
           <span
@@ -36,7 +36,7 @@ export default function CartButton() {
             {cartItemsCount}
           </span>
         )}
-        <span className='font-bold'>{t('Header.Cart')}</span>
+        <span className="font-bold">{t('Header.Cart')}</span>
 
         {showSidebar && (
           <div

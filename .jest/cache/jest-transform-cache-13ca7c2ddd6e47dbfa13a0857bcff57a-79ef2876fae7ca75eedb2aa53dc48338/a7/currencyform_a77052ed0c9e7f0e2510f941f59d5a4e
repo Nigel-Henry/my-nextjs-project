@@ -1,0 +1,305 @@
+7f80510d31c65b56ad463036776e9924
+'use client';
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+Object.defineProperty(exports, "default" // Current Date and Time (UTC): 2025-04-20 19:05:48
+ // Current User's Login: ibrahim-lasfar
+, {
+    enumerable: true,
+    get: function() {
+        return CurrencyForm;
+    }
+});
+const _jsxruntime = require("react/jsx-runtime");
+const _button = require("../../../../components/ui/button");
+const _card = require("../../../../components/ui/card");
+const _form = require("../../../../components/ui/form");
+const _input = require("../../../../components/ui/input");
+const _select = require("../../../../components/ui/select");
+const _lucidereact = require("lucide-react");
+const _react = /*#__PURE__*/ _interop_require_wildcard(require("react"));
+const _reacthookform = require("react-hook-form");
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interop_require_wildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) {
+        return obj;
+    }
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") {
+        return {
+            default: obj
+        };
+    }
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) {
+        return cache.get(obj);
+    }
+    var newObj = {
+        __proto__: null
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj){
+        if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+            var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+            if (desc && (desc.get || desc.set)) {
+                Object.defineProperty(newObj, key, desc);
+            } else {
+                newObj[key] = obj[key];
+            }
+        }
+    }
+    newObj.default = obj;
+    if (cache) {
+        cache.set(obj, newObj);
+    }
+    return newObj;
+}
+function CurrencyForm({ form, id }) {
+    // Initialize field array for currencies with proper typing
+    const { fields, append, remove } = (0, _reacthookform.useFieldArray)({
+        control: form.control,
+        name: 'availableCurrencies'
+    });
+    const { setValue, watch, control, formState: { errors } } = form;
+    const availableCurrencies = watch('availableCurrencies');
+    const defaultCurrency = watch('defaultCurrency');
+    // Memoize valid currencies
+    const validCurrencies = (0, _react.useMemo)(()=>{
+        return availableCurrencies?.filter((currency)=>Boolean(currency?.code)) || [];
+    }, [
+        availableCurrencies
+    ]);
+    // Handle default currency validation
+    (0, _react.useEffect)(()=>{
+        const validCodes = validCurrencies.map((currency)=>currency.code);
+        if (defaultCurrency && !validCodes.includes(defaultCurrency)) {
+            setValue('defaultCurrency', '');
+        }
+    }, [
+        validCurrencies,
+        defaultCurrency,
+        setValue
+    ]);
+    // Memoize add currency handler
+    const handleAddCurrency = (0, _react.useCallback)(()=>{
+        const newCurrency = {
+            name: '',
+            code: '',
+            symbol: '',
+            convertRate: 1
+        };
+        append(newCurrency);
+    }, [
+        append
+    ]);
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_card.Card, {
+        id: id,
+        className: "shadow-md",
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_card.CardHeader, {
+                className: "space-y-1",
+                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_card.CardTitle, {
+                    className: "text-2xl font-bold",
+                    children: "Currency Settings"
+                })
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsxs)(_card.CardContent, {
+                className: "space-y-6",
+                children: [
+                    /*#__PURE__*/ (0, _jsxruntime.jsxs)("div", {
+                        className: "space-y-4",
+                        children: [
+                            fields.map((field, index)=>/*#__PURE__*/ (0, _jsxruntime.jsxs)("div", {
+                                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 p-4 border rounded-lg bg-background",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormField, {
+                                            control: control,
+                                            name: `availableCurrencies.${index}.name`,
+                                            render: ({ field })=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_form.FormItem, {
+                                                    children: [
+                                                        index === 0 && /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormLabel, {
+                                                            className: "text-sm font-medium",
+                                                            children: "Currency Name"
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormControl, {
+                                                            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_input.Input, {
+                                                                ...field,
+                                                                placeholder: "US Dollar",
+                                                                className: "w-full"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormMessage, {
+                                                            children: errors.availableCurrencies?.[index]?.name?.message
+                                                        })
+                                                    ]
+                                                })
+                                        }),
+                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormField, {
+                                            control: control,
+                                            name: `availableCurrencies.${index}.code`,
+                                            render: ({ field })=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_form.FormItem, {
+                                                    children: [
+                                                        index === 0 && /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormLabel, {
+                                                            className: "text-sm font-medium",
+                                                            children: "Currency Code"
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormControl, {
+                                                            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_input.Input, {
+                                                                ...field,
+                                                                placeholder: "USD",
+                                                                className: "w-full uppercase",
+                                                                maxLength: 3
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormMessage, {
+                                                            children: errors.availableCurrencies?.[index]?.code?.message
+                                                        })
+                                                    ]
+                                                })
+                                        }),
+                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormField, {
+                                            control: control,
+                                            name: `availableCurrencies.${index}.symbol`,
+                                            render: ({ field })=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_form.FormItem, {
+                                                    children: [
+                                                        index === 0 && /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormLabel, {
+                                                            className: "text-sm font-medium",
+                                                            children: "Currency Symbol"
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormControl, {
+                                                            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_input.Input, {
+                                                                ...field,
+                                                                placeholder: "$",
+                                                                className: "w-full",
+                                                                maxLength: 3
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormMessage, {
+                                                            children: errors.availableCurrencies?.[index]?.symbol?.message
+                                                        })
+                                                    ]
+                                                })
+                                        }),
+                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormField, {
+                                            control: control,
+                                            name: `availableCurrencies.${index}.convertRate`,
+                                            render: ({ field })=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_form.FormItem, {
+                                                    children: [
+                                                        index === 0 && /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormLabel, {
+                                                            className: "text-sm font-medium",
+                                                            children: "Conversion Rate"
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormControl, {
+                                                            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_input.Input, {
+                                                                ...field,
+                                                                type: "number",
+                                                                step: "0.0001",
+                                                                min: "0",
+                                                                placeholder: "1.0000",
+                                                                className: "w-full",
+                                                                onChange: (e)=>{
+                                                                    const value = parseFloat(e.target.value);
+                                                                    field.onChange(isNaN(value) ? 0 : value);
+                                                                }
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormMessage, {
+                                                            children: errors.availableCurrencies?.[index]?.convertRate?.message
+                                                        })
+                                                    ]
+                                                })
+                                        }),
+                                        /*#__PURE__*/ (0, _jsxruntime.jsxs)("div", {
+                                            className: "flex items-end justify-end lg:justify-center",
+                                            children: [
+                                                index === 0 && /*#__PURE__*/ (0, _jsxruntime.jsx)("div", {
+                                                    className: "hidden lg:block h-6 mb-2",
+                                                    children: "Actions"
+                                                }),
+                                                /*#__PURE__*/ (0, _jsxruntime.jsxs)(_button.Button, {
+                                                    type: "button",
+                                                    variant: "outline",
+                                                    size: "icon",
+                                                    className: `${fields.length === 1 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-destructive hover:text-destructive-foreground'}`,
+                                                    onClick: ()=>remove(index),
+                                                    disabled: fields.length === 1,
+                                                    title: fields.length === 1 ? 'Cannot remove last currency' : 'Remove currency',
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)(_lucidereact.TrashIcon, {
+                                                            className: "h-4 w-4"
+                                                        }),
+                                                        /*#__PURE__*/ (0, _jsxruntime.jsx)("span", {
+                                                            className: "sr-only",
+                                                            children: "Remove currency"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                }, field.id)),
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_button.Button, {
+                                type: "button",
+                                variant: "outline",
+                                onClick: handleAddCurrency,
+                                className: "w-full",
+                                children: "Add New Currency"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormField, {
+                        control: control,
+                        name: "defaultCurrency",
+                        render: ({ field })=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_form.FormItem, {
+                                className: "space-y-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormLabel, {
+                                        className: "text-sm font-medium",
+                                        children: "Default Currency"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxruntime.jsxs)(_select.Select, {
+                                        value: field.value || '',
+                                        onValueChange: field.onChange,
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormControl, {
+                                                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_select.SelectTrigger, {
+                                                    className: "w-full",
+                                                    children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_select.SelectValue, {
+                                                        placeholder: "Select default currency"
+                                                    })
+                                                })
+                                            }),
+                                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_select.SelectContent, {
+                                                children: validCurrencies.map((currency, index)=>/*#__PURE__*/ (0, _jsxruntime.jsxs)(_select.SelectItem, {
+                                                        value: currency.code,
+                                                        children: [
+                                                            currency.name,
+                                                            " (",
+                                                            currency.code,
+                                                            ")"
+                                                        ]
+                                                    }, index))
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxruntime.jsx)(_form.FormMessage, {
+                                        children: errors.defaultCurrency?.message
+                                    })
+                                ]
+                            })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vYXBwL1tsb2NhbGVdL2FkbWluL3NldHRpbmdzL2N1cnJlbmN5LWZvcm0udHN4Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2UgY2xpZW50J1xuXG5pbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJ1xuaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9jYXJkJ1xuaW1wb3J0IHtcbiAgRm9ybUNvbnRyb2wsXG4gIEZvcm1GaWVsZCxcbiAgRm9ybUl0ZW0sXG4gIEZvcm1MYWJlbCxcbiAgRm9ybU1lc3NhZ2UsXG59IGZyb20gJ0AvY29tcG9uZW50cy91aS9mb3JtJ1xuaW1wb3J0IHsgSW5wdXQgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvaW5wdXQnXG5pbXBvcnQge1xuICBTZWxlY3QsXG4gIFNlbGVjdENvbnRlbnQsXG4gIFNlbGVjdEl0ZW0sXG4gIFNlbGVjdFRyaWdnZXIsXG4gIFNlbGVjdFZhbHVlLFxufSBmcm9tICdAL2NvbXBvbmVudHMvdWkvc2VsZWN0J1xuaW1wb3J0IHsgSVNldHRpbmdJbnB1dCB9IGZyb20gJ0AvdHlwZXMnXG5pbXBvcnQgeyBDdXJyZW5jeUZpZWxkLCBVc2VGaWVsZEFycmF5UHJvcHMgfSBmcm9tICdAL3R5cGVzL2Zvcm0nXG5pbXBvcnQgeyBUcmFzaEljb24gfSBmcm9tICdsdWNpZGUtcmVhY3QnXG5pbXBvcnQgUmVhY3QsIHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlTWVtbyB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgdXNlRmllbGRBcnJheSwgVXNlRm9ybVJldHVybiB9IGZyb20gJ3JlYWN0LWhvb2stZm9ybSdcblxuaW50ZXJmYWNlIEN1cnJlbmN5Rm9ybVByb3BzIHtcbiAgZm9ybTogVXNlRm9ybVJldHVybjxJU2V0dGluZ0lucHV0PlxuICBpZDogc3RyaW5nXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEN1cnJlbmN5Rm9ybSh7IGZvcm0sIGlkIH06IEN1cnJlbmN5Rm9ybVByb3BzKSB7XG4gIC8vIEluaXRpYWxpemUgZmllbGQgYXJyYXkgZm9yIGN1cnJlbmNpZXMgd2l0aCBwcm9wZXIgdHlwaW5nXG4gIGNvbnN0IHsgZmllbGRzLCBhcHBlbmQsIHJlbW92ZSB9ID0gdXNlRmllbGRBcnJheSh7XG4gICAgY29udHJvbDogZm9ybS5jb250cm9sLFxuICAgIG5hbWU6ICdhdmFpbGFibGVDdXJyZW5jaWVzJyxcbiAgfSBhcyBVc2VGaWVsZEFycmF5UHJvcHM8SVNldHRpbmdJbnB1dD4pXG5cbiAgY29uc3Qge1xuICAgIHNldFZhbHVlLFxuICAgIHdhdGNoLFxuICAgIGNvbnRyb2wsXG4gICAgZm9ybVN0YXRlOiB7IGVycm9ycyB9LFxuICB9ID0gZm9ybVxuXG4gIGNvbnN0IGF2YWlsYWJsZUN1cnJlbmNpZXMgPSB3YXRjaCgnYXZhaWxhYmxlQ3VycmVuY2llcycpXG4gIGNvbnN0IGRlZmF1bHRDdXJyZW5jeSA9IHdhdGNoKCdkZWZhdWx0Q3VycmVuY3knKVxuXG4gIC8vIE1lbW9pemUgdmFsaWQgY3VycmVuY2llc1xuICBjb25zdCB2YWxpZEN1cnJlbmNpZXMgPSB1c2VNZW1vKCgpID0+IHtcbiAgICByZXR1cm4gKFxuICAgICAgYXZhaWxhYmxlQ3VycmVuY2llcz8uZmlsdGVyKChjdXJyZW5jeSk6IGN1cnJlbmN5IGlzIEN1cnJlbmN5RmllbGQgPT5cbiAgICAgICAgQm9vbGVhbihjdXJyZW5jeT8uY29kZSlcbiAgICAgICkgfHwgW11cbiAgICApXG4gIH0sIFthdmFpbGFibGVDdXJyZW5jaWVzXSlcblxuICAvLyBIYW5kbGUgZGVmYXVsdCBjdXJyZW5jeSB2YWxpZGF0aW9uXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgdmFsaWRDb2RlcyA9IHZhbGlkQ3VycmVuY2llcy5tYXAoKGN1cnJlbmN5KSA9PiBjdXJyZW5jeS5jb2RlKVxuICAgIGlmIChkZWZhdWx0Q3VycmVuY3kgJiYgIXZhbGlkQ29kZXMuaW5jbHVkZXMoZGVmYXVsdEN1cnJlbmN5KSkge1xuICAgICAgc2V0VmFsdWUoJ2RlZmF1bHRDdXJyZW5jeScsICcnKVxuICAgIH1cbiAgfSwgW3ZhbGlkQ3VycmVuY2llcywgZGVmYXVsdEN1cnJlbmN5LCBzZXRWYWx1ZV0pXG5cbiAgLy8gTWVtb2l6ZSBhZGQgY3VycmVuY3kgaGFuZGxlclxuICBjb25zdCBoYW5kbGVBZGRDdXJyZW5jeSA9IHVzZUNhbGxiYWNrKCgpID0+IHtcbiAgICBjb25zdCBuZXdDdXJyZW5jeTogQ3VycmVuY3lGaWVsZCA9IHtcbiAgICAgIG5hbWU6ICcnLFxuICAgICAgY29kZTogJycsXG4gICAgICBzeW1ib2w6ICcnLFxuICAgICAgY29udmVydFJhdGU6IDEsXG4gICAgfVxuICAgIGFwcGVuZChuZXdDdXJyZW5jeSlcbiAgfSwgW2FwcGVuZF0pXG5cbiAgcmV0dXJuIChcbiAgICA8Q2FyZCBpZD17aWR9IGNsYXNzTmFtZT1cInNoYWRvdy1tZFwiPlxuICAgICAgPENhcmRIZWFkZXIgY2xhc3NOYW1lPVwic3BhY2UteS0xXCI+XG4gICAgICAgIDxDYXJkVGl0bGUgY2xhc3NOYW1lPVwidGV4dC0yeGwgZm9udC1ib2xkXCI+Q3VycmVuY3kgU2V0dGluZ3M8L0NhcmRUaXRsZT5cbiAgICAgIDwvQ2FyZEhlYWRlcj5cbiAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9XCJzcGFjZS15LTZcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGFjZS15LTRcIj5cbiAgICAgICAgICB7ZmllbGRzLm1hcCgoZmllbGQsIGluZGV4KSA9PiAoXG4gICAgICAgICAgICA8ZGl2XG4gICAgICAgICAgICAgIGtleT17ZmllbGQuaWR9XG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTUgZ2FwLTQgcC00IGJvcmRlciByb3VuZGVkLWxnIGJnLWJhY2tncm91bmRcIlxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICB7LyogTmFtZSBGaWVsZCAqL31cbiAgICAgICAgICAgICAgPEZvcm1GaWVsZFxuICAgICAgICAgICAgICAgIGNvbnRyb2w9e2NvbnRyb2x9XG4gICAgICAgICAgICAgICAgbmFtZT17YGF2YWlsYWJsZUN1cnJlbmNpZXMuJHtpbmRleH0ubmFtZWB9XG4gICAgICAgICAgICAgICAgcmVuZGVyPXsoeyBmaWVsZCB9KSA9PiAoXG4gICAgICAgICAgICAgICAgICA8Rm9ybUl0ZW0+XG4gICAgICAgICAgICAgICAgICAgIHtpbmRleCA9PT0gMCAmJiAoXG4gICAgICAgICAgICAgICAgICAgICAgPEZvcm1MYWJlbCBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtbWVkaXVtXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBDdXJyZW5jeSBOYW1lXG4gICAgICAgICAgICAgICAgICAgICAgPC9Gb3JtTGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcbiAgICAgICAgICAgICAgICAgICAgICAgIHsuLi5maWVsZH1cbiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPVwiVVMgRG9sbGFyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInctZnVsbFwiXG4gICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgPC9Gb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgICAgPEZvcm1NZXNzYWdlPlxuICAgICAgICAgICAgICAgICAgICAgIHtlcnJvcnMuYXZhaWxhYmxlQ3VycmVuY2llcz8uW2luZGV4XT8ubmFtZT8ubWVzc2FnZX1cbiAgICAgICAgICAgICAgICAgICAgPC9Gb3JtTWVzc2FnZT5cbiAgICAgICAgICAgICAgICAgIDwvRm9ybUl0ZW0+XG4gICAgICAgICAgICAgICAgKX1cbiAgICAgICAgICAgICAgLz5cblxuICAgICAgICAgICAgICB7LyogQ29kZSBGaWVsZCAqL31cbiAgICAgICAgICAgICAgPEZvcm1GaWVsZFxuICAgICAgICAgICAgICAgIGNvbnRyb2w9e2NvbnRyb2x9XG4gICAgICAgICAgICAgICAgbmFtZT17YGF2YWlsYWJsZUN1cnJlbmNpZXMuJHtpbmRleH0uY29kZWB9XG4gICAgICAgICAgICAgICAgcmVuZGVyPXsoeyBmaWVsZCB9KSA9PiAoXG4gICAgICAgICAgICAgICAgICA8Rm9ybUl0ZW0+XG4gICAgICAgICAgICAgICAgICAgIHtpbmRleCA9PT0gMCAmJiAoXG4gICAgICAgICAgICAgICAgICAgICAgPEZvcm1MYWJlbCBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtbWVkaXVtXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBDdXJyZW5jeSBDb2RlXG4gICAgICAgICAgICAgICAgICAgICAgPC9Gb3JtTGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcbiAgICAgICAgICAgICAgICAgICAgICAgIHsuLi5maWVsZH1cbiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPVwiVVNEXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInctZnVsbCB1cHBlcmNhc2VcIlxuICAgICAgICAgICAgICAgICAgICAgICAgbWF4TGVuZ3RoPXszfVxuICAgICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgIDwvRm9ybUNvbnRyb2w+XG4gICAgICAgICAgICAgICAgICAgIDxGb3JtTWVzc2FnZT5cbiAgICAgICAgICAgICAgICAgICAgICB7ZXJyb3JzLmF2YWlsYWJsZUN1cnJlbmNpZXM/LltpbmRleF0/LmNvZGU/Lm1lc3NhZ2V9XG4gICAgICAgICAgICAgICAgICAgIDwvRm9ybU1lc3NhZ2U+XG4gICAgICAgICAgICAgICAgICA8L0Zvcm1JdGVtPlxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgey8qIFN5bWJvbCBGaWVsZCAqL31cbiAgICAgICAgICAgICAgPEZvcm1GaWVsZFxuICAgICAgICAgICAgICAgIGNvbnRyb2w9e2NvbnRyb2x9XG4gICAgICAgICAgICAgICAgbmFtZT17YGF2YWlsYWJsZUN1cnJlbmNpZXMuJHtpbmRleH0uc3ltYm9sYH1cbiAgICAgICAgICAgICAgICByZW5kZXI9eyh7IGZpZWxkIH0pID0+IChcbiAgICAgICAgICAgICAgICAgIDxGb3JtSXRlbT5cbiAgICAgICAgICAgICAgICAgICAge2luZGV4ID09PSAwICYmIChcbiAgICAgICAgICAgICAgICAgICAgICA8Rm9ybUxhYmVsIGNsYXNzTmFtZT1cInRleHQtc20gZm9udC1tZWRpdW1cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEN1cnJlbmN5IFN5bWJvbFxuICAgICAgICAgICAgICAgICAgICAgIDwvRm9ybUxhYmVsPlxuICAgICAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICAgICAgICA8Rm9ybUNvbnRyb2w+XG4gICAgICAgICAgICAgICAgICAgICAgPElucHV0XG4gICAgICAgICAgICAgICAgICAgICAgICB7Li4uZmllbGR9XG4gICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cIiRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidy1mdWxsXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1heExlbmd0aD17M31cbiAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8L0Zvcm1Db250cm9sPlxuICAgICAgICAgICAgICAgICAgICA8Rm9ybU1lc3NhZ2U+XG4gICAgICAgICAgICAgICAgICAgICAge2Vycm9ycy5hdmFpbGFibGVDdXJyZW5jaWVzPy5baW5kZXhdPy5zeW1ib2w/Lm1lc3NhZ2V9XG4gICAgICAgICAgICAgICAgICAgIDwvRm9ybU1lc3NhZ2U+XG4gICAgICAgICAgICAgICAgICA8L0Zvcm1JdGVtPlxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgey8qIENvbnZlcnQgUmF0ZSBGaWVsZCAqL31cbiAgICAgICAgICAgICAgPEZvcm1GaWVsZFxuICAgICAgICAgICAgICAgIGNvbnRyb2w9e2NvbnRyb2x9XG4gICAgICAgICAgICAgICAgbmFtZT17YGF2YWlsYWJsZUN1cnJlbmNpZXMuJHtpbmRleH0uY29udmVydFJhdGVgfVxuICAgICAgICAgICAgICAgIHJlbmRlcj17KHsgZmllbGQgfSkgPT4gKFxuICAgICAgICAgICAgICAgICAgPEZvcm1JdGVtPlxuICAgICAgICAgICAgICAgICAgICB7aW5kZXggPT09IDAgJiYgKFxuICAgICAgICAgICAgICAgICAgICAgIDxGb3JtTGFiZWwgY2xhc3NOYW1lPVwidGV4dC1zbSBmb250LW1lZGl1bVwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgQ29udmVyc2lvbiBSYXRlXG4gICAgICAgICAgICAgICAgICAgICAgPC9Gb3JtTGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcbiAgICAgICAgICAgICAgICAgICAgICAgIHsuLi5maWVsZH1cbiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9XCJudW1iZXJcIlxuICAgICAgICAgICAgICAgICAgICAgICAgc3RlcD1cIjAuMDAwMVwiXG4gICAgICAgICAgICAgICAgICAgICAgICBtaW49XCIwXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPVwiMS4wMDAwXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInctZnVsbFwiXG4gICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBwYXJzZUZsb2F0KGUudGFyZ2V0LnZhbHVlKVxuICAgICAgICAgICAgICAgICAgICAgICAgICBmaWVsZC5vbkNoYW5nZShpc05hTih2YWx1ZSkgPyAwIDogdmFsdWUpXG4gICAgICAgICAgICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgIDwvRm9ybUNvbnRyb2w+XG4gICAgICAgICAgICAgICAgICAgIDxGb3JtTWVzc2FnZT5cbiAgICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXZhaWxhYmxlQ3VycmVuY2llcz8uW2luZGV4XT8uY29udmVydFJhdGVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgPy5tZXNzYWdlXG4gICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICA8L0Zvcm1NZXNzYWdlPlxuICAgICAgICAgICAgICAgICAgPC9Gb3JtSXRlbT5cbiAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgIHsvKiBBY3Rpb25zICovfVxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtZW5kIGp1c3RpZnktZW5kIGxnOmp1c3RpZnktY2VudGVyXCI+XG4gICAgICAgICAgICAgICAge2luZGV4ID09PSAwICYmIChcbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaGlkZGVuIGxnOmJsb2NrIGgtNiBtYi0yXCI+QWN0aW9uczwvZGl2PlxuICAgICAgICAgICAgICAgICl9XG4gICAgICAgICAgICAgICAgPEJ1dHRvblxuICAgICAgICAgICAgICAgICAgdHlwZT1cImJ1dHRvblwiXG4gICAgICAgICAgICAgICAgICB2YXJpYW50PVwib3V0bGluZVwiXG4gICAgICAgICAgICAgICAgICBzaXplPVwiaWNvblwiXG4gICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Ake1xuICAgICAgICAgICAgICAgICAgICBmaWVsZHMubGVuZ3RoID09PSAxXG4gICAgICAgICAgICAgICAgICAgICAgPyAnb3BhY2l0eS01MCBjdXJzb3Itbm90LWFsbG93ZWQnXG4gICAgICAgICAgICAgICAgICAgICAgOiAnaG92ZXI6YmctZGVzdHJ1Y3RpdmUgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kJ1xuICAgICAgICAgICAgICAgICAgfWB9XG4gICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByZW1vdmUoaW5kZXgpfVxuICAgICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2ZpZWxkcy5sZW5ndGggPT09IDF9XG4gICAgICAgICAgICAgICAgICB0aXRsZT17XG4gICAgICAgICAgICAgICAgICAgIGZpZWxkcy5sZW5ndGggPT09IDFcbiAgICAgICAgICAgICAgICAgICAgICA/ICdDYW5ub3QgcmVtb3ZlIGxhc3QgY3VycmVuY3knXG4gICAgICAgICAgICAgICAgICAgICAgOiAnUmVtb3ZlIGN1cnJlbmN5J1xuICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgIDxUcmFzaEljb24gY2xhc3NOYW1lPVwiaC00IHctNFwiIC8+XG4gICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJzci1vbmx5XCI+UmVtb3ZlIGN1cnJlbmN5PC9zcGFuPlxuICAgICAgICAgICAgICAgIDwvQnV0dG9uPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICkpfVxuXG4gICAgICAgICAgey8qIEFkZCBDdXJyZW5jeSBCdXR0b24gKi99XG4gICAgICAgICAgPEJ1dHRvblxuICAgICAgICAgICAgdHlwZT1cImJ1dHRvblwiXG4gICAgICAgICAgICB2YXJpYW50PVwib3V0bGluZVwiXG4gICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVBZGRDdXJyZW5jeX1cbiAgICAgICAgICAgIGNsYXNzTmFtZT1cInctZnVsbFwiXG4gICAgICAgICAgPlxuICAgICAgICAgICAgQWRkIE5ldyBDdXJyZW5jeVxuICAgICAgICAgIDwvQnV0dG9uPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICB7LyogRGVmYXVsdCBDdXJyZW5jeSBTZWxlY3Rpb24gKi99XG4gICAgICAgIDxGb3JtRmllbGRcbiAgICAgICAgICBjb250cm9sPXtjb250cm9sfVxuICAgICAgICAgIG5hbWU9XCJkZWZhdWx0Q3VycmVuY3lcIlxuICAgICAgICAgIHJlbmRlcj17KHsgZmllbGQgfSkgPT4gKFxuICAgICAgICAgICAgPEZvcm1JdGVtIGNsYXNzTmFtZT1cInNwYWNlLXktMlwiPlxuICAgICAgICAgICAgICA8Rm9ybUxhYmVsIGNsYXNzTmFtZT1cInRleHQtc20gZm9udC1tZWRpdW1cIj5cbiAgICAgICAgICAgICAgICBEZWZhdWx0IEN1cnJlbmN5XG4gICAgICAgICAgICAgIDwvRm9ybUxhYmVsPlxuICAgICAgICAgICAgICA8U2VsZWN0IHZhbHVlPXtmaWVsZC52YWx1ZSB8fCAnJ30gb25WYWx1ZUNoYW5nZT17ZmllbGQub25DaGFuZ2V9PlxuICAgICAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyIGNsYXNzTmFtZT1cInctZnVsbFwiPlxuICAgICAgICAgICAgICAgICAgICA8U2VsZWN0VmFsdWUgcGxhY2Vob2xkZXI9XCJTZWxlY3QgZGVmYXVsdCBjdXJyZW5jeVwiIC8+XG4gICAgICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+XG4gICAgICAgICAgICAgICAgPC9Gb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICA8U2VsZWN0Q29udGVudD5cbiAgICAgICAgICAgICAgICAgIHt2YWxpZEN1cnJlbmNpZXMubWFwKChjdXJyZW5jeSwgaW5kZXgpID0+IChcbiAgICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0ga2V5PXtpbmRleH0gdmFsdWU9e2N1cnJlbmN5LmNvZGV9PlxuICAgICAgICAgICAgICAgICAgICAgIHtjdXJyZW5jeS5uYW1lfSAoe2N1cnJlbmN5LmNvZGV9KVxuICAgICAgICAgICAgICAgICAgICA8L1NlbGVjdEl0ZW0+XG4gICAgICAgICAgICAgICAgICApKX1cbiAgICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+XG4gICAgICAgICAgICAgIDwvU2VsZWN0PlxuICAgICAgICAgICAgICA8Rm9ybU1lc3NhZ2U+e2Vycm9ycy5kZWZhdWx0Q3VycmVuY3k/Lm1lc3NhZ2V9PC9Gb3JtTWVzc2FnZT5cbiAgICAgICAgICAgIDwvRm9ybUl0ZW0+XG4gICAgICAgICAgKX1cbiAgICAgICAgLz5cbiAgICAgIDwvQ2FyZENvbnRlbnQ+XG4gICAgPC9DYXJkPlxuICApXG59XG5cbi8vIEN1cnJlbnQgRGF0ZSBhbmQgVGltZSAoVVRDKTogMjAyNS0wNC0yMCAxOTowNTo0OFxuLy8gQ3VycmVudCBVc2VyJ3MgTG9naW46IGlicmFoaW0tbGFzZmFyXG4iXSwibmFtZXMiOlsiQ3VycmVuY3lGb3JtIiwiZm9ybSIsImlkIiwiZmllbGRzIiwiYXBwZW5kIiwicmVtb3ZlIiwidXNlRmllbGRBcnJheSIsImNvbnRyb2wiLCJuYW1lIiwic2V0VmFsdWUiLCJ3YXRjaCIsImZvcm1TdGF0ZSIsImVycm9ycyIsImF2YWlsYWJsZUN1cnJlbmNpZXMiLCJkZWZhdWx0Q3VycmVuY3kiLCJ2YWxpZEN1cnJlbmNpZXMiLCJ1c2VNZW1vIiwiZmlsdGVyIiwiY3VycmVuY3kiLCJCb29sZWFuIiwiY29kZSIsInVzZUVmZmVjdCIsInZhbGlkQ29kZXMiLCJtYXAiLCJpbmNsdWRlcyIsImhhbmRsZUFkZEN1cnJlbmN5IiwidXNlQ2FsbGJhY2siLCJuZXdDdXJyZW5jeSIsInN5bWJvbCIsImNvbnZlcnRSYXRlIiwiQ2FyZCIsImNsYXNzTmFtZSIsIkNhcmRIZWFkZXIiLCJDYXJkVGl0bGUiLCJDYXJkQ29udGVudCIsImRpdiIsImZpZWxkIiwiaW5kZXgiLCJGb3JtRmllbGQiLCJyZW5kZXIiLCJGb3JtSXRlbSIsIkZvcm1MYWJlbCIsIkZvcm1Db250cm9sIiwiSW5wdXQiLCJwbGFjZWhvbGRlciIsIkZvcm1NZXNzYWdlIiwibWVzc2FnZSIsIm1heExlbmd0aCIsInR5cGUiLCJzdGVwIiwibWluIiwib25DaGFuZ2UiLCJlIiwidmFsdWUiLCJwYXJzZUZsb2F0IiwidGFyZ2V0IiwiaXNOYU4iLCJCdXR0b24iLCJ2YXJpYW50Iiwic2l6ZSIsImxlbmd0aCIsIm9uQ2xpY2siLCJkaXNhYmxlZCIsInRpdGxlIiwiVHJhc2hJY29uIiwic3BhbiIsIlNlbGVjdCIsIm9uVmFsdWVDaGFuZ2UiLCJTZWxlY3RUcmlnZ2VyIiwiU2VsZWN0VmFsdWUiLCJTZWxlY3RDb250ZW50IiwiU2VsZWN0SXRlbSJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7OytCQThCQSxVQWlQQSxtREFBbUQ7Q0FDbkQsdUNBQXVDOzs7O2VBbFBmQTs7Ozt3QkE1QkQ7c0JBQ2tDO3NCQU9sRDt1QkFDZTt3QkFPZjs2QkFHbUI7K0RBQzZCOytCQUNWOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPOUIsU0FBU0EsYUFBYSxFQUFFQyxJQUFJLEVBQUVDLEVBQUUsRUFBcUI7SUFDbEUsMkRBQTJEO0lBQzNELE1BQU0sRUFBRUMsTUFBTSxFQUFFQyxNQUFNLEVBQUVDLE1BQU0sRUFBRSxHQUFHQyxJQUFBQSw0QkFBYSxFQUFDO1FBQy9DQyxTQUFTTixLQUFLTSxPQUFPO1FBQ3JCQyxNQUFNO0lBQ1I7SUFFQSxNQUFNLEVBQ0pDLFFBQVEsRUFDUkMsS0FBSyxFQUNMSCxPQUFPLEVBQ1BJLFdBQVcsRUFBRUMsTUFBTSxFQUFFLEVBQ3RCLEdBQUdYO0lBRUosTUFBTVksc0JBQXNCSCxNQUFNO0lBQ2xD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

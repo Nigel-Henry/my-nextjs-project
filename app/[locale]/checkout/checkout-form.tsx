@@ -156,31 +156,31 @@ const CheckoutForm = () => {
   }
   const CheckoutSummary = () => (
     <Card>
-      <CardContent className='p-4'>
+      <CardContent className="p-4">
         {!isAddressSelected && (
-          <div className='border-b mb-4'>
+          <div className="border-b mb-4">
             <Button
-              className='rounded-full w-full'
+              className="rounded-full w-full"
               onClick={handleSelectShippingAddress}
             >
               Ship to this address
             </Button>
-            <p className='text-xs text-center py-2'>
+            <p className="text-xs text-center py-2">
               Choose a shipping address and payment method in order to calculate
               shipping, handling, and tax.
             </p>
           </div>
         )}
         {isAddressSelected && !isPaymentMethodSelected && (
-          <div className=' mb-4'>
+          <div className=" mb-4">
             <Button
-              className='rounded-full w-full'
+              className="rounded-full w-full"
               onClick={handleSelectPaymentMethod}
             >
               Use this payment method
             </Button>
 
-            <p className='text-xs text-center py-2'>
+            <p className="text-xs text-center py-2">
               Choose a payment method to continue checking out. You&apos;ll
               still have a chance to review and edit your order before it&apos;s
               final.
@@ -189,27 +189,27 @@ const CheckoutForm = () => {
         )}
         {isPaymentMethodSelected && isAddressSelected && (
           <div>
-            <Button onClick={handlePlaceOrder} className='rounded-full w-full'>
+            <Button onClick={handlePlaceOrder} className="rounded-full w-full">
               Place Your Order
             </Button>
-            <p className='text-xs text-center py-2'>
+            <p className="text-xs text-center py-2">
               By placing your order, you agree to {site.name}&apos;s{' '}
-              <Link href='/page/privacy-policy'>privacy notice</Link> and
-              <Link href='/page/conditions-of-use'> conditions of use</Link>.
+              <Link href="/page/privacy-policy">privacy notice</Link> and
+              <Link href="/page/conditions-of-use"> conditions of use</Link>.
             </p>
           </div>
         )}
 
         <div>
-          <div className='text-lg font-bold'>Order Summary</div>
-          <div className='space-y-2'>
-            <div className='flex justify-between'>
+          <div className="text-lg font-bold">Order Summary</div>
+          <div className="space-y-2">
+            <div className="flex justify-between">
               <span>Items:</span>
               <span>
                 <ProductPrice price={itemsPrice} plain />
               </span>
             </div>
-            <div className='flex justify-between'>
+            <div className="flex justify-between">
               <span>Shipping & Handling:</span>
               <span>
                 {shippingPrice === undefined ? (
@@ -221,7 +221,7 @@ const CheckoutForm = () => {
                 )}
               </span>
             </div>
-            <div className='flex justify-between'>
+            <div className="flex justify-between">
               <span> Tax:</span>
               <span>
                 {taxPrice === undefined ? (
@@ -231,7 +231,7 @@ const CheckoutForm = () => {
                 )}
               </span>
             </div>
-            <div className='flex justify-between  pt-4 font-bold text-lg'>
+            <div className="flex justify-between  pt-4 font-bold text-lg">
               <span> Order Total:</span>
               <span>
                 <ProductPrice price={totalPrice} plain />
@@ -244,25 +244,25 @@ const CheckoutForm = () => {
   )
 
   return (
-    <main className='max-w-6xl mx-auto highlight-link'>
-      <div className='grid md:grid-cols-4 gap-6'>
-        <div className='md:col-span-3'>
+    <main className="max-w-6xl mx-auto highlight-link">
+      <div className="grid md:grid-cols-4 gap-6">
+        <div className="md:col-span-3">
           {/* shipping address */}
           <div>
             {isAddressSelected && shippingAddress ? (
-              <div className='grid grid-cols-1 md:grid-cols-12    my-3  pb-3'>
-                <div className='col-span-5 flex text-lg font-bold '>
-                  <span className='w-8'>1 </span>
+              <div className="grid grid-cols-1 md:grid-cols-12    my-3  pb-3">
+                <div className="col-span-5 flex text-lg font-bold ">
+                  <span className="w-8">1 </span>
                   <span>Shipping address</span>
                 </div>
-                <div className='col-span-5 '>
+                <div className="col-span-5 ">
                   <p>
                     {shippingAddress.fullName} <br />
                     {shippingAddress.street} <br />
                     {`${shippingAddress.city}, ${shippingAddress.province}, ${shippingAddress.postalCode}, ${shippingAddress.country}`}
                   </p>
                 </div>
-                <div className='col-span-2'>
+                <div className="col-span-2">
                   <Button
                     variant={'outline'}
                     onClick={() => {
@@ -277,34 +277,34 @@ const CheckoutForm = () => {
               </div>
             ) : (
               <>
-                <div className='flex text-primary text-lg font-bold my-2'>
-                  <span className='w-8'>1 </span>
+                <div className="flex text-primary text-lg font-bold my-2">
+                  <span className="w-8">1 </span>
                   <span>Enter shipping address</span>
                 </div>
                 <Form {...shippingAddressForm}>
                   <form
-                    method='post'
+                    method="post"
                     onSubmit={shippingAddressForm.handleSubmit(
                       onSubmitShippingAddress
                     )}
-                    className='space-y-4'
+                    className="space-y-4"
                   >
-                    <Card className='md:ml-8 my-4'>
-                      <CardContent className='p-4 space-y-2'>
-                        <div className='text-lg font-bold mb-2'>
+                    <Card className="md:ml-8 my-4">
+                      <CardContent className="p-4 space-y-2">
+                        <div className="text-lg font-bold mb-2">
                           Your address
                         </div>
 
-                        <div className='flex flex-col gap-5 md:flex-row'>
+                        <div className="flex flex-col gap-5 md:flex-row">
                           <FormField
                             control={shippingAddressForm.control}
-                            name='fullName'
+                            name="fullName"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Full Name</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter full name'
+                                    placeholder="Enter full name"
                                     {...field}
                                   />
                                 </FormControl>
@@ -316,13 +316,13 @@ const CheckoutForm = () => {
                         <div>
                           <FormField
                             control={shippingAddressForm.control}
-                            name='street'
+                            name="street"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Address</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter address'
+                                    placeholder="Enter address"
                                     {...field}
                                   />
                                 </FormControl>
@@ -331,15 +331,15 @@ const CheckoutForm = () => {
                             )}
                           />
                         </div>
-                        <div className='flex flex-col gap-5 md:flex-row'>
+                        <div className="flex flex-col gap-5 md:flex-row">
                           <FormField
                             control={shippingAddressForm.control}
-                            name='city'
+                            name="city"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>City</FormLabel>
                                 <FormControl>
-                                  <Input placeholder='Enter city' {...field} />
+                                  <Input placeholder="Enter city" {...field} />
                                 </FormControl>
                                 <FormMessage />
                               </FormItem>
@@ -347,13 +347,13 @@ const CheckoutForm = () => {
                           />
                           <FormField
                             control={shippingAddressForm.control}
-                            name='province'
+                            name="province"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Province</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter province'
+                                    placeholder="Enter province"
                                     {...field}
                                   />
                                 </FormControl>
@@ -363,13 +363,13 @@ const CheckoutForm = () => {
                           />
                           <FormField
                             control={shippingAddressForm.control}
-                            name='country'
+                            name="country"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Country</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter country'
+                                    placeholder="Enter country"
                                     {...field}
                                   />
                                 </FormControl>
@@ -378,16 +378,16 @@ const CheckoutForm = () => {
                             )}
                           />
                         </div>
-                        <div className='flex flex-col gap-5 md:flex-row'>
+                        <div className="flex flex-col gap-5 md:flex-row">
                           <FormField
                             control={shippingAddressForm.control}
-                            name='postalCode'
+                            name="postalCode"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Postal Code</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter postal code'
+                                    placeholder="Enter postal code"
                                     {...field}
                                   />
                                 </FormControl>
@@ -397,13 +397,13 @@ const CheckoutForm = () => {
                           />
                           <FormField
                             control={shippingAddressForm.control}
-                            name='phone'
+                            name="phone"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>Phone number</FormLabel>
                                 <FormControl>
                                   <Input
-                                    placeholder='Enter phone number'
+                                    placeholder="Enter phone number"
                                     {...field}
                                   />
                                 </FormControl>
@@ -413,10 +413,10 @@ const CheckoutForm = () => {
                           />
                         </div>
                       </CardContent>
-                      <CardFooter className='  p-4'>
+                      <CardFooter className="  p-4">
                         <Button
-                          type='submit'
-                          className='rounded-full font-bold'
+                          type="submit"
+                          className="rounded-full font-bold"
                         >
                           Ship to this address
                         </Button>
@@ -428,19 +428,19 @@ const CheckoutForm = () => {
             )}
           </div>
           {/* payment method */}
-          <div className='border-y'>
+          <div className="border-y">
             {isPaymentMethodSelected && paymentMethod ? (
-              <div className='grid  grid-cols-1 md:grid-cols-12  my-3 pb-3'>
-                <div className='flex text-lg font-bold  col-span-5'>
-                  <span className='w-8'>2 </span>
+              <div className="grid  grid-cols-1 md:grid-cols-12  my-3 pb-3">
+                <div className="flex text-lg font-bold  col-span-5">
+                  <span className="w-8">2 </span>
                   <span>Payment Method</span>
                 </div>
-                <div className='col-span-5 '>
+                <div className="col-span-5 ">
                   <p>{paymentMethod}</p>
                 </div>
-                <div className='col-span-2'>
+                <div className="col-span-2">
                   <Button
-                    variant='outline'
+                    variant="outline"
                     onClick={() => {
                       setIsPaymentMethodSelected(false)
                       if (paymentMethod) setIsDeliveryDateSelected(true)
@@ -452,24 +452,24 @@ const CheckoutForm = () => {
               </div>
             ) : isAddressSelected ? (
               <>
-                <div className='flex text-primary text-lg font-bold my-2'>
-                  <span className='w-8'>2 </span>
+                <div className="flex text-primary text-lg font-bold my-2">
+                  <span className="w-8">2 </span>
                   <span>Choose a payment method</span>
                 </div>
-                <Card className='md:ml-8 my-4'>
-                  <CardContent className='p-4'>
+                <Card className="md:ml-8 my-4">
+                  <CardContent className="p-4">
                     <RadioGroup
                       value={paymentMethod}
                       onValueChange={(value) => setPaymentMethod(value)}
                     >
                       {availablePaymentMethods.map((pm) => (
-                        <div key={pm.name} className='flex items-center py-1 '>
+                        <div key={pm.name} className="flex items-center py-1 ">
                           <RadioGroupItem
                             value={pm.name}
                             id={`payment-${pm.name}`}
                           />
                           <Label
-                            className='font-bold pl-2 cursor-pointer'
+                            className="font-bold pl-2 cursor-pointer"
                             htmlFor={`payment-${pm.name}`}
                           >
                             {pm.name}
@@ -478,10 +478,10 @@ const CheckoutForm = () => {
                       ))}
                     </RadioGroup>
                   </CardContent>
-                  <CardFooter className='p-4'>
+                  <CardFooter className="p-4">
                     <Button
                       onClick={handleSelectPaymentMethod}
-                      className='rounded-full font-bold'
+                      className="rounded-full font-bold"
                     >
                       Use this payment method
                     </Button>
@@ -489,8 +489,8 @@ const CheckoutForm = () => {
                 </Card>
               </>
             ) : (
-              <div className='flex text-muted-foreground text-lg font-bold my-4 py-3'>
-                <span className='w-8'>2 </span>
+              <div className="flex text-muted-foreground text-lg font-bold my-4 py-3">
+                <span className="w-8">2 </span>
                 <span>Choose a payment method</span>
               </div>
             )}
@@ -498,12 +498,12 @@ const CheckoutForm = () => {
           {/* items and delivery date */}
           <div>
             {isDeliveryDateSelected && deliveryDateIndex != undefined ? (
-              <div className='grid  grid-cols-1 md:grid-cols-12  my-3 pb-3'>
-                <div className='flex text-lg font-bold  col-span-5'>
-                  <span className='w-8'>3 </span>
+              <div className="grid  grid-cols-1 md:grid-cols-12  my-3 pb-3">
+                <div className="flex text-lg font-bold  col-span-5">
+                  <span className="w-8">3 </span>
                   <span>Items and shipping</span>
                 </div>
-                <div className='col-span-5'>
+                <div className="col-span-5">
                   <p>
                     Delivery date:{' '}
                     {
@@ -523,7 +523,7 @@ const CheckoutForm = () => {
                     ))}
                   </ul>
                 </div>
-                <div className='col-span-2'>
+                <div className="col-span-2">
                   <Button
                     variant={'outline'}
                     onClick={() => {
@@ -537,14 +537,14 @@ const CheckoutForm = () => {
               </div>
             ) : isPaymentMethodSelected && isAddressSelected ? (
               <>
-                <div className='flex text-primary  text-lg font-bold my-2'>
-                  <span className='w-8'>3 </span>
+                <div className="flex text-primary  text-lg font-bold my-2">
+                  <span className="w-8">3 </span>
                   <span>Review items and shipping</span>
                 </div>
-                <Card className='md:ml-8'>
-                  <CardContent className='p-4'>
-                    <p className='mb-2'>
-                      <span className='text-lg font-bold text-green-700'>
+                <Card className="md:ml-8">
+                  <CardContent className="p-4">
+                    <p className="mb-2">
+                      <span className="text-lg font-bold text-green-700">
                         Arriving{' '}
                         {
                           formatDateTime(
@@ -558,27 +558,27 @@ const CheckoutForm = () => {
                       If you order in the next {timeUntilMidnight().hours} hours
                       and {timeUntilMidnight().minutes} minutes.
                     </p>
-                    <div className='grid md:grid-cols-2 gap-6'>
+                    <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         {items.map((item, _index) => (
-                          <div key={_index} className='flex gap-4 py-2'>
-                            <div className='relative w-16 h-16'>
+                          <div key={_index} className="flex gap-4 py-2">
+                            <div className="relative w-16 h-16">
                               <Image
                                 src={item.image}
                                 alt={item.name}
                                 fill
-                                sizes='20vw'
+                                sizes="20vw"
                                 style={{
                                   objectFit: 'contain',
                                 }}
                               />
                             </div>
 
-                            <div className='flex-1'>
-                              <p className='font-semibold'>
+                            <div className="flex-1">
+                              <p className="font-semibold">
                                 {item.name}, {item.color}, {item.size}
                               </p>
-                              <p className='font-bold'>
+                              <p className="font-bold">
                                 <ProductPrice price={item.price} plain />
                               </p>
 
@@ -589,12 +589,12 @@ const CheckoutForm = () => {
                                   else updateItem(item, Number(value))
                                 }}
                               >
-                                <SelectTrigger className='w-24'>
+                                <SelectTrigger className="w-24">
                                   <SelectValue>
                                     Qty: {item.quantity}
                                   </SelectValue>
                                 </SelectTrigger>
-                                <SelectContent position='popper'>
+                                <SelectContent position="popper">
                                   {Array.from({
                                     length: item.countInStock,
                                   }).map((_, i) => (
@@ -602,7 +602,7 @@ const CheckoutForm = () => {
                                       {i + 1}
                                     </SelectItem>
                                   ))}
-                                  <SelectItem key='delete' value='0'>
+                                  <SelectItem key="delete" value="0">
                                     Delete
                                   </SelectItem>
                                 </SelectContent>
@@ -612,8 +612,8 @@ const CheckoutForm = () => {
                         ))}
                       </div>
                       <div>
-                        <div className=' font-bold'>
-                          <p className='mb-2'> Choose a shipping speed:</p>
+                        <div className=" font-bold">
+                          <p className="mb-2"> Choose a shipping speed:</p>
 
                           <ul>
                             <RadioGroup
@@ -629,16 +629,16 @@ const CheckoutForm = () => {
                               }
                             >
                               {availableDeliveryDates.map((dd) => (
-                                <div key={dd.name} className='flex'>
+                                <div key={dd.name} className="flex">
                                   <RadioGroupItem
                                     value={dd.name}
                                     id={`address-${dd.name}`}
                                   />
                                   <Label
-                                    className='pl-2 space-y-2 cursor-pointer'
+                                    className="pl-2 space-y-2 cursor-pointer"
                                     htmlFor={`address-${dd.name}`}
                                   >
-                                    <div className='text-green-700 font-semibold'>
+                                    <div className="text-green-700 font-semibold">
                                       {
                                         formatDateTime(
                                           calculateFutureDate(dd.daysToDeliver)
@@ -670,35 +670,35 @@ const CheckoutForm = () => {
                 </Card>
               </>
             ) : (
-              <div className='flex text-muted-foreground text-lg font-bold my-4 py-3'>
-                <span className='w-8'>3 </span>
+              <div className="flex text-muted-foreground text-lg font-bold my-4 py-3">
+                <span className="w-8">3 </span>
                 <span>Items and shipping</span>
               </div>
             )}
           </div>
           {isPaymentMethodSelected && isAddressSelected && (
-            <div className='mt-6'>
-              <div className='block md:hidden'>
+            <div className="mt-6">
+              <div className="block md:hidden">
                 <CheckoutSummary />
               </div>
 
-              <Card className='hidden md:block '>
-                <CardContent className='p-4 flex flex-col md:flex-row justify-between items-center gap-3'>
-                  <Button onClick={handlePlaceOrder} className='rounded-full'>
+              <Card className="hidden md:block ">
+                <CardContent className="p-4 flex flex-col md:flex-row justify-between items-center gap-3">
+                  <Button onClick={handlePlaceOrder} className="rounded-full">
                     Place Your Order
                   </Button>
-                  <div className='flex-1'>
-                    <p className='font-bold text-lg'>
+                  <div className="flex-1">
+                    <p className="font-bold text-lg">
                       Order Total: <ProductPrice price={totalPrice} plain />
                     </p>
-                    <p className='text-xs'>
+                    <p className="text-xs">
                       {' '}
                       By placing your order, you agree to {
                         site.name
                       }&apos;s{' '}
-                      <Link href='/page/privacy-policy'>privacy notice</Link>{' '}
+                      <Link href="/page/privacy-policy">privacy notice</Link>{' '}
                       and
-                      <Link href='/page/conditions-of-use'>
+                      <Link href="/page/conditions-of-use">
                         {' '}
                         conditions of use
                       </Link>
@@ -711,7 +711,7 @@ const CheckoutForm = () => {
           )}
           <CheckoutFooter />
         </div>
-        <div className='hidden md:block'>
+        <div className="hidden md:block">
           <CheckoutSummary />
         </div>
       </div>

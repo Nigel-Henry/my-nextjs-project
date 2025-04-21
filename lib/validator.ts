@@ -1,7 +1,12 @@
 import { z } from 'zod'
 import { formatNumberWithDecimal } from './utils'
 
-// Common
+// Timestamp: 2025-04-19 13:06:15
+// User: ibrahim-lasfar
+
+// ============================================
+// Common Validators
+// ============================================
 const MongoId = z
   .string()
   .regex(/^[0-9a-fA-F]{24}$/, { message: 'Invalid MongoDB ID' })
@@ -14,6 +19,64 @@ const Price = (field: string) =>
       `${field} must have exactly two decimal places (e.g., 49.99)`
     )
 
+// ============================================
+// User Related Schemas
+// ============================================
+const UserName = z
+  .string()
+  .min(2, { message: 'Username must be at least 2 characters' })
+  .max(50, { message: 'Username must be at most 30 characters' })
+
+const Email = z.string().min(1, 'Email is required').email('Email is invalid')
+const Password = z.string().min(3, 'Password must be at least 3 characters')
+const UserRole = z.string().min(1, 'role is required')
+
+export const UserInputSchema = z.object({
+  name: UserName,
+  email: Email,
+  image: z.string().optional(),
+  emailVerified: z.boolean(),
+  role: UserRole,
+  password: Password,
+  paymentMethod: z.string().min(1, 'Payment method is required'),
+  address: z.object({
+    fullName: z.string().min(1, 'Full name is required'),
+    street: z.string().min(1, 'Street is required'),
+    city: z.string().min(1, 'City is required'),
+    province: z.string().min(1, 'Province is required'),
+    postalCode: z.string().min(1, 'Postal code is required'),
+    country: z.string().min(1, 'Country is required'),
+    phone: z.string().min(1, 'Phone number is required'),
+  }),
+})
+
+export const UserUpdateSchema = z.object({
+  _id: MongoId,
+  name: UserName,
+  email: Email,
+  role: UserRole,
+})
+
+export const UserSignInSchema = z.object({
+  email: Email,
+  password: Password,
+})
+
+export const UserSignUpSchema = UserSignInSchema.extend({
+  name: UserName,
+  confirmPassword: Password,
+}).refine((data) => data.password === data.confirmPassword, {
+  message: "Passwords don't match",
+  path: ['confirmPassword'],
+})
+
+export const UserNameSchema = z.object({
+  name: UserName,
+})
+
+// ============================================
+// Product Related Schemas
+// ============================================
 export const ReviewInputSchema = z.object({
   product: MongoId,
   user: MongoId,
@@ -66,7 +129,9 @@ export const ProductUpdateSchema = ProductInputSchema.extend({
   _id: z.string(),
 })
 
-// Order Item
+// ============================================
+// Order Related Schemas
+// ============================================
 export const OrderItemSchema = z.object({
   clientId: z.string().min(1, 'clientId is required'),
   product: z.string().min(1, 'Product is required'),
@@ -86,6 +151,7 @@ export const OrderItemSchema = z.object({
   size: z.string().optional(),
   color: z.string().optional(),
 })
+
 export const ShippingAddressSchema = z.object({
   fullName: z.string().min(1, 'Full name is required'),
   street: z.string().min(1, 'Address is required'),
@@ -96,7 +162,6 @@ export const ShippingAddressSchema = z.object({
   country: z.string().min(1, 'Country is required'),
 })
 
-// Order
 export const OrderInputSchema = z.object({
   user: z.union([
     MongoId,
@@ -133,8 +198,10 @@ export const OrderInputSchema = z.object({
   isPaid: z.boolean().default(false),
   paidAt: z.date().optional(),
 })
-// Cart
 
+// ============================================
+// Cart Schema
+// ============================================
 export const CartSchema = z.object({
   items: z
     .array(OrderItemSchema)
@@ -149,57 +216,9 @@ export const CartSchema = z.object({
   expectedDeliveryDate: z.optional(z.date()),
 })
 
-// USER
-const UserName = z
-  .string()
-  .min(2, { message: 'Username must be at least 2 characters' })
-  .max(50, { message: 'Username must be at most 30 characters' })
-const Email = z.string().min(1, 'Email is required').email('Email is invalid')
-const Password = z.string().min(3, 'Password must be at least 3 characters')
-const UserRole = z.string().min(1, 'role is required')
-
-export const UserUpdateSchema = z.object({
-  _id: MongoId,
-  name: UserName,
-  email: Email,
-  role: UserRole,
-})
-
-export const UserInputSchema = z.object({
-  name: UserName,
-  email: Email,
-  image: z.string().optional(),
-  emailVerified: z.boolean(),
-  role: UserRole,
-  password: Password,
-  paymentMethod: z.string().min(1, 'Payment method is required'),
-  address: z.object({
-    fullName: z.string().min(1, 'Full name is required'),
-    street: z.string().min(1, 'Street is required'),
-    city: z.string().min(1, 'City is required'),
-    province: z.string().min(1, 'Province is required'),
-    postalCode: z.string().min(1, 'Postal code is required'),
-    country: z.string().min(1, 'Country is required'),
-    phone: z.string().min(1, 'Phone number is required'),
-  }),
-})
-
-export const UserSignInSchema = z.object({
-  email: Email,
-  password: Password,
-})
-export const UserSignUpSchema = UserSignInSchema.extend({
-  name: UserName,
-  confirmPassword: Password,
-}).refine((data) => data.password === data.confirmPassword, {
-  message: "Passwords don't match",
-  path: ['confirmPassword'],
-})
-export const UserNameSchema = z.object({
-  name: UserName,
-})
-
-// WEBPAGE
+// ============================================
+// Website Related Schemas
+// ============================================
 export const WebPageInputSchema = z.object({
   title: z.string().min(3, 'Title must be at least 3 characters'),
   slug: z.string().min(3, 'Slug must be at least 3 characters'),
@@ -211,12 +230,14 @@ export const WebPageUpdateSchema = WebPageInputSchema.extend({
   _id: z.string(),
 })
 
-// Setting
-
+// ============================================
+// Settings Related Schemas
+// ============================================
 export const SiteLanguageSchema = z.object({
   name: z.string().min(1, 'Name is required'),
   code: z.string().min(1, 'Code is required'),
 })
+
 export const CarouselSchema = z.object({
   title: z.string().min(1, 'title is required'),
   url: z.string().min(1, 'url is required'),
@@ -246,8 +267,6 @@ export const DeliveryDateSchema = z.object({
 })
 
 export const SettingInputSchema = z.object({
-  // PROMPT: create fields
-  // codeium, based on the mongoose schema for settings
   common: z.object({
     pageSize: z.coerce
       .number()
@@ -283,10 +302,9 @@ export const SettingInputSchema = z.object({
   availableLanguages: z
     .array(SiteLanguageSchema)
     .min(1, 'At least one language is required'),
-
   carousels: z
     .array(CarouselSchema)
-    .min(1, 'At least one language is required'),
+    .min(1, 'At least one carousel is required'),
   defaultLanguage: z.string().min(1, 'Language is required'),
   availableCurrencies: z
     .array(SiteCurrencySchema)

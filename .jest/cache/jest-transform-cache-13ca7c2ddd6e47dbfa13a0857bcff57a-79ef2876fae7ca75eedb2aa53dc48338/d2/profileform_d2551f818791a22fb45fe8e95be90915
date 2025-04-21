@@ -1,0 +1,744 @@
+bfd5b5a8937e31520f976f6acf3903e9
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_xdz0zj0u1() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/profile-form.tsx";
+  var hash = "13f75da71fac7aa7a45fe22bc90100f56d583f65";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/profile-form.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 27
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 13
+        },
+        end: {
+          line: 13,
+          column: 47
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 15
+        },
+        end: {
+          line: 14,
+          column: 41
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 23
+        },
+        end: {
+          line: 15,
+          column: 49
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 20
+        },
+        end: {
+          line: 16,
+          column: 46
+        }
+      },
+      "8": {
+        start: {
+          line: 17,
+          column: 16
+        },
+        end: {
+          line: 17,
+          column: 65
+        }
+      },
+      "9": {
+        start: {
+          line: 18,
+          column: 14
+        },
+        end: {
+          line: 18,
+          column: 61
+        }
+      },
+      "10": {
+        start: {
+          line: 19,
+          column: 15
+        },
+        end: {
+          line: 19,
+          column: 63
+        }
+      },
+      "11": {
+        start: {
+          line: 20,
+          column: 18
+        },
+        end: {
+          line: 20,
+          column: 62
+        }
+      },
+      "12": {
+        start: {
+          line: 21,
+          column: 21
+        },
+        end: {
+          line: 21,
+          column: 74
+        }
+      },
+      "13": {
+        start: {
+          line: 22,
+          column: 19
+        },
+        end: {
+          line: 22,
+          column: 61
+        }
+      },
+      "14": {
+        start: {
+          line: 23,
+          column: 20
+        },
+        end: {
+          line: 93,
+          column: 1
+        }
+      },
+      "15": {
+        start: {
+          line: 24,
+          column: 19
+        },
+        end: {
+          line: 24,
+          column: 47
+        }
+      },
+      "16": {
+        start: {
+          line: 25,
+          column: 38
+        },
+        end: {
+          line: 25,
+          column: 62
+        }
+      },
+      "17": {
+        start: {
+          line: 26,
+          column: 17
+        },
+        end: {
+          line: 31,
+          column: 6
+        }
+      },
+      "18": {
+        start: {
+          line: 32,
+          column: 22
+        },
+        end: {
+          line: 32,
+          column: 47
+        }
+      },
+      "19": {
+        start: {
+          line: 34,
+          column: 20
+        },
+        end: {
+          line: 34,
+          column: 66
+        }
+      },
+      "20": {
+        start: {
+          line: 35,
+          column: 8
+        },
+        end: {
+          line: 38,
+          column: 11
+        }
+      },
+      "21": {
+        start: {
+          line: 35,
+          column: 26
+        },
+        end: {
+          line: 38,
+          column: 11
+        }
+      },
+      "22": {
+        start: {
+          line: 39,
+          column: 34
+        },
+        end: {
+          line: 39,
+          column: 37
+        }
+      },
+      "23": {
+        start: {
+          line: 40,
+          column: 27
+        },
+        end: {
+          line: 46,
+          column: 9
+        }
+      },
+      "24": {
+        start: {
+          line: 47,
+          column: 8
+        },
+        end: {
+          line: 47,
+          column: 33
+        }
+      },
+      "25": {
+        start: {
+          line: 48,
+          column: 8
+        },
+        end: {
+          line: 50,
+          column: 11
+        }
+      },
+      "26": {
+        start: {
+          line: 51,
+          column: 8
+        },
+        end: {
+          line: 51,
+          column: 39
+        }
+      },
+      "27": {
+        start: {
+          line: 53,
+          column: 4
+        },
+        end: {
+          line: 92,
+          column: 7
+        }
+      },
+      "28": {
+        start: {
+          line: 64,
+          column: 59
+        },
+        end: {
+          line: 80,
+          column: 30
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 23,
+            column: 20
+          },
+          end: {
+            line: 23,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 23,
+            column: 24
+          },
+          end: {
+            line: 93,
+            column: 1
+          }
+        },
+        line: 23
+      },
+      "2": {
+        name: "onSubmit",
+        decl: {
+          start: {
+            line: 33,
+            column: 19
+          },
+          end: {
+            line: 33,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 33,
+            column: 36
+          },
+          end: {
+            line: 52,
+            column: 5
+          }
+        },
+        line: 33
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 64,
+            column: 32
+          },
+          end: {
+            line: 64,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 64,
+            column: 59
+          },
+          end: {
+            line: 80,
+            column: 30
+          }
+        },
+        line: 64
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 29,
+            column: 18
+          },
+          end: {
+            line: 29,
+            column: 43
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 29,
+            column: 18
+          },
+          end: {
+            line: 29,
+            column: 37
+          }
+        }, {
+          start: {
+            line: 29,
+            column: 41
+          },
+          end: {
+            line: 29,
+            column: 43
+          }
+        }],
+        line: 29
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 35,
+            column: 8
+          },
+          end: {
+            line: 38,
+            column: 11
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 35,
+            column: 8
+          },
+          end: {
+            line: 38,
+            column: 11
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 35
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 88,
+            column: 30
+          },
+          end: {
+            line: 88,
+            column: 92
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 88,
+            column: 60
+          },
+          end: {
+            line: 88,
+            column: 75
+          }
+        }, {
+          start: {
+            line: 88,
+            column: 78
+          },
+          end: {
+            line: 88,
+            column: 92
+          }
+        }],
+        line: 88
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/profile-form.tsx"],
+      sourcesContent: ["'use client'\n\nimport { zodResolver } from '@hookform/resolvers/zod'\nimport { useSession } from 'next-auth/react'\nimport { useForm } from 'react-hook-form'\nimport { z } from 'zod'\nimport { useRouter } from 'next/navigation'\n\nimport { Button } from '@/components/ui/button'\nimport {\n  Form,\n  FormControl,\n  FormField,\n  FormItem,\n  FormLabel,\n  FormMessage,\n} from '@/components/ui/form'\nimport { Input } from '@/components/ui/input'\nimport { useToast } from '@/hooks/use-toast'\nimport { updateUserName } from '@/lib/actions/user.actions'\nimport { UserNameSchema } from '@/lib/validator'\n\nexport const ProfileForm = () => {\n  const router = useRouter()\n  const { data: session, update } = useSession()\n  const form = useForm<z.infer<typeof UserNameSchema>>({\n    resolver: zodResolver(UserNameSchema),\n    defaultValues: {\n      name: session?.user?.name ?? '',\n    },\n  })\n  const { toast } = useToast()\n\n  async function onSubmit(values: z.infer<typeof UserNameSchema>) {\n    const res = await updateUserName(values)\n    if (!res.success)\n      return toast({\n        variant: 'destructive',\n        description: res.message,\n      })\n\n    const { data, message } = res\n    const newSession = {\n      ...session,\n      user: {\n        ...session?.user,\n        name: data.name,\n      },\n    }\n    await update(newSession)\n    toast({\n      description: message,\n    })\n    router.push('/account/manage')\n  }\n  return (\n    <Form {...form}>\n      <form\n        onSubmit={form.handleSubmit(onSubmit)}\n        className=\"  flex flex-col gap-5\"\n      >\n        <div className=\"flex flex-col gap-5\">\n          <FormField\n            control={form.control}\n            name=\"name\"\n            render={({ field }) => (\n              <FormItem className=\"w-full\">\n                <FormLabel className=\"font-bold\">New name</FormLabel>\n                <FormControl>\n                  <Input\n                    placeholder=\"Name\"\n                    {...field}\n                    className=\"input-field\"\n                  />\n                </FormControl>\n                <FormMessage />\n              </FormItem>\n            )}\n          />\n        </div>\n\n        <Button\n          type=\"submit\"\n          size=\"lg\"\n          disabled={form.formState.isSubmitting}\n          className=\"button col-span-2 w-full\"\n        >\n          {form.formState.isSubmitting ? 'Submitting...' : 'Save Changes'}\n        </Button>\n      </form>\n    </Form>\n  )\n}\n"],
+      names: ["ProfileForm", "router", "useRouter", "data", "session", "update", "useSession", "form", "useForm", "resolver", "zodResolver", "UserNameSchema", "defaultValues", "name", "user", "toast", "useToast", "onSubmit", "values", "res", "updateUserName", "success", "variant", "description", "message", "newSession", "push", "Form", "handleSubmit", "className", "div", "FormField", "control", "render", "field", "FormItem", "FormLabel", "FormControl", "Input", "placeholder", "FormMessage", "Button", "type", "size", "disabled", "formState", "isSubmitting"],
+      mappings: "AAAA;;;;;+BAsBaA;;;eAAAA;;;;qBApBe;uBACD;+BACH;4BAEE;wBAEH;sBAQhB;uBACe;0BACG;6BACM;2BACA;AAExB,MAAMA,cAAc;IACzB,MAAMC,SAASC,IAAAA,qBAAS;IACxB,MAAM,EAAEC,MAAMC,OAAO,EAAEC,MAAM,EAAE,GAAGC,IAAAA,iBAAU;IAC5C,MAAMC,OAAOC,IAAAA,sBAAO,EAAiC;QACnDC,UAAUC,IAAAA,gBAAW,EAACC,yBAAc;QACpCC,eAAe;YACbC,MAAMT,SAASU,MAAMD,QAAQ;QAC/B;IACF;IACA,MAAM,EAAEE,KAAK,EAAE,GAAGC,IAAAA,kBAAQ;IAE1B,eAAeC,SAASC,MAAsC;QAC5D,MAAMC,MAAM,MAAMC,IAAAA,2BAAc,EAACF;QACjC,IAAI,CAACC,IAAIE,OAAO,EACd,OAAON,MAAM;YACXO,SAAS;YACTC,aAAaJ,IAAIK,OAAO;QAC1B;QAEF,MAAM,EAAErB,IAAI,EAAEqB,OAAO,EAAE,GAAGL;QAC1B,MAAMM,aAAa;YACjB,GAAGrB,OAAO;YACVU,MAAM;gBACJ,GAAGV,SAASU,IAAI;gBAChBD,MAAMV,KAAKU,IAAI;YACjB;QACF;QACA,MAAMR,OAAOoB;QACbV,MAAM;YACJQ,aAAaC;QACf;QACAvB,OAAOyB,IAAI,CAAC;IACd;IACA,qBACE,qBAACC,UAAI;QAAE,GAAGpB,IAAI;kBACZ,cAAA,sBAACA;YACCU,UAAUV,KAAKqB,YAAY,CAACX;YAC5BY,WAAU;;8BAEV,qBAACC;oBAAID,WAAU;8BACb,cAAA,qBAACE,eAAS;wBACRC,SAASzB,KAAKyB,OAAO;wBACrBnB,MAAK;wBACLoB,QAAQ,CAAC,EAAEC,KAAK,EAAE,iBAChB,sBAACC,cAAQ;gCAACN,WAAU;;kDAClB,qBAACO,eAAS;wCAACP,WAAU;kDAAY;;kDACjC,qBAACQ,iBAAW;kDACV,cAAA,qBAACC,YAAK;4CACJC,aAAY;4CACX,GAAGL,KAAK;4CACTL,WAAU;;;kDAGd,qBAACW,iBAAW;;;;;8BAMpB,qBAACC,cAAM;oBACLC,MAAK;oBACLC,MAAK;oBACLC,UAAUrC,KAAKsC,SAAS,CAACC,YAAY;oBACrCjB,WAAU;8BAETtB,KAAKsC,SAAS,CAACC,YAAY,GAAG,kBAAkB;;;;;AAK3D"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "13f75da71fac7aa7a45fe22bc90100f56d583f65"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_xdz0zj0u1 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_xdz0zj0u1();
+cov_xdz0zj0u1().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_xdz0zj0u1().s[1]++;
+Object.defineProperty(exports, "ProfileForm", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().f[0]++;
+    cov_xdz0zj0u1().s[2]++;
+    return ProfileForm;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[3]++, require("react/jsx-runtime"));
+const _zod =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[4]++, require("@hookform/resolvers/zod"));
+const _react =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[5]++, require("next-auth/react"));
+const _reacthookform =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[6]++, require("react-hook-form"));
+const _navigation =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[7]++, require("next/navigation"));
+const _button =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[8]++, require("../../../../../../components/ui/button"));
+const _form =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[9]++, require("../../../../../../components/ui/form"));
+const _input =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[10]++, require("../../../../../../components/ui/input"));
+const _usetoast =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[11]++, require("../../../../../../hooks/use-toast"));
+const _useractions =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[12]++, require("../../../../../../lib/actions/user.actions"));
+const _validator =
+/* istanbul ignore next */
+(cov_xdz0zj0u1().s[13]++, require("../../../../../../lib/validator"));
+/* istanbul ignore next */
+cov_xdz0zj0u1().s[14]++;
+const ProfileForm = () => {
+  /* istanbul ignore next */
+  cov_xdz0zj0u1().f[1]++;
+  const router =
+  /* istanbul ignore next */
+  (cov_xdz0zj0u1().s[15]++, (0, _navigation.useRouter)());
+  const {
+    data: session,
+    update
+  } =
+  /* istanbul ignore next */
+  (cov_xdz0zj0u1().s[16]++, (0, _react.useSession)());
+  const form =
+  /* istanbul ignore next */
+  (cov_xdz0zj0u1().s[17]++, (0, _reacthookform.useForm)({
+    resolver: (0, _zod.zodResolver)(_validator.UserNameSchema),
+    defaultValues: {
+      name:
+      /* istanbul ignore next */
+      (cov_xdz0zj0u1().b[0][0]++, session?.user?.name) ??
+      /* istanbul ignore next */
+      (cov_xdz0zj0u1().b[0][1]++, '')
+    }
+  }));
+  const {
+    toast
+  } =
+  /* istanbul ignore next */
+  (cov_xdz0zj0u1().s[18]++, (0, _usetoast.useToast)());
+  async function onSubmit(values) {
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().f[2]++;
+    const res =
+    /* istanbul ignore next */
+    (cov_xdz0zj0u1().s[19]++, await (0, _useractions.updateUserName)(values));
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().s[20]++;
+    if (!res.success) {
+      /* istanbul ignore next */
+      cov_xdz0zj0u1().b[1][0]++;
+      cov_xdz0zj0u1().s[21]++;
+      return toast({
+        variant: 'destructive',
+        description: res.message
+      });
+    } else
+    /* istanbul ignore next */
+    {
+      cov_xdz0zj0u1().b[1][1]++;
+    }
+    const {
+      data,
+      message
+    } =
+    /* istanbul ignore next */
+    (cov_xdz0zj0u1().s[22]++, res);
+    const newSession =
+    /* istanbul ignore next */
+    (cov_xdz0zj0u1().s[23]++, {
+      ...session,
+      user: {
+        ...session?.user,
+        name: data.name
+      }
+    });
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().s[24]++;
+    await update(newSession);
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().s[25]++;
+    toast({
+      description: message
+    });
+    /* istanbul ignore next */
+    cov_xdz0zj0u1().s[26]++;
+    router.push('/account/manage');
+  }
+  /* istanbul ignore next */
+  cov_xdz0zj0u1().s[27]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)(_form.Form, {
+    ...form,
+    children: /*#__PURE__*/(0, _jsxruntime.jsxs)("form", {
+      onSubmit: form.handleSubmit(onSubmit),
+      className: "  flex flex-col gap-5",
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+        className: "flex flex-col gap-5",
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_form.FormField, {
+          control: form.control,
+          name: "name",
+          render: ({
+            field
+          }) => {
+            /* istanbul ignore next */
+            cov_xdz0zj0u1().f[3]++;
+            cov_xdz0zj0u1().s[28]++;
+            return /*#__PURE__*/(0, _jsxruntime.jsxs)(_form.FormItem, {
+              className: "w-full",
+              children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_form.FormLabel, {
+                className: "font-bold",
+                children: "New name"
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)(_form.FormControl, {
+                children: /*#__PURE__*/(0, _jsxruntime.jsx)(_input.Input, {
+                  placeholder: "Name",
+                  ...field,
+                  className: "input-field"
+                })
+              }), /*#__PURE__*/(0, _jsxruntime.jsx)(_form.FormMessage, {})]
+            });
+          }
+        })
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+        type: "submit",
+        size: "lg",
+        disabled: form.formState.isSubmitting,
+        className: "button col-span-2 w-full",
+        children: form.formState.isSubmitting ?
+        /* istanbul ignore next */
+        (cov_xdz0zj0u1().b[2][0]++, 'Submitting...') :
+        /* istanbul ignore next */
+        (cov_xdz0zj0u1().b[2][1]++, 'Save Changes')
+      })]
+    })
+  });
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJQcm9maWxlRm9ybSIsImNvdl94ZHowemowdTEiLCJzIiwiZiIsInJvdXRlciIsIl9uYXZpZ2F0aW9uIiwidXNlUm91dGVyIiwiZGF0YSIsInNlc3Npb24iLCJ1cGRhdGUiLCJfcmVhY3QiLCJ1c2VTZXNzaW9uIiwiZm9ybSIsIl9yZWFjdGhvb2tmb3JtIiwidXNlRm9ybSIsInJlc29sdmVyIiwiX3pvZCIsInpvZFJlc29sdmVyIiwiX3ZhbGlkYXRvciIsIlVzZXJOYW1lU2NoZW1hIiwiZGVmYXVsdFZhbHVlcyIsIm5hbWUiLCJiIiwidXNlciIsInRvYXN0IiwiX3VzZXRvYXN0IiwidXNlVG9hc3QiLCJvblN1Ym1pdCIsInZhbHVlcyIsInJlcyIsIl91c2VyYWN0aW9ucyIsInVwZGF0ZVVzZXJOYW1lIiwic3VjY2VzcyIsInZhcmlhbnQiLCJkZXNjcmlwdGlvbiIsIm1lc3NhZ2UiLCJuZXdTZXNzaW9uIiwicHVzaCIsIl9qc3hydW50aW1lIiwianN4IiwiX2Zvcm0iLCJGb3JtIiwianN4cyIsImhhbmRsZVN1Ym1pdCIsImNsYXNzTmFtZSIsIkZvcm1GaWVsZCIsImNvbnRyb2wiLCJyZW5kZXIiLCJmaWVsZCIsIkZvcm1JdGVtIiwiRm9ybUxhYmVsIiwiRm9ybUNvbnRyb2wiLCJfaW5wdXQiLCJJbnB1dCIsInBsYWNlaG9sZGVyIiwiRm9ybU1lc3NhZ2UiLCJfYnV0dG9uIiwiQnV0dG9uIiwidHlwZSIsInNpemUiLCJkaXNhYmxlZCIsImZvcm1TdGF0ZSIsImlzU3VibWl0dGluZyJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vYXBwL1tsb2NhbGVdLyhyb290KS9hY2NvdW50L21hbmFnZS9uYW1lL3Byb2ZpbGUtZm9ybS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5cbmltcG9ydCB7IHpvZFJlc29sdmVyIH0gZnJvbSAnQGhvb2tmb3JtL3Jlc29sdmVycy96b2QnXG5pbXBvcnQgeyB1c2VTZXNzaW9uIH0gZnJvbSAnbmV4dC1hdXRoL3JlYWN0J1xuaW1wb3J0IHsgdXNlRm9ybSB9IGZyb20gJ3JlYWN0LWhvb2stZm9ybSdcbmltcG9ydCB7IHogfSBmcm9tICd6b2QnXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L25hdmlnYXRpb24nXG5cbmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nXG5pbXBvcnQge1xuICBGb3JtLFxuICBGb3JtQ29udHJvbCxcbiAgRm9ybUZpZWxkLFxuICBGb3JtSXRlbSxcbiAgRm9ybUxhYmVsLFxuICBGb3JtTWVzc2FnZSxcbn0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2Zvcm0nXG5pbXBvcnQgeyBJbnB1dCB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9pbnB1dCdcbmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAnQC9ob29rcy91c2UtdG9hc3QnXG5pbXBvcnQgeyB1cGRhdGVVc2VyTmFtZSB9IGZyb20gJ0AvbGliL2FjdGlvbnMvdXNlci5hY3Rpb25zJ1xuaW1wb3J0IHsgVXNlck5hbWVTY2hlbWEgfSBmcm9tICdAL2xpYi92YWxpZGF0b3InXG5cbmV4cG9ydCBjb25zdCBQcm9maWxlRm9ybSA9ICgpID0+IHtcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKClcbiAgY29uc3QgeyBkYXRhOiBzZXNzaW9uLCB1cGRhdGUgfSA9IHVzZVNlc3Npb24oKVxuICBjb25zdCBmb3JtID0gdXNlRm9ybTx6LmluZmVyPHR5cGVvZiBVc2VyTmFtZVNjaGVtYT4+KHtcbiAgICByZXNvbHZlcjogem9kUmVzb2x2ZXIoVXNlck5hbWVTY2hlbWEpLFxuICAgIGRlZmF1bHRWYWx1ZXM6IHtcbiAgICAgIG5hbWU6IHNlc3Npb24/LnVzZXI/Lm5hbWUgPz8gJycsXG4gICAgfSxcbiAgfSlcbiAgY29uc3QgeyB0b2FzdCB9ID0gdXNlVG9hc3QoKVxuXG4gIGFzeW5jIGZ1bmN0aW9uIG9uU3VibWl0KHZhbHVlczogei5pbmZlcjx0eXBlb2YgVXNlck5hbWVTY2hlbWE+KSB7XG4gICAgY29uc3QgcmVzID0gYXdhaXQgdXBkYXRlVXNlck5hbWUodmFsdWVzKVxuICAgIGlmICghcmVzLnN1Y2Nlc3MpXG4gICAgICByZXR1cm4gdG9hc3Qoe1xuICAgICAgICB2YXJpYW50OiAnZGVzdHJ1Y3RpdmUnLFxuICAgICAgICBkZXNjcmlwdGlvbjogcmVzLm1lc3NhZ2UsXG4gICAgICB9KVxuXG4gICAgY29uc3QgeyBkYXRhLCBtZXNzYWdlIH0gPSByZXNcbiAgICBjb25zdCBuZXdTZXNzaW9uID0ge1xuICAgICAgLi4uc2Vzc2lvbixcbiAgICAgIHVzZXI6IHtcbiAgICAgICAgLi4uc2Vzc2lvbj8udXNlcixcbiAgICAgICAgbmFtZTogZGF0YS5uYW1lLFxuICAgICAgfSxcbiAgICB9XG4gICAgYXdhaXQgdXBkYXRlKG5ld1Nlc3Npb24pXG4gICAgdG9hc3Qoe1xuICAgICAgZGVzY3JpcHRpb246IG1lc3NhZ2UsXG4gICAgfSlcbiAgICByb3V0ZXIucHVzaCgnL2FjY291bnQvbWFuYWdlJylcbiAgfVxuICByZXR1cm4gKFxuICAgIDxGb3JtIHsuLi5mb3JtfT5cbiAgICAgIDxmb3JtXG4gICAgICAgIG9uU3VibWl0PXtmb3JtLmhhbmRsZVN1Ym1pdChvblN1Ym1pdCl9XG4gICAgICAgIGNsYXNzTmFtZT1cIiAgZmxleCBmbGV4LWNvbCBnYXAtNVwiXG4gICAgICA+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBmbGV4LWNvbCBnYXAtNVwiPlxuICAgICAgICAgIDxGb3JtRmllbGRcbiAgICAgICAgICAgIGNvbnRyb2w9e2Zvcm0uY29udHJvbH1cbiAgICAgICAgICAgIG5hbWU9XCJuYW1lXCJcbiAgICAgICAgICAgIHJlbmRlcj17KHsgZmllbGQgfSkgPT4gKFxuICAgICAgICAgICAgICA8Rm9ybUl0ZW0gY2xhc3NOYW1lPVwidy1mdWxsXCI+XG4gICAgICAgICAgICAgICAgPEZvcm1MYWJlbCBjbGFzc05hbWU9XCJmb250LWJvbGRcIj5OZXcgbmFtZTwvRm9ybUxhYmVsPlxuICAgICAgICAgICAgICAgIDxGb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICAgIDxJbnB1dFxuICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cIk5hbWVcIlxuICAgICAgICAgICAgICAgICAgICB7Li4uZmllbGR9XG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImlucHV0LWZpZWxkXCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPC9Gb3JtQ29udHJvbD5cbiAgICAgICAgICAgICAgICA8Rm9ybU1lc3NhZ2UgLz5cbiAgICAgICAgICAgICAgPC9Gb3JtSXRlbT5cbiAgICAgICAgICAgICl9XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgPEJ1dHRvblxuICAgICAgICAgIHR5cGU9XCJzdWJtaXRcIlxuICAgICAgICAgIHNpemU9XCJsZ1wiXG4gICAgICAgICAgZGlzYWJsZWQ9e2Zvcm0uZm9ybVN0YXRlLmlzU3VibWl0dGluZ31cbiAgICAgICAgICBjbGFzc05hbWU9XCJidXR0b24gY29sLXNwYW4tMiB3LWZ1bGxcIlxuICAgICAgICA+XG4gICAgICAgICAge2Zvcm0uZm9ybVN0YXRlLmlzU3VibWl0dGluZyA/ICdTdWJtaXR0aW5nLi4uJyA6ICdTYXZlIENoYW5nZXMnfVxuICAgICAgICA8L0J1dHRvbj5cbiAgICAgIDwvZm9ybT5cbiAgICA8L0Zvcm0+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBc0JhOzs7Ozs7V0FBQUEsV0FBQTs7Ozs7Ozs7aUNBcEJlOzs7aUNBQ0Q7OztpQ0FDSDs7O2lDQUVFOzs7aUNBRUg7OztpQ0FRaEI7OztrQ0FDZTs7O2tDQUNHOzs7a0NBQ007OztrQ0FDQTtBQUFBO0FBQUFDLGFBQUEsR0FBQUMsQ0FBQTtBQUV4QixNQUFNRixXQUFBLEdBQWNBLENBQUE7RUFBQTtFQUFBQyxhQUFBLEdBQUFFLENBQUE7RUFDekIsTUFBTUMsTUFBQTtFQUFBO0VBQUEsQ0FBQUgsYUFBQSxHQUFBQyxDQUFBLFFBQVMsSUFBQUcsV0FBQSxDQUFBQyxTQUFTO0VBQ3hCLE1BQU07SUFBRUMsSUFBQSxFQUFNQyxPQUFPO0lBQUVDO0VBQU0sQ0FBRTtFQUFBO0VBQUEsQ0FBQVIsYUFBQSxHQUFBQyxDQUFBLFFBQUcsSUFBQVEsTUFBQSxDQUFBQyxVQUFVO0VBQzVDLE1BQU1DLElBQUE7RUFBQTtFQUFBLENBQUFYLGFBQUEsR0FBQUMsQ0FBQSxRQUFPLElBQUFXLGNBQUEsQ0FBQUMsT0FBTyxFQUFpQztJQUNuREMsUUFBQSxFQUFVLElBQUFDLElBQUEsQ0FBQUMsV0FBVyxFQUFDQyxVQUFBLENBQUFDLGNBQWM7SUFDcENDLGFBQUEsRUFBZTtNQUNiQyxJQUFBO01BQU07TUFBQSxDQUFBcEIsYUFBQSxHQUFBcUIsQ0FBQSxVQUFBZCxPQUFBLEVBQVNlLElBQUEsRUFBTUYsSUFBQTtNQUFBO01BQUEsQ0FBQXBCLGFBQUEsR0FBQXFCLENBQUEsVUFBUTtJQUMvQjtFQUNGO0VBQ0EsTUFBTTtJQUFFRTtFQUFLLENBQUU7RUFBQTtFQUFBLENBQUF2QixhQUFBLEdBQUFDLENBQUEsUUFBRyxJQUFBdUIsU0FBQSxDQUFBQyxRQUFRO0VBRTFCLGVBQWVDLFNBQVNDLE1BQXNDO0lBQUE7SUFBQTNCLGFBQUEsR0FBQUUsQ0FBQTtJQUM1RCxNQUFNMEIsR0FBQTtJQUFBO0lBQUEsQ0FBQTVCLGFBQUEsR0FBQUMsQ0FBQSxRQUFNLE1BQU0sSUFBQTRCLFlBQUEsQ0FBQUMsY0FBYyxFQUFDSCxNQUFBO0lBQUE7SUFBQTNCLGFBQUEsR0FBQUMsQ0FBQTtJQUNqQyxJQUFJLENBQUMyQixHQUFBLENBQUlHLE9BQU8sRUFDZDtNQUFBO01BQUEvQixhQUFBLEdBQUFxQixDQUFBO01BQUFyQixhQUFBLEdBQUFDLENBQUE7TUFBQSxPQUFPc0IsS0FBQSxDQUFNO1FBQ1hTLE9BQUEsRUFBUztRQUNUQyxXQUFBLEVBQWFMLEdBQUEsQ0FBSU07TUFDbkI7SUFBQTtJQUFBO0lBQUE7TUFBQWxDLGFBQUEsR0FBQXFCLENBQUE7SUFBQTtJQUVGLE1BQU07TUFBRWYsSUFBSTtNQUFFNEI7SUFBTyxDQUFFO0lBQUE7SUFBQSxDQUFBbEMsYUFBQSxHQUFBQyxDQUFBLFFBQUcyQixHQUFBO0lBQzFCLE1BQU1PLFVBQUE7SUFBQTtJQUFBLENBQUFuQyxhQUFBLEdBQUFDLENBQUEsUUFBYTtNQUNqQixHQUFHTSxPQUFPO01BQ1ZlLElBQUEsRUFBTTtRQUNKLEdBQUdmLE9BQUEsRUFBU2UsSUFBSTtRQUNoQkYsSUFBQSxFQUFNZCxJQUFBLENBQUtjO01BQ2I7SUFDRjtJQUFBO0lBQUFwQixhQUFBLEdBQUFDLENBQUE7SUFDQSxNQUFNTyxNQUFBLENBQU8yQixVQUFBO0lBQUE7SUFBQW5DLGFBQUEsR0FBQUMsQ0FBQTtJQUNic0IsS0FBQSxDQUFNO01BQ0pVLFdBQUEsRUFBYUM7SUFDZjtJQUFBO0lBQUFsQyxhQUFBLEdBQUFDLENBQUE7SUFDQUUsTUFBQSxDQUFPaUMsSUFBSSxDQUFDO0VBQ2Q7RUFBQTtFQUFBcEMsYUFBQSxHQUFBQyxDQUFBO0VBQ0Esb0JBQ0UsSUFBQW9DLFdBQUEsQ0FBQUMsR0FBQSxFQUFDQyxLQUFBLENBQUFDLElBQUk7SUFBRSxHQUFHN0IsSUFBSTtjQUNaLGlCQUFBMEIsV0FBQSxDQUFBSSxJQUFBLEVBQUM7TUFDQ2YsUUFBQSxFQUFVZixJQUFBLENBQUsrQixZQUFZLENBQUNoQixRQUFBO01BQzVCaUIsU0FBQSxFQUFVOzhCQUVWLElBQUFOLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO1FBQUlLLFNBQUEsRUFBVTtrQkFDYixpQkFBQU4sV0FBQSxDQUFBQyxHQUFBLEVBQUNDLEtBQUEsQ0FBQUssU0FBUztVQUNSQyxPQUFBLEVBQVNsQyxJQUFBLENBQUtrQyxPQUFPO1VBQ3JCekIsSUFBQSxFQUFLO1VBQ0wwQixNQUFBLEVBQVFBLENBQUM7WUFBRUM7VUFBSyxDQUFFLEtBQ2hCO1lBQUE7WUFBQS9DLGFBQUEsR0FBQUUsQ0FBQTtZQUFBRixhQUFBLEdBQUFDLENBQUE7WUFBQSxPQURnQixhQUNoQixJQUFBb0MsV0FBQSxDQUFBSSxJQUFBLEVBQUNGLEtBQUEsQ0FBQVMsUUFBUTtjQUFDTCxTQUFBLEVBQVU7c0NBQ2xCLElBQUFOLFdBQUEsQ0FBQUMsR0FBQSxFQUFDQyxLQUFBLENBQUFVLFNBQVM7Z0JBQUNOLFNBQUEsRUFBVTswQkFBWTsrQkFDakMsSUFBQU4sV0FBQSxDQUFBQyxHQUFBLEVBQUNDLEtBQUEsQ0FBQVcsV0FBVzswQkFDVixpQkFBQWIsV0FBQSxDQUFBQyxHQUFBLEVBQUNhLE1BQUEsQ0FBQUMsS0FBSztrQkFDSkMsV0FBQSxFQUFZO2tCQUNYLEdBQUdOLEtBQUs7a0JBQ1RKLFNBQUEsRUFBVTs7K0JBR2QsSUFBQU4sV0FBQSxDQUFBQyxHQUFBLEVBQUNDLEtBQUEsQ0FBQWUsV0FBVzs7Ozt1QkFNcEIsSUFBQWpCLFdBQUEsQ0FBQUMsR0FBQSxFQUFDaUIsT0FBQSxDQUFBQyxNQUFNO1FBQ0xDLElBQUEsRUFBSztRQUNMQyxJQUFBLEVBQUs7UUFDTEMsUUFBQSxFQUFVaEQsSUFBQSxDQUFLaUQsU0FBUyxDQUFDQyxZQUFZO1FBQ3JDbEIsU0FBQSxFQUFVO2tCQUVUaEMsSUFBQSxDQUFLaUQsU0FBUyxDQUFDQyxZQUFZO1FBQUE7UUFBQSxDQUFBN0QsYUFBQSxHQUFBcUIsQ0FBQSxVQUFHO1FBQUE7UUFBQSxDQUFBckIsYUFBQSxHQUFBcUIsQ0FBQSxVQUFrQjs7OztBQUszRCIsImlnbm9yZUxpc3QiOltdfQ==

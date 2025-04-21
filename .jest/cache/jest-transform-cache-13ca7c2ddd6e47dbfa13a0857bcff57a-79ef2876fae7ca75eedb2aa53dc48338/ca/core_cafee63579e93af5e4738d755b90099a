@@ -1,0 +1,376 @@
+29c476956d36841ac15ce21f3302ad64
+"use strict";
+
+/* istanbul ignore next */
+function cov_1k7p8rsw6() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/core.ts";
+  var hash = "cd481a63972e0984395b171ba8232f8592b20306";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/core.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 29
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 14
+        },
+        end: {
+          line: 11,
+          column: 41
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 16
+        },
+        end: {
+          line: 12,
+          column: 45
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 14
+        },
+        end: {
+          line: 13,
+          column: 38
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 10
+        },
+        end: {
+          line: 14,
+          column: 40
+        }
+      },
+      "7": {
+        start: {
+          line: 15,
+          column: 22
+        },
+        end: {
+          line: 39,
+          column: 1
+        }
+      },
+      "8": {
+        start: {
+          line: 24,
+          column: 24
+        },
+        end: {
+          line: 24,
+          column: 47
+        }
+      },
+      "9": {
+        start: {
+          line: 26,
+          column: 8
+        },
+        end: {
+          line: 26,
+          column: 73
+        }
+      },
+      "10": {
+        start: {
+          line: 26,
+          column: 22
+        },
+        end: {
+          line: 26,
+          column: 73
+        }
+      },
+      "11": {
+        start: {
+          line: 28,
+          column: 8
+        },
+        end: {
+          line: 30,
+          column: 10
+        }
+      },
+      "12": {
+        start: {
+          line: 35,
+          column: 8
+        },
+        end: {
+          line: 37,
+          column: 10
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 22,
+            column: 16
+          },
+          end: {
+            line: 22,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 26
+          },
+          end: {
+            line: 31,
+            column: 5
+          }
+        },
+        line: 22
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 32,
+            column: 22
+          },
+          end: {
+            line: 32,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 32,
+            column: 50
+          },
+          end: {
+            line: 38,
+            column: 5
+          }
+        },
+        line: 32
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 26,
+            column: 8
+          },
+          end: {
+            line: 26,
+            column: 73
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 26,
+            column: 8
+          },
+          end: {
+            line: 26,
+            column: 73
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 26
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/api/uploadthing/core.ts"],
+      sourcesContent: ["import { createUploadthing, type FileRouter } from 'uploadthing/next'\nimport { UploadThingError } from 'uploadthing/server'\nimport { auth } from '@/auth'\n\nconst f = createUploadthing()\n\n// FileRouter for your app, can contain multiple FileRoutes\nexport const ourFileRouter = {\n  // Define as many FileRoutes as you like, each with a unique routeSlug\n  imageUploader: f({ image: { maxFileSize: '4MB' } })\n    // Set permissions and file types for this FileRoute\n    .middleware(async () => {\n      // This code runs on your server before upload\n      const session = await auth()\n\n      // If you throw, the user will not be able to upload\n      if (!session) throw new UploadThingError('Unauthorized')\n\n      // Whatever is returned here is accessible in onUploadComplete as `metadata`\n      return { userId: session?.user?.id }\n    })\n    // eslint-disable-next-line @typescript-eslint/no-unused-vars\n    .onUploadComplete(async ({ metadata, file }) => {\n      // This code RUNS ON YOUR SERVER after upload\n\n      // !!! Whatever is returned here is sent to the clientside `onClientUploadComplete` callback\n      return { uploadedBy: metadata.userId }\n    }),\n} satisfies FileRouter\n\nexport type OurFileRouter = typeof ourFileRouter\n"],
+      names: ["ourFileRouter", "f", "createUploadthing", "imageUploader", "image", "maxFileSize", "middleware", "session", "auth", "UploadThingError", "userId", "user", "id", "onUploadComplete", "metadata", "file", "uploadedBy"],
+      mappings: ";;;;+BAOaA;;;eAAAA;;;sBAPsC;wBAClB;sBACZ;AAErB,MAAMC,IAAIC,IAAAA,uBAAiB;AAGpB,MAAMF,gBAAgB;IAC3B,sEAAsE;IACtEG,eAAeF,EAAE;QAAEG,OAAO;YAAEC,aAAa;QAAM;IAAE,EAC/C,oDAAoD;KACnDC,UAAU,CAAC;QACV,8CAA8C;QAC9C,MAAMC,UAAU,MAAMC,IAAAA,UAAI;QAE1B,oDAAoD;QACpD,IAAI,CAACD,SAAS,MAAM,IAAIE,wBAAgB,CAAC;QAEzC,4EAA4E;QAC5E,OAAO;YAAEC,QAAQH,SAASI,MAAMC;QAAG;IACrC,EACA,6DAA6D;KAC5DC,gBAAgB,CAAC,OAAO,EAAEC,QAAQ,EAAEC,IAAI,EAAE;QACzC,6CAA6C;QAE7C,4FAA4F;QAC5F,OAAO;YAAEC,YAAYF,SAASJ,MAAM;QAAC;IACvC;AACJ"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "cd481a63972e0984395b171ba8232f8592b20306"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1k7p8rsw6 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1k7p8rsw6();
+cov_1k7p8rsw6().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1k7p8rsw6().s[1]++;
+Object.defineProperty(exports, "ourFileRouter", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1k7p8rsw6().f[0]++;
+    cov_1k7p8rsw6().s[2]++;
+    return ourFileRouter;
+  }
+});
+const _next =
+/* istanbul ignore next */
+(cov_1k7p8rsw6().s[3]++, require("uploadthing/next"));
+const _server =
+/* istanbul ignore next */
+(cov_1k7p8rsw6().s[4]++, require("uploadthing/server"));
+const _auth =
+/* istanbul ignore next */
+(cov_1k7p8rsw6().s[5]++, require("../../../auth"));
+const f =
+/* istanbul ignore next */
+(cov_1k7p8rsw6().s[6]++, (0, _next.createUploadthing)());
+const ourFileRouter =
+/* istanbul ignore next */
+(cov_1k7p8rsw6().s[7]++, {
+  // Define as many FileRoutes as you like, each with a unique routeSlug
+  imageUploader: f({
+    image: {
+      maxFileSize: '4MB'
+    }
+  }) // Set permissions and file types for this FileRoute
+  .middleware(async () => {
+    /* istanbul ignore next */
+    cov_1k7p8rsw6().f[1]++;
+    // This code runs on your server before upload
+    const session =
+    /* istanbul ignore next */
+    (cov_1k7p8rsw6().s[8]++, await (0, _auth.auth)());
+    // If you throw, the user will not be able to upload
+    /* istanbul ignore next */
+    cov_1k7p8rsw6().s[9]++;
+    if (!session) {
+      /* istanbul ignore next */
+      cov_1k7p8rsw6().b[0][0]++;
+      cov_1k7p8rsw6().s[10]++;
+      throw new _server.UploadThingError('Unauthorized');
+    } else
+    /* istanbul ignore next */
+    {
+      cov_1k7p8rsw6().b[0][1]++;
+    }
+    // Whatever is returned here is accessible in onUploadComplete as `metadata`
+    cov_1k7p8rsw6().s[11]++;
+    return {
+      userId: session?.user?.id
+    };
+  }) // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  .onUploadComplete(async ({
+    metadata,
+    file
+  }) => {
+    /* istanbul ignore next */
+    cov_1k7p8rsw6().f[2]++;
+    cov_1k7p8rsw6().s[12]++;
+    // This code RUNS ON YOUR SERVER after upload
+    // !!! Whatever is returned here is sent to the clientside `onClientUploadComplete` callback
+    return {
+      uploadedBy: metadata.userId
+    };
+  })
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMWs3cDhyc3c2IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwib3VyRmlsZVJvdXRlciIsImYiLCJfbmV4dCIsImNyZWF0ZVVwbG9hZHRoaW5nIiwiaW1hZ2VVcGxvYWRlciIsImltYWdlIiwibWF4RmlsZVNpemUiLCJtaWRkbGV3YXJlIiwic2Vzc2lvbiIsIl9hdXRoIiwiYXV0aCIsImIiLCJfc2VydmVyIiwiVXBsb2FkVGhpbmdFcnJvciIsInVzZXJJZCIsInVzZXIiLCJpZCIsIm9uVXBsb2FkQ29tcGxldGUiLCJtZXRhZGF0YSIsImZpbGUiLCJ1cGxvYWRlZEJ5Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9hcHAvYXBpL3VwbG9hZHRoaW5nL2NvcmUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlVXBsb2FkdGhpbmcsIHR5cGUgRmlsZVJvdXRlciB9IGZyb20gJ3VwbG9hZHRoaW5nL25leHQnXG5pbXBvcnQgeyBVcGxvYWRUaGluZ0Vycm9yIH0gZnJvbSAndXBsb2FkdGhpbmcvc2VydmVyJ1xuaW1wb3J0IHsgYXV0aCB9IGZyb20gJ0AvYXV0aCdcblxuY29uc3QgZiA9IGNyZWF0ZVVwbG9hZHRoaW5nKClcblxuLy8gRmlsZVJvdXRlciBmb3IgeW91ciBhcHAsIGNhbiBjb250YWluIG11bHRpcGxlIEZpbGVSb3V0ZXNcbmV4cG9ydCBjb25zdCBvdXJGaWxlUm91dGVyID0ge1xuICAvLyBEZWZpbmUgYXMgbWFueSBGaWxlUm91dGVzIGFzIHlvdSBsaWtlLCBlYWNoIHdpdGggYSB1bmlxdWUgcm91dGVTbHVnXG4gIGltYWdlVXBsb2FkZXI6IGYoeyBpbWFnZTogeyBtYXhGaWxlU2l6ZTogJzRNQicgfSB9KVxuICAgIC8vIFNldCBwZXJtaXNzaW9ucyBhbmQgZmlsZSB0eXBlcyBmb3IgdGhpcyBGaWxlUm91dGVcbiAgICAubWlkZGxld2FyZShhc3luYyAoKSA9PiB7XG4gICAgICAvLyBUaGlzIGNvZGUgcnVucyBvbiB5b3VyIHNlcnZlciBiZWZvcmUgdXBsb2FkXG4gICAgICBjb25zdCBzZXNzaW9uID0gYXdhaXQgYXV0aCgpXG5cbiAgICAgIC8vIElmIHlvdSB0aHJvdywgdGhlIHVzZXIgd2lsbCBub3QgYmUgYWJsZSB0byB1cGxvYWRcbiAgICAgIGlmICghc2Vzc2lvbikgdGhyb3cgbmV3IFVwbG9hZFRoaW5nRXJyb3IoJ1VuYXV0aG9yaXplZCcpXG5cbiAgICAgIC8vIFdoYXRldmVyIGlzIHJldHVybmVkIGhlcmUgaXMgYWNjZXNzaWJsZSBpbiBvblVwbG9hZENvbXBsZXRlIGFzIGBtZXRhZGF0YWBcbiAgICAgIHJldHVybiB7IHVzZXJJZDogc2Vzc2lvbj8udXNlcj8uaWQgfVxuICAgIH0pXG4gICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIEB0eXBlc2NyaXB0LWVzbGludC9uby11bnVzZWQtdmFyc1xuICAgIC5vblVwbG9hZENvbXBsZXRlKGFzeW5jICh7IG1ldGFkYXRhLCBmaWxlIH0pID0+IHtcbiAgICAgIC8vIFRoaXMgY29kZSBSVU5TIE9OIFlPVVIgU0VSVkVSIGFmdGVyIHVwbG9hZFxuXG4gICAgICAvLyAhISEgV2hhdGV2ZXIgaXMgcmV0dXJuZWQgaGVyZSBpcyBzZW50IHRvIHRoZSBjbGllbnRzaWRlIGBvbkNsaWVudFVwbG9hZENvbXBsZXRlYCBjYWxsYmFja1xuICAgICAgcmV0dXJuIHsgdXBsb2FkZWRCeTogbWV0YWRhdGEudXNlcklkIH1cbiAgICB9KSxcbn0gc2F0aXNmaWVzIEZpbGVSb3V0ZXJcblxuZXhwb3J0IHR5cGUgT3VyRmlsZVJvdXRlciA9IHR5cGVvZiBvdXJGaWxlUm91dGVyXG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBUUU7SUFBQUEsYUFBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsYUFBQTtBQUFBQSxhQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFEVzs7Ozs7O1dBQUFDLGFBQUE7Ozs7O2lDQVBzQzs7O2lDQUNsQjs7O2lDQUNaO0FBRXJCLE1BQU1DLENBQUE7QUFBQTtBQUFBLENBQUFKLGFBQUEsR0FBQUUsQ0FBQSxPQUFJLElBQUFHLEtBQUEsQ0FBQUMsaUJBQWlCO0FBR3BCLE1BQU1ILGFBQUE7QUFBQTtBQUFBLENBQUFILGFBQUEsR0FBQUUsQ0FBQSxPQUFnQjtFQUMzQjtFQUNBSyxhQUFBLEVBQWVILENBQUEsQ0FBRTtJQUFFSSxLQUFBLEVBQU87TUFBRUMsV0FBQSxFQUFhO0lBQU07RUFBRSxFQUMvQztFQUFBLENBQ0NDLFVBQVUsQ0FBQztJQUFBO0lBQUFWLGFBQUEsR0FBQUksQ0FBQTtJQUNWO0lBQ0EsTUFBTU8sT0FBQTtJQUFBO0lBQUEsQ0FBQVgsYUFBQSxHQUFBRSxDQUFBLE9BQVUsTUFBTSxJQUFBVSxLQUFBLENBQUFDLElBQUk7SUFFMUI7SUFBQTtJQUFBYixhQUFBLEdBQUFFLENBQUE7SUFDQSxJQUFJLENBQUNTLE9BQUEsRUFBUztNQUFBO01BQUFYLGFBQUEsR0FBQWMsQ0FBQTtNQUFBZCxhQUFBLEdBQUFFLENBQUE7TUFBQSxNQUFNLElBQUlhLE9BQUEsQ0FBQUMsZ0JBQWdCLENBQUM7SUFBQTtJQUFBO0lBQUE7TUFBQWhCLGFBQUEsR0FBQWMsQ0FBQTtJQUFBO0lBRXpDO0lBQUFkLGFBQUEsR0FBQUUsQ0FBQTtJQUNBLE9BQU87TUFBRWUsTUFBQSxFQUFRTixPQUFBLEVBQVNPLElBQUEsRUFBTUM7SUFBRztFQUNyQyxFQUNBO0VBQUEsQ0FDQ0MsZ0JBQWdCLENBQUMsT0FBTztJQUFFQyxRQUFRO0lBQUVDO0VBQUksQ0FBRTtJQUFBO0lBQUF0QixhQUFBLEdBQUFJLENBQUE7SUFBQUosYUFBQSxHQUFBRSxDQUFBO0lBQ3pDO0lBRUE7SUFDQSxPQUFPO01BQUVxQixVQUFBLEVBQVlGLFFBQUEsQ0FBU0o7SUFBTztFQUN2QztBQUNKIiwiaWdub3JlTGlzdCI6W119

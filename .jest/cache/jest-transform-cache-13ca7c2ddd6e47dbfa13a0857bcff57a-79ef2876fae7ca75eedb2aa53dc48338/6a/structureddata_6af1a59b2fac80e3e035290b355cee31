@@ -1,0 +1,318 @@
+bb733f6a6429fc44c10d05bf64990b48
+"use strict";
+
+/* istanbul ignore next */
+function cov_2bhkt3u54v() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/structured-data.tsx";
+  var hash = "c112c4e9a5fece5a7f863640fcc80a72ff847a9c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/structured-data.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 10,
+          column: 8
+        },
+        end: {
+          line: 10,
+          column: 30
+        }
+      },
+      "3": {
+        start: {
+          line: 13,
+          column: 20
+        },
+        end: {
+          line: 13,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 29
+        },
+        end: {
+          line: 14,
+          column: 71
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 6
+        }
+      },
+      "6": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 26,
+          column: 43
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 9,
+            column: 9
+          },
+          end: {
+            line: 9,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 9,
+            column: 20
+          },
+          end: {
+            line: 11,
+            column: 5
+          }
+        },
+        line: 9
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 39
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "StructuredData",
+        decl: {
+          start: {
+            line: 20,
+            column: 9
+          },
+          end: {
+            line: 20,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 34
+          },
+          end: {
+            line: 27,
+            column: 1
+          }
+        },
+        line: 20
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 35
+          },
+          end: {
+            line: 16,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 41
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        }],
+        line: 16
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 18
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        }],
+        line: 16
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/structured-data.tsx"],
+      sourcesContent: ["import React from 'react'\n\nexport interface StructuredDataProps {\n  data: {\n    '@context': string\n    '@type': string\n    [key: string]: unknown\n  }\n}\n\nexport default function StructuredData({ data }: StructuredDataProps) {\n  return (\n    <script\n      type=\"application/ld+json\"\n      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}\n      key={`structured-data-${data['@type']}`}\n    />\n  )\n}\n\n// Current Date and Time (UTC): 2025-04-20 15:59:45\n// Current User's Login: ibrahim-lasfar\n"],
+      names: ["StructuredData", "data", "script", "type", "dangerouslySetInnerHTML", "__html", "JSON", "stringify"],
+      mappings: ";;;;+BAUA,UAUA,mDAAmD;CACnD,uCAAuC;;;;eAXfA;;;;8DAVN;;;;;;AAUH,SAASA,eAAe,EAAEC,IAAI,EAAuB;IAClE,qBACE,qBAACC;QACCC,MAAK;QACLC,yBAAyB;YAAEC,QAAQC,KAAKC,SAAS,CAACN;QAAM;OACnD,CAAC,gBAAgB,EAAEA,IAAI,CAAC,QAAQ,EAAE;AAG7C"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c112c4e9a5fece5a7f863640fcc80a72ff847a9c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2bhkt3u54v = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2bhkt3u54v();
+cov_2bhkt3u54v().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2bhkt3u54v().s[1]++;
+Object.defineProperty(exports, "default" // Current Date and Time (UTC): 2025-04-20 15:59:45
+// Current User's Login: ibrahim-lasfar
+, {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_2bhkt3u54v().f[0]++;
+    cov_2bhkt3u54v().s[2]++;
+    return StructuredData;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_2bhkt3u54v().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_2bhkt3u54v().s[4]++, _interop_require_default(require("react")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_2bhkt3u54v().f[1]++;
+  cov_2bhkt3u54v().s[5]++;
+  return /* istanbul ignore next */(cov_2bhkt3u54v().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_2bhkt3u54v().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_2bhkt3u54v().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_2bhkt3u54v().b[0][1]++, {
+    default: obj
+  });
+}
+function StructuredData({
+  data
+}) {
+  /* istanbul ignore next */
+  cov_2bhkt3u54v().f[2]++;
+  cov_2bhkt3u54v().s[6]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("script", {
+    type: "application/ld+json",
+    dangerouslySetInnerHTML: {
+      __html: JSON.stringify(data)
+    }
+  }, `structured-data-${data['@type']}`);
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJTdHJ1Y3R1cmVkRGF0YSIsImRhdGEiLCJjb3ZfMmJoa3QzdTU0diIsImYiLCJzIiwiX2pzeHJ1bnRpbWUiLCJqc3giLCJ0eXBlIiwiZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUwiLCJfX2h0bWwiLCJKU09OIiwic3RyaW5naWZ5Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9jb21wb25lbnRzL3N0cnVjdHVyZWQtZGF0YS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5leHBvcnQgaW50ZXJmYWNlIFN0cnVjdHVyZWREYXRhUHJvcHMge1xuICBkYXRhOiB7XG4gICAgJ0Bjb250ZXh0Jzogc3RyaW5nXG4gICAgJ0B0eXBlJzogc3RyaW5nXG4gICAgW2tleTogc3RyaW5nXTogdW5rbm93blxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFN0cnVjdHVyZWREYXRhKHsgZGF0YSB9OiBTdHJ1Y3R1cmVkRGF0YVByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPHNjcmlwdFxuICAgICAgdHlwZT1cImFwcGxpY2F0aW9uL2xkK2pzb25cIlxuICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBKU09OLnN0cmluZ2lmeShkYXRhKSB9fVxuICAgICAga2V5PXtgc3RydWN0dXJlZC1kYXRhLSR7ZGF0YVsnQHR5cGUnXX1gfVxuICAgIC8+XG4gIClcbn1cblxuLy8gQ3VycmVudCBEYXRlIGFuZCBUaW1lIChVVEMpOiAyMDI1LTA0LTIwIDE1OjU5OjQ1XG4vLyBDdXJyZW50IFVzZXIncyBMb2dpbjogaWJyYWhpbS1sYXNmYXJcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBVUEsVUFVQTtBQUNBO0FBQUEsRTs7Ozs7O1dBWHdCQSxjQUFBOzs7Ozs7Ozt3RUFWTjs7Ozs7Ozs7Ozs7Ozs7O0FBVUgsU0FBU0EsZUFBZTtFQUFFQztBQUFJLENBQXVCO0VBQUE7RUFBQUMsY0FBQSxHQUFBQyxDQUFBO0VBQUFELGNBQUEsR0FBQUUsQ0FBQTtFQUNsRSxvQkFDRSxJQUFBQyxXQUFBLENBQUFDLEdBQUEsRUFBQztJQUNDQyxJQUFBLEVBQUs7SUFDTEMsdUJBQUEsRUFBeUI7TUFBRUMsTUFBQSxFQUFRQyxJQUFBLENBQUtDLFNBQVMsQ0FBQ1YsSUFBQTtJQUFNO0tBQ25ELG1CQUFtQkEsSUFBSSxDQUFDLFFBQVEsRUFBRTtBQUc3QyIsImlnbm9yZUxpc3QiOltdfQ==

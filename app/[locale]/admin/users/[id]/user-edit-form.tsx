@@ -66,19 +66,19 @@ const UserEditForm = ({ user }: { user: IUser }) => {
   return (
     <Form {...form}>
       <form
-        method='post'
+        method="post"
         onSubmit={form.handleSubmit(onSubmit)}
-        className='space-y-8'
+        className="space-y-8"
       >
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='name'
+            name="name"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Name</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter user name' {...field} />
+                  <Input placeholder="Enter user name" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -86,12 +86,12 @@ const UserEditForm = ({ user }: { user: IUser }) => {
           />
           <FormField
             control={form.control}
-            name='email'
+            name="email"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter user email' {...field} />
+                  <Input placeholder="Enter user email" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -101,9 +101,9 @@ const UserEditForm = ({ user }: { user: IUser }) => {
         <div>
           <FormField
             control={form.control}
-            name='role'
+            name="role"
             render={({ field }) => (
-              <FormItem className='space-x-2 items-center'>
+              <FormItem className="space-x-2 items-center">
                 <FormLabel>Role</FormLabel>
                 <Select
                   onValueChange={field.onChange}
@@ -111,7 +111,7 @@ const UserEditForm = ({ user }: { user: IUser }) => {
                 >
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue placeholder='Select a role' />
+                      <SelectValue placeholder="Select a role" />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
@@ -128,13 +128,13 @@ const UserEditForm = ({ user }: { user: IUser }) => {
             )}
           />
         </div>
-        <div className='flex-between'>
-          <Button type='submit' disabled={form.formState.isSubmitting}>
+        <div className="flex-between">
+          <Button type="submit" disabled={form.formState.isSubmitting}>
             {form.formState.isSubmitting ? 'Submitting...' : `Update User `}
           </Button>
           <Button
-            variant='outline'
-            type='button'
+            variant="outline"
+            type="button"
             onClick={() => router.push(`/admin/users`)}
           >
             Back

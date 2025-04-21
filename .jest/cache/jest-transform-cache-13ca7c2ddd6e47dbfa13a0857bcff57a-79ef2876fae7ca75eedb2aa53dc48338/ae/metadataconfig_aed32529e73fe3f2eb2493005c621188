@@ -1,0 +1,164 @@
+a34d5fd6d36bf10e19a3bb4f31e8554d
+"use strict";
+
+/* istanbul ignore next */
+function cov_1ups97h5dc() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/seo/metadata-config.ts";
+  var hash = "c895667f0f1c744e84c2c75a73a393ab1118b180";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/seo/metadata-config.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 31
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 24
+        },
+        end: {
+          line: 44,
+          column: 1
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/seo/metadata-config.ts"],
+      sourcesContent: ["export const defaultMetadata = {\n  defaultTitle: 'MGZon E-commerce',\n  titleTemplate: '%s | MGZon',\n  description: 'Your ultimate shopping destination',\n  openGraph: {\n    type: 'website',\n    images: [\n      {\n        url: '/icons/icon-512x512.png',\n        width: 512,\n        height: 512,\n        alt: 'MGZon',\n      },\n    ],\n  },\n  twitter: {\n    card: 'summary_large_image',\n    creator: '@ibrahim_lasfar',\n  },\n  robots: {\n    index: true,\n    follow: true,\n    googleBot: {\n      index: true,\n      follow: true,\n      'max-video-preview': -1,\n      'max-image-preview': 'large',\n      'max-snippet': -1,\n    },\n  },\n  verification: {\n    google: 'PQo-i3w5jhSFT2MCdZxg0HnFOHDQ-iYMLNg8rYeFtXM',\n  },\n}\n"],
+      names: ["defaultMetadata", "defaultTitle", "titleTemplate", "description", "openGraph", "type", "images", "url", "width", "height", "alt", "twitter", "card", "creator", "robots", "index", "follow", "googleBot", "verification", "google"],
+      mappings: ";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,kBAAkB;IAC7BC,cAAc;IACdC,eAAe;IACfC,aAAa;IACbC,WAAW;QACTC,MAAM;QACNC,QAAQ;YACN;gBACEC,KAAK;gBACLC,OAAO;gBACPC,QAAQ;gBACRC,KAAK;YACP;SACD;IACH;IACAC,SAAS;QACPC,MAAM;QACNC,SAAS;IACX;IACAC,QAAQ;QACNC,OAAO;QACPC,QAAQ;QACRC,WAAW;YACTF,OAAO;YACPC,QAAQ;YACR,qBAAqB,CAAC;YACtB,qBAAqB;YACrB,eAAe,CAAC;QAClB;IACF;IACAE,cAAc;QACZC,QAAQ;IACV;AACF"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c895667f0f1c744e84c2c75a73a393ab1118b180"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1ups97h5dc = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1ups97h5dc();
+cov_1ups97h5dc().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1ups97h5dc().s[1]++;
+Object.defineProperty(exports, "defaultMetadata", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1ups97h5dc().f[0]++;
+    cov_1ups97h5dc().s[2]++;
+    return defaultMetadata;
+  }
+});
+const defaultMetadata =
+/* istanbul ignore next */
+(cov_1ups97h5dc().s[3]++, {
+  defaultTitle: 'MGZon E-commerce',
+  titleTemplate: '%s | MGZon',
+  description: 'Your ultimate shopping destination',
+  openGraph: {
+    type: 'website',
+    images: [{
+      url: '/icons/icon-512x512.png',
+      width: 512,
+      height: 512,
+      alt: 'MGZon'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    creator: '@ibrahim_lasfar'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1
+    }
+  },
+  verification: {
+    google: 'PQo-i3w5jhSFT2MCdZxg0HnFOHDQ-iYMLNg8rYeFtXM'
+  }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMXVwczk3aDVkYyIsImFjdHVhbENvdmVyYWdlIiwicyIsImRlZmF1bHRNZXRhZGF0YSIsImRlZmF1bHRUaXRsZSIsInRpdGxlVGVtcGxhdGUiLCJkZXNjcmlwdGlvbiIsIm9wZW5HcmFwaCIsInR5cGUiLCJpbWFnZXMiLCJ1cmwiLCJ3aWR0aCIsImhlaWdodCIsImFsdCIsInR3aXR0ZXIiLCJjYXJkIiwiY3JlYXRvciIsInJvYm90cyIsImluZGV4IiwiZm9sbG93IiwiZ29vZ2xlQm90IiwidmVyaWZpY2F0aW9uIiwiZ29vZ2xlIl0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9saWIvc2VvL21ldGFkYXRhLWNvbmZpZy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZGVmYXVsdE1ldGFkYXRhID0ge1xuICBkZWZhdWx0VGl0bGU6ICdNR1pvbiBFLWNvbW1lcmNlJyxcbiAgdGl0bGVUZW1wbGF0ZTogJyVzIHwgTUdab24nLFxuICBkZXNjcmlwdGlvbjogJ1lvdXIgdWx0aW1hdGUgc2hvcHBpbmcgZGVzdGluYXRpb24nLFxuICBvcGVuR3JhcGg6IHtcbiAgICB0eXBlOiAnd2Vic2l0ZScsXG4gICAgaW1hZ2VzOiBbXG4gICAgICB7XG4gICAgICAgIHVybDogJy9pY29ucy9pY29uLTUxMng1MTIucG5nJyxcbiAgICAgICAgd2lkdGg6IDUxMixcbiAgICAgICAgaGVpZ2h0OiA1MTIsXG4gICAgICAgIGFsdDogJ01HWm9uJyxcbiAgICAgIH0sXG4gICAgXSxcbiAgfSxcbiAgdHdpdHRlcjoge1xuICAgIGNhcmQ6ICdzdW1tYXJ5X2xhcmdlX2ltYWdlJyxcbiAgICBjcmVhdG9yOiAnQGlicmFoaW1fbGFzZmFyJyxcbiAgfSxcbiAgcm9ib3RzOiB7XG4gICAgaW5kZXg6IHRydWUsXG4gICAgZm9sbG93OiB0cnVlLFxuICAgIGdvb2dsZUJvdDoge1xuICAgICAgaW5kZXg6IHRydWUsXG4gICAgICBmb2xsb3c6IHRydWUsXG4gICAgICAnbWF4LXZpZGVvLXByZXZpZXcnOiAtMSxcbiAgICAgICdtYXgtaW1hZ2UtcHJldmlldyc6ICdsYXJnZScsXG4gICAgICAnbWF4LXNuaXBwZXQnOiAtMSxcbiAgICB9LFxuICB9LFxuICB2ZXJpZmljYXRpb246IHtcbiAgICBnb29nbGU6ICdQUW8taTN3NWpoU0ZUMk1DZFp4ZzBIbkZPSERRLWlZTUxOZzhyWWVGdFhNJyxcbiAgfSxcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBS0k7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFMUzs7Ozs7O1dBQUFDLGVBQUE7OztBQUFOLE1BQU1BLGVBQUE7QUFBQTtBQUFBLENBQUFILGNBQUEsR0FBQUUsQ0FBQSxPQUFrQjtFQUM3QkUsWUFBQSxFQUFjO0VBQ2RDLGFBQUEsRUFBZTtFQUNmQyxXQUFBLEVBQWE7RUFDYkMsU0FBQSxFQUFXO0lBQ1RDLElBQUEsRUFBTTtJQUNOQyxNQUFBLEVBQVEsQ0FDTjtNQUNFQyxHQUFBLEVBQUs7TUFDTEMsS0FBQSxFQUFPO01BQ1BDLE1BQUEsRUFBUTtNQUNSQyxHQUFBLEVBQUs7SUFDUDtFQUVKO0VBQ0FDLE9BQUEsRUFBUztJQUNQQyxJQUFBLEVBQU07SUFDTkMsT0FBQSxFQUFTO0VBQ1g7RUFDQUMsTUFBQSxFQUFRO0lBQ05DLEtBQUEsRUFBTztJQUNQQyxNQUFBLEVBQVE7SUFDUkMsU0FBQSxFQUFXO01BQ1RGLEtBQUEsRUFBTztNQUNQQyxNQUFBLEVBQVE7TUFDUixxQkFBcUIsQ0FBQztNQUN0QixxQkFBcUI7TUFDckIsZUFBZSxDQUFDO0lBQ2xCO0VBQ0Y7RUFDQUUsWUFBQSxFQUFjO0lBQ1pDLE1BQUEsRUFBUTtFQUNWO0FBQ0YiLCJpZ25vcmVMaXN0IjpbXX0=

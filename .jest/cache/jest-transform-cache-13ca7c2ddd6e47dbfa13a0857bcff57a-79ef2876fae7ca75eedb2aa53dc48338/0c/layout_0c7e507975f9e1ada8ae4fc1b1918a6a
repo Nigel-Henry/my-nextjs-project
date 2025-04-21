@@ -1,0 +1,345 @@
+3f0f8567b34a7a69ba6cecd045d0be16
+"use strict";
+
+/* istanbul ignore next */
+function cov_izh3tf9bz() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/layout.tsx";
+  var hash = "67757e66efcd2b9180035448bc662d8d45a37c6c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/layout.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 26
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 29
+        },
+        end: {
+          line: 12,
+          column: 71
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 30
+        },
+        end: {
+          line: 13,
+          column: 100
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 30
+        },
+        end: {
+          line: 14,
+          column: 100
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 6
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 31,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 39
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "RootLayout",
+        decl: {
+          start: {
+            line: 20,
+            column: 15
+          },
+          end: {
+            line: 20,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 40
+          },
+          end: {
+            line: 32,
+            column: 1
+          }
+        },
+        line: 20
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 35
+          },
+          end: {
+            line: 16,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 41
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        }],
+        line: 16
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 18
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        }],
+        line: 16
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/layout.tsx"],
+      sourcesContent: ["import React from 'react'\n\nimport Header from '@/components/shared/header'\nimport Footer from '@/components/shared/footer'\n\nexport default async function RootLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  return (\n    <div className=\"flex flex-col min-h-screen\">\n      <Header />\n      <main className=\"flex-1 flex flex-col p-4\">{children}</main>\n      <Footer />\n    </div>\n  )\n}\n"],
+      names: ["RootLayout", "children", "div", "className", "Header", "main", "Footer"],
+      mappings: ";;;;+BAKA;;;eAA8BA;;;;8DALZ;+DAEC;+DACA;;;;;;AAEJ,eAAeA,WAAW,EACvCC,QAAQ,EAGT;IACC,qBACE,sBAACC;QAAIC,WAAU;;0BACb,qBAACC,eAAM;0BACP,qBAACC;gBAAKF,WAAU;0BAA4BF;;0BAC5C,qBAACK,eAAM;;;AAGb"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "67757e66efcd2b9180035448bc662d8d45a37c6c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_izh3tf9bz = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_izh3tf9bz();
+cov_izh3tf9bz().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_izh3tf9bz().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_izh3tf9bz().f[0]++;
+    cov_izh3tf9bz().s[2]++;
+    return RootLayout;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_izh3tf9bz().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_izh3tf9bz().s[4]++, _interop_require_default(require("react")));
+const _header =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_izh3tf9bz().s[5]++, _interop_require_default(require("../../../components/shared/header")));
+const _footer =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_izh3tf9bz().s[6]++, _interop_require_default(require("../../../components/shared/footer")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_izh3tf9bz().f[1]++;
+  cov_izh3tf9bz().s[7]++;
+  return /* istanbul ignore next */(cov_izh3tf9bz().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_izh3tf9bz().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_izh3tf9bz().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_izh3tf9bz().b[0][1]++, {
+    default: obj
+  });
+}
+async function RootLayout({
+  children
+}) {
+  /* istanbul ignore next */
+  cov_izh3tf9bz().f[2]++;
+  cov_izh3tf9bz().s[8]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    className: "flex flex-col min-h-screen",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_header.default, {}), /*#__PURE__*/(0, _jsxruntime.jsx)("main", {
+      className: "flex-1 flex flex-col p-4",
+      children: children
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)(_footer.default, {})]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJjb3ZfaXpoM3RmOWJ6IiwiZiIsInMiLCJfanN4cnVudGltZSIsImpzeHMiLCJjbGFzc05hbWUiLCJqc3giLCJfaGVhZGVyIiwiZGVmYXVsdCIsIl9mb290ZXIiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2FwcC9bbG9jYWxlXS8ocm9vdCkvbGF5b3V0LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmltcG9ydCBIZWFkZXIgZnJvbSAnQC9jb21wb25lbnRzL3NoYXJlZC9oZWFkZXInXG5pbXBvcnQgRm9vdGVyIGZyb20gJ0AvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyJ1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBSb290TGF5b3V0KHtcbiAgY2hpbGRyZW4sXG59OiB7XG4gIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGVcbn0pIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2wgbWluLWgtc2NyZWVuXCI+XG4gICAgICA8SGVhZGVyIC8+XG4gICAgICA8bWFpbiBjbGFzc05hbWU9XCJmbGV4LTEgZmxleCBmbGV4LWNvbCBwLTRcIj57Y2hpbGRyZW59PC9tYWluPlxuICAgICAgPEZvb3RlciAvPlxuICAgIDwvZGl2PlxuICApXG59XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsrQkFLQTs7Ozs7O1dBQThCQSxVQUFBOzs7Ozs7Ozt1RUFMWjs7O3VFQUVDOzs7dUVBQ0E7Ozs7Ozs7Ozs7Ozs7OztBQUVKLGVBQWVBLFdBQVc7RUFDdkNDO0FBQVEsQ0FHVDtFQUFBO0VBQUFDLGFBQUEsR0FBQUMsQ0FBQTtFQUFBRCxhQUFBLEdBQUFFLENBQUE7RUFDQyxvQkFDRSxJQUFBQyxXQUFBLENBQUFDLElBQUEsRUFBQztJQUFJQyxTQUFBLEVBQVU7NEJBQ2IsSUFBQUYsV0FBQSxDQUFBRyxHQUFBLEVBQUNDLE9BQUEsQ0FBQUMsT0FBTSxPLGFBQ1AsSUFBQUwsV0FBQSxDQUFBRyxHQUFBLEVBQUM7TUFBS0QsU0FBQSxFQUFVO2dCQUE0Qk47cUJBQzVDLElBQUFJLFdBQUEsQ0FBQUcsR0FBQSxFQUFDRyxPQUFBLENBQUFELE9BQU07O0FBR2IiLCJpZ25vcmVMaXN0IjpbXX0=

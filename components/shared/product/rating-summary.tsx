@@ -38,32 +38,32 @@ export default function RatingSummary({
 
     return (
       <>
-        <div className='flex flex-wrap items-center gap-1 cursor-help'>
+        <div className="flex flex-wrap items-center gap-1 cursor-help">
           <Rating rating={avgRating} />
-          <span className='text-lg font-semibold'>
+          <span className="text-lg font-semibold">
             {t('Product.avgRating out of 5', {
               avgRating: avgRating.toFixed(1),
             })}
           </span>
         </div>
-        <div className='text-lg '>
+        <div className="text-lg ">
           {t('Product.numReviews ratings', { numReviews })}
         </div>
 
-        <div className='space-y-3'>
+        <div className="space-y-3">
           {ratingPercentageDistribution
             .sort((a, b) => b.rating - a.rating)
             .map(({ rating, percentage }) => (
               <div
                 key={rating}
-                className='grid grid-cols-[50px_1fr_30px] gap-2 items-center'
+                className="grid grid-cols-[50px_1fr_30px] gap-2 items-center"
               >
-                <div className='text-sm'>
+                <div className="text-sm">
                   {' '}
                   {t('Product.rating star', { rating })}
                 </div>
-                <Progress value={percentage} className='h-4' />
-                <div className='text-sm text-right'>{percentage}%</div>
+                <Progress value={percentage} className="h-4" />
+                <div className="text-sm text-right">{percentage}%</div>
               </div>
             ))}
         </div>
@@ -72,28 +72,28 @@ export default function RatingSummary({
   }
 
   return asPopover ? (
-    <div className='flex items-center gap-1'>
+    <div className="flex items-center gap-1">
       <Popover>
         <PopoverTrigger asChild>
-          <Button variant='ghost' className='px-2 [&_svg]:size-6 text-base'>
+          <Button variant="ghost" className="px-2 [&_svg]:size-6 text-base">
             <span>{avgRating.toFixed(1)}</span>
             <Rating rating={avgRating} />
-            <ChevronDownIcon className='w-5 h-5 text-muted-foreground' />
+            <ChevronDownIcon className="w-5 h-5 text-muted-foreground" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className='w-auto p-4' align='end'>
-          <div className='flex flex-col gap-2'>
+        <PopoverContent className="w-auto p-4" align="end">
+          <div className="flex flex-col gap-2">
             <RatingDistribution />
             <Separator />
 
-            <Link className='highlight-link text-center' href='#reviews'>
+            <Link className="highlight-link text-center" href="#reviews">
               {t('Product.See customer reviews')}
             </Link>
           </div>
         </PopoverContent>
       </Popover>
-      <div className=' '>
-        <Link href='#reviews' className='highlight-link'>
+      <div className=" ">
+        <Link href="#reviews" className="highlight-link">
           {t('Product.numReviews ratings', { numReviews })}
         </Link>
       </div>

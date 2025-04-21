@@ -1,0 +1,262 @@
+0e017f7667063579d7735f04bbe54c27
+"use strict";
+
+/* istanbul ignore next */
+function cov_1vxh5bzm6d() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/uploadthing.ts";
+  var hash = "526aa10d341d982b508f329419c96b4d0f89828e";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/uploadthing.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 28
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 30
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 15
+        },
+        end: {
+          line: 19,
+          column: 44
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 21
+        },
+        end: {
+          line: 20,
+          column: 55
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 23
+        },
+        end: {
+          line: 21,
+          column: 59
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 18
+          },
+          end: {
+            line: 12,
+            column: 19
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 29
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 20
+          },
+          end: {
+            line: 15,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 31
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/uploadthing.ts"],
+      sourcesContent: ["import {\n  generateUploadButton,\n  generateUploadDropzone,\n} from '@uploadthing/react'\nimport type { OurFileRouter } from '@/app/api/uploadthing/core'\n\nexport const UploadButton = generateUploadButton<OurFileRouter>()\nexport const UploadDropzone = generateUploadDropzone<OurFileRouter>()\n"],
+      names: ["UploadButton", "UploadDropzone", "generateUploadButton", "generateUploadDropzone"],
+      mappings: ";;;;;;;;;;;IAMaA,YAAY;eAAZA;;IACAC,cAAc;eAAdA;;;uBAJN;AAGA,MAAMD,eAAeE,IAAAA,2BAAoB;AACzC,MAAMD,iBAAiBE,IAAAA,6BAAsB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "526aa10d341d982b508f329419c96b4d0f89828e"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1vxh5bzm6d = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1vxh5bzm6d();
+cov_1vxh5bzm6d().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_1vxh5bzm6d().f[0]++;
+  cov_1vxh5bzm6d().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_1vxh5bzm6d().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_1vxh5bzm6d().s[3]++;
+_export(exports, {
+  UploadButton: function () {
+    /* istanbul ignore next */
+    cov_1vxh5bzm6d().f[1]++;
+    cov_1vxh5bzm6d().s[4]++;
+    return UploadButton;
+  },
+  UploadDropzone: function () {
+    /* istanbul ignore next */
+    cov_1vxh5bzm6d().f[2]++;
+    cov_1vxh5bzm6d().s[5]++;
+    return UploadDropzone;
+  }
+});
+const _react =
+/* istanbul ignore next */
+(cov_1vxh5bzm6d().s[6]++, require("@uploadthing/react"));
+const UploadButton =
+/* istanbul ignore next */
+(cov_1vxh5bzm6d().s[7]++, (0, _react.generateUploadButton)());
+const UploadDropzone =
+/* istanbul ignore next */
+(cov_1vxh5bzm6d().s[8]++, (0, _react.generateUploadDropzone)());
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJVcGxvYWRCdXR0b24iLCJjb3ZfMXZ4aDViem02ZCIsImYiLCJzIiwiVXBsb2FkRHJvcHpvbmUiLCJfcmVhY3QiLCJnZW5lcmF0ZVVwbG9hZEJ1dHRvbiIsImdlbmVyYXRlVXBsb2FkRHJvcHpvbmUiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2xpYi91cGxvYWR0aGluZy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1xuICBnZW5lcmF0ZVVwbG9hZEJ1dHRvbixcbiAgZ2VuZXJhdGVVcGxvYWREcm9wem9uZSxcbn0gZnJvbSAnQHVwbG9hZHRoaW5nL3JlYWN0J1xuaW1wb3J0IHR5cGUgeyBPdXJGaWxlUm91dGVyIH0gZnJvbSAnQC9hcHAvYXBpL3VwbG9hZHRoaW5nL2NvcmUnXG5cbmV4cG9ydCBjb25zdCBVcGxvYWRCdXR0b24gPSBnZW5lcmF0ZVVwbG9hZEJ1dHRvbjxPdXJGaWxlUm91dGVyPigpXG5leHBvcnQgY29uc3QgVXBsb2FkRHJvcHpvbmUgPSBnZW5lcmF0ZVVwbG9hZERyb3B6b25lPE91ckZpbGVSb3V0ZXI+KClcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQU1hQSxZQUFZLFdBQUFBLENBQUE7SUFBQTtJQUFBQyxjQUFBLEdBQUFDLENBQUE7SUFBQUQsY0FBQSxHQUFBRSxDQUFBO1dBQVpILFlBQUE7O0VBQ0FJLGNBQWMsV0FBQUEsQ0FBQTtJQUFBO0lBQUFILGNBQUEsR0FBQUMsQ0FBQTtJQUFBRCxjQUFBLEdBQUFFLENBQUE7V0FBZEMsY0FBQTs7Ozs7a0NBSk47QUFHQSxNQUFNSixZQUFBO0FBQUE7QUFBQSxDQUFBQyxjQUFBLEdBQUFFLENBQUEsT0FBZSxJQUFBRSxNQUFBLENBQUFDLG9CQUFvQjtBQUN6QyxNQUFNRixjQUFBO0FBQUE7QUFBQSxDQUFBSCxjQUFBLEdBQUFFLENBQUEsT0FBaUIsSUFBQUUsTUFBQSxDQUFBRSxzQkFBc0IiLCJpZ25vcmVMaXN0IjpbXX0=

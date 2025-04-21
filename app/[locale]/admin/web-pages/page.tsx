@@ -22,22 +22,22 @@ export const metadata: Metadata = {
 export default async function WebPageAdminPage() {
   const webPages = await getAllWebPages()
   return (
-    <div className='space-y-2'>
-      <div className='flex-between'>
-        <h1 className='h1-bold'>Web Pages</h1>
-        <Button asChild variant='default'>
-          <Link href='/admin/web-pages/create'>Create WebPage</Link>
+    <div className="space-y-2">
+      <div className="flex-between">
+        <h1 className="h1-bold">Web Pages</h1>
+        <Button asChild variant="default">
+          <Link href="/admin/web-pages/create">Create WebPage</Link>
         </Button>
       </div>
       <div>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className='w-[100px]'>Id</TableHead>
+              <TableHead className="w-[100px]">Id</TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Slug</TableHead>
               <TableHead>IsPublished</TableHead>
-              <TableHead className='w-[100px]'>Actions</TableHead>
+              <TableHead className="w-[100px]">Actions</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -47,8 +47,8 @@ export default async function WebPageAdminPage() {
                 <TableCell>{webPage.title}</TableCell>
                 <TableCell>{webPage.slug}</TableCell>
                 <TableCell>{webPage.isPublished ? 'Yes' : 'No'}</TableCell>
-                <TableCell className='flex gap-1'>
-                  <Button asChild variant='outline' size='sm'>
+                <TableCell className="flex gap-1">
+                  <Button asChild variant="outline" size="sm">
                     <Link href={`/admin/web-pages/${webPage._id}`}>Edit</Link>
                   </Button>
                   <DeleteDialog id={webPage._id} action={deleteWebPage} />

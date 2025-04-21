@@ -36,9 +36,9 @@ export default async function OrdersPage(props: {
     page: Number(page),
   })
   return (
-    <div className='space-y-2'>
-      <h1 className='h1-bold'>Orders</h1>
-      <div className='overflow-x-auto'>
+    <div className="space-y-2">
+      <h1 className="h1-bold">Orders</h1>
+      <div className="overflow-x-auto">
         <Table>
           <TableHeader>
             <TableRow>
@@ -75,8 +75,8 @@ export default async function OrdersPage(props: {
                     ? formatDateTime(order.deliveredAt).dateTime
                     : 'No'}
                 </TableCell>
-                <TableCell className='flex gap-1'>
-                  <Button asChild variant='outline' size='sm'>
+                <TableCell className="flex gap-1">
+                  <Button asChild variant="outline" size="sm">
                     <Link href={`/admin/orders/${order._id}`}>Details</Link>
                   </Button>
                   <DeleteDialog id={order._id} action={deleteOrder} />

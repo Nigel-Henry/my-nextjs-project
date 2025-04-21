@@ -22,7 +22,7 @@ export default function ActionButton({
   const { toast } = useToast()
   return (
     <Button
-      type='button'
+      type="button"
       className={cn('rounded-full', className)}
       variant={variant}
       size={size}

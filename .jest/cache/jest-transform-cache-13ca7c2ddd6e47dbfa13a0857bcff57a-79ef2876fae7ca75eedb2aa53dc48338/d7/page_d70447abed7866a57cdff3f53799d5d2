@@ -1,0 +1,574 @@
+57d00747172fb550cf808f7cefc45413
+"use strict";
+
+/* istanbul ignore next */
+function cov_wl7d297sd() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/page.tsx";
+  var hash = "b0bff8d60ae9a17b17399c061f15e6320d45f24c";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/page.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 27
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 24
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 20
+        },
+        end: {
+          line: 19,
+          column: 48
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 15
+        },
+        end: {
+          line: 20,
+          column: 41
+        }
+      },
+      "8": {
+        start: {
+          line: 21,
+          column: 14
+        },
+        end: {
+          line: 21,
+          column: 47
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 21
+        },
+        end: {
+          line: 22,
+          column: 46
+        }
+      },
+      "10": {
+        start: {
+          line: 23,
+          column: 28
+        },
+        end: {
+          line: 23,
+          column: 74
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 14
+        },
+        end: {
+          line: 24,
+          column: 61
+        }
+      },
+      "12": {
+        start: {
+          line: 25,
+          column: 24
+        },
+        end: {
+          line: 25,
+          column: 80
+        }
+      },
+      "13": {
+        start: {
+          line: 27,
+          column: 4
+        },
+        end: {
+          line: 29,
+          column: 6
+        }
+      },
+      "14": {
+        start: {
+          line: 31,
+          column: 19
+        },
+        end: {
+          line: 31,
+          column: 37
+        }
+      },
+      "15": {
+        start: {
+          line: 32,
+          column: 17
+        },
+        end: {
+          line: 34,
+          column: 1
+        }
+      },
+      "16": {
+        start: {
+          line: 36,
+          column: 20
+        },
+        end: {
+          line: 36,
+          column: 43
+        }
+      },
+      "17": {
+        start: {
+          line: 37,
+          column: 21
+        },
+        end: {
+          line: 37,
+          column: 60
+        }
+      },
+      "18": {
+        start: {
+          line: 38,
+          column: 4
+        },
+        end: {
+          line: 88,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 13
+          },
+          end: {
+            line: 12,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 14
+          },
+          end: {
+            line: 15,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 25
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 26,
+            column: 9
+          },
+          end: {
+            line: 26,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 26,
+            column: 39
+          },
+          end: {
+            line: 30,
+            column: 1
+          }
+        },
+        line: 26
+      },
+      "4": {
+        name: "ProfilePage",
+        decl: {
+          start: {
+            line: 35,
+            column: 15
+          },
+          end: {
+            line: 35,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 35,
+            column: 29
+          },
+          end: {
+            line: 89,
+            column: 1
+          }
+        },
+        line: 35
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 27,
+            column: 11
+          },
+          end: {
+            line: 29,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 27,
+            column: 35
+          },
+          end: {
+            line: 27,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 27,
+            column: 41
+          },
+          end: {
+            line: 29,
+            column: 5
+          }
+        }],
+        line: 27
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 27,
+            column: 11
+          },
+          end: {
+            line: 27,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 27,
+            column: 11
+          },
+          end: {
+            line: 27,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 27,
+            column: 18
+          },
+          end: {
+            line: 27,
+            column: 32
+          }
+        }],
+        line: 27
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/(root)/account/manage/name/page.tsx"],
+      sourcesContent: ["import { Metadata } from 'next'\nimport { SessionProvider } from 'next-auth/react'\n\nimport { auth } from '@/auth'\n\nimport { ProfileForm } from './profile-form'\nimport Link from 'next/link'\nimport { Card, CardContent } from '@/components/ui/card'\nimport { getSetting } from '@/lib/actions/setting.actions'\n\nconst PAGE_TITLE = 'Change Your Name'\nexport const metadata: Metadata = {\n  title: PAGE_TITLE,\n}\n\nexport default async function ProfilePage() {\n  const session = await auth()\n  const { site } = await getSetting()\n  return (\n    <div className=\"mb-24\">\n      <SessionProvider session={session}>\n        <div className=\"flex gap-2 \">\n          <Link href=\"/account\">Your Account</Link>\n          <span>\u203A</span>\n          <Link href=\"/account/manage\">Login & Security</Link>\n          <span>\u203A</span>\n          <span>{PAGE_TITLE}</span>\n        </div>\n        <h1 className=\"h1-bold py-4\">{PAGE_TITLE}</h1>\n        <Card className=\"max-w-2xl\">\n          <CardContent className=\"p-4 flex justify-between flex-wrap\">\n            <p className=\"text-sm py-2\">\n              If you want to change the name associated with your {site.name}\n              &apos;s account, you may do so below. Be sure to click the Save\n              Changes button when you are done.\n            </p>\n            <ProfileForm />\n          </CardContent>\n        </Card>\n      </SessionProvider>\n    </div>\n  )\n}\n"],
+      names: ["ProfilePage", "metadata", "PAGE_TITLE", "title", "session", "auth", "site", "getSetting", "div", "className", "SessionProvider", "Link", "href", "span", "h1", "Card", "CardContent", "p", "name", "ProfileForm"],
+      mappings: ";;;;;;;;;;;IAeA,OA2BC;eA3B6BA;;IAJjBC,QAAQ;eAARA;;;;uBAVmB;sBAEX;6BAEO;6DACX;sBACiB;gCACP;;;;;;AAE3B,MAAMC,aAAa;AACZ,MAAMD,WAAqB;IAChCE,OAAOD;AACT;AAEe,eAAeF;IAC5B,MAAMI,UAAU,MAAMC,IAAAA,UAAI;IAC1B,MAAM,EAAEC,IAAI,EAAE,GAAG,MAAMC,IAAAA,0BAAU;IACjC,qBACE,qBAACC;QAAIC,WAAU;kBACb,cAAA,sBAACC,sBAAe;YAACN,SAASA;;8BACxB,sBAACI;oBAAIC,WAAU;;sCACb,qBAACE,aAAI;4BAACC,MAAK;sCAAW;;sCACtB,qBAACC;sCAAK;;sCACN,qBAACF,aAAI;4BAACC,MAAK;sCAAkB;;sCAC7B,qBAACC;sCAAK;;sCACN,qBAACA;sCAAMX;;;;8BAET,qBAACY;oBAAGL,WAAU;8BAAgBP;;8BAC9B,qBAACa,UAAI;oBAACN,WAAU;8BACd,cAAA,sBAACO,iBAAW;wBAACP,WAAU;;0CACrB,sBAACQ;gCAAER,WAAU;;oCAAe;oCAC2BH,KAAKY,IAAI;oCAAC;;;0CAIjE,qBAACC,wBAAW;;;;;;;AAMxB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "b0bff8d60ae9a17b17399c061f15e6320d45f24c"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_wl7d297sd = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_wl7d297sd();
+cov_wl7d297sd().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_wl7d297sd().f[0]++;
+  cov_wl7d297sd().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_wl7d297sd().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_wl7d297sd().s[3]++;
+_export(exports, {
+  default: function () {
+    /* istanbul ignore next */
+    cov_wl7d297sd().f[1]++;
+    cov_wl7d297sd().s[4]++;
+    return ProfilePage;
+  },
+  metadata: function () {
+    /* istanbul ignore next */
+    cov_wl7d297sd().f[2]++;
+    cov_wl7d297sd().s[5]++;
+    return metadata;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[6]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[7]++, require("next-auth/react"));
+const _auth =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[8]++, require("../../../../../../auth"));
+const _profileform =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[9]++, require("./profile-form"));
+const _link =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_wl7d297sd().s[10]++, _interop_require_default(require("next/link")));
+const _card =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[11]++, require("../../../../../../components/ui/card"));
+const _settingactions =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[12]++, require("../../../../../../lib/actions/setting.actions"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_wl7d297sd().f[3]++;
+  cov_wl7d297sd().s[13]++;
+  return /* istanbul ignore next */(cov_wl7d297sd().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_wl7d297sd().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_wl7d297sd().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_wl7d297sd().b[0][1]++, {
+    default: obj
+  });
+}
+const PAGE_TITLE =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[14]++, 'Change Your Name');
+const metadata =
+/* istanbul ignore next */
+(cov_wl7d297sd().s[15]++, {
+  title: PAGE_TITLE
+});
+async function ProfilePage() {
+  /* istanbul ignore next */
+  cov_wl7d297sd().f[4]++;
+  const session =
+  /* istanbul ignore next */
+  (cov_wl7d297sd().s[16]++, await (0, _auth.auth)());
+  const {
+    site
+  } =
+  /* istanbul ignore next */
+  (cov_wl7d297sd().s[17]++, await (0, _settingactions.getSetting)());
+  /* istanbul ignore next */
+  cov_wl7d297sd().s[18]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: "mb-24",
+    children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_react.SessionProvider, {
+      session: session,
+      children: [/*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+        className: "flex gap-2 ",
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/account",
+          children: "Your Account"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)("span", {
+          children: "›"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/account/manage",
+          children: "Login & Security"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)("span", {
+          children: "›"
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)("span", {
+          children: PAGE_TITLE
+        })]
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)("h1", {
+        className: "h1-bold py-4",
+        children: PAGE_TITLE
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_card.Card, {
+        className: "max-w-2xl",
+        children: /*#__PURE__*/(0, _jsxruntime.jsxs)(_card.CardContent, {
+          className: "p-4 flex justify-between flex-wrap",
+          children: [/*#__PURE__*/(0, _jsxruntime.jsxs)("p", {
+            className: "text-sm py-2",
+            children: ["If you want to change the name associated with your ", site.name, "'s account, you may do so below. Be sure to click the Save Changes button when you are done."]
+          }), /*#__PURE__*/(0, _jsxruntime.jsx)(_profileform.ProfileForm, {})]
+        })
+      })]
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZWZhdWx0IiwiY292X3dsN2QyOTdzZCIsImYiLCJzIiwiUHJvZmlsZVBhZ2UiLCJtZXRhZGF0YSIsIlBBR0VfVElUTEUiLCJ0aXRsZSIsInNlc3Npb24iLCJfYXV0aCIsImF1dGgiLCJzaXRlIiwiX3NldHRpbmdhY3Rpb25zIiwiZ2V0U2V0dGluZyIsIl9qc3hydW50aW1lIiwianN4IiwiY2xhc3NOYW1lIiwianN4cyIsIl9yZWFjdCIsIlNlc3Npb25Qcm92aWRlciIsIl9saW5rIiwiaHJlZiIsIl9jYXJkIiwiQ2FyZCIsIkNhcmRDb250ZW50IiwibmFtZSIsIl9wcm9maWxlZm9ybSIsIlByb2ZpbGVGb3JtIl0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9hcHAvW2xvY2FsZV0vKHJvb3QpL2FjY291bnQvbWFuYWdlL25hbWUvcGFnZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTWV0YWRhdGEgfSBmcm9tICduZXh0J1xuaW1wb3J0IHsgU2Vzc2lvblByb3ZpZGVyIH0gZnJvbSAnbmV4dC1hdXRoL3JlYWN0J1xuXG5pbXBvcnQgeyBhdXRoIH0gZnJvbSAnQC9hdXRoJ1xuXG5pbXBvcnQgeyBQcm9maWxlRm9ybSB9IGZyb20gJy4vcHJvZmlsZS1mb3JtJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvY2FyZCdcbmltcG9ydCB7IGdldFNldHRpbmcgfSBmcm9tICdAL2xpYi9hY3Rpb25zL3NldHRpbmcuYWN0aW9ucydcblxuY29uc3QgUEFHRV9USVRMRSA9ICdDaGFuZ2UgWW91ciBOYW1lJ1xuZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHtcbiAgdGl0bGU6IFBBR0VfVElUTEUsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIFByb2ZpbGVQYWdlKCkge1xuICBjb25zdCBzZXNzaW9uID0gYXdhaXQgYXV0aCgpXG4gIGNvbnN0IHsgc2l0ZSB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtYi0yNFwiPlxuICAgICAgPFNlc3Npb25Qcm92aWRlciBzZXNzaW9uPXtzZXNzaW9ufT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGdhcC0yIFwiPlxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYWNjb3VudFwiPllvdXIgQWNjb3VudDwvTGluaz5cbiAgICAgICAgICA8c3Bhbj7igLo8L3NwYW4+XG4gICAgICAgICAgPExpbmsgaHJlZj1cIi9hY2NvdW50L21hbmFnZVwiPkxvZ2luICYgU2VjdXJpdHk8L0xpbms+XG4gICAgICAgICAgPHNwYW4+4oC6PC9zcGFuPlxuICAgICAgICAgIDxzcGFuPntQQUdFX1RJVExFfTwvc3Bhbj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJoMS1ib2xkIHB5LTRcIj57UEFHRV9USVRMRX08L2gxPlxuICAgICAgICA8Q2FyZCBjbGFzc05hbWU9XCJtYXgtdy0yeGxcIj5cbiAgICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPVwicC00IGZsZXgganVzdGlmeS1iZXR3ZWVuIGZsZXgtd3JhcFwiPlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1zbSBweS0yXCI+XG4gICAgICAgICAgICAgIElmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGUgbmFtZSBhc3NvY2lhdGVkIHdpdGggeW91ciB7c2l0ZS5uYW1lfVxuICAgICAgICAgICAgICAmYXBvcztzIGFjY291bnQsIHlvdSBtYXkgZG8gc28gYmVsb3cuIEJlIHN1cmUgdG8gY2xpY2sgdGhlIFNhdmVcbiAgICAgICAgICAgICAgQ2hhbmdlcyBidXR0b24gd2hlbiB5b3UgYXJlIGRvbmUuXG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8UHJvZmlsZUZvcm0gLz5cbiAgICAgICAgICA8L0NhcmRDb250ZW50PlxuICAgICAgICA8L0NhcmQ+XG4gICAgICA8L1Nlc3Npb25Qcm92aWRlcj5cbiAgICA8L2Rpdj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7RUFlQUEsT0EyQkMsV0FBQUEsQ0FBQTtJQUFBO0lBQUFDLGFBQUEsR0FBQUMsQ0FBQTtJQUFBRCxhQUFBLEdBQUFFLENBQUE7V0EzQjZCQyxXQUFBOztFQUpqQkMsUUFBUSxXQUFBQSxDQUFBO0lBQUE7SUFBQUosYUFBQSxHQUFBQyxDQUFBO0lBQUFELGFBQUEsR0FBQUUsQ0FBQTtXQUFSRSxRQUFBOzs7Ozs7OztpQ0FWbUI7OztpQ0FFWDs7O2lDQUVPOzs7d0VBQ1g7OztrQ0FDaUI7OztrQ0FDUDs7Ozs7Ozs7Ozs7Ozs7O0FBRTNCLE1BQU1DLFVBQUE7QUFBQTtBQUFBLENBQUFMLGFBQUEsR0FBQUUsQ0FBQSxRQUFhO0FBQ1osTUFBTUUsUUFBQTtBQUFBO0FBQUEsQ0FBQUosYUFBQSxHQUFBRSxDQUFBLFFBQXFCO0VBQ2hDSSxLQUFBLEVBQU9EO0FBQ1Q7QUFFZSxlQUFlRixZQUFBO0VBQUE7RUFBQUgsYUFBQSxHQUFBQyxDQUFBO0VBQzVCLE1BQU1NLE9BQUE7RUFBQTtFQUFBLENBQUFQLGFBQUEsR0FBQUUsQ0FBQSxRQUFVLE1BQU0sSUFBQU0sS0FBQSxDQUFBQyxJQUFJO0VBQzFCLE1BQU07SUFBRUM7RUFBSSxDQUFFO0VBQUE7RUFBQSxDQUFBVixhQUFBLEdBQUFFLENBQUEsUUFBRyxNQUFNLElBQUFTLGVBQUEsQ0FBQUMsVUFBVTtFQUFBO0VBQUFaLGFBQUEsR0FBQUUsQ0FBQTtFQUNqQyxvQkFDRSxJQUFBVyxXQUFBLENBQUFDLEdBQUEsRUFBQztJQUFJQyxTQUFBLEVBQVU7Y0FDYixpQkFBQUYsV0FBQSxDQUFBRyxJQUFBLEVBQUNDLE1BQUEsQ0FBQUMsZUFBZTtNQUFDWCxPQUFBLEVBQVNBLE9BQUE7OEJBQ3hCLElBQUFNLFdBQUEsQ0FBQUcsSUFBQSxFQUFDO1FBQUlELFNBQUEsRUFBVTtnQ0FDYixJQUFBRixXQUFBLENBQUFDLEdBQUEsRUFBQ0ssS0FBQSxDQUFBcEIsT0FBSTtVQUFDcUIsSUFBQSxFQUFLO29CQUFXO3lCQUN0QixJQUFBUCxXQUFBLENBQUFDLEdBQUEsRUFBQztvQkFBSzt5QkFDTixJQUFBRCxXQUFBLENBQUFDLEdBQUEsRUFBQ0ssS0FBQSxDQUFBcEIsT0FBSTtVQUFDcUIsSUFBQSxFQUFLO29CQUFrQjt5QkFDN0IsSUFBQVAsV0FBQSxDQUFBQyxHQUFBLEVBQUM7b0JBQUs7eUJBQ04sSUFBQUQsV0FBQSxDQUFBQyxHQUFBLEVBQUM7b0JBQU1UOzt1QkFFVCxJQUFBUSxXQUFBLENBQUFDLEdBQUEsRUFBQztRQUFHQyxTQUFBLEVBQVU7a0JBQWdCVjt1QkFDOUIsSUFBQVEsV0FBQSxDQUFBQyxHQUFBLEVBQUNPLEtBQUEsQ0FBQUMsSUFBSTtRQUFDUCxTQUFBLEVBQVU7a0JBQ2QsaUJBQUFGLFdBQUEsQ0FBQUcsSUFBQSxFQUFDSyxLQUFBLENBQUFFLFdBQVc7VUFBQ1IsU0FBQSxFQUFVO2tDQUNyQixJQUFBRixXQUFBLENBQUFHLElBQUEsRUFBQztZQUFFRCxTQUFBLEVBQVU7dUJBQWUsd0RBQzJCTCxJQUFBLENBQUtjLElBQUksRUFBQzsyQkFJakUsSUFBQVgsV0FBQSxDQUFBQyxHQUFBLEVBQUNXLFlBQUEsQ0FBQUMsV0FBVzs7Ozs7QUFNeEIiLCJpZ25vcmVMaXN0IjpbXX0=

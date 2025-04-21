@@ -1,0 +1,513 @@
+78d3c8c6bafa7b17286cb4433f93d966
+"use strict";
+
+/* istanbul ignore next */
+function cov_171wmdn0kl() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/lib/seo/hreflang.ts";
+  var hash = "54beacc1c3d373691544c78005288def041fd621";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/lib/seo/hreflang.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 24
+        },
+        end: {
+          line: 9,
+          column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 3
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 8
+        },
+        end: {
+          line: 13,
+          column: 37
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 16,
+          column: 36
+        }
+      },
+      "6": {
+        start: {
+          line: 19,
+          column: 17
+        },
+        end: {
+          line: 19,
+          column: 46
+        }
+      },
+      "7": {
+        start: {
+          line: 20,
+          column: 24
+        },
+        end: {
+          line: 20,
+          column: 61
+        }
+      },
+      "8": {
+        start: {
+          line: 22,
+          column: 30
+        },
+        end: {
+          line: 22,
+          column: 69
+        }
+      },
+      "9": {
+        start: {
+          line: 23,
+          column: 20
+        },
+        end: {
+          line: 23,
+          column: 57
+        }
+      },
+      "10": {
+        start: {
+          line: 24,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 12
+        }
+      },
+      "11": {
+        start: {
+          line: 24,
+          column: 51
+        },
+        end: {
+          line: 28,
+          column: 9
+        }
+      },
+      "12": {
+        start: {
+          line: 31,
+          column: 18
+        },
+        end: {
+          line: 31,
+          column: 51
+        }
+      },
+      "13": {
+        start: {
+          line: 32,
+          column: 4
+        },
+        end: {
+          line: 39,
+          column: 12
+        }
+      },
+      "14": {
+        start: {
+          line: 32,
+          column: 30
+        },
+        end: {
+          line: 39,
+          column: 9
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "_export",
+        decl: {
+          start: {
+            line: 5,
+            column: 9
+          },
+          end: {
+            line: 5,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 30
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 27
+          },
+          end: {
+            line: 12,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 38
+          },
+          end: {
+            line: 14,
+            column: 5
+          }
+        },
+        line: 12
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 15,
+            column: 26
+          },
+          end: {
+            line: 15,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 37
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "3": {
+        name: "generateHreflangLinks",
+        decl: {
+          start: {
+            line: 21,
+            column: 15
+          },
+          end: {
+            line: 21,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 43
+          },
+          end: {
+            line: 29,
+            column: 1
+          }
+        },
+        line: 21
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 24,
+            column: 40
+          },
+          end: {
+            line: 24,
+            column: 41
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 51
+          },
+          end: {
+            line: 28,
+            column: 9
+          }
+        },
+        line: 24
+      },
+      "5": {
+        name: "generateHreflangTags",
+        decl: {
+          start: {
+            line: 30,
+            column: 15
+          },
+          end: {
+            line: 30,
+            column: 35
+          }
+        },
+        loc: {
+          start: {
+            line: 30,
+            column: 42
+          },
+          end: {
+            line: 40,
+            column: 1
+          }
+        },
+        line: 30
+      },
+      "6": {
+        name: "(anonymous_6)",
+        decl: {
+          start: {
+            line: 32,
+            column: 21
+          },
+          end: {
+            line: 32,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 32,
+            column: 30
+          },
+          end: {
+            line: 39,
+            column: 9
+          }
+        },
+        line: 32
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 23,
+            column: 20
+          },
+          end: {
+            line: 23,
+            column: 57
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 23,
+            column: 20
+          },
+          end: {
+            line: 23,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 23,
+            column: 27
+          },
+          end: {
+            line: 23,
+            column: 57
+          }
+        }],
+        line: 23
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/lib/seo/hreflang.ts"],
+      sourcesContent: ["import { routing } from '@/i18n/routing'\nimport { getSetting } from '../actions/setting.actions'\n\nexport async function generateHreflangLinks(path: string) {\n  const {\n    site: { url },\n  } = await getSetting()\n  const baseUrl = url || 'https://hager-zon.vercel.app'\n\n  return routing.locales.map((locale) => ({\n    rel: 'alternate',\n    hrefLang: locale,\n    href: `${baseUrl}/${locale}${path}`,\n  }))\n}\n\nexport async function generateHreflangTags(path: string) {\n  const links = await generateHreflangLinks(path)\n\n  return links.map((link) => ({\n    tag: 'link',\n    props: {\n      rel: link.rel,\n      hrefLang: link.hrefLang,\n      href: link.href,\n    },\n  }))\n}\n"],
+      names: ["generateHreflangLinks", "generateHreflangTags", "path", "site", "url", "getSetting", "baseUrl", "routing", "locales", "map", "locale", "rel", "hrefLang", "href", "links", "link", "tag", "props"],
+      mappings: ";;;;;;;;;;;IAGsBA,qBAAqB;eAArBA;;IAaAC,oBAAoB;eAApBA;;;yBAhBE;gCACG;AAEpB,eAAeD,sBAAsBE,IAAY;IACtD,MAAM,EACJC,MAAM,EAAEC,GAAG,EAAE,EACd,GAAG,MAAMC,IAAAA,0BAAU;IACpB,MAAMC,UAAUF,OAAO;IAEvB,OAAOG,gBAAO,CAACC,OAAO,CAACC,GAAG,CAAC,CAACC,SAAY,CAAA;YACtCC,KAAK;YACLC,UAAUF;YACVG,MAAM,GAAGP,QAAQ,CAAC,EAAEI,SAASR,MAAM;QACrC,CAAA;AACF;AAEO,eAAeD,qBAAqBC,IAAY;IACrD,MAAMY,QAAQ,MAAMd,sBAAsBE;IAE1C,OAAOY,MAAML,GAAG,CAAC,CAACM,OAAU,CAAA;YAC1BC,KAAK;YACLC,OAAO;gBACLN,KAAKI,KAAKJ,GAAG;gBACbC,UAAUG,KAAKH,QAAQ;gBACvBC,MAAME,KAAKF,IAAI;YACjB;QACF,CAAA;AACF"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "54beacc1c3d373691544c78005288def041fd621"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_171wmdn0kl = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_171wmdn0kl();
+cov_171wmdn0kl().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+function _export(target, all) {
+  /* istanbul ignore next */
+  cov_171wmdn0kl().f[0]++;
+  cov_171wmdn0kl().s[1]++;
+  for (var name in all) {
+    /* istanbul ignore next */
+    cov_171wmdn0kl().s[2]++;
+    Object.defineProperty(target, name, {
+      enumerable: true,
+      get: all[name]
+    });
+  }
+}
+/* istanbul ignore next */
+cov_171wmdn0kl().s[3]++;
+_export(exports, {
+  generateHreflangLinks: function () {
+    /* istanbul ignore next */
+    cov_171wmdn0kl().f[1]++;
+    cov_171wmdn0kl().s[4]++;
+    return generateHreflangLinks;
+  },
+  generateHreflangTags: function () {
+    /* istanbul ignore next */
+    cov_171wmdn0kl().f[2]++;
+    cov_171wmdn0kl().s[5]++;
+    return generateHreflangTags;
+  }
+});
+const _routing =
+/* istanbul ignore next */
+(cov_171wmdn0kl().s[6]++, require("../../i18n/routing"));
+const _settingactions =
+/* istanbul ignore next */
+(cov_171wmdn0kl().s[7]++, require("../actions/setting.actions"));
+async function generateHreflangLinks(path) {
+  /* istanbul ignore next */
+  cov_171wmdn0kl().f[3]++;
+  const {
+    site: {
+      url
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_171wmdn0kl().s[8]++, await (0, _settingactions.getSetting)());
+  const baseUrl =
+  /* istanbul ignore next */
+  (cov_171wmdn0kl().s[9]++,
+  /* istanbul ignore next */
+  (cov_171wmdn0kl().b[0][0]++, url) ||
+  /* istanbul ignore next */
+  (cov_171wmdn0kl().b[0][1]++, 'https://hager-zon.vercel.app'));
+  /* istanbul ignore next */
+  cov_171wmdn0kl().s[10]++;
+  return _routing.routing.locales.map(locale => {
+    /* istanbul ignore next */
+    cov_171wmdn0kl().f[4]++;
+    cov_171wmdn0kl().s[11]++;
+    return {
+      rel: 'alternate',
+      hrefLang: locale,
+      href: `${baseUrl}/${locale}${path}`
+    };
+  });
+}
+async function generateHreflangTags(path) {
+  /* istanbul ignore next */
+  cov_171wmdn0kl().f[5]++;
+  const links =
+  /* istanbul ignore next */
+  (cov_171wmdn0kl().s[12]++, await generateHreflangLinks(path));
+  /* istanbul ignore next */
+  cov_171wmdn0kl().s[13]++;
+  return links.map(link => {
+    /* istanbul ignore next */
+    cov_171wmdn0kl().f[6]++;
+    cov_171wmdn0kl().s[14]++;
+    return {
+      tag: 'link',
+      props: {
+        rel: link.rel,
+        hrefLang: link.hrefLang,
+        href: link.href
+      }
+    };
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJnZW5lcmF0ZUhyZWZsYW5nTGlua3MiLCJjb3ZfMTcxd21kbjBrbCIsImYiLCJzIiwiZ2VuZXJhdGVIcmVmbGFuZ1RhZ3MiLCJwYXRoIiwic2l0ZSIsInVybCIsIl9zZXR0aW5nYWN0aW9ucyIsImdldFNldHRpbmciLCJiYXNlVXJsIiwiYiIsIl9yb3V0aW5nIiwicm91dGluZyIsImxvY2FsZXMiLCJtYXAiLCJsb2NhbGUiLCJyZWwiLCJocmVmTGFuZyIsImhyZWYiLCJsaW5rcyIsImxpbmsiLCJ0YWciLCJwcm9wcyJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vbGliL3Nlby9ocmVmbGFuZy50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByb3V0aW5nIH0gZnJvbSAnQC9pMThuL3JvdXRpbmcnXG5pbXBvcnQgeyBnZXRTZXR0aW5nIH0gZnJvbSAnLi4vYWN0aW9ucy9zZXR0aW5nLmFjdGlvbnMnXG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZW5lcmF0ZUhyZWZsYW5nTGlua3MocGF0aDogc3RyaW5nKSB7XG4gIGNvbnN0IHtcbiAgICBzaXRlOiB7IHVybCB9LFxuICB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG4gIGNvbnN0IGJhc2VVcmwgPSB1cmwgfHwgJ2h0dHBzOi8vaGFnZXItem9uLnZlcmNlbC5hcHAnXG5cbiAgcmV0dXJuIHJvdXRpbmcubG9jYWxlcy5tYXAoKGxvY2FsZSkgPT4gKHtcbiAgICByZWw6ICdhbHRlcm5hdGUnLFxuICAgIGhyZWZMYW5nOiBsb2NhbGUsXG4gICAgaHJlZjogYCR7YmFzZVVybH0vJHtsb2NhbGV9JHtwYXRofWAsXG4gIH0pKVxufVxuXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2VuZXJhdGVIcmVmbGFuZ1RhZ3MocGF0aDogc3RyaW5nKSB7XG4gIGNvbnN0IGxpbmtzID0gYXdhaXQgZ2VuZXJhdGVIcmVmbGFuZ0xpbmtzKHBhdGgpXG5cbiAgcmV0dXJuIGxpbmtzLm1hcCgobGluaykgPT4gKHtcbiAgICB0YWc6ICdsaW5rJyxcbiAgICBwcm9wczoge1xuICAgICAgcmVsOiBsaW5rLnJlbCxcbiAgICAgIGhyZWZMYW5nOiBsaW5rLmhyZWZMYW5nLFxuICAgICAgaHJlZjogbGluay5ocmVmLFxuICAgIH0sXG4gIH0pKVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQUdzQkEscUJBQXFCLFdBQUFBLENBQUE7SUFBQTtJQUFBQyxjQUFBLEdBQUFDLENBQUE7SUFBQUQsY0FBQSxHQUFBRSxDQUFBO1dBQXJCSCxxQkFBQTs7RUFhQUksb0JBQW9CLFdBQUFBLENBQUE7SUFBQTtJQUFBSCxjQUFBLEdBQUFDLENBQUE7SUFBQUQsY0FBQSxHQUFBRSxDQUFBO1dBQXBCQyxvQkFBQTs7Ozs7a0NBaEJFOzs7a0NBQ0c7QUFFcEIsZUFBZUosc0JBQXNCSyxJQUFZO0VBQUE7RUFBQUosY0FBQSxHQUFBQyxDQUFBO0VBQ3RELE1BQU07SUFDSkksSUFBQSxFQUFNO01BQUVDO0lBQUc7RUFBRSxDQUNkO0VBQUE7RUFBQSxDQUFBTixjQUFBLEdBQUFFLENBQUEsT0FBRyxNQUFNLElBQUFLLGVBQUEsQ0FBQUMsVUFBVTtFQUNwQixNQUFNQyxPQUFBO0VBQUE7RUFBQSxDQUFBVCxjQUFBLEdBQUFFLENBQUE7RUFBVTtFQUFBLENBQUFGLGNBQUEsR0FBQVUsQ0FBQSxVQUFBSixHQUFBO0VBQUE7RUFBQSxDQUFBTixjQUFBLEdBQUFVLENBQUEsVUFBTztFQUFBO0VBQUFWLGNBQUEsR0FBQUUsQ0FBQTtFQUV2QixPQUFPUyxRQUFBLENBQUFDLE9BQU8sQ0FBQ0MsT0FBTyxDQUFDQyxHQUFHLENBQUVDLE1BQUEsSUFBWTtJQUFBO0lBQUFmLGNBQUEsR0FBQUMsQ0FBQTtJQUFBRCxjQUFBLEdBQUFFLENBQUE7SUFBQTtNQUN0Q2MsR0FBQSxFQUFLO01BQ0xDLFFBQUEsRUFBVUYsTUFBQTtNQUNWRyxJQUFBLEVBQU0sR0FBR1QsT0FBQSxJQUFXTSxNQUFBLEdBQVNYLElBQUE7SUFDL0I7RUFBQTtBQUNGO0FBRU8sZUFBZUQscUJBQXFCQyxJQUFZO0VBQUE7RUFBQUosY0FBQSxHQUFBQyxDQUFBO0VBQ3JELE1BQU1rQixLQUFBO0VBQUE7RUFBQSxDQUFBbkIsY0FBQSxHQUFBRSxDQUFBLFFBQVEsTUFBTUgscUJBQUEsQ0FBc0JLLElBQUE7RUFBQTtFQUFBSixjQUFBLEdBQUFFLENBQUE7RUFFMUMsT0FBT2lCLEtBQUEsQ0FBTUwsR0FBRyxDQUFFTSxJQUFBLElBQVU7SUFBQTtJQUFBcEIsY0FBQSxHQUFBQyxDQUFBO0lBQUFELGNBQUEsR0FBQUUsQ0FBQTtJQUFBO01BQzFCbUIsR0FBQSxFQUFLO01BQ0xDLEtBQUEsRUFBTztRQUNMTixHQUFBLEVBQUtJLElBQUEsQ0FBS0osR0FBRztRQUNiQyxRQUFBLEVBQVVHLElBQUEsQ0FBS0gsUUFBUTtRQUN2QkMsSUFBQSxFQUFNRSxJQUFBLENBQUtGO01BQ2I7SUFDRjtFQUFBO0FBQ0YiLCJpZ25vcmVMaXN0IjpbXX0=

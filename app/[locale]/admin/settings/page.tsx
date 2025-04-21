@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 }
 const SettingPage = async () => {
   return (
-    <div className='grid md:grid-cols-5 max-w-6xl mx-auto gap-4'>
+    <div className="grid md:grid-cols-5 max-w-6xl mx-auto gap-4">
       <SettingNav />
-      <main className='col-span-4 '>
-        <div className='my-8'>
+      <main className="col-span-4 ">
+        <div className="my-8">
           <SettingForm setting={await getNoCachedSetting()} />
         </div>
       </main>

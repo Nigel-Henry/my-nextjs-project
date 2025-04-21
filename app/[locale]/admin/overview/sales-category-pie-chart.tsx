@@ -29,8 +29,8 @@ export default function SalesCategoryPieChart({ data }: { data: any[] }) {
           x={x}
           y={y}
           textAnchor={x > cx ? 'start' : 'end'}
-          dominantBaseline='central'
-          className='text-xs'
+          dominantBaseline="central"
+          className="text-xs"
         >
           {`${data[index]._id} ${data[index].totalSales} sales`}
         </text>
@@ -39,13 +39,13 @@ export default function SalesCategoryPieChart({ data }: { data: any[] }) {
   }
 
   return (
-    <ResponsiveContainer width='100%' height={400}>
+    <ResponsiveContainer width="100%" height={400}>
       <PieChart width={400} height={400}>
         <Pie
           data={data}
-          dataKey='totalSales'
-          cx='50%'
-          cy='50%'
+          dataKey="totalSales"
+          cx="50%"
+          cy="50%"
           labelLine={false}
           label={renderCustomizedLabel}
         >

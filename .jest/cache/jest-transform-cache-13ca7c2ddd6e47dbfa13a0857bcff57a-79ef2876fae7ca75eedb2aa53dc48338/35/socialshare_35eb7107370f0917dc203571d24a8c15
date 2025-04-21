@@ -1,0 +1,431 @@
+4f3f6d148b261950e0571b997b57b1a1
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_2afnp69alt() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/social-share.tsx";
+  var hash = "10f3f035c0b038895fa608c24a7ab07d9f885ccf";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/social-share.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 11,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 27
+        }
+      },
+      "3": {
+        start: {
+          line: 14,
+          column: 20
+        },
+        end: {
+          line: 14,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 15,
+          column: 21
+        },
+        end: {
+          line: 15,
+          column: 44
+        }
+      },
+      "5": {
+        start: {
+          line: 16,
+          column: 16
+        },
+        end: {
+          line: 16,
+          column: 38
+        }
+      },
+      "6": {
+        start: {
+          line: 18,
+          column: 23
+        },
+        end: {
+          line: 18,
+          column: 46
+        }
+      },
+      "7": {
+        start: {
+          line: 19,
+          column: 25
+        },
+        end: {
+          line: 19,
+          column: 50
+        }
+      },
+      "8": {
+        start: {
+          line: 20,
+          column: 31
+        },
+        end: {
+          line: 20,
+          column: 62
+        }
+      },
+      "9": {
+        start: {
+          line: 21,
+          column: 23
+        },
+        end: {
+          line: 40,
+          column: 5
+        }
+      },
+      "10": {
+        start: {
+          line: 41,
+          column: 24
+        },
+        end: {
+          line: 43,
+          column: 5
+        }
+      },
+      "11": {
+        start: {
+          line: 42,
+          column: 8
+        },
+        end: {
+          line: 42,
+          column: 58
+        }
+      },
+      "12": {
+        start: {
+          line: 44,
+          column: 4
+        },
+        end: {
+          line: 56,
+          column: 7
+        }
+      },
+      "13": {
+        start: {
+          line: 46,
+          column: 55
+        },
+        end: {
+          line: 55,
+          column: 25
+        }
+      },
+      "14": {
+        start: {
+          line: 49,
+          column: 29
+        },
+        end: {
+          line: 49,
+          column: 50
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 10,
+            column: 9
+          },
+          end: {
+            line: 10,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 20
+          },
+          end: {
+            line: 12,
+            column: 5
+          }
+        },
+        line: 10
+      },
+      "1": {
+        name: "SocialShare",
+        decl: {
+          start: {
+            line: 17,
+            column: 9
+          },
+          end: {
+            line: 17,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 50
+          },
+          end: {
+            line: 57,
+            column: 1
+          }
+        },
+        line: 17
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 41,
+            column: 24
+          },
+          end: {
+            line: 41,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 41,
+            column: 31
+          },
+          end: {
+            line: 43,
+            column: 5
+          }
+        },
+        line: 41
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 46,
+            column: 33
+          },
+          end: {
+            line: 46,
+            column: 34
+          }
+        },
+        loc: {
+          start: {
+            line: 46,
+            column: 55
+          },
+          end: {
+            line: 55,
+            column: 25
+          }
+        },
+        line: 46
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 49,
+            column: 25
+          },
+          end: {
+            line: 49,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 49,
+            column: 29
+          },
+          end: {
+            line: 49,
+            column: 50
+          }
+        },
+        line: 49
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/social-share.tsx"],
+      sourcesContent: ["'use client'\n\nimport { Twitter, Facebook, Linkedin } from 'lucide-react'\nimport { Button } from '@/components/ui/button'\n\ninterface SocialShareProps {\n  url: string\n  title: string\n  description: string\n}\n\ninterface ShareLink {\n  name: string\n  icon: React.ComponentType<{ className?: string }>\n  url: string\n  className: string\n}\n\nexport default function SocialShare({\n  url,\n  title,\n  description,\n}: SocialShareProps) {\n  const encodedUrl = encodeURIComponent(url)\n  const encodedTitle = encodeURIComponent(title)\n  const encodedDescription = encodeURIComponent(description)\n\n  const shareLinks: ShareLink[] = [\n    {\n      name: 'Twitter',\n      icon: Twitter,\n      url: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,\n      className: 'hover:text-blue-400',\n    },\n    {\n      name: 'Facebook',\n      icon: Facebook,\n      url: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,\n      className: 'hover:text-blue-600',\n    },\n    {\n      name: 'LinkedIn',\n      icon: Linkedin,\n      url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}&summary=${encodedDescription}`,\n      className: 'hover:text-blue-700',\n    },\n  ]\n\n  const handleShare = (url: string) => {\n    window.open(url, '_blank', 'noopener,noreferrer')\n  }\n\n  return (\n    <div className=\"flex space-x-4\">\n      {shareLinks.map((link) => (\n        <Button\n          key={link.name}\n          variant=\"ghost\"\n          size=\"icon\"\n          onClick={() => handleShare(link.url)}\n          className={`text-gray-600 ${link.className}`}\n          aria-label={`Share on ${link.name}`}\n        >\n          <link.icon className=\"h-5 w-5\" />\n        </Button>\n      ))}\n    </div>\n  )\n}\n\n// Current Date and Time (UTC): 2025-04-19 23:17:55\n// Current User's Login: ibrahim-lasfar\n"],
+      names: ["SocialShare", "url", "title", "description", "encodedUrl", "encodeURIComponent", "encodedTitle", "encodedDescription", "shareLinks", "name", "icon", "Twitter", "className", "Facebook", "Linkedin", "handleShare", "window", "open", "div", "map", "link", "Button", "variant", "size", "onClick", "aria-label"],
+      mappings: "AAAA;;;;;+BAkBA,UAoDA,mDAAmD;CACnD,uCAAuC;;;;eArDfA;;;;6BAhBoB;wBACrB;AAeR,SAASA,YAAY,EAClCC,GAAG,EACHC,KAAK,EACLC,WAAW,EACM;IACjB,MAAMC,aAAaC,mBAAmBJ;IACtC,MAAMK,eAAeD,mBAAmBH;IACxC,MAAMK,qBAAqBF,mBAAmBF;IAE9C,MAAMK,aAA0B;QAC9B;YACEC,MAAM;YACNC,MAAMC,oBAAO;YACbV,KAAK,CAAC,qCAAqC,EAAEG,WAAW,MAAM,EAAEE,cAAc;YAC9EM,WAAW;QACb;QACA;YACEH,MAAM;YACNC,MAAMG,qBAAQ;YACdZ,KAAK,CAAC,6CAA6C,EAAEG,YAAY;YACjEQ,WAAW;QACb;QACA;YACEH,MAAM;YACNC,MAAMI,qBAAQ;YACdb,KAAK,CAAC,oDAAoD,EAAEG,WAAW,OAAO,EAAEE,aAAa,SAAS,EAAEC,oBAAoB;YAC5HK,WAAW;QACb;KACD;IAED,MAAMG,cAAc,CAACd;QACnBe,OAAOC,IAAI,CAAChB,KAAK,UAAU;IAC7B;IAEA,qBACE,qBAACiB;QAAIN,WAAU;kBACZJ,WAAWW,GAAG,CAAC,CAACC,qBACf,qBAACC,cAAM;gBAELC,SAAQ;gBACRC,MAAK;gBACLC,SAAS,IAAMT,YAAYK,KAAKnB,GAAG;gBACnCW,WAAW,CAAC,cAAc,EAAEQ,KAAKR,SAAS,EAAE;gBAC5Ca,cAAY,CAAC,SAAS,EAAEL,KAAKX,IAAI,EAAE;0BAEnC,cAAA,qBAACW,KAAKV,IAAI;oBAACE,WAAU;;eAPhBQ,KAAKX,IAAI;;AAYxB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "10f3f035c0b038895fa608c24a7ab07d9f885ccf"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2afnp69alt = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2afnp69alt();
+cov_2afnp69alt().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2afnp69alt().s[1]++;
+Object.defineProperty(exports, "default" // Current Date and Time (UTC): 2025-04-19 23:17:55
+// Current User's Login: ibrahim-lasfar
+, {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_2afnp69alt().f[0]++;
+    cov_2afnp69alt().s[2]++;
+    return SocialShare;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_2afnp69alt().s[3]++, require("react/jsx-runtime"));
+const _lucidereact =
+/* istanbul ignore next */
+(cov_2afnp69alt().s[4]++, require("lucide-react"));
+const _button =
+/* istanbul ignore next */
+(cov_2afnp69alt().s[5]++, require("./ui/button"));
+function SocialShare({
+  url,
+  title,
+  description
+}) {
+  /* istanbul ignore next */
+  cov_2afnp69alt().f[1]++;
+  const encodedUrl =
+  /* istanbul ignore next */
+  (cov_2afnp69alt().s[6]++, encodeURIComponent(url));
+  const encodedTitle =
+  /* istanbul ignore next */
+  (cov_2afnp69alt().s[7]++, encodeURIComponent(title));
+  const encodedDescription =
+  /* istanbul ignore next */
+  (cov_2afnp69alt().s[8]++, encodeURIComponent(description));
+  const shareLinks =
+  /* istanbul ignore next */
+  (cov_2afnp69alt().s[9]++, [{
+    name: 'Twitter',
+    icon: _lucidereact.Twitter,
+    url: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
+    className: 'hover:text-blue-400'
+  }, {
+    name: 'Facebook',
+    icon: _lucidereact.Facebook,
+    url: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+    className: 'hover:text-blue-600'
+  }, {
+    name: 'LinkedIn',
+    icon: _lucidereact.Linkedin,
+    url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}&summary=${encodedDescription}`,
+    className: 'hover:text-blue-700'
+  }]);
+  /* istanbul ignore next */
+  cov_2afnp69alt().s[10]++;
+  const handleShare = url => {
+    /* istanbul ignore next */
+    cov_2afnp69alt().f[2]++;
+    cov_2afnp69alt().s[11]++;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+  /* istanbul ignore next */
+  cov_2afnp69alt().s[12]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: "flex space-x-4",
+    children: shareLinks.map(link => {
+      /* istanbul ignore next */
+      cov_2afnp69alt().f[3]++;
+      cov_2afnp69alt().s[13]++;
+      return /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+        variant: "ghost",
+        size: "icon",
+        onClick: () => {
+          /* istanbul ignore next */
+          cov_2afnp69alt().f[4]++;
+          cov_2afnp69alt().s[14]++;
+          return handleShare(link.url);
+        },
+        className: `text-gray-600 ${link.className}`,
+        "aria-label": `Share on ${link.name}`,
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(link.icon, {
+          className: "h-5 w-5"
+        })
+      }, link.name);
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJTb2NpYWxTaGFyZSIsInVybCIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJjb3ZfMmFmbnA2OWFsdCIsImYiLCJlbmNvZGVkVXJsIiwicyIsImVuY29kZVVSSUNvbXBvbmVudCIsImVuY29kZWRUaXRsZSIsImVuY29kZWREZXNjcmlwdGlvbiIsInNoYXJlTGlua3MiLCJuYW1lIiwiaWNvbiIsIl9sdWNpZGVyZWFjdCIsIlR3aXR0ZXIiLCJjbGFzc05hbWUiLCJGYWNlYm9vayIsIkxpbmtlZGluIiwiaGFuZGxlU2hhcmUiLCJ3aW5kb3ciLCJvcGVuIiwiX2pzeHJ1bnRpbWUiLCJqc3giLCJtYXAiLCJsaW5rIiwiX2J1dHRvbiIsIkJ1dHRvbiIsInZhcmlhbnQiLCJzaXplIiwib25DbGljayJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vY29tcG9uZW50cy9zb2NpYWwtc2hhcmUudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIid1c2UgY2xpZW50J1xuXG5pbXBvcnQgeyBUd2l0dGVyLCBGYWNlYm9vaywgTGlua2VkaW4gfSBmcm9tICdsdWNpZGUtcmVhY3QnXG5pbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJ1xuXG5pbnRlcmZhY2UgU29jaWFsU2hhcmVQcm9wcyB7XG4gIHVybDogc3RyaW5nXG4gIHRpdGxlOiBzdHJpbmdcbiAgZGVzY3JpcHRpb246IHN0cmluZ1xufVxuXG5pbnRlcmZhY2UgU2hhcmVMaW5rIHtcbiAgbmFtZTogc3RyaW5nXG4gIGljb246IFJlYWN0LkNvbXBvbmVudFR5cGU8eyBjbGFzc05hbWU/OiBzdHJpbmcgfT5cbiAgdXJsOiBzdHJpbmdcbiAgY2xhc3NOYW1lOiBzdHJpbmdcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU29jaWFsU2hhcmUoe1xuICB1cmwsXG4gIHRpdGxlLFxuICBkZXNjcmlwdGlvbixcbn06IFNvY2lhbFNoYXJlUHJvcHMpIHtcbiAgY29uc3QgZW5jb2RlZFVybCA9IGVuY29kZVVSSUNvbXBvbmVudCh1cmwpXG4gIGNvbnN0IGVuY29kZWRUaXRsZSA9IGVuY29kZVVSSUNvbXBvbmVudCh0aXRsZSlcbiAgY29uc3QgZW5jb2RlZERlc2NyaXB0aW9uID0gZW5jb2RlVVJJQ29tcG9uZW50KGRlc2NyaXB0aW9uKVxuXG4gIGNvbnN0IHNoYXJlTGlua3M6IFNoYXJlTGlua1tdID0gW1xuICAgIHtcbiAgICAgIG5hbWU6ICdUd2l0dGVyJyxcbiAgICAgIGljb246IFR3aXR0ZXIsXG4gICAgICB1cmw6IGBodHRwczovL3R3aXR0ZXIuY29tL2ludGVudC90d2VldD91cmw9JHtlbmNvZGVkVXJsfSZ0ZXh0PSR7ZW5jb2RlZFRpdGxlfWAsXG4gICAgICBjbGFzc05hbWU6ICdob3Zlcjp0ZXh0LWJsdWUtNDAwJyxcbiAgICB9LFxuICAgIHtcbiAgICAgIG5hbWU6ICdGYWNlYm9vaycsXG4gICAgICBpY29uOiBGYWNlYm9vayxcbiAgICAgIHVybDogYGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9zaGFyZXIvc2hhcmVyLnBocD91PSR7ZW5jb2RlZFVybH1gLFxuICAgICAgY2xhc3NOYW1lOiAnaG92ZXI6dGV4dC1ibHVlLTYwMCcsXG4gICAgfSxcbiAgICB7XG4gICAgICBuYW1lOiAnTGlua2VkSW4nLFxuICAgICAgaWNvbjogTGlua2VkaW4sXG4gICAgICB1cmw6IGBodHRwczovL3d3dy5saW5rZWRpbi5jb20vc2hhcmVBcnRpY2xlP21pbmk9dHJ1ZSZ1cmw9JHtlbmNvZGVkVXJsfSZ0aXRsZT0ke2VuY29kZWRUaXRsZX0mc3VtbWFyeT0ke2VuY29kZWREZXNjcmlwdGlvbn1gLFxuICAgICAgY2xhc3NOYW1lOiAnaG92ZXI6dGV4dC1ibHVlLTcwMCcsXG4gICAgfSxcbiAgXVxuXG4gIGNvbnN0IGhhbmRsZVNoYXJlID0gKHVybDogc3RyaW5nKSA9PiB7XG4gICAgd2luZG93Lm9wZW4odXJsLCAnX2JsYW5rJywgJ25vb3BlbmVyLG5vcmVmZXJyZXInKVxuICB9XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggc3BhY2UteC00XCI+XG4gICAgICB7c2hhcmVMaW5rcy5tYXAoKGxpbmspID0+IChcbiAgICAgICAgPEJ1dHRvblxuICAgICAgICAgIGtleT17bGluay5uYW1lfVxuICAgICAgICAgIHZhcmlhbnQ9XCJnaG9zdFwiXG4gICAgICAgICAgc2l6ZT1cImljb25cIlxuICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGhhbmRsZVNoYXJlKGxpbmsudXJsKX1cbiAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LWdyYXktNjAwICR7bGluay5jbGFzc05hbWV9YH1cbiAgICAgICAgICBhcmlhLWxhYmVsPXtgU2hhcmUgb24gJHtsaW5rLm5hbWV9YH1cbiAgICAgICAgPlxuICAgICAgICAgIDxsaW5rLmljb24gY2xhc3NOYW1lPVwiaC01IHctNVwiIC8+XG4gICAgICAgIDwvQnV0dG9uPlxuICAgICAgKSl9XG4gICAgPC9kaXY+XG4gIClcbn1cblxuLy8gQ3VycmVudCBEYXRlIGFuZCBUaW1lIChVVEMpOiAyMDI1LTA0LTE5IDIzOjE3OjU1XG4vLyBDdXJyZW50IFVzZXIncyBMb2dpbjogaWJyYWhpbS1sYXNmYXJcbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7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

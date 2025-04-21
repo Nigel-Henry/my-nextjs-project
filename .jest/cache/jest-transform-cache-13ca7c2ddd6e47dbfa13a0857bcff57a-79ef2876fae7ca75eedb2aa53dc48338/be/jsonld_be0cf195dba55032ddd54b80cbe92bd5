@@ -1,0 +1,182 @@
+f9a2dda8224f9120a740bd8261f1293c
+"use strict";
+
+/* istanbul ignore next */
+function cov_y5ki6z00j() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/json-ld.tsx";
+  var hash = "6346e6fb0378fc79494b95ea1a5da52d9f0f6a13";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/json-ld.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 22
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "JsonLd",
+        decl: {
+          start: {
+            line: 12,
+            column: 9
+          },
+          end: {
+            line: 12,
+            column: 15
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 26
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/json-ld.tsx"],
+      sourcesContent: ["interface JsonLdProps {\n  data: {\n    '@context': string\n    '@type': string\n    [key: string]: unknown\n  }\n}\n\nexport default function JsonLd({ data }: JsonLdProps) {\n  return (\n    <script\n      type=\"application/ld+json\"\n      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}\n    />\n  )\n}\n"],
+      names: ["JsonLd", "data", "script", "type", "dangerouslySetInnerHTML", "__html", "JSON", "stringify"],
+      mappings: ";;;;+BAQA;;;eAAwBA;;;;AAAT,SAASA,OAAO,EAAEC,IAAI,EAAe;IAClD,qBACE,qBAACC;QACCC,MAAK;QACLC,yBAAyB;YAAEC,QAAQC,KAAKC,SAAS,CAACN;QAAM;;AAG9D"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "6346e6fb0378fc79494b95ea1a5da52d9f0f6a13"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_y5ki6z00j = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_y5ki6z00j();
+cov_y5ki6z00j().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_y5ki6z00j().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_y5ki6z00j().f[0]++;
+    cov_y5ki6z00j().s[2]++;
+    return JsonLd;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_y5ki6z00j().s[3]++, require("react/jsx-runtime"));
+function JsonLd({
+  data
+}) {
+  /* istanbul ignore next */
+  cov_y5ki6z00j().f[1]++;
+  cov_y5ki6z00j().s[4]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("script", {
+    type: "application/ld+json",
+    dangerouslySetInnerHTML: {
+      __html: JSON.stringify(data)
+    }
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfeTVraTZ6MDBqIiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiSnNvbkxkIiwiZGF0YSIsImYiLCJfanN4cnVudGltZSIsImpzeCIsInR5cGUiLCJkYW5nZXJvdXNseVNldElubmVySFRNTCIsIl9faHRtbCIsIkpTT04iLCJzdHJpbmdpZnkiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2NvbXBvbmVudHMvanNvbi1sZC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW50ZXJmYWNlIEpzb25MZFByb3BzIHtcbiAgZGF0YToge1xuICAgICdAY29udGV4dCc6IHN0cmluZ1xuICAgICdAdHlwZSc6IHN0cmluZ1xuICAgIFtrZXk6IHN0cmluZ106IHVua25vd25cbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBKc29uTGQoeyBkYXRhIH06IEpzb25MZFByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPHNjcmlwdFxuICAgICAgdHlwZT1cImFwcGxpY2F0aW9uL2xkK2pzb25cIlxuICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBKU09OLnN0cmluZ2lmeShkYXRhKSB9fVxuICAgIC8+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBWWlDO0lBQUFBLGFBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGFBQUE7QUFBQUEsYUFBQSxHQUFBRSxDQUFBOzs7Ozs7K0JBSmpDOzs7Ozs7V0FBd0JDLE1BQUE7Ozs7OztBQUFULFNBQVNBLE9BQU87RUFBRUM7QUFBSSxDQUFlO0VBQUE7RUFBQUosYUFBQSxHQUFBSyxDQUFBO0VBQUFMLGFBQUEsR0FBQUUsQ0FBQTtFQUNsRCxvQkFDRSxJQUFBSSxXQUFBLENBQUFDLEdBQUEsRUFBQztJQUNDQyxJQUFBLEVBQUs7SUFDTEMsdUJBQUEsRUFBeUI7TUFBRUMsTUFBQSxFQUFRQyxJQUFBLENBQUtDLFNBQVMsQ0FBQ1IsSUFBQTtJQUFNOztBQUc5RCIsImlnbm9yZUxpc3QiOltdfQ==

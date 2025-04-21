@@ -30,13 +30,13 @@ export default async function OrdersPage(props: {
   })
   return (
     <div>
-      <div className='flex gap-2'>
-        <Link href='/account'>Your Account</Link>
+      <div className="flex gap-2">
+        <Link href="/account">Your Account</Link>
         <span>›</span>
         <span>{PAGE_TITLE}</span>
       </div>
-      <h1 className='h1-bold pt-4'>{PAGE_TITLE}</h1>
-      <div className='overflow-x-auto'>
+      <h1 className="h1-bold pt-4">{PAGE_TITLE}</h1>
+      <div className="overflow-x-auto">
         <Table>
           <TableHeader>
             <TableRow>
@@ -51,7 +51,7 @@ export default async function OrdersPage(props: {
           <TableBody>
             {orders.data.length === 0 && (
               <TableRow>
-                <TableCell colSpan={6} className=''>
+                <TableCell colSpan={6} className="">
                   You have no orders.
                 </TableCell>
               </TableRow>
@@ -81,7 +81,7 @@ export default async function OrdersPage(props: {
                 </TableCell>
                 <TableCell>
                   <Link href={`/account/orders/${order._id}`}>
-                    <span className='px-2'>Details</span>
+                    <span className="px-2">Details</span>
                   </Link>
                 </TableCell>
               </TableRow>
@@ -92,7 +92,7 @@ export default async function OrdersPage(props: {
           <Pagination page={page} totalPages={orders.totalPages} />
         )}
       </div>
-      <BrowsingHistoryList className='mt-16' />
+      <BrowsingHistoryList className="mt-16" />
     </div>
   )
 }

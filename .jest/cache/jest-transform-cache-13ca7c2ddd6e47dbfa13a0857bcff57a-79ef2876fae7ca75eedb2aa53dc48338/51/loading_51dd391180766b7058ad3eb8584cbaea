@@ -1,0 +1,210 @@
+2308649e8a0a7df513ed40bfdef00398
+"use strict";
+
+/* istanbul ignore next */
+function cov_1136zfs76o() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/loading.tsx";
+  var hash = "c9daca902e0a314e44df925c3b6d3a09927f2aff";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/loading.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 27
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 16
+        },
+        end: {
+          line: 12,
+          column: 43
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 14
+        },
+        end: {
+          line: 14,
+          column: 50
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 4
+        },
+        end: {
+          line: 21,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "LoadingPage",
+        decl: {
+          start: {
+            line: 13,
+            column: 15
+          },
+          end: {
+            line: 13,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 29
+          },
+          end: {
+            line: 22,
+            column: 1
+          }
+        },
+        line: 13
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/loading.tsx"],
+      sourcesContent: ["import { getTranslations } from 'next-intl/server'\n\nexport default async function LoadingPage() {\n  const t = await getTranslations()\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-screen \">\n      <div className=\"p-6 rounded-lg shadow-md w-1/3 text-center\">\n        {t('Loading.Loading')}\n      </div>\n    </div>\n  )\n}\n"],
+      names: ["LoadingPage", "t", "getTranslations", "div", "className"],
+      mappings: ";;;;+BAEA;;;eAA8BA;;;;wBAFE;AAEjB,eAAeA;IAC5B,MAAMC,IAAI,MAAMC,IAAAA,uBAAe;IAC/B,qBACE,qBAACC;QAAIC,WAAU;kBACb,cAAA,qBAACD;YAAIC,WAAU;sBACZH,EAAE;;;AAIX"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "c9daca902e0a314e44df925c3b6d3a09927f2aff"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1136zfs76o = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1136zfs76o();
+cov_1136zfs76o().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1136zfs76o().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1136zfs76o().f[0]++;
+    cov_1136zfs76o().s[2]++;
+    return LoadingPage;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1136zfs76o().s[3]++, require("react/jsx-runtime"));
+const _server =
+/* istanbul ignore next */
+(cov_1136zfs76o().s[4]++, require("next-intl/server"));
+async function LoadingPage() {
+  /* istanbul ignore next */
+  cov_1136zfs76o().f[1]++;
+  const t =
+  /* istanbul ignore next */
+  (cov_1136zfs76o().s[5]++, await (0, _server.getTranslations)());
+  /* istanbul ignore next */
+  cov_1136zfs76o().s[6]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: "flex flex-col items-center justify-center min-h-screen ",
+    children: /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+      className: "p-6 rounded-lg shadow-md w-1/3 text-center",
+      children: t('Loading.Loading')
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTEzNnpmczc2byIsImFjdHVhbENvdmVyYWdlIiwicyIsIkxvYWRpbmdQYWdlIiwiZiIsInQiLCJfc2VydmVyIiwiZ2V0VHJhbnNsYXRpb25zIiwiX2pzeHJ1bnRpbWUiLCJqc3giLCJjbGFzc05hbWUiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2FwcC9bbG9jYWxlXS9sb2FkaW5nLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBnZXRUcmFuc2xhdGlvbnMgfSBmcm9tICduZXh0LWludGwvc2VydmVyJ1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBMb2FkaW5nUGFnZSgpIHtcbiAgY29uc3QgdCA9IGF3YWl0IGdldFRyYW5zbGF0aW9ucygpXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1zY3JlZW4gXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInAtNiByb3VuZGVkLWxnIHNoYWRvdy1tZCB3LTEvMyB0ZXh0LWNlbnRlclwiPlxuICAgICAgICB7dCgnTG9hZGluZy5Mb2FkaW5nJyl9XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBS1M7SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFIVDs7Ozs7O1dBQThCQyxXQUFBOzs7Ozs7OztrQ0FGRTtBQUVqQixlQUFlQSxZQUFBO0VBQUE7RUFBQUgsY0FBQSxHQUFBSSxDQUFBO0VBQzVCLE1BQU1DLENBQUE7RUFBQTtFQUFBLENBQUFMLGNBQUEsR0FBQUUsQ0FBQSxPQUFJLE1BQU0sSUFBQUksT0FBQSxDQUFBQyxlQUFlO0VBQUE7RUFBQVAsY0FBQSxHQUFBRSxDQUFBO0VBQy9CLG9CQUNFLElBQUFNLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO0lBQUlDLFNBQUEsRUFBVTtjQUNiLGlCQUFBRixXQUFBLENBQUFDLEdBQUEsRUFBQztNQUFJQyxTQUFBLEVBQVU7Z0JBQ1pMLENBQUEsQ0FBRTs7O0FBSVgiLCJpZ25vcmVMaXN0IjpbXX0=

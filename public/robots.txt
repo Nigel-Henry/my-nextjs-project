@@ -1,7 +1,7 @@
 # =============================================
 # MGZon - Ultimate Robots.txt
 # Managed by: ibrahim-lasfar
-# Last Updated: 2025-04-18 07:38:06 UTC
+# Last Updated: 2025-04-19 07:11:31 UTC
 # =============================================
 
 # ----- Global Rules -----
@@ -25,7 +25,7 @@ Disallow: /tmp/
 
 # ----- Rate Control -----
 Crawl-delay: 5
-Request-rate: 1/5  # 1 request every 5 seconds
+Request-rate: 1/5
 
 # ----- Search Engines -----
 User-agent: Googlebot
@@ -99,7 +99,6 @@ Sitemap: https://hager-zon.vercel.app/sitemap-blog.xml
 Sitemap: https://hager-zon.vercel.app/sitemap-images.xml
 
 # ----- Clean Parameters -----
-# Strip common tracking and unnecessary parameters
 Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content
 Clean-param: fbclid&gclid&fb_ref
 Clean-param: _ga&_gl&_gac
@@ -108,4 +107,4 @@ Clean-param: ref&source&via
 
 # ===== End of File =====
 # Generated for: ibrahim-lasfar
-# Generation Date: 2025-04-18 07:38:06 UTC
+# Generation Date: 2025-04-19 07:11:31 UTC

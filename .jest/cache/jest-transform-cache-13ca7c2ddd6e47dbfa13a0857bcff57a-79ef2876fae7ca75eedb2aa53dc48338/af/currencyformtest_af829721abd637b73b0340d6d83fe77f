@@ -1,0 +1,21 @@
+bac141b469756662dbff673e706ae6bb
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+const _jsxruntime = require("react/jsx-runtime");
+const _react = require("@testing-library/react");
+const _currencyform = /*#__PURE__*/ _interop_require_default(require("../../../app/[locale]/admin/settings/currency-form"));
+function _interop_require_default(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+describe('CurrencyForm', ()=>{
+    it('renders currency form correctly', ()=>{
+        (0, _react.render)(/*#__PURE__*/ (0, _jsxruntime.jsx)(_currencyform.default, {}));
+        expect(_react.screen.getByText(/currencies/i)).toBeInTheDocument();
+    });
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vX190ZXN0c19fL2NvbXBvbmVudHMvc2V0dGluZ3MvY3VycmVuY3ktZm9ybS50ZXN0LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXIsIHNjcmVlbiwgZmlyZUV2ZW50IH0gZnJvbSAnQHRlc3RpbmctbGlicmFyeS9yZWFjdCdcbmltcG9ydCBDdXJyZW5jeUZvcm0gZnJvbSAnQC9hcHAvW2xvY2FsZV0vYWRtaW4vc2V0dGluZ3MvY3VycmVuY3ktZm9ybSdcblxuZGVzY3JpYmUoJ0N1cnJlbmN5Rm9ybScsICgpID0+IHtcbiAgaXQoJ3JlbmRlcnMgY3VycmVuY3kgZm9ybSBjb3JyZWN0bHknLCAoKSA9PiB7XG4gICAgcmVuZGVyKDxDdXJyZW5jeUZvcm0gLz4pXG4gICAgZXhwZWN0KHNjcmVlbi5nZXRCeVRleHQoL2N1cnJlbmNpZXMvaSkpLnRvQmVJblRoZURvY3VtZW50KClcbiAgfSlcbn0pXG4iXSwibmFtZXMiOlsiZGVzY3JpYmUiLCJpdCIsInJlbmRlciIsIkN1cnJlbmN5Rm9ybSIsImV4cGVjdCIsInNjcmVlbiIsImdldEJ5VGV4dCIsInRvQmVJblRoZURvY3VtZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozt1QkFBMEM7cUVBQ2pCOzs7Ozs7QUFFekJBLFNBQVMsZ0JBQWdCO0lBQ3ZCQyxHQUFHLG1DQUFtQztRQUNwQ0MsSUFBQUEsYUFBTSxnQkFBQyxxQkFBQ0MscUJBQVk7UUFDcEJDLE9BQU9DLGFBQU0sQ0FBQ0MsU0FBUyxDQUFDLGdCQUFnQkMsaUJBQWlCO0lBQzNEO0FBQ0YifQ==

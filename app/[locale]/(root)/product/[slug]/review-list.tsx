@@ -149,11 +149,11 @@ export default function ReviewList({
     setOpen(true)
   }
   return (
-    <div className='space-y-2'>
+    <div className="space-y-2">
       {reviews.length === 0 && <div>{t('No reviews yet')}</div>}
 
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
-        <div className='flex flex-col gap-2'>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex flex-col gap-2">
           {reviews.length !== 0 && (
             <RatingSummary
               avgRating={product.avgRating}
@@ -161,27 +161,27 @@ export default function ReviewList({
               ratingDistribution={product.ratingDistribution}
             />
           )}
-          <Separator className='my-3' />
-          <div className='space-y-3'>
-            <h3 className='font-bold text-lg lg:text-xl'>
+          <Separator className="my-3" />
+          <div className="space-y-3">
+            <h3 className="font-bold text-lg lg:text-xl">
               {t('Review this product')}
             </h3>
-            <p className='text-sm'>
+            <p className="text-sm">
               {t('Share your thoughts with other customers')}
             </p>
             {userId ? (
               <Dialog open={open} onOpenChange={setOpen}>
                 <Button
                   onClick={handleOpenForm}
-                  variant='outline'
-                  className=' rounded-full w-full'
+                  variant="outline"
+                  className=" rounded-full w-full"
                 >
                   {t('Write a customer review')}
                 </Button>
 
-                <DialogContent className='sm:max-w-[425px]'>
+                <DialogContent className="sm:max-w-[425px]">
                   <Form {...form}>
-                    <form method='post' onSubmit={form.handleSubmit(onSubmit)}>
+                    <form method="post" onSubmit={form.handleSubmit(onSubmit)}>
                       <DialogHeader>
                         <DialogTitle>
                           {t('Write a customer review')}
@@ -190,13 +190,13 @@ export default function ReviewList({
                           {t('Share your thoughts with other customers')}
                         </DialogDescription>
                       </DialogHeader>
-                      <div className='grid gap-4 py-4'>
-                        <div className='flex flex-col gap-5  '>
+                      <div className="grid gap-4 py-4">
+                        <div className="flex flex-col gap-5  ">
                           <FormField
                             control={form.control}
-                            name='title'
+                            name="title"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>{t('Title')}</FormLabel>
                                 <FormControl>
                                   <Input
@@ -211,9 +211,9 @@ export default function ReviewList({
 
                           <FormField
                             control={form.control}
-                            name='comment'
+                            name="comment"
                             render={({ field }) => (
-                              <FormItem className='w-full'>
+                              <FormItem className="w-full">
                                 <FormLabel>{t('Comment')}</FormLabel>
                                 <FormControl>
                                   <Textarea
@@ -229,7 +229,7 @@ export default function ReviewList({
                         <div>
                           <FormField
                             control={form.control}
-                            name='rating'
+                            name="rating"
                             render={({ field }) => (
                               <FormItem>
                                 <FormLabel>{t('Rating')}</FormLabel>
@@ -251,9 +251,9 @@ export default function ReviewList({
                                           key={index}
                                           value={(index + 1).toString()}
                                         >
-                                          <div className='flex items-center gap-1'>
+                                          <div className="flex items-center gap-1">
                                             {index + 1}{' '}
-                                            <StarIcon className='h-4 w-4' />
+                                            <StarIcon className="h-4 w-4" />
                                           </div>
                                         </SelectItem>
                                       )
@@ -270,8 +270,8 @@ export default function ReviewList({
 
                       <DialogFooter>
                         <Button
-                          type='submit'
-                          size='lg'
+                          type="submit"
+                          size="lg"
                           disabled={form.formState.isSubmitting}
                         >
                           {form.formState.isSubmitting
@@ -288,7 +288,7 @@ export default function ReviewList({
                 {t('Please')}{' '}
                 <Link
                   href={`/sign-in?callbackUrl=/product/${product.slug}`}
-                  className='highlight-link'
+                  className="highlight-link"
                 >
                   {t('sign in')}
                 </Link>{' '}
@@ -297,27 +297,27 @@ export default function ReviewList({
             )}
           </div>
         </div>
-        <div className='md:col-span-3 flex flex-col gap-3'>
+        <div className="md:col-span-3 flex flex-col gap-3">
           {reviews.map((review: IReviewDetails) => (
             <Card key={review._id}>
               <CardHeader>
-                <div className='flex-between'>
+                <div className="flex-between">
                   <CardTitle>{review.title}</CardTitle>
-                  <div className='italic text-sm flex'>
-                    <Check className='h-4 w-4' /> {t('Verified Purchase')}
+                  <div className="italic text-sm flex">
+                    <Check className="h-4 w-4" /> {t('Verified Purchase')}
                   </div>
                 </div>
                 <CardDescription>{review.comment}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className='flex space-x-4 text-sm text-muted-foreground'>
+                <div className="flex space-x-4 text-sm text-muted-foreground">
                   <Rating rating={review.rating} />
-                  <div className='flex items-center'>
-                    <User className='mr-1 h-3 w-3' />
+                  <div className="flex items-center">
+                    <User className="mr-1 h-3 w-3" />
                     {review.user ? review.user.name : t('Deleted User')}
                   </div>
-                  <div className='flex items-center'>
-                    <Calendar className='mr-1 h-3 w-3' />
+                  <div className="flex items-center">
+                    <Calendar className="mr-1 h-3 w-3" />
                     {review.createdAt.toString().substring(0, 10)}
                   </div>
                 </div>

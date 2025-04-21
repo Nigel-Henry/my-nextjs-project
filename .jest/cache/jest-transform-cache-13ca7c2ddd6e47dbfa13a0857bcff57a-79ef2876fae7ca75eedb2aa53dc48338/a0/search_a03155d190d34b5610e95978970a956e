@@ -1,0 +1,382 @@
+006165760db4708417c77e01ade1e918
+"use strict";
+
+/* istanbul ignore next */
+function cov_1qt4gpm4b7() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/header/search.tsx";
+  var hash = "046577f532945f214585a721607bc805d27530d5";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/header/search.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 22
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 21
+        },
+        end: {
+          line: 12,
+          column: 44
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 40
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 24
+        },
+        end: {
+          line: 14,
+          column: 71
+        }
+      },
+      "7": {
+        start: {
+          line: 15,
+          column: 16
+        },
+        end: {
+          line: 15,
+          column: 42
+        }
+      },
+      "8": {
+        start: {
+          line: 16,
+          column: 24
+        },
+        end: {
+          line: 16,
+          column: 71
+        }
+      },
+      "9": {
+        start: {
+          line: 17,
+          column: 16
+        },
+        end: {
+          line: 17,
+          column: 43
+        }
+      },
+      "10": {
+        start: {
+          line: 19,
+          column: 31
+        },
+        end: {
+          line: 19,
+          column: 70
+        }
+      },
+      "11": {
+        start: {
+          line: 20,
+          column: 23
+        },
+        end: {
+          line: 20,
+          column: 68
+        }
+      },
+      "12": {
+        start: {
+          line: 21,
+          column: 14
+        },
+        end: {
+          line: 21,
+          column: 50
+        }
+      },
+      "13": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 67,
+          column: 7
+        }
+      },
+      "14": {
+        start: {
+          line: 43,
+          column: 69
+        },
+        end: {
+          line: 46,
+          column: 44
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "Search",
+        decl: {
+          start: {
+            line: 18,
+            column: 15
+          },
+          end: {
+            line: 18,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 24
+          },
+          end: {
+            line: 68,
+            column: 1
+          }
+        },
+        line: 18
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 43,
+            column: 43
+          },
+          end: {
+            line: 43,
+            column: 44
+          }
+        },
+        loc: {
+          start: {
+            line: 43,
+            column: 69
+          },
+          end: {
+            line: 46,
+            column: 44
+          }
+        },
+        line: 43
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/header/search.tsx"],
+      sourcesContent: ["import { SearchIcon } from 'lucide-react'\n\nimport { Input } from '@/components/ui/input'\nimport { getAllCategories } from '@/lib/actions/product.actions'\n\nimport {\n  Select,\n  SelectContent,\n  SelectItem,\n  SelectTrigger,\n  SelectValue,\n} from '../../ui/select'\nimport { getSetting } from '@/lib/actions/setting.actions'\nimport { getTranslations } from 'next-intl/server'\n\nexport default async function Search() {\n  const {\n    site: { name },\n  } = await getSetting()\n  const categories = await getAllCategories()\n\n  const t = await getTranslations()\n  return (\n    <form action=\"/search\" method=\"GET\" className=\"flex  items-stretch h-10 \">\n      <Select name=\"category\">\n        <SelectTrigger className=\"w-auto h-full dark:border-gray-200 bg-gray-100 text-black border-r  rounded-r-none rounded-l-md rtl:rounded-r-md rtl:rounded-l-none  \">\n          <SelectValue placeholder={t('Header.All')} />\n        </SelectTrigger>\n        <SelectContent position=\"popper\">\n          <SelectItem value=\"all\">{t('Header.All')}</SelectItem>\n          {categories.map((category) => (\n            <SelectItem key={category} value={category}>\n              {category}\n            </SelectItem>\n          ))}\n        </SelectContent>\n      </Select>\n      <Input\n        className=\"flex-1 rounded-none dark:border-gray-200 bg-gray-100 text-black text-base h-full\"\n        placeholder={t('Header.Search Site', { name })}\n        name=\"q\"\n        type=\"search\"\n      />\n      <button\n        type=\"submit\"\n        className=\"bg-primary text-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-2 \"\n      >\n        <SearchIcon className=\"w-6 h-6\" />\n      </button>\n    </form>\n  )\n}\n"],
+      names: ["Search", "site", "name", "getSetting", "categories", "getAllCategories", "t", "getTranslations", "form", "action", "method", "className", "Select", "SelectTrigger", "SelectValue", "placeholder", "SelectContent", "position", "SelectItem", "value", "map", "category", "Input", "type", "button", "SearchIcon"],
+      mappings: ";;;;+BAeA;;;eAA8BA;;;;6BAfH;uBAEL;gCACW;wBAQ1B;gCACoB;wBACK;AAEjB,eAAeA;IAC5B,MAAM,EACJC,MAAM,EAAEC,IAAI,EAAE,EACf,GAAG,MAAMC,IAAAA,0BAAU;IACpB,MAAMC,aAAa,MAAMC,IAAAA,gCAAgB;IAEzC,MAAMC,IAAI,MAAMC,IAAAA,uBAAe;IAC/B,qBACE,sBAACC;QAAKC,QAAO;QAAUC,QAAO;QAAMC,WAAU;;0BAC5C,sBAACC,cAAM;gBAACV,MAAK;;kCACX,qBAACW,qBAAa;wBAACF,WAAU;kCACvB,cAAA,qBAACG,mBAAW;4BAACC,aAAaT,EAAE;;;kCAE9B,sBAACU,qBAAa;wBAACC,UAAS;;0CACtB,qBAACC,kBAAU;gCAACC,OAAM;0CAAOb,EAAE;;4BAC1BF,WAAWgB,GAAG,CAAC,CAACC,yBACf,qBAACH,kBAAU;oCAAgBC,OAAOE;8CAC/BA;mCADcA;;;;;0BAMvB,qBAACC,YAAK;gBACJX,WAAU;gBACVI,aAAaT,EAAE,sBAAsB;oBAAEJ;gBAAK;gBAC5CA,MAAK;gBACLqB,MAAK;;0BAEP,qBAACC;gBACCD,MAAK;gBACLZ,WAAU;0BAEV,cAAA,qBAACc,uBAAU;oBAACd,WAAU;;;;;AAI9B"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "046577f532945f214585a721607bc805d27530d5"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1qt4gpm4b7 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1qt4gpm4b7();
+cov_1qt4gpm4b7().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1qt4gpm4b7().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1qt4gpm4b7().f[0]++;
+    cov_1qt4gpm4b7().s[2]++;
+    return Search;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[3]++, require("react/jsx-runtime"));
+const _lucidereact =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[4]++, require("lucide-react"));
+const _input =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[5]++, require("../../ui/input"));
+const _productactions =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[6]++, require("../../../lib/actions/product.actions"));
+const _select =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[7]++, require("../../ui/select"));
+const _settingactions =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[8]++, require("../../../lib/actions/setting.actions"));
+const _server =
+/* istanbul ignore next */
+(cov_1qt4gpm4b7().s[9]++, require("next-intl/server"));
+async function Search() {
+  /* istanbul ignore next */
+  cov_1qt4gpm4b7().f[1]++;
+  const {
+    site: {
+      name
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_1qt4gpm4b7().s[10]++, await (0, _settingactions.getSetting)());
+  const categories =
+  /* istanbul ignore next */
+  (cov_1qt4gpm4b7().s[11]++, await (0, _productactions.getAllCategories)());
+  const t =
+  /* istanbul ignore next */
+  (cov_1qt4gpm4b7().s[12]++, await (0, _server.getTranslations)());
+  /* istanbul ignore next */
+  cov_1qt4gpm4b7().s[13]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("form", {
+    action: "/search",
+    method: "GET",
+    className: "flex  items-stretch h-10 ",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsxs)(_select.Select, {
+      name: "category",
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_select.SelectTrigger, {
+        className: "w-auto h-full dark:border-gray-200 bg-gray-100 text-black border-r  rounded-r-none rounded-l-md rtl:rounded-r-md rtl:rounded-l-none  ",
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)(_select.SelectValue, {
+          placeholder: t('Header.All')
+        })
+      }), /*#__PURE__*/(0, _jsxruntime.jsxs)(_select.SelectContent, {
+        position: "popper",
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_select.SelectItem, {
+          value: "all",
+          children: t('Header.All')
+        }), categories.map(category => {
+          /* istanbul ignore next */
+          cov_1qt4gpm4b7().f[2]++;
+          cov_1qt4gpm4b7().s[14]++;
+          return /*#__PURE__*/(0, _jsxruntime.jsx)(_select.SelectItem, {
+            value: category,
+            children: category
+          }, category);
+        })]
+      })]
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)(_input.Input, {
+      className: "flex-1 rounded-none dark:border-gray-200 bg-gray-100 text-black text-base h-full",
+      placeholder: t('Header.Search Site', {
+        name
+      }),
+      name: "q",
+      type: "search"
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)("button", {
+      type: "submit",
+      className: "bg-primary text-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-2 ",
+      children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.SearchIcon, {
+        className: "w-6 h-6"
+      })
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJTZWFyY2giLCJjb3ZfMXF0NGdwbTRiNyIsImYiLCJzaXRlIiwibmFtZSIsInMiLCJfc2V0dGluZ2FjdGlvbnMiLCJnZXRTZXR0aW5nIiwiY2F0ZWdvcmllcyIsIl9wcm9kdWN0YWN0aW9ucyIsImdldEFsbENhdGVnb3JpZXMiLCJ0IiwiX3NlcnZlciIsImdldFRyYW5zbGF0aW9ucyIsIl9qc3hydW50aW1lIiwianN4cyIsImFjdGlvbiIsIm1ldGhvZCIsImNsYXNzTmFtZSIsIl9zZWxlY3QiLCJTZWxlY3QiLCJqc3giLCJTZWxlY3RUcmlnZ2VyIiwiU2VsZWN0VmFsdWUiLCJwbGFjZWhvbGRlciIsIlNlbGVjdENvbnRlbnQiLCJwb3NpdGlvbiIsIlNlbGVjdEl0ZW0iLCJ2YWx1ZSIsIm1hcCIsImNhdGVnb3J5IiwiX2lucHV0IiwiSW5wdXQiLCJ0eXBlIiwiX2x1Y2lkZXJlYWN0IiwiU2VhcmNoSWNvbiJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vY29tcG9uZW50cy9zaGFyZWQvaGVhZGVyL3NlYXJjaC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgU2VhcmNoSWNvbiB9IGZyb20gJ2x1Y2lkZS1yZWFjdCdcblxuaW1wb3J0IHsgSW5wdXQgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvaW5wdXQnXG5pbXBvcnQgeyBnZXRBbGxDYXRlZ29yaWVzIH0gZnJvbSAnQC9saWIvYWN0aW9ucy9wcm9kdWN0LmFjdGlvbnMnXG5cbmltcG9ydCB7XG4gIFNlbGVjdCxcbiAgU2VsZWN0Q29udGVudCxcbiAgU2VsZWN0SXRlbSxcbiAgU2VsZWN0VHJpZ2dlcixcbiAgU2VsZWN0VmFsdWUsXG59IGZyb20gJy4uLy4uL3VpL3NlbGVjdCdcbmltcG9ydCB7IGdldFNldHRpbmcgfSBmcm9tICdAL2xpYi9hY3Rpb25zL3NldHRpbmcuYWN0aW9ucydcbmltcG9ydCB7IGdldFRyYW5zbGF0aW9ucyB9IGZyb20gJ25leHQtaW50bC9zZXJ2ZXInXG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIFNlYXJjaCgpIHtcbiAgY29uc3Qge1xuICAgIHNpdGU6IHsgbmFtZSB9LFxuICB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG4gIGNvbnN0IGNhdGVnb3JpZXMgPSBhd2FpdCBnZXRBbGxDYXRlZ29yaWVzKClcblxuICBjb25zdCB0ID0gYXdhaXQgZ2V0VHJhbnNsYXRpb25zKClcbiAgcmV0dXJuIChcbiAgICA8Zm9ybSBhY3Rpb249XCIvc2VhcmNoXCIgbWV0aG9kPVwiR0VUXCIgY2xhc3NOYW1lPVwiZmxleCAgaXRlbXMtc3RyZXRjaCBoLTEwIFwiPlxuICAgICAgPFNlbGVjdCBuYW1lPVwiY2F0ZWdvcnlcIj5cbiAgICAgICAgPFNlbGVjdFRyaWdnZXIgY2xhc3NOYW1lPVwidy1hdXRvIGgtZnVsbCBkYXJrOmJvcmRlci1ncmF5LTIwMCBiZy1ncmF5LTEwMCB0ZXh0LWJsYWNrIGJvcmRlci1yICByb3VuZGVkLXItbm9uZSByb3VuZGVkLWwtbWQgcnRsOnJvdW5kZWQtci1tZCBydGw6cm91bmRlZC1sLW5vbmUgIFwiPlxuICAgICAgICAgIDxTZWxlY3RWYWx1ZSBwbGFjZWhvbGRlcj17dCgnSGVhZGVyLkFsbCcpfSAvPlxuICAgICAgICA8L1NlbGVjdFRyaWdnZXI+XG4gICAgICAgIDxTZWxlY3RDb250ZW50IHBvc2l0aW9uPVwicG9wcGVyXCI+XG4gICAgICAgICAgPFNlbGVjdEl0ZW0gdmFsdWU9XCJhbGxcIj57dCgnSGVhZGVyLkFsbCcpfTwvU2VsZWN0SXRlbT5cbiAgICAgICAgICB7Y2F0ZWdvcmllcy5tYXAoKGNhdGVnb3J5KSA9PiAoXG4gICAgICAgICAgICA8U2VsZWN0SXRlbSBrZXk9e2NhdGVnb3J5fSB2YWx1ZT17Y2F0ZWdvcnl9PlxuICAgICAgICAgICAgICB7Y2F0ZWdvcnl9XG4gICAgICAgICAgICA8L1NlbGVjdEl0ZW0+XG4gICAgICAgICAgKSl9XG4gICAgICAgIDwvU2VsZWN0Q29udGVudD5cbiAgICAgIDwvU2VsZWN0PlxuICAgICAgPElucHV0XG4gICAgICAgIGNsYXNzTmFtZT1cImZsZXgtMSByb3VuZGVkLW5vbmUgZGFyazpib3JkZXItZ3JheS0yMDAgYmctZ3JheS0xMDAgdGV4dC1ibGFjayB0ZXh0LWJhc2UgaC1mdWxsXCJcbiAgICAgICAgcGxhY2Vob2xkZXI9e3QoJ0hlYWRlci5TZWFyY2ggU2l0ZScsIHsgbmFtZSB9KX1cbiAgICAgICAgbmFtZT1cInFcIlxuICAgICAgICB0eXBlPVwic2VhcmNoXCJcbiAgICAgIC8+XG4gICAgICA8YnV0dG9uXG4gICAgICAgIHR5cGU9XCJzdWJtaXRcIlxuICAgICAgICBjbGFzc05hbWU9XCJiZy1wcmltYXJ5IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRleHQtYmxhY2sgcm91bmRlZC1zLW5vbmUgcm91bmRlZC1lLW1kIGgtZnVsbCBweC0zIHB5LTIgXCJcbiAgICAgID5cbiAgICAgICAgPFNlYXJjaEljb24gY2xhc3NOYW1lPVwidy02IGgtNlwiIC8+XG4gICAgICA8L2J1dHRvbj5cbiAgICA8L2Zvcm0+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBZUE7Ozs7OztXQUE4QkEsTUFBQTs7Ozs7Ozs7a0NBZkg7OztrQ0FFTDs7O2tDQUNXOzs7a0NBUTFCOzs7a0NBQ29COzs7a0NBQ0s7QUFFakIsZUFBZUEsT0FBQTtFQUFBO0VBQUFDLGNBQUEsR0FBQUMsQ0FBQTtFQUM1QixNQUFNO0lBQ0pDLElBQUEsRUFBTTtNQUFFQztJQUFJO0VBQUUsQ0FDZjtFQUFBO0VBQUEsQ0FBQUgsY0FBQSxHQUFBSSxDQUFBLFFBQUcsTUFBTSxJQUFBQyxlQUFBLENBQUFDLFVBQVU7RUFDcEIsTUFBTUMsVUFBQTtFQUFBO0VBQUEsQ0FBQVAsY0FBQSxHQUFBSSxDQUFBLFFBQWEsTUFBTSxJQUFBSSxlQUFBLENBQUFDLGdCQUFnQjtFQUV6QyxNQUFNQyxDQUFBO0VBQUE7RUFBQSxDQUFBVixjQUFBLEdBQUFJLENBQUEsUUFBSSxNQUFNLElBQUFPLE9BQUEsQ0FBQUMsZUFBZTtFQUFBO0VBQUFaLGNBQUEsR0FBQUksQ0FBQTtFQUMvQixvQkFDRSxJQUFBUyxXQUFBLENBQUFDLElBQUEsRUFBQztJQUFLQyxNQUFBLEVBQU87SUFBVUMsTUFBQSxFQUFPO0lBQU1DLFNBQUEsRUFBVTs0QkFDNUMsSUFBQUosV0FBQSxDQUFBQyxJQUFBLEVBQUNJLE9BQUEsQ0FBQUMsTUFBTTtNQUFDaEIsSUFBQSxFQUFLOzhCQUNYLElBQUFVLFdBQUEsQ0FBQU8sR0FBQSxFQUFDRixPQUFBLENBQUFHLGFBQWE7UUFBQ0osU0FBQSxFQUFVO2tCQUN2QixpQkFBQUosV0FBQSxDQUFBTyxHQUFBLEVBQUNGLE9BQUEsQ0FBQUksV0FBVztVQUFDQyxXQUFBLEVBQWFiLENBQUEsQ0FBRTs7dUJBRTlCLElBQUFHLFdBQUEsQ0FBQUMsSUFBQSxFQUFDSSxPQUFBLENBQUFNLGFBQWE7UUFBQ0MsUUFBQSxFQUFTO2dDQUN0QixJQUFBWixXQUFBLENBQUFPLEdBQUEsRUFBQ0YsT0FBQSxDQUFBUSxVQUFVO1VBQUNDLEtBQUEsRUFBTTtvQkFBT2pCLENBQUEsQ0FBRTtZQUMxQkgsVUFBQSxDQUFXcUIsR0FBRyxDQUFFQyxRQUFBLElBQ2Y7VUFBQTtVQUFBN0IsY0FBQSxHQUFBQyxDQUFBO1VBQUFELGNBQUEsR0FBQUksQ0FBQTtVQUFBLE9BRGUsYUFDZixJQUFBUyxXQUFBLENBQUFPLEdBQUEsRUFBQ0YsT0FBQSxDQUFBUSxVQUFVO1lBQWdCQyxLQUFBLEVBQU9FLFFBQUE7c0JBQy9CQTthQURjQSxRQUFBO1FBQUE7O3FCQU12QixJQUFBaEIsV0FBQSxDQUFBTyxHQUFBLEVBQUNVLE1BQUEsQ0FBQUMsS0FBSztNQUNKZCxTQUFBLEVBQVU7TUFDVk0sV0FBQSxFQUFhYixDQUFBLENBQUUsc0JBQXNCO1FBQUVQO01BQUs7TUFDNUNBLElBQUEsRUFBSztNQUNMNkIsSUFBQSxFQUFLO3FCQUVQLElBQUFuQixXQUFBLENBQUFPLEdBQUEsRUFBQztNQUNDWSxJQUFBLEVBQUs7TUFDTGYsU0FBQSxFQUFVO2dCQUVWLGlCQUFBSixXQUFBLENBQUFPLEdBQUEsRUFBQ2EsWUFBQSxDQUFBQyxVQUFVO1FBQUNqQixTQUFBLEVBQVU7Ozs7QUFJOUIiLCJpZ25vcmVMaXN0IjpbXX0=

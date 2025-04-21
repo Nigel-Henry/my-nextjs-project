@@ -1,0 +1,267 @@
+eca9fdd93e2069c08d7e1496dc4f3307
+"use strict";
+
+/* istanbul ignore next */
+function cov_2b0r53ny5k() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/robots.ts";
+  var hash = "e3d4f36531aee00294f39067c111faf96c94dc18";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/robots.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 22
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 24
+        },
+        end: {
+          line: 11,
+          column: 65
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 30
+        },
+        end: {
+          line: 13,
+          column: 69
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 20
+        },
+        end: {
+          line: 14,
+          column: 57
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 4
+        },
+        end: {
+          line: 83,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "robots",
+        decl: {
+          start: {
+            line: 12,
+            column: 15
+          },
+          end: {
+            line: 12,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 24
+          },
+          end: {
+            line: 84,
+            column: 1
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 14,
+            column: 20
+          },
+          end: {
+            line: 14,
+            column: 57
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 14,
+            column: 20
+          },
+          end: {
+            line: 14,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 14,
+            column: 27
+          },
+          end: {
+            line: 14,
+            column: 57
+          }
+        }],
+        line: 14
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/robots.ts"],
+      sourcesContent: ["import { MetadataRoute } from 'next'\nimport { getSetting } from '@/lib/actions/setting.actions'\n\nexport default async function robots(): Promise<MetadataRoute.Robots> {\n  const {\n    site: { url },\n  } = await getSetting()\n  const baseUrl = url || 'https://hager-zon.vercel.app'\n\n  return {\n    rules: [\n      {\n        userAgent: '*',\n        allow: ['/$', '/index.html', '/main.css', '/main.js'],\n        disallow: [\n          '/admin/',\n          '/dashboard/',\n          '/api/',\n          '/private/',\n          '/account/',\n          '/test/',\n          '/staging/',\n          '/wp-admin/',\n          '/wp-login.php',\n          '/tmp/',\n        ],\n      },\n      {\n        userAgent: 'Googlebot',\n        allow: ['/products/', '/blog/', '/categories/'],\n        disallow: ['/tmp/', '/search/'],\n      },\n      {\n        userAgent: 'Bingbot',\n        allow: ['/products/', '/blog/', '/categories/'],\n        disallow: ['/search/'],\n      },\n      {\n        userAgent: [\n          'GPTBot',\n          'ChatGPT-User',\n          'Anthropic-ai',\n          'Claude-Web',\n          'Google-Extended',\n          'CCBot',\n          'PerplexityBot',\n        ],\n        disallow: ['/'],\n      },\n    ],\n    sitemap: [\n      `${baseUrl}/sitemap.xml`,\n      `${baseUrl}/sitemap-products.xml`,\n      `${baseUrl}/sitemap-blog.xml`,\n      `${baseUrl}/sitemap-images.xml`,\n    ],\n    host: baseUrl,\n  }\n}\n"],
+      names: ["robots", "site", "url", "getSetting", "baseUrl", "rules", "userAgent", "allow", "disallow", "sitemap", "host"],
+      mappings: ";;;;+BAGA;;;eAA8BA;;;gCAFH;AAEZ,eAAeA;IAC5B,MAAM,EACJC,MAAM,EAAEC,GAAG,EAAE,EACd,GAAG,MAAMC,IAAAA,0BAAU;IACpB,MAAMC,UAAUF,OAAO;IAEvB,OAAO;QACLG,OAAO;YACL;gBACEC,WAAW;gBACXC,OAAO;oBAAC;oBAAM;oBAAe;oBAAa;iBAAW;gBACrDC,UAAU;oBACR;oBACA;oBACA;oBACA;oBACA;oBACA;oBACA;oBACA;oBACA;oBACA;iBACD;YACH;YACA;gBACEF,WAAW;gBACXC,OAAO;oBAAC;oBAAc;oBAAU;iBAAe;gBAC/CC,UAAU;oBAAC;oBAAS;iBAAW;YACjC;YACA;gBACEF,WAAW;gBACXC,OAAO;oBAAC;oBAAc;oBAAU;iBAAe;gBAC/CC,UAAU;oBAAC;iBAAW;YACxB;YACA;gBACEF,WAAW;oBACT;oBACA;oBACA;oBACA;oBACA;oBACA;oBACA;iBACD;gBACDE,UAAU;oBAAC;iBAAI;YACjB;SACD;QACDC,SAAS;YACP,GAAGL,QAAQ,YAAY,CAAC;YACxB,GAAGA,QAAQ,qBAAqB,CAAC;YACjC,GAAGA,QAAQ,iBAAiB,CAAC;YAC7B,GAAGA,QAAQ,mBAAmB,CAAC;SAChC;QACDM,MAAMN;IACR;AACF"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "e3d4f36531aee00294f39067c111faf96c94dc18"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2b0r53ny5k = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2b0r53ny5k();
+cov_2b0r53ny5k().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2b0r53ny5k().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_2b0r53ny5k().f[0]++;
+    cov_2b0r53ny5k().s[2]++;
+    return robots;
+  }
+});
+const _settingactions =
+/* istanbul ignore next */
+(cov_2b0r53ny5k().s[3]++, require("../lib/actions/setting.actions"));
+async function robots() {
+  /* istanbul ignore next */
+  cov_2b0r53ny5k().f[1]++;
+  const {
+    site: {
+      url
+    }
+  } =
+  /* istanbul ignore next */
+  (cov_2b0r53ny5k().s[4]++, await (0, _settingactions.getSetting)());
+  const baseUrl =
+  /* istanbul ignore next */
+  (cov_2b0r53ny5k().s[5]++,
+  /* istanbul ignore next */
+  (cov_2b0r53ny5k().b[0][0]++, url) ||
+  /* istanbul ignore next */
+  (cov_2b0r53ny5k().b[0][1]++, 'https://hager-zon.vercel.app'));
+  /* istanbul ignore next */
+  cov_2b0r53ny5k().s[6]++;
+  return {
+    rules: [{
+      userAgent: '*',
+      allow: ['/$', '/index.html', '/main.css', '/main.js'],
+      disallow: ['/admin/', '/dashboard/', '/api/', '/private/', '/account/', '/test/', '/staging/', '/wp-admin/', '/wp-login.php', '/tmp/']
+    }, {
+      userAgent: 'Googlebot',
+      allow: ['/products/', '/blog/', '/categories/'],
+      disallow: ['/tmp/', '/search/']
+    }, {
+      userAgent: 'Bingbot',
+      allow: ['/products/', '/blog/', '/categories/'],
+      disallow: ['/search/']
+    }, {
+      userAgent: ['GPTBot', 'ChatGPT-User', 'Anthropic-ai', 'Claude-Web', 'Google-Extended', 'CCBot', 'PerplexityBot'],
+      disallow: ['/']
+    }],
+    sitemap: [`${baseUrl}/sitemap.xml`, `${baseUrl}/sitemap-products.xml`, `${baseUrl}/sitemap-blog.xml`, `${baseUrl}/sitemap-images.xml`],
+    host: baseUrl
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMmIwcjUzbnk1ayIsImFjdHVhbENvdmVyYWdlIiwicyIsInJvYm90cyIsImYiLCJzaXRlIiwidXJsIiwiX3NldHRpbmdhY3Rpb25zIiwiZ2V0U2V0dGluZyIsImJhc2VVcmwiLCJiIiwicnVsZXMiLCJ1c2VyQWdlbnQiLCJhbGxvdyIsImRpc2FsbG93Iiwic2l0ZW1hcCIsImhvc3QiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2FwcC9yb2JvdHMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTWV0YWRhdGFSb3V0ZSB9IGZyb20gJ25leHQnXG5pbXBvcnQgeyBnZXRTZXR0aW5nIH0gZnJvbSAnQC9saWIvYWN0aW9ucy9zZXR0aW5nLmFjdGlvbnMnXG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIHJvYm90cygpOiBQcm9taXNlPE1ldGFkYXRhUm91dGUuUm9ib3RzPiB7XG4gIGNvbnN0IHtcbiAgICBzaXRlOiB7IHVybCB9LFxuICB9ID0gYXdhaXQgZ2V0U2V0dGluZygpXG4gIGNvbnN0IGJhc2VVcmwgPSB1cmwgfHwgJ2h0dHBzOi8vaGFnZXItem9uLnZlcmNlbC5hcHAnXG5cbiAgcmV0dXJuIHtcbiAgICBydWxlczogW1xuICAgICAge1xuICAgICAgICB1c2VyQWdlbnQ6ICcqJyxcbiAgICAgICAgYWxsb3c6IFsnLyQnLCAnL2luZGV4Lmh0bWwnLCAnL21haW4uY3NzJywgJy9tYWluLmpzJ10sXG4gICAgICAgIGRpc2FsbG93OiBbXG4gICAgICAgICAgJy9hZG1pbi8nLFxuICAgICAgICAgICcvZGFzaGJvYXJkLycsXG4gICAgICAgICAgJy9hcGkvJyxcbiAgICAgICAgICAnL3ByaXZhdGUvJyxcbiAgICAgICAgICAnL2FjY291bnQvJyxcbiAgICAgICAgICAnL3Rlc3QvJyxcbiAgICAgICAgICAnL3N0YWdpbmcvJyxcbiAgICAgICAgICAnL3dwLWFkbWluLycsXG4gICAgICAgICAgJy93cC1sb2dpbi5waHAnLFxuICAgICAgICAgICcvdG1wLycsXG4gICAgICAgIF0sXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICB1c2VyQWdlbnQ6ICdHb29nbGVib3QnLFxuICAgICAgICBhbGxvdzogWycvcHJvZHVjdHMvJywgJy9ibG9nLycsICcvY2F0ZWdvcmllcy8nXSxcbiAgICAgICAgZGlzYWxsb3c6IFsnL3RtcC8nLCAnL3NlYXJjaC8nXSxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHVzZXJBZ2VudDogJ0Jpbmdib3QnLFxuICAgICAgICBhbGxvdzogWycvcHJvZHVjdHMvJywgJy9ibG9nLycsICcvY2F0ZWdvcmllcy8nXSxcbiAgICAgICAgZGlzYWxsb3c6IFsnL3NlYXJjaC8nXSxcbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIHVzZXJBZ2VudDogW1xuICAgICAgICAgICdHUFRCb3QnLFxuICAgICAgICAgICdDaGF0R1BULVVzZXInLFxuICAgICAgICAgICdBbnRocm9waWMtYWknLFxuICAgICAgICAgICdDbGF1ZGUtV2ViJyxcbiAgICAgICAgICAnR29vZ2xlLUV4dGVuZGVkJyxcbiAgICAgICAgICAnQ0NCb3QnLFxuICAgICAgICAgICdQZXJwbGV4aXR5Qm90JyxcbiAgICAgICAgXSxcbiAgICAgICAgZGlzYWxsb3c6IFsnLyddLFxuICAgICAgfSxcbiAgICBdLFxuICAgIHNpdGVtYXA6IFtcbiAgICAgIGAke2Jhc2VVcmx9L3NpdGVtYXAueG1sYCxcbiAgICAgIGAke2Jhc2VVcmx9L3NpdGVtYXAtcHJvZHVjdHMueG1sYCxcbiAgICAgIGAke2Jhc2VVcmx9L3NpdGVtYXAtYmxvZy54bWxgLFxuICAgICAgYCR7YmFzZVVybH0vc2l0ZW1hcC1pbWFnZXMueG1sYCxcbiAgICBdLFxuICAgIGhvc3Q6IGJhc2VVcmwsXG4gIH1cbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQVVJO0lBQUFBLGNBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGNBQUE7QUFBQUEsY0FBQSxHQUFBRSxDQUFBOzs7Ozs7K0JBUEo7Ozs7OztXQUE4QkMsTUFBQTs7Ozs7a0NBRkg7QUFFWixlQUFlQSxPQUFBO0VBQUE7RUFBQUgsY0FBQSxHQUFBSSxDQUFBO0VBQzVCLE1BQU07SUFDSkMsSUFBQSxFQUFNO01BQUVDO0lBQUc7RUFBRSxDQUNkO0VBQUE7RUFBQSxDQUFBTixjQUFBLEdBQUFFLENBQUEsT0FBRyxNQUFNLElBQUFLLGVBQUEsQ0FBQUMsVUFBVTtFQUNwQixNQUFNQyxPQUFBO0VBQUE7RUFBQSxDQUFBVCxjQUFBLEdBQUFFLENBQUE7RUFBVTtFQUFBLENBQUFGLGNBQUEsR0FBQVUsQ0FBQSxVQUFBSixHQUFBO0VBQUE7RUFBQSxDQUFBTixjQUFBLEdBQUFVLENBQUEsVUFBTztFQUFBO0VBQUFWLGNBQUEsR0FBQUUsQ0FBQTtFQUV2QixPQUFPO0lBQ0xTLEtBQUEsRUFBTyxDQUNMO01BQ0VDLFNBQUEsRUFBVztNQUNYQyxLQUFBLEVBQU8sQ0FBQyxNQUFNLGVBQWUsYUFBYSxXQUFXO01BQ3JEQyxRQUFBLEVBQVUsQ0FDUixXQUNBLGVBQ0EsU0FDQSxhQUNBLGFBQ0EsVUFDQSxhQUNBLGNBQ0EsaUJBQ0E7SUFFSixHQUNBO01BQ0VGLFNBQUEsRUFBVztNQUNYQyxLQUFBLEVBQU8sQ0FBQyxjQUFjLFVBQVUsZUFBZTtNQUMvQ0MsUUFBQSxFQUFVLENBQUMsU0FBUztJQUN0QixHQUNBO01BQ0VGLFNBQUEsRUFBVztNQUNYQyxLQUFBLEVBQU8sQ0FBQyxjQUFjLFVBQVUsZUFBZTtNQUMvQ0MsUUFBQSxFQUFVLENBQUM7SUFDYixHQUNBO01BQ0VGLFNBQUEsRUFBVyxDQUNULFVBQ0EsZ0JBQ0EsZ0JBQ0EsY0FDQSxtQkFDQSxTQUNBLGdCQUNEO01BQ0RFLFFBQUEsRUFBVSxDQUFDO0lBQ2IsRUFDRDtJQUNEQyxPQUFBLEVBQVMsQ0FDUCxHQUFHTixPQUFBLGNBQXFCLEVBQ3hCLEdBQUdBLE9BQUEsdUJBQThCLEVBQ2pDLEdBQUdBLE9BQUEsbUJBQTBCLEVBQzdCLEdBQUdBLE9BQUEscUJBQTRCLENBQ2hDO0lBQ0RPLElBQUEsRUFBTVA7RUFDUjtBQUNGIiwiaWdub3JlTGlzdCI6W119

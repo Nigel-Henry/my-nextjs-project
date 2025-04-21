@@ -37,37 +37,49 @@ export default async function HomePage() {
 
   // Fetch the latest 4 products for Categories to explore
   const latestProducts = await getLatestProducts({ limit: 4 })
-  const categories = latestProducts.map((product: ProductBase): CardItem => ({
-    name: product.name,
-    image: Array.isArray(product.images) && product.images.length > 0 
-      ? product.images[0] 
-      : '/images/fallback.jpg',
-    href: `/product/${product.slug}`,
-  }))
+  const categories = latestProducts.map(
+    (product: ProductBase): CardItem => ({
+      name: product.name,
+      image:
+        Array.isArray(product.images) && product.images.length > 0
+          ? product.images[0]
+          : '/images/fallback.jpg',
+      href: `/product/${product.slug}`,
+    })
+  )
 
-  const newArrivals = (await getProductsForCard({ tag: 'new-arrival' })).map((product: ProductBase): CardItem => ({
-    name: product.name,
-    image: Array.isArray(product.images) && product.images.length > 0 
-      ? product.images[0] 
-      : '/images/fallback.jpg',
-    href: `/product/${product.slug}`,
-  }))
+  const newArrivals = (await getProductsForCard({ tag: 'new-arrival' })).map(
+    (product: ProductBase): CardItem => ({
+      name: product.name,
+      image:
+        Array.isArray(product.images) && product.images.length > 0
+          ? product.images[0]
+          : '/images/fallback.jpg',
+      href: `/product/${product.slug}`,
+    })
+  )
 
-  const featureds = (await getProductsForCard({ tag: 'featured' })).map((product: ProductBase): CardItem => ({
-    name: product.name,
-    image: Array.isArray(product.images) && product.images.length > 0 
-      ? product.images[0] 
-      : '/images/fallback.jpg',
-    href: `/product/${product.slug}`,
-  }))
+  const featureds = (await getProductsForCard({ tag: 'featured' })).map(
+    (product: ProductBase): CardItem => ({
+      name: product.name,
+      image:
+        Array.isArray(product.images) && product.images.length > 0
+          ? product.images[0]
+          : '/images/fallback.jpg',
+      href: `/product/${product.slug}`,
+    })
+  )
 
-  const bestSellers = (await getProductsForCard({ tag: 'best-seller' })).map((product: ProductBase): CardItem => ({
-    name: product.name,
-    image: Array.isArray(product.images) && product.images.length > 0 
-      ? product.images[0] 
-      : '/images/fallback.jpg',
-    href: `/product/${product.slug}`,
-  }))
+  const bestSellers = (await getProductsForCard({ tag: 'best-seller' })).map(
+    (product: ProductBase): CardItem => ({
+      name: product.name,
+      image:
+        Array.isArray(product.images) && product.images.length > 0
+          ? product.images[0]
+          : '/images/fallback.jpg',
+      href: `/product/${product.slug}`,
+    })
+  )
 
   const cards = [
     {
@@ -107,15 +119,15 @@ export default async function HomePage() {
   return (
     <>
       <HomeCarousel items={carousels} />
-      <div className='md:p-4 md:space-y-4 bg-border'>
+      <div className="md:p-4 md:space-y-4 bg-border">
         <HomeCard cards={cards} />
-        <Card className='w-full rounded-none'>
-          <CardContent className='p-4 items-center gap-3'>
+        <Card className="w-full rounded-none">
+          <CardContent className="p-4 items-center gap-3">
             <ProductSlider title={t("Today's Deals")} products={todaysDeals} />
           </CardContent>
         </Card>
-        <Card className='w-full rounded-none'>
-          <CardContent className='p-4 items-center gap-3'>
+        <Card className="w-full rounded-none">
+          <CardContent className="p-4 items-center gap-3">
             <ProductSlider
               title={t('Best Selling Products')}
               products={bestSellingProducts}
@@ -125,7 +137,7 @@ export default async function HomePage() {
         </Card>
       </div>
 
-      <div className='p-4 bg-background'>
+      <div className="p-4 bg-background">
         <BrowsingHistoryList />
       </div>
     </>

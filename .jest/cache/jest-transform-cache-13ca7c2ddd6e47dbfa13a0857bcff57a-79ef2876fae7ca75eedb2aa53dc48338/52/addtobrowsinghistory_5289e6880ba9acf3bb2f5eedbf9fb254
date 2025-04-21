@@ -1,0 +1,389 @@
+5306a800c45ef61012f1c42601e5da00
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_2pi7quy0jb() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/product/add-to-browsing-history.tsx";
+  var hash = "38c4ff9a83bf71ac152a6430603519e87fd4f247";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/product/add-to-browsing-history.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 36
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 42
+        },
+        end: {
+          line: 12,
+          column: 114
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 31
+        }
+      },
+      "5": {
+        start: {
+          line: 15,
+          column: 4
+        },
+        end: {
+          line: 17,
+          column: 6
+        }
+      },
+      "6": {
+        start: {
+          line: 20,
+          column: 24
+        },
+        end: {
+          line: 20,
+          column: 58
+        }
+      },
+      "7": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 27,
+          column: 11
+        }
+      },
+      "8": {
+        start: {
+          line: 22,
+          column: 8
+        },
+        end: {
+          line: 25,
+          column: 11
+        }
+      },
+      "9": {
+        start: {
+          line: 28,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 16
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 14,
+            column: 9
+          },
+          end: {
+            line: 14,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 14,
+            column: 39
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 14
+      },
+      "2": {
+        name: "AddToBrowsingHistory",
+        decl: {
+          start: {
+            line: 19,
+            column: 9
+          },
+          end: {
+            line: 19,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 48
+          },
+          end: {
+            line: 29,
+            column: 1
+          }
+        },
+        line: 19
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 21,
+            column: 26
+          },
+          end: {
+            line: 21,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 30
+          },
+          end: {
+            line: 27,
+            column: 5
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 15,
+            column: 11
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 15,
+            column: 35
+          },
+          end: {
+            line: 15,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 15,
+            column: 41
+          },
+          end: {
+            line: 17,
+            column: 5
+          }
+        }],
+        line: 15
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 15,
+            column: 11
+          },
+          end: {
+            line: 15,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 15,
+            column: 11
+          },
+          end: {
+            line: 15,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 15,
+            column: 18
+          },
+          end: {
+            line: 15,
+            column: 32
+          }
+        }],
+        line: 15
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/product/add-to-browsing-history.tsx"],
+      sourcesContent: ["'use client'\nimport useBrowsingHistory from '@/hooks/use-browsing-history'\nimport { useEffect } from 'react'\n\nexport default function AddToBrowsingHistory({\n  id,\n  category,\n}: {\n  id: string\n  category: string\n}) {\n  const { addItem } = useBrowsingHistory()\n  useEffect(() => {\n    addItem({ id, category })\n    // eslint-disable-next-line react-hooks/exhaustive-deps\n  }, [])\n  return null\n}\n"],
+      names: ["AddToBrowsingHistory", "id", "category", "addItem", "useBrowsingHistory", "useEffect"],
+      mappings: "AAAA;;;;;+BAIA;;;eAAwBA;;;2EAHO;uBACL;;;;;;AAEX,SAASA,qBAAqB,EAC3CC,EAAE,EACFC,QAAQ,EAIT;IACC,MAAM,EAAEC,OAAO,EAAE,GAAGC,IAAAA,2BAAkB;IACtCC,IAAAA,gBAAS,EAAC;QACRF,QAAQ;YAAEF;YAAIC;QAAS;IACvB,uDAAuD;IACzD,GAAG,EAAE;IACL,OAAO;AACT"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "38c4ff9a83bf71ac152a6430603519e87fd4f247"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2pi7quy0jb = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2pi7quy0jb();
+cov_2pi7quy0jb().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2pi7quy0jb().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_2pi7quy0jb().f[0]++;
+    cov_2pi7quy0jb().s[2]++;
+    return AddToBrowsingHistory;
+  }
+});
+const _usebrowsinghistory =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_2pi7quy0jb().s[3]++, _interop_require_default(require("../../../hooks/use-browsing-history")));
+const _react =
+/* istanbul ignore next */
+(cov_2pi7quy0jb().s[4]++, require("react"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_2pi7quy0jb().f[1]++;
+  cov_2pi7quy0jb().s[5]++;
+  return /* istanbul ignore next */(cov_2pi7quy0jb().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_2pi7quy0jb().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_2pi7quy0jb().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_2pi7quy0jb().b[0][1]++, {
+    default: obj
+  });
+}
+function AddToBrowsingHistory({
+  id,
+  category
+}) {
+  /* istanbul ignore next */
+  cov_2pi7quy0jb().f[2]++;
+  const {
+    addItem
+  } =
+  /* istanbul ignore next */
+  (cov_2pi7quy0jb().s[6]++, (0, _usebrowsinghistory.default)());
+  /* istanbul ignore next */
+  cov_2pi7quy0jb().s[7]++;
+  (0, _react.useEffect)(() => {
+    /* istanbul ignore next */
+    cov_2pi7quy0jb().f[3]++;
+    cov_2pi7quy0jb().s[8]++;
+    addItem({
+      id,
+      category
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  /* istanbul ignore next */
+  cov_2pi7quy0jb().s[9]++;
+  return null;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJBZGRUb0Jyb3dzaW5nSGlzdG9yeSIsImlkIiwiY2F0ZWdvcnkiLCJjb3ZfMnBpN3F1eTBqYiIsImYiLCJhZGRJdGVtIiwicyIsIl91c2Vicm93c2luZ2hpc3RvcnkiLCJkZWZhdWx0IiwiX3JlYWN0IiwidXNlRWZmZWN0Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9jb21wb25lbnRzL3NoYXJlZC9wcm9kdWN0L2FkZC10by1icm93c2luZy1oaXN0b3J5LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCdcbmltcG9ydCB1c2VCcm93c2luZ0hpc3RvcnkgZnJvbSAnQC9ob29rcy91c2UtYnJvd3NpbmctaGlzdG9yeSdcbmltcG9ydCB7IHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0J1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBZGRUb0Jyb3dzaW5nSGlzdG9yeSh7XG4gIGlkLFxuICBjYXRlZ29yeSxcbn06IHtcbiAgaWQ6IHN0cmluZ1xuICBjYXRlZ29yeTogc3RyaW5nXG59KSB7XG4gIGNvbnN0IHsgYWRkSXRlbSB9ID0gdXNlQnJvd3NpbmdIaXN0b3J5KClcbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBhZGRJdGVtKHsgaWQsIGNhdGVnb3J5IH0pXG4gICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIHJlYWN0LWhvb2tzL2V4aGF1c3RpdmUtZGVwc1xuICB9LCBbXSlcbiAgcmV0dXJuIG51bGxcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBSUE7Ozs7OztXQUF3QkEsb0JBQUE7Ozs7O3dFQUhPOzs7a0NBQ0w7Ozs7Ozs7Ozs7Ozs7OztBQUVYLFNBQVNBLHFCQUFxQjtFQUMzQ0MsRUFBRTtFQUNGQztBQUFRLENBSVQ7RUFBQTtFQUFBQyxjQUFBLEdBQUFDLENBQUE7RUFDQyxNQUFNO0lBQUVDO0VBQU8sQ0FBRTtFQUFBO0VBQUEsQ0FBQUYsY0FBQSxHQUFBRyxDQUFBLE9BQUcsSUFBQUMsbUJBQUEsQ0FBQUMsT0FBa0I7RUFBQTtFQUFBTCxjQUFBLEdBQUFHLENBQUE7RUFDdEMsSUFBQUcsTUFBQSxDQUFBQyxTQUFTLEVBQUM7SUFBQTtJQUFBUCxjQUFBLEdBQUFDLENBQUE7SUFBQUQsY0FBQSxHQUFBRyxDQUFBO0lBQ1JELE9BQUEsQ0FBUTtNQUFFSixFQUFBO01BQUlDO0lBQVM7SUFDdkI7RUFDRixHQUFHLEVBQUU7RUFBQTtFQUFBQyxjQUFBLEdBQUFHLENBQUE7RUFDTCxPQUFPO0FBQ1QiLCJpZ25vcmVMaXN0IjpbXX0=

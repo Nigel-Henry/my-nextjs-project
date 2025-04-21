@@ -4,6 +4,6 @@ const config = {
     tailwindcss: {}, // Use the Tailwind CSS plugin directly
     autoprefixer: {}, // Ensure Autoprefixer is included
   },
-};
+}
 
-export default config;
+export default config

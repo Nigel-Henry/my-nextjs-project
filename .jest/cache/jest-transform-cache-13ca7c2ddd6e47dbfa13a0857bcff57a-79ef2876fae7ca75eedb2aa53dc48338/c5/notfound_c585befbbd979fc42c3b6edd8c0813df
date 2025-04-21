@@ -1,0 +1,382 @@
+df34c147d0e53b68aa8309c0ba3af07d
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_j4cbb56zj() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/not-found.tsx";
+  var hash = "9fd1a3c7e82c0bffaab0976f17fe1bcf19a9d574";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/not-found.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 29
+        },
+        end: {
+          line: 13,
+          column: 71
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 16
+        },
+        end: {
+          line: 14,
+          column: 53
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 6
+        }
+      },
+      "7": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 42,
+          column: 7
+        }
+      },
+      "8": {
+        start: {
+          line: 37,
+          column: 33
+        },
+        end: {
+          line: 37,
+          column: 59
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 39
+          },
+          end: {
+            line: 19,
+            column: 1
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "NotFound",
+        decl: {
+          start: {
+            line: 20,
+            column: 9
+          },
+          end: {
+            line: 20,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 20
+          },
+          end: {
+            line: 43,
+            column: 1
+          }
+        },
+        line: 20
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 37,
+            column: 29
+          },
+          end: {
+            line: 37,
+            column: 30
+          }
+        },
+        loc: {
+          start: {
+            line: 37,
+            column: 33
+          },
+          end: {
+            line: 37,
+            column: 59
+          }
+        },
+        line: 37
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 35
+          },
+          end: {
+            line: 16,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 41
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        }],
+        line: 16
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 16,
+            column: 11
+          },
+          end: {
+            line: 16,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 16,
+            column: 18
+          },
+          end: {
+            line: 16,
+            column: 32
+          }
+        }],
+        line: 16
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/not-found.tsx"],
+      sourcesContent: ["'use client'\nimport React from 'react'\n\nimport { Button } from '@/components/ui/button'\n\nexport default function NotFound() {\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-screen \">\n      <div className=\"p-6 rounded-lg shadow-md w-1/3 text-center\">\n        <h1 className=\"text-3xl font-bold mb-4\">Not Found</h1>\n        <p className=\"text-destructive\">Could not find requested resource</p>\n        <Button\n          variant=\"outline\"\n          className=\"mt-4 ml-2\"\n          onClick={() => (window.location.href = '/')}\n        >\n          Back to home\n        </Button>\n      </div>\n    </div>\n  )\n}\n"],
+      names: ["NotFound", "div", "className", "h1", "p", "Button", "variant", "onClick", "window", "location", "href"],
+      mappings: "AAAA;;;;;+BAKA;;;eAAwBA;;;;8DAJN;wBAEK;;;;;;AAER,SAASA;IACtB,qBACE,qBAACC;QAAIC,WAAU;kBACb,cAAA,sBAACD;YAAIC,WAAU;;8BACb,qBAACC;oBAAGD,WAAU;8BAA0B;;8BACxC,qBAACE;oBAAEF,WAAU;8BAAmB;;8BAChC,qBAACG,cAAM;oBACLC,SAAQ;oBACRJ,WAAU;oBACVK,SAAS,IAAOC,OAAOC,QAAQ,CAACC,IAAI,GAAG;8BACxC;;;;;AAMT"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "9fd1a3c7e82c0bffaab0976f17fe1bcf19a9d574"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_j4cbb56zj = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_j4cbb56zj();
+cov_j4cbb56zj().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_j4cbb56zj().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_j4cbb56zj().f[0]++;
+    cov_j4cbb56zj().s[2]++;
+    return NotFound;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_j4cbb56zj().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_j4cbb56zj().s[4]++, _interop_require_default(require("react")));
+const _button =
+/* istanbul ignore next */
+(cov_j4cbb56zj().s[5]++, require("../../components/ui/button"));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_j4cbb56zj().f[1]++;
+  cov_j4cbb56zj().s[6]++;
+  return /* istanbul ignore next */(cov_j4cbb56zj().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_j4cbb56zj().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_j4cbb56zj().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_j4cbb56zj().b[0][1]++, {
+    default: obj
+  });
+}
+function NotFound() {
+  /* istanbul ignore next */
+  cov_j4cbb56zj().f[2]++;
+  cov_j4cbb56zj().s[7]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: "flex flex-col items-center justify-center min-h-screen ",
+    children: /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+      className: "p-6 rounded-lg shadow-md w-1/3 text-center",
+      children: [/*#__PURE__*/(0, _jsxruntime.jsx)("h1", {
+        className: "text-3xl font-bold mb-4",
+        children: "Not Found"
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)("p", {
+        className: "text-destructive",
+        children: "Could not find requested resource"
+      }), /*#__PURE__*/(0, _jsxruntime.jsx)(_button.Button, {
+        variant: "outline",
+        className: "mt-4 ml-2",
+        onClick: () => {
+          /* istanbul ignore next */
+          cov_j4cbb56zj().f[3]++;
+          cov_j4cbb56zj().s[8]++;
+          return window.location.href = '/';
+        },
+        children: "Back to home"
+      })]
+    })
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJOb3RGb3VuZCIsImNvdl9qNGNiYjU2emoiLCJmIiwicyIsIl9qc3hydW50aW1lIiwianN4IiwiY2xhc3NOYW1lIiwianN4cyIsIl9idXR0b24iLCJCdXR0b24iLCJ2YXJpYW50Iiwib25DbGljayIsIndpbmRvdyIsImxvY2F0aW9uIiwiaHJlZiJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vYXBwL1tsb2NhbGVdL25vdC1mb3VuZC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE5vdEZvdW5kKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbWluLWgtc2NyZWVuIFwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJwLTYgcm91bmRlZC1sZyBzaGFkb3ctbWQgdy0xLzMgdGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cInRleHQtM3hsIGZvbnQtYm9sZCBtYi00XCI+Tm90IEZvdW5kPC9oMT5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1kZXN0cnVjdGl2ZVwiPkNvdWxkIG5vdCBmaW5kIHJlcXVlc3RlZCByZXNvdXJjZTwvcD5cbiAgICAgICAgPEJ1dHRvblxuICAgICAgICAgIHZhcmlhbnQ9XCJvdXRsaW5lXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJtdC00IG1sLTJcIlxuICAgICAgICAgIG9uQ2xpY2s9eygpID0+ICh3aW5kb3cubG9jYXRpb24uaHJlZiA9ICcvJyl9XG4gICAgICAgID5cbiAgICAgICAgICBCYWNrIHRvIGhvbWVcbiAgICAgICAgPC9CdXR0b24+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKVxufVxuIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBS0E7Ozs7OztXQUF3QkEsUUFBQTs7Ozs7Ozs7dUVBSk47OztpQ0FFSzs7Ozs7Ozs7Ozs7Ozs7O0FBRVIsU0FBU0EsU0FBQTtFQUFBO0VBQUFDLGFBQUEsR0FBQUMsQ0FBQTtFQUFBRCxhQUFBLEdBQUFFLENBQUE7RUFDdEIsb0JBQ0UsSUFBQUMsV0FBQSxDQUFBQyxHQUFBLEVBQUM7SUFBSUMsU0FBQSxFQUFVO2NBQ2IsaUJBQUFGLFdBQUEsQ0FBQUcsSUFBQSxFQUFDO01BQUlELFNBQUEsRUFBVTs4QkFDYixJQUFBRixXQUFBLENBQUFDLEdBQUEsRUFBQztRQUFHQyxTQUFBLEVBQVU7a0JBQTBCO3VCQUN4QyxJQUFBRixXQUFBLENBQUFDLEdBQUEsRUFBQztRQUFFQyxTQUFBLEVBQVU7a0JBQW1CO3VCQUNoQyxJQUFBRixXQUFBLENBQUFDLEdBQUEsRUFBQ0csT0FBQSxDQUFBQyxNQUFNO1FBQ0xDLE9BQUEsRUFBUTtRQUNSSixTQUFBLEVBQVU7UUFDVkssT0FBQSxFQUFTQSxDQUFBLEtBQU87VUFBQTtVQUFBVixhQUFBLEdBQUFDLENBQUE7VUFBQUQsYUFBQSxHQUFBRSxDQUFBO1VBQUEsT0FBQVMsTUFBQSxDQUFPQyxRQUFRLENBQUNDLElBQUksR0FBRztRQUFBO2tCQUN4Qzs7OztBQU1UIiwiaWdub3JlTGlzdCI6W119

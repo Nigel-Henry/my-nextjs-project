@@ -15,17 +15,17 @@ export default function BrowsingHistoryList({
   const t = useTranslations('Home')
   return (
     products.length !== 0 && (
-      <div className='bg-background'>
+      <div className="bg-background">
         <Separator className={cn('mb-4', className)} />
         <ProductList
           title={t("Related to items that you've viewed")}
-          type='related'
+          type="related"
         />
-        <Separator className='mb-4' />
+        <Separator className="mb-4" />
         <ProductList
           title={t('Your browsing history')}
           hideDetails
-          type='history'
+          type="history"
         />
       </div>
     )

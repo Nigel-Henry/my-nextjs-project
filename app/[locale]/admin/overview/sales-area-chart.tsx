@@ -32,9 +32,9 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({
   if (active && payload && payload.length) {
     return (
       <Card>
-        <CardContent className='p-2'>
+        <CardContent className="p-2">
           <p>{label && formatDateTime(new Date(label)).dateOnly}</p>
-          <p className='text-primary text-xl'>
+          <p className="text-primary text-xl">
             <ProductPrice price={payload[0].value} plain />
           </p>
         </CardContent>
@@ -46,7 +46,7 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({
 
 const CustomXAxisTick: React.FC<any> = ({ x, y, payload }) => {
   return (
-    <text x={x} y={y + 10} textAnchor='left' fill='#666' className='text-xs'>
+    <text x={x} y={y + 10} textAnchor="left" fill="#666" className="text-xs">
       {formatDateTime(new Date(payload.value)).dateOnly}
       {/* {`${payload.value.split('/')[1]}/${payload.value.split('/')[2]}`} */}
     </text>
@@ -63,15 +63,15 @@ export default function SalesAreaChart({ data }: { data: any[] }) {
   const { cssColors, color } = useColorStore(theme)
 
   return (
-    <ResponsiveContainer width='100%' height={400}>
+    <ResponsiveContainer width="100%" height={400}>
       <AreaChart data={data}>
-        <CartesianGrid horizontal={true} vertical={false} stroke='' />
-        <XAxis dataKey='date' tick={<CustomXAxisTick />} interval={3} />
+        <CartesianGrid horizontal={true} vertical={false} stroke="" />
+        <XAxis dataKey="date" tick={<CustomXAxisTick />} interval={3} />
         <YAxis fontSize={12} tickFormatter={(value: number) => `$${value}`} />
         <Tooltip content={<CustomTooltip />} />
         <Area
-          type='monotone'
-          dataKey='totalSales'
+          type="monotone"
+          dataKey="totalSales"
           stroke={STROKE_COLORS[color.name][theme || 'light']}
           strokeWidth={2}
           fill={`hsl(${cssColors['--primary']})`}

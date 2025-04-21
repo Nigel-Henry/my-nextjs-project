@@ -54,108 +54,108 @@ export default function OverviewReport() {
 
   if (!data)
     return (
-      <div className='space-y-4'>
+      <div className="space-y-4">
         <div>
-          <h1 className='h1-bold'>Dashboard</h1>
+          <h1 className="h1-bold">Dashboard</h1>
         </div>
         {/* First Row */}
-        <div className='flex gap-4'>
+        <div className="flex gap-4">
           {[...Array(4)].map((_, index) => (
-            <Skeleton key={index} className='h-36 w-full' />
+            <Skeleton key={index} className="h-36 w-full" />
           ))}
         </div>
 
         {/* Second Row */}
         <div>
-          <Skeleton className='h-[30rem] w-full' />
+          <Skeleton className="h-[30rem] w-full" />
         </div>
 
         {/* Third Row */}
-        <div className='flex gap-4'>
+        <div className="flex gap-4">
           {[...Array(2)].map((_, index) => (
-            <Skeleton key={index} className='h-60 w-full' />
+            <Skeleton key={index} className="h-60 w-full" />
           ))}
         </div>
 
         {/* Fourth Row */}
-        <div className='flex gap-4'>
+        <div className="flex gap-4">
           {[...Array(2)].map((_, index) => (
-            <Skeleton key={index} className='h-60 w-full' />
+            <Skeleton key={index} className="h-60 w-full" />
           ))}
         </div>
       </div>
     )
   return (
     <div>
-      <div className='flex items-center justify-between mb-2'>
-        <h1 className='h1-bold'>{t('Dashboard')}</h1>
+      <div className="flex items-center justify-between mb-2">
+        <h1 className="h1-bold">{t('Dashboard')}</h1>
         <CalendarDateRangePicker defaultDate={date} setDate={setDate} />
       </div>
-      <div className='space-y-4'>
-        <div className='grid gap-4  grid-cols-2 lg:grid-cols-4'>
+      <div className="space-y-4">
+        <div className="grid gap-4  grid-cols-2 lg:grid-cols-4">
           <Card>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-              <CardTitle className='text-sm font-medium'>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">
                 {t('Total Revenue')}
               </CardTitle>
               <BadgeDollarSign />
             </CardHeader>
-            <CardContent className='space-y-2'>
-              <div className='text-2xl font-bold'>
+            <CardContent className="space-y-2">
+              <div className="text-2xl font-bold">
                 <ProductPrice price={data.totalSales} plain />
               </div>
               <div>
-                <Link className='text-xs' href='/admin/orders'>
+                <Link className="text-xs" href="/admin/orders">
                   {t('View revenue')}
                 </Link>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-              <CardTitle className='text-sm font-medium'>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">
                 {t('Sales')}
               </CardTitle>
               <CreditCard />
             </CardHeader>
-            <CardContent className='space-y-2'>
-              <div className='text-2xl font-bold'>
+            <CardContent className="space-y-2">
+              <div className="text-2xl font-bold">
                 {formatNumber(data.ordersCount)}
               </div>
               <div>
-                <Link className='text-xs' href='/admin/orders'>
+                <Link className="text-xs" href="/admin/orders">
                   {t('View orders')}
                 </Link>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-              <CardTitle className='text-sm font-medium'>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">
                 {t('Customers')}
               </CardTitle>
               <Users />
             </CardHeader>
-            <CardContent className='space-y-2'>
-              <div className='text-2xl font-bold'>{data.usersCount}</div>
+            <CardContent className="space-y-2">
+              <div className="text-2xl font-bold">{data.usersCount}</div>
               <div>
-                <Link className='text-xs' href='/admin/users'>
+                <Link className="text-xs" href="/admin/users">
                   {t('View customers')}
                 </Link>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-              <CardTitle className='text-sm font-medium'>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">
                 {t('Products')}
               </CardTitle>
               <Barcode />
             </CardHeader>
-            <CardContent className='space-y-2'>
-              <div className='text-2xl font-bold'>{data.productsCount}</div>
+            <CardContent className="space-y-2">
+              <div className="text-2xl font-bold">{data.productsCount}</div>
               <div>
-                <Link className='text-xs' href='/admin/products'>
+                <Link className="text-xs" href="/admin/products">
                   {t('View products')}
                 </Link>
               </div>
@@ -173,7 +173,7 @@ export default function OverviewReport() {
           </Card>
         </div>
 
-        <div className='grid gap-4 md:grid-cols-2'>
+        <div className="grid gap-4 md:grid-cols-2">
           <Card>
             <CardHeader>
               <CardTitle>{t('How much you’re earning')}</CardTitle>
@@ -182,7 +182,7 @@ export default function OverviewReport() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <TableChart data={data.monthlySales} labelType='month' />
+              <TableChart data={data.monthlySales} labelType="month" />
             </CardContent>
           </Card>
           <Card>
@@ -194,12 +194,12 @@ export default function OverviewReport() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <TableChart data={data.topSalesProducts} labelType='product' />
+              <TableChart data={data.topSalesProducts} labelType="product" />
             </CardContent>
           </Card>
         </div>
 
-        <div className='grid gap-4 md:grid-cols-2'>
+        <div className="grid gap-4 md:grid-cols-2">
           <Card>
             <CardHeader>
               <CardTitle>{t('Best-Selling Categories')}</CardTitle>
@@ -238,7 +238,7 @@ export default function OverviewReport() {
 
                       <TableCell>
                         <Link href={`/admin/orders/${order._id}`}>
-                          <span className='px-2'>{t('Details')}</span>
+                          <span className="px-2">{t('Details')}</span>
                         </Link>
                       </TableCell>
                     </TableRow>

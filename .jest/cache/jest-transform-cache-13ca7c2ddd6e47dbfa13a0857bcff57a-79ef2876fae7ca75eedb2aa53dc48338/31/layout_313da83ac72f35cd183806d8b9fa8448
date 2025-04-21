@@ -1,0 +1,386 @@
+648a0e849a135ce1c73e6bae040cd6ad
+"use strict";
+
+/* istanbul ignore next */
+function cov_laxvsiw4u() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/layout.tsx";
+  var hash = "8805dac633e1441f26cafba4191516e9cb217458";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/layout.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 30
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 21
+        },
+        end: {
+          line: 12,
+          column: 44
+        }
+      },
+      "5": {
+        start: {
+          line: 13,
+          column: 29
+        },
+        end: {
+          line: 13,
+          column: 76
+        }
+      },
+      "6": {
+        start: {
+          line: 14,
+          column: 28
+        },
+        end: {
+          line: 14,
+          column: 74
+        }
+      },
+      "7": {
+        start: {
+          line: 15,
+          column: 29
+        },
+        end: {
+          line: 15,
+          column: 71
+        }
+      },
+      "8": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 19,
+          column: 6
+        }
+      },
+      "9": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 62,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 16,
+            column: 9
+          },
+          end: {
+            line: 16,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 39
+          },
+          end: {
+            line: 20,
+            column: 1
+          }
+        },
+        line: 16
+      },
+      "2": {
+        name: "CheckoutLayout",
+        decl: {
+          start: {
+            line: 21,
+            column: 9
+          },
+          end: {
+            line: 21,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 38
+          },
+          end: {
+            line: 63,
+            column: 1
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 17,
+            column: 35
+          },
+          end: {
+            line: 17,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 17,
+            column: 41
+          },
+          end: {
+            line: 19,
+            column: 5
+          }
+        }],
+        line: 17
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 17,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 17,
+            column: 11
+          },
+          end: {
+            line: 17,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 17,
+            column: 18
+          },
+          end: {
+            line: 17,
+            column: 32
+          }
+        }],
+        line: 17
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/app/[locale]/checkout/layout.tsx"],
+      sourcesContent: ["import { HelpCircle } from 'lucide-react'\nimport Image from 'next/image'\nimport Link from 'next/link'\nimport React from 'react'\n\nexport default function CheckoutLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  return (\n    <div className=\"p-4\">\n      <header className=\"bg-card mb-4 border-b\">\n        <div className=\"max-w-6xl mx-auto flex justify-between items-center\">\n          <Link href=\"/\">\n            <Image\n              src=\"/icons/logo.svg\"\n              alt=\"logo\"\n              width={70}\n              height={70}\n              style={{\n                maxWidth: '100%',\n                height: 'auto',\n              }}\n            />\n          </Link>\n          <div>\n            <h1 className=\"text-3xl\">Checkout</h1>\n          </div>\n          <div>\n            <Link href=\"/page/help\">\n              <HelpCircle className=\"w-6 h-6\" />\n            </Link>\n          </div>\n        </div>\n      </header>\n      {children}\n    </div>\n  )\n}\n"],
+      names: ["CheckoutLayout", "children", "div", "className", "header", "Link", "href", "Image", "src", "alt", "width", "height", "style", "maxWidth", "h1", "HelpCircle"],
+      mappings: ";;;;+BAKA;;;eAAwBA;;;;6BALG;8DACT;6DACD;8DACC;;;;;;AAEH,SAASA,eAAe,EACrCC,QAAQ,EAGT;IACC,qBACE,sBAACC;QAAIC,WAAU;;0BACb,qBAACC;gBAAOD,WAAU;0BAChB,cAAA,sBAACD;oBAAIC,WAAU;;sCACb,qBAACE,aAAI;4BAACC,MAAK;sCACT,cAAA,qBAACC,cAAK;gCACJC,KAAI;gCACJC,KAAI;gCACJC,OAAO;gCACPC,QAAQ;gCACRC,OAAO;oCACLC,UAAU;oCACVF,QAAQ;gCACV;;;sCAGJ,qBAACT;sCACC,cAAA,qBAACY;gCAAGX,WAAU;0CAAW;;;sCAE3B,qBAACD;sCACC,cAAA,qBAACG,aAAI;gCAACC,MAAK;0CACT,cAAA,qBAACS,uBAAU;oCAACZ,WAAU;;;;;;;YAK7BF;;;AAGP"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "8805dac633e1441f26cafba4191516e9cb217458"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_laxvsiw4u = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_laxvsiw4u();
+cov_laxvsiw4u().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_laxvsiw4u().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_laxvsiw4u().f[0]++;
+    cov_laxvsiw4u().s[2]++;
+    return CheckoutLayout;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_laxvsiw4u().s[3]++, require("react/jsx-runtime"));
+const _lucidereact =
+/* istanbul ignore next */
+(cov_laxvsiw4u().s[4]++, require("lucide-react"));
+const _image =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_laxvsiw4u().s[5]++, _interop_require_default(require("next/image")));
+const _link =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_laxvsiw4u().s[6]++, _interop_require_default(require("next/link")));
+const _react =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_laxvsiw4u().s[7]++, _interop_require_default(require("react")));
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_laxvsiw4u().f[1]++;
+  cov_laxvsiw4u().s[8]++;
+  return /* istanbul ignore next */(cov_laxvsiw4u().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_laxvsiw4u().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_laxvsiw4u().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_laxvsiw4u().b[0][1]++, {
+    default: obj
+  });
+}
+function CheckoutLayout({
+  children
+}) {
+  /* istanbul ignore next */
+  cov_laxvsiw4u().f[2]++;
+  cov_laxvsiw4u().s[9]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    className: "p-4",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)("header", {
+      className: "bg-card mb-4 border-b",
+      children: /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+        className: "max-w-6xl mx-auto flex justify-between items-center",
+        children: [/*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+          href: "/",
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_image.default, {
+            src: "/icons/logo.svg",
+            alt: "logo",
+            width: 70,
+            height: 70,
+            style: {
+              maxWidth: '100%',
+              height: 'auto'
+            }
+          })
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)("h1", {
+            className: "text-3xl",
+            children: "Checkout"
+          })
+        }), /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_link.default, {
+            href: "/page/help",
+            children: /*#__PURE__*/(0, _jsxruntime.jsx)(_lucidereact.HelpCircle, {
+              className: "w-6 h-6"
+            })
+          })
+        })]
+      })
+    }), children]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJDaGVja291dExheW91dCIsImNoaWxkcmVuIiwiY292X2xheHZzaXc0dSIsImYiLCJzIiwiX2pzeHJ1bnRpbWUiLCJqc3hzIiwiY2xhc3NOYW1lIiwianN4IiwiX2xpbmsiLCJkZWZhdWx0IiwiaHJlZiIsIl9pbWFnZSIsInNyYyIsImFsdCIsIndpZHRoIiwiaGVpZ2h0Iiwic3R5bGUiLCJtYXhXaWR0aCIsIl9sdWNpZGVyZWFjdCIsIkhlbHBDaXJjbGUiXSwic291cmNlcyI6WyIvaG9tZS9tYXJrL0Rvd25sb2Fkcy9uZXh0anMtYW1hem9uYS1tYWluL2FwcC9bbG9jYWxlXS9jaGVja291dC9sYXlvdXQudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhlbHBDaXJjbGUgfSBmcm9tICdsdWNpZGUtcmVhY3QnXG5pbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZSdcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ2hlY2tvdXRMYXlvdXQoe1xuICBjaGlsZHJlbixcbn06IHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZVxufSkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwicC00XCI+XG4gICAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImJnLWNhcmQgbWItNCBib3JkZXItYlwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1heC13LTZ4bCBteC1hdXRvIGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XG4gICAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgICAgc3JjPVwiL2ljb25zL2xvZ28uc3ZnXCJcbiAgICAgICAgICAgICAgYWx0PVwibG9nb1wiXG4gICAgICAgICAgICAgIHdpZHRoPXs3MH1cbiAgICAgICAgICAgICAgaGVpZ2h0PXs3MH1cbiAgICAgICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgICAgICBtYXhXaWR0aDogJzEwMCUnLFxuICAgICAgICAgICAgICAgIGhlaWdodDogJ2F1dG8nLFxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgLz5cbiAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ0ZXh0LTN4bFwiPkNoZWNrb3V0PC9oMT5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9wYWdlL2hlbHBcIj5cbiAgICAgICAgICAgICAgPEhlbHBDaXJjbGUgY2xhc3NOYW1lPVwidy02IGgtNlwiIC8+XG4gICAgICAgICAgICA8L0xpbms+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9oZWFkZXI+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgPC9kaXY+XG4gIClcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7K0JBS0E7Ozs7OztXQUF3QkEsY0FBQTs7Ozs7Ozs7aUNBTEc7Ozt1RUFDVDs7O3VFQUNEOzs7dUVBQ0M7Ozs7Ozs7Ozs7Ozs7OztBQUVILFNBQVNBLGVBQWU7RUFDckNDO0FBQVEsQ0FHVDtFQUFBO0VBQUFDLGFBQUEsR0FBQUMsQ0FBQTtFQUFBRCxhQUFBLEdBQUFFLENBQUE7RUFDQyxvQkFDRSxJQUFBQyxXQUFBLENBQUFDLElBQUEsRUFBQztJQUFJQyxTQUFBLEVBQVU7NEJBQ2IsSUFBQUYsV0FBQSxDQUFBRyxHQUFBLEVBQUM7TUFBT0QsU0FBQSxFQUFVO2dCQUNoQixpQkFBQUYsV0FBQSxDQUFBQyxJQUFBLEVBQUM7UUFBSUMsU0FBQSxFQUFVO2dDQUNiLElBQUFGLFdBQUEsQ0FBQUcsR0FBQSxFQUFDQyxLQUFBLENBQUFDLE9BQUk7VUFBQ0MsSUFBQSxFQUFLO29CQUNULGlCQUFBTixXQUFBLENBQUFHLEdBQUEsRUFBQ0ksTUFBQSxDQUFBRixPQUFLO1lBQ0pHLEdBQUEsRUFBSTtZQUNKQyxHQUFBLEVBQUk7WUFDSkMsS0FBQSxFQUFPO1lBQ1BDLE1BQUEsRUFBUTtZQUNSQyxLQUFBLEVBQU87Y0FDTEMsUUFBQSxFQUFVO2NBQ1ZGLE1BQUEsRUFBUTtZQUNWOzt5QkFHSixJQUFBWCxXQUFBLENBQUFHLEdBQUEsRUFBQztvQkFDQyxpQkFBQUgsV0FBQSxDQUFBRyxHQUFBLEVBQUM7WUFBR0QsU0FBQSxFQUFVO3NCQUFXOzt5QkFFM0IsSUFBQUYsV0FBQSxDQUFBRyxHQUFBLEVBQUM7b0JBQ0MsaUJBQUFILFdBQUEsQ0FBQUcsR0FBQSxFQUFDQyxLQUFBLENBQUFDLE9BQUk7WUFBQ0MsSUFBQSxFQUFLO3NCQUNULGlCQUFBTixXQUFBLENBQUFHLEdBQUEsRUFBQ1csWUFBQSxDQUFBQyxVQUFVO2NBQUNiLFNBQUEsRUFBVTs7Ozs7UUFLN0JOLFFBQUE7O0FBR1AiLCJpZ25vcmVMaXN0IjpbXX0=

@@ -33,8 +33,8 @@ export default async function AdminUser(props: {
     page,
   })
   return (
-    <div className='space-y-2'>
-      <h1 className='h1-bold'>Users</h1>
+    <div className="space-y-2">
+      <h1 className="h1-bold">Users</h1>
       <div>
         <Table>
           <TableHeader>
@@ -53,8 +53,8 @@ export default async function AdminUser(props: {
                 <TableCell>{user.name}</TableCell>
                 <TableCell>{user.email}</TableCell>
                 <TableCell>{user.role}</TableCell>
-                <TableCell className='flex gap-1'>
-                  <Button asChild variant='outline' size='sm'>
+                <TableCell className="flex gap-1">
+                  <Button asChild variant="outline" size="sm">
                     <Link href={`/admin/users/${user._id}`}>Edit</Link>
                   </Button>
                   <DeleteDialog id={user._id} action={deleteUser} />

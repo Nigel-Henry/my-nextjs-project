@@ -57,20 +57,20 @@ export const ProfileForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className='  flex flex-col gap-5'
+        className="  flex flex-col gap-5"
       >
-        <div className='flex flex-col gap-5'>
+        <div className="flex flex-col gap-5">
           <FormField
             control={form.control}
-            name='name'
+            name="name"
             render={({ field }) => (
-              <FormItem className='w-full'>
-                <FormLabel className='font-bold'>New name</FormLabel>
+              <FormItem className="w-full">
+                <FormLabel className="font-bold">New name</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder='Name'
+                    placeholder="Name"
                     {...field}
-                    className='input-field'
+                    className="input-field"
                   />
                 </FormControl>
                 <FormMessage />
@@ -80,10 +80,10 @@ export const ProfileForm = () => {
         </div>
 
         <Button
-          type='submit'
-          size='lg'
+          type="submit"
+          size="lg"
           disabled={form.formState.isSubmitting}
-          className='button col-span-2 w-full'
+          className="button col-span-2 w-full"
         >
           {form.formState.isSubmitting ? 'Submitting...' : 'Save Changes'}
         </Button>

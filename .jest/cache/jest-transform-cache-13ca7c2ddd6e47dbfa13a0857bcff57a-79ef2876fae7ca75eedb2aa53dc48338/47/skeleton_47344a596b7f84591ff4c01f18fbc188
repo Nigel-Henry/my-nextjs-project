@@ -1,0 +1,195 @@
+35f6ae201967dde4854f49007b5b4eaf
+"use strict";
+
+/* istanbul ignore next */
+function cov_6r21jve9y() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/ui/skeleton.tsx";
+  var hash = "b3fcd53ffb2a28735ca9853d2e7cccdbb0189403";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/ui/skeleton.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 4,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 24
+        }
+      },
+      "3": {
+        start: {
+          line: 11,
+          column: 20
+        },
+        end: {
+          line: 11,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 12,
+          column: 15
+        },
+        end: {
+          line: 12,
+          column: 41
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 4
+        },
+        end: {
+          line: 17,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 9
+          },
+          end: {
+            line: 7,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 20
+          },
+          end: {
+            line: 9,
+            column: 5
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "Skeleton",
+        decl: {
+          start: {
+            line: 13,
+            column: 9
+          },
+          end: {
+            line: 13,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 43
+          },
+          end: {
+            line: 18,
+            column: 1
+          }
+        },
+        line: 13
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/ui/skeleton.tsx"],
+      sourcesContent: ["import { cn } from '@/lib/utils'\n\nfunction Skeleton({\n  className,\n  ...props\n}: React.HTMLAttributes<HTMLDivElement>) {\n  return (\n    <div\n      className={cn('animate-pulse rounded-md bg-primary/10', className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n"],
+      names: ["Skeleton", "className", "props", "div", "cn"],
+      mappings: ";;;;+BAcSA;;;eAAAA;;;;uBAdU;AAEnB,SAASA,SAAS,EAChBC,SAAS,EACT,GAAGC,OACkC;IACrC,qBACE,qBAACC;QACCF,WAAWG,IAAAA,SAAE,EAAC,0CAA0CH;QACvD,GAAGC,KAAK;;AAGf"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "b3fcd53ffb2a28735ca9853d2e7cccdbb0189403"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_6r21jve9y = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_6r21jve9y();
+cov_6r21jve9y().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_6r21jve9y().s[1]++;
+Object.defineProperty(exports, "Skeleton", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_6r21jve9y().f[0]++;
+    cov_6r21jve9y().s[2]++;
+    return Skeleton;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_6r21jve9y().s[3]++, require("react/jsx-runtime"));
+const _utils =
+/* istanbul ignore next */
+(cov_6r21jve9y().s[4]++, require("../../lib/utils"));
+function Skeleton({
+  className,
+  ...props
+}) {
+  /* istanbul ignore next */
+  cov_6r21jve9y().f[1]++;
+  cov_6r21jve9y().s[5]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+    className: (0, _utils.cn)('animate-pulse rounded-md bg-primary/10', className),
+    ...props
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfNnIyMWp2ZTl5IiwiYWN0dWFsQ292ZXJhZ2UiLCJzIiwiU2tlbGV0b24iLCJjbGFzc05hbWUiLCJwcm9wcyIsImYiLCJfanN4cnVudGltZSIsImpzeCIsIl91dGlscyIsImNuIl0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9jb21wb25lbnRzL3VpL3NrZWxldG9uLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjbiB9IGZyb20gJ0AvbGliL3V0aWxzJ1xuXG5mdW5jdGlvbiBTa2VsZXRvbih7XG4gIGNsYXNzTmFtZSxcbiAgLi4ucHJvcHNcbn06IFJlYWN0LkhUTUxBdHRyaWJ1dGVzPEhUTUxEaXZFbGVtZW50Pikge1xuICByZXR1cm4gKFxuICAgIDxkaXZcbiAgICAgIGNsYXNzTmFtZT17Y24oJ2FuaW1hdGUtcHVsc2Ugcm91bmRlZC1tZCBiZy1wcmltYXJ5LzEwJywgY2xhc3NOYW1lKX1cbiAgICAgIHsuLi5wcm9wc31cbiAgICAvPlxuICApXG59XG5cbmV4cG9ydCB7IFNrZWxldG9uIH1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFTVTtJQUFBQSxhQUFBLFlBQUFBLENBQUE7TUFBQSxPQUFBQyxjQUFBO0lBQUE7RUFBQTtFQUFBLE9BQUFBLGNBQUE7QUFBQTtBQUFBRCxhQUFBO0FBQUFBLGFBQUEsR0FBQUUsQ0FBQTs7Ozs7OytCQUtEOzs7Ozs7V0FBQUMsUUFBQTs7Ozs7Ozs7aUNBZFU7QUFFbkIsU0FBU0EsU0FBUztFQUNoQkMsU0FBUztFQUNULEdBQUdDO0FBQUEsQ0FDa0M7RUFBQTtFQUFBTCxhQUFBLEdBQUFNLENBQUE7RUFBQU4sYUFBQSxHQUFBRSxDQUFBO0VBQ3JDLG9CQUNFLElBQUFLLFdBQUEsQ0FBQUMsR0FBQSxFQUFDO0lBQ0NKLFNBQUEsRUFBVyxJQUFBSyxNQUFBLENBQUFDLEVBQUUsRUFBQywwQ0FBMENOLFNBQUE7SUFDdkQsR0FBR0M7O0FBR1YiLCJpZ25vcmVMaXN0IjpbXX0=

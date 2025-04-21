@@ -31,16 +31,16 @@ export default async function SignInPage(props: {
   }
 
   return (
-    <div className='w-full'>
+    <div className="w-full">
       <Card>
         <CardHeader>
-          <CardTitle className='text-2xl'>Sign In</CardTitle>
+          <CardTitle className="text-2xl">Sign In</CardTitle>
         </CardHeader>
         <CardContent>
           <div>
             <CredentialsSignInForm />
             <SeparatorWithOr />
-            <div className='mt-4'>
+            <div className="mt-4">
               <GoogleSignInForm />
             </div>
           </div>
@@ -49,7 +49,7 @@ export default async function SignInPage(props: {
       <SeparatorWithOr>New to {site.name}?</SeparatorWithOr>
 
       <Link href={`/sign-up?callbackUrl=${encodeURIComponent(callbackUrl)}`}>
-        <Button className='w-full' variant='outline'>
+        <Button className="w-full" variant="outline">
           Create your {site.name} account
         </Button>
       </Link>

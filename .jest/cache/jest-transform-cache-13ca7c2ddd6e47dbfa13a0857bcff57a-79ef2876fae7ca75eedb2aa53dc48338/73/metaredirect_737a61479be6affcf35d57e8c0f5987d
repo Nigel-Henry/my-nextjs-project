@@ -1,0 +1,411 @@
+4a269e0f08871fb052fe6b5c621a85d6
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_1884a3z485() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/meta-redirect.tsx";
+  var hash = "f12ead3aaff62379710ccca83a2991345a8220e9";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/meta-redirect.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 28
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 31
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 20
+        },
+        end: {
+          line: 14,
+          column: 46
+        }
+      },
+      "6": {
+        start: {
+          line: 16,
+          column: 19
+        },
+        end: {
+          line: 16,
+          column: 47
+        }
+      },
+      "7": {
+        start: {
+          line: 17,
+          column: 4
+        },
+        end: {
+          line: 26,
+          column: 7
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 24
+        },
+        end: {
+          line: 20,
+          column: 17
+        }
+      },
+      "9": {
+        start: {
+          line: 19,
+          column: 12
+        },
+        end: {
+          line: 19,
+          column: 28
+        }
+      },
+      "10": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 41
+        }
+      },
+      "11": {
+        start: {
+          line: 21,
+          column: 19
+        },
+        end: {
+          line: 21,
+          column: 40
+        }
+      },
+      "12": {
+        start: {
+          line: 27,
+          column: 4
+        },
+        end: {
+          line: 38,
+          column: 7
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "MetaRedirect",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 41
+          },
+          end: {
+            line: 39,
+            column: 1
+          }
+        },
+        line: 15
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 17,
+            column: 26
+          },
+          end: {
+            line: 17,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 30
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        line: 17
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 18,
+            column: 35
+          },
+          end: {
+            line: 18,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 39
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 18
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 21,
+            column: 15
+          },
+          end: {
+            line: 21,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 19
+          },
+          end: {
+            line: 21,
+            column: 40
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 15,
+            column: 28
+          },
+          end: {
+            line: 15,
+            column: 37
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 15,
+            column: 36
+          },
+          end: {
+            line: 15,
+            column: 37
+          }
+        }],
+        line: 15
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {
+      "0": [0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/meta-redirect.tsx"],
+      sourcesContent: ["'use client'\n\nimport { useEffect } from 'react'\nimport { useRouter } from 'next/navigation'\n\ninterface MetaRedirectProps {\n  to: string\n  delay?: number\n}\n\nexport default function MetaRedirect({ to, delay = 0 }: MetaRedirectProps) {\n  const router = useRouter()\n\n  useEffect(() => {\n    const timeout = setTimeout(() => {\n      router.push(to)\n    }, delay)\n\n    return () => clearTimeout(timeout)\n  }, [to, delay, router])\n\n  return (\n    <>\n      <meta httpEquiv=\"refresh\" content={`${delay / 1000};url=${to}`} />\n      <link rel=\"canonical\" href={to} />\n    </>\n  )\n}\n"],
+      names: ["MetaRedirect", "to", "delay", "router", "useRouter", "useEffect", "timeout", "setTimeout", "push", "clearTimeout", "meta", "httpEquiv", "content", "link", "rel", "href"],
+      mappings: "AAAA;;;;;+BAUA;;;eAAwBA;;;;uBARE;4BACA;AAOX,SAASA,aAAa,EAAEC,EAAE,EAAEC,QAAQ,CAAC,EAAqB;IACvE,MAAMC,SAASC,IAAAA,qBAAS;IAExBC,IAAAA,gBAAS,EAAC;QACR,MAAMC,UAAUC,WAAW;YACzBJ,OAAOK,IAAI,CAACP;QACd,GAAGC;QAEH,OAAO,IAAMO,aAAaH;IAC5B,GAAG;QAACL;QAAIC;QAAOC;KAAO;IAEtB,qBACE;;0BACE,qBAACO;gBAAKC,WAAU;gBAAUC,SAAS,GAAGV,QAAQ,KAAK,KAAK,EAAED,IAAI;;0BAC9D,qBAACY;gBAAKC,KAAI;gBAAYC,MAAMd;;;;AAGlC"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f12ead3aaff62379710ccca83a2991345a8220e9"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1884a3z485 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1884a3z485();
+cov_1884a3z485().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1884a3z485().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1884a3z485().f[0]++;
+    cov_1884a3z485().s[2]++;
+    return MetaRedirect;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1884a3z485().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(cov_1884a3z485().s[4]++, require("react"));
+const _navigation =
+/* istanbul ignore next */
+(cov_1884a3z485().s[5]++, require("next/navigation"));
+function MetaRedirect({
+  to,
+  delay =
+  /* istanbul ignore next */
+  (cov_1884a3z485().b[0][0]++, 0)
+}) {
+  /* istanbul ignore next */
+  cov_1884a3z485().f[1]++;
+  const router =
+  /* istanbul ignore next */
+  (cov_1884a3z485().s[6]++, (0, _navigation.useRouter)());
+  /* istanbul ignore next */
+  cov_1884a3z485().s[7]++;
+  (0, _react.useEffect)(() => {
+    /* istanbul ignore next */
+    cov_1884a3z485().f[2]++;
+    const timeout =
+    /* istanbul ignore next */
+    (cov_1884a3z485().s[8]++, setTimeout(() => {
+      /* istanbul ignore next */
+      cov_1884a3z485().f[3]++;
+      cov_1884a3z485().s[9]++;
+      router.push(to);
+    }, delay));
+    /* istanbul ignore next */
+    cov_1884a3z485().s[10]++;
+    return () => {
+      /* istanbul ignore next */
+      cov_1884a3z485().f[4]++;
+      cov_1884a3z485().s[11]++;
+      return clearTimeout(timeout);
+    };
+  }, [to, delay, router]);
+  /* istanbul ignore next */
+  cov_1884a3z485().s[12]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)(_jsxruntime.Fragment, {
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)("meta", {
+      httpEquiv: "refresh",
+      content: `${delay / 1000};url=${to}`
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)("link", {
+      rel: "canonical",
+      href: to
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMTg4NGEzejQ4NSIsImFjdHVhbENvdmVyYWdlIiwicyIsIk1ldGFSZWRpcmVjdCIsInRvIiwiZGVsYXkiLCJiIiwiZiIsInJvdXRlciIsIl9uYXZpZ2F0aW9uIiwidXNlUm91dGVyIiwiX3JlYWN0IiwidXNlRWZmZWN0IiwidGltZW91dCIsInNldFRpbWVvdXQiLCJwdXNoIiwiY2xlYXJUaW1lb3V0IiwiX2pzeHJ1bnRpbWUiLCJqc3hzIiwiRnJhZ21lbnQiLCJqc3giLCJodHRwRXF1aXYiLCJjb250ZW50IiwicmVsIiwiaHJlZiJdLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vY29tcG9uZW50cy9tZXRhLXJlZGlyZWN0LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCdcblxuaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L25hdmlnYXRpb24nXG5cbmludGVyZmFjZSBNZXRhUmVkaXJlY3RQcm9wcyB7XG4gIHRvOiBzdHJpbmdcbiAgZGVsYXk/OiBudW1iZXJcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTWV0YVJlZGlyZWN0KHsgdG8sIGRlbGF5ID0gMCB9OiBNZXRhUmVkaXJlY3RQcm9wcykge1xuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKVxuXG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgY29uc3QgdGltZW91dCA9IHNldFRpbWVvdXQoKCkgPT4ge1xuICAgICAgcm91dGVyLnB1c2godG8pXG4gICAgfSwgZGVsYXkpXG5cbiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHRpbWVvdXQpXG4gIH0sIFt0bywgZGVsYXksIHJvdXRlcl0pXG5cbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPG1ldGEgaHR0cEVxdWl2PVwicmVmcmVzaFwiIGNvbnRlbnQ9e2Ake2RlbGF5IC8gMTAwMH07dXJsPSR7dG99YH0gLz5cbiAgICAgIDxsaW5rIHJlbD1cImNhbm9uaWNhbFwiIGhyZWY9e3RvfSAvPlxuICAgIDwvPlxuICApXG59XG4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQVdRO0lBQUFBLGNBQUEsWUFBQUEsQ0FBQTtNQUFBLE9BQUFDLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUFELGNBQUE7QUFBQUEsY0FBQSxHQUFBRSxDQUFBOzs7Ozs7K0JBRFI7Ozs7OztXQUF3QkMsWUFBQTs7Ozs7Ozs7a0NBUkU7OztrQ0FDQTtBQU9YLFNBQVNBLGFBQWE7RUFBRUMsRUFBRTtFQUFFQyxLQUFBO0VBQUE7RUFBQSxDQUFBTCxjQUFBLEdBQUFNLENBQUEsVUFBUSxDQUFDO0FBQUEsQ0FBcUI7RUFBQTtFQUFBTixjQUFBLEdBQUFPLENBQUE7RUFDdkUsTUFBTUMsTUFBQTtFQUFBO0VBQUEsQ0FBQVIsY0FBQSxHQUFBRSxDQUFBLE9BQVMsSUFBQU8sV0FBQSxDQUFBQyxTQUFTO0VBQUE7RUFBQVYsY0FBQSxHQUFBRSxDQUFBO0VBRXhCLElBQUFTLE1BQUEsQ0FBQUMsU0FBUyxFQUFDO0lBQUE7SUFBQVosY0FBQSxHQUFBTyxDQUFBO0lBQ1IsTUFBTU0sT0FBQTtJQUFBO0lBQUEsQ0FBQWIsY0FBQSxHQUFBRSxDQUFBLE9BQVVZLFVBQUEsQ0FBVztNQUFBO01BQUFkLGNBQUEsR0FBQU8sQ0FBQTtNQUFBUCxjQUFBLEdBQUFFLENBQUE7TUFDekJNLE1BQUEsQ0FBT08sSUFBSSxDQUFDWCxFQUFBO0lBQ2QsR0FBR0MsS0FBQTtJQUFBO0lBQUFMLGNBQUEsR0FBQUUsQ0FBQTtJQUVILE9BQU8sTUFBTTtNQUFBO01BQUFGLGNBQUEsR0FBQU8sQ0FBQTtNQUFBUCxjQUFBLEdBQUFFLENBQUE7TUFBQSxPQUFBYyxZQUFBLENBQWFILE9BQUE7SUFBQTtFQUM1QixHQUFHLENBQUNULEVBQUEsRUFBSUMsS0FBQSxFQUFPRyxNQUFBLENBQU87RUFBQTtFQUFBUixjQUFBLEdBQUFFLENBQUE7RUFFdEIsb0JBQ0UsSUFBQWUsV0FBQSxDQUFBQyxJQUFBLEVBQUFELFdBQUEsQ0FBQUUsUUFBQTs0QkFDRSxJQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQztNQUFLQyxTQUFBLEVBQVU7TUFBVUMsT0FBQSxFQUFTLEdBQUdqQixLQUFBLEdBQVEsWUFBWUQsRUFBQTtxQkFDMUQsSUFBQWEsV0FBQSxDQUFBRyxHQUFBLEVBQUM7TUFBS0csR0FBQSxFQUFJO01BQVlDLElBQUEsRUFBTXBCOzs7QUFHbEMiLCJpZ25vcmVMaXN0IjpbXX0=

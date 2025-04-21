@@ -95,19 +95,19 @@ const WebPageForm = ({
   return (
     <Form {...form}>
       <form
-        method='post'
+        method="post"
         onSubmit={form.handleSubmit(onSubmit)}
-        className='space-y-8'
+        className="space-y-8"
       >
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='title'
+            name="title"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Title</FormLabel>
                 <FormControl>
-                  <Input placeholder='Enter title' {...field} />
+                  <Input placeholder="Enter title" {...field} />
                 </FormControl>
 
                 <FormMessage />
@@ -117,24 +117,24 @@ const WebPageForm = ({
 
           <FormField
             control={form.control}
-            name='slug'
+            name="slug"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Slug</FormLabel>
 
                 <FormControl>
-                  <div className='relative'>
+                  <div className="relative">
                     <Input
-                      placeholder='Enter slug'
-                      className='pl-8'
+                      placeholder="Enter slug"
+                      className="pl-8"
                       {...field}
                     />
                     <button
-                      type='button'
+                      type="button"
                       onClick={() => {
                         form.setValue('slug', toSlug(form.getValues('title')))
                       }}
-                      className='absolute right-2 top-2.5'
+                      className="absolute right-2 top-2.5"
                     >
                       Generate
                     </button>
@@ -146,12 +146,12 @@ const WebPageForm = ({
             )}
           />
         </div>
-        <div className='flex flex-col gap-5 md:flex-row'>
+        <div className="flex flex-col gap-5 md:flex-row">
           <FormField
             control={form.control}
-            name='content'
+            name="content"
             render={({ field }) => (
-              <FormItem className='w-full'>
+              <FormItem className="w-full">
                 <FormLabel>Content</FormLabel>
                 <FormControl>
                   <MdEditor
@@ -172,9 +172,9 @@ const WebPageForm = ({
         <div>
           <FormField
             control={form.control}
-            name='isPublished'
+            name="isPublished"
             render={({ field }) => (
-              <FormItem className='space-x-2 items-center'>
+              <FormItem className="space-x-2 items-center">
                 <FormControl>
                   <Checkbox
                     checked={field.value}
@@ -188,10 +188,10 @@ const WebPageForm = ({
         </div>
         <div>
           <Button
-            type='submit'
-            size='lg'
+            type="submit"
+            size="lg"
             disabled={form.formState.isSubmitting}
-            className='button col-span-2 w-full'
+            className="button col-span-2 w-full"
           >
             {form.formState.isSubmitting ? 'Submitting...' : `${type} Page `}
           </Button>

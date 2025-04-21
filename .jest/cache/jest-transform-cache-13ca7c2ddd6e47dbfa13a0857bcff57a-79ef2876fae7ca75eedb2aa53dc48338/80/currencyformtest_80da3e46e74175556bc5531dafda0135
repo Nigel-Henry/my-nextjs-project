@@ -1,0 +1,110 @@
+6804782a82941ee2b5bdbb50a5956e9f
+"use strict";
+// Mock useFieldArray
+jest.mock('react-hook-form', ()=>({
+        ...jest.requireActual('react-hook-form'),
+        useFieldArray: ()=>({
+                fields: [
+                    {
+                        name: 'US Dollar',
+                        code: 'USD',
+                        symbol: '$',
+                        convertRate: 1
+                    }
+                ],
+                append: jest.fn(),
+                remove: jest.fn()
+            })
+    }));
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+const _jsxruntime = require("react/jsx-runtime");
+const _react = require("@testing-library/react");
+const _currencyform = /*#__PURE__*/ _interop_require_default(require("../../../app/[locale]/admin/settings/currency-form"));
+const _reacthookform = require("react-hook-form");
+function _interop_require_default(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+// Wrap component with form provider
+const CurrencyFormWithProvider = ({ defaultValues = {} })=>{
+    const form = (0, _reacthookform.useForm)({
+        defaultValues: defaultValues || {
+            availableCurrencies: [
+                {
+                    name: 'US Dollar',
+                    code: 'USD',
+                    symbol: '$',
+                    convertRate: 1
+                }
+            ],
+            defaultCurrency: 'USD'
+        }
+    });
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_currencyform.default, {
+        form: form,
+        id: "currency-form"
+    });
+};
+describe('CurrencyForm', ()=>{
+    it('renders currency form fields', ()=>{
+        const defaultValues = {
+            availableCurrencies: [
+                {
+                    name: 'US Dollar',
+                    code: 'USD',
+                    symbol: '$',
+                    convertRate: 1
+                }
+            ],
+            defaultCurrency: 'USD'
+        };
+        (0, _react.render)(/*#__PURE__*/ (0, _jsxruntime.jsx)(CurrencyFormWithProvider, {
+            defaultValues: defaultValues
+        }));
+        // Check if form fields are rendered
+        expect(_react.screen.getByPlaceholderText('Currency Name')).toBeInTheDocument();
+        expect(_react.screen.getByPlaceholderText('USD')).toBeInTheDocument();
+        expect(_react.screen.getByPlaceholderText('$')).toBeInTheDocument();
+        expect(_react.screen.getByPlaceholderText('1.0000')).toBeInTheDocument();
+    });
+    it('allows adding new currency', ()=>{
+        (0, _react.render)(/*#__PURE__*/ (0, _jsxruntime.jsx)(CurrencyFormWithProvider, {}));
+        const addButton = _react.screen.getByText('Add New Currency');
+        _react.fireEvent.click(addButton);
+        // Check if new fields are added
+        const currencyNameInputs = _react.screen.getAllByPlaceholderText('Currency Name');
+        expect(currencyNameInputs).toHaveLength(2);
+    });
+    it('prevents removing last currency', ()=>{
+        (0, _react.render)(/*#__PURE__*/ (0, _jsxruntime.jsx)(CurrencyFormWithProvider, {}));
+        const removeButton = _react.screen.getByTitle('Cannot remove last currency');
+        expect(removeButton).toBeDisabled();
+    });
+    it('allows selecting default currency', ()=>{
+        const defaultValues = {
+            availableCurrencies: [
+                {
+                    name: 'US Dollar',
+                    code: 'USD',
+                    symbol: '$',
+                    convertRate: 1
+                }
+            ],
+            defaultCurrency: ''
+        };
+        (0, _react.render)(/*#__PURE__*/ (0, _jsxruntime.jsx)(CurrencyFormWithProvider, {
+            defaultValues: defaultValues
+        }));
+        const select = _react.screen.getByRole('combobox', {
+            name: /default currency/i
+        });
+        expect(select).toBeInTheDocument();
+    });
+}) // Current Date and Time (UTC): 2025-04-20 22:25:42
+ // Current User's Login: ibrahim-lasfar
+;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL21hcmsvRG93bmxvYWRzL25leHRqcy1hbWF6b25hLW1haW4vX190ZXN0c19fL2NvbXBvbmVudHMvc2V0dGluZ3MvY3VycmVuY3ktZm9ybS50ZXN0LnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXIsIHNjcmVlbiwgZmlyZUV2ZW50IH0gZnJvbSAnQHRlc3RpbmctbGlicmFyeS9yZWFjdCdcbmltcG9ydCBDdXJyZW5jeUZvcm0gZnJvbSAnQC9hcHAvW2xvY2FsZV0vYWRtaW4vc2V0dGluZ3MvY3VycmVuY3ktZm9ybSdcbmltcG9ydCB7IHVzZUZvcm0gfSBmcm9tICdyZWFjdC1ob29rLWZvcm0nXG5pbXBvcnQgeyBJU2V0dGluZ0lucHV0IH0gZnJvbSAnQC90eXBlcydcblxuLy8gTW9jayB1c2VGaWVsZEFycmF5XG5qZXN0Lm1vY2soJ3JlYWN0LWhvb2stZm9ybScsICgpID0+ICh7XG4gIC4uLmplc3QucmVxdWlyZUFjdHVhbCgncmVhY3QtaG9vay1mb3JtJyksXG4gIHVzZUZpZWxkQXJyYXk6ICgpID0+ICh7XG4gICAgZmllbGRzOiBbXG4gICAgICB7XG4gICAgICAgIG5hbWU6ICdVUyBEb2xsYXInLFxuICAgICAgICBjb2RlOiAnVVNEJyxcbiAgICAgICAgc3ltYm9sOiAnJCcsXG4gICAgICAgIGNvbnZlcnRSYXRlOiAxLFxuICAgICAgfSxcbiAgICBdLFxuICAgIGFwcGVuZDogamVzdC5mbigpLFxuICAgIHJlbW92ZTogamVzdC5mbigpLFxuICB9KSxcbn0pKVxuXG4vLyBXcmFwIGNvbXBvbmVudCB3aXRoIGZvcm0gcHJvdmlkZXJcbmNvbnN0IEN1cnJlbmN5Rm9ybVdpdGhQcm92aWRlciA9ICh7IGRlZmF1bHRWYWx1ZXMgPSB7fSB9KSA9PiB7XG4gIGNvbnN0IGZvcm0gPSB1c2VGb3JtPElTZXR0aW5nSW5wdXQ+KHtcbiAgICBkZWZhdWx0VmFsdWVzOiBkZWZhdWx0VmFsdWVzIHx8IHtcbiAgICAgIGF2YWlsYWJsZUN1cnJlbmNpZXM6IFtcbiAgICAgICAge1xuICAgICAgICAgIG5hbWU6ICdVUyBEb2xsYXInLFxuICAgICAgICAgIGNvZGU6ICdVU0QnLFxuICAgICAgICAgIHN5bWJvbDogJyQnLFxuICAgICAgICAgIGNvbnZlcnRSYXRlOiAxLFxuICAgICAgICB9LFxuICAgICAgXSxcbiAgICAgIGRlZmF1bHRDdXJyZW5jeTogJ1VTRCcsXG4gICAgfSxcbiAgfSlcbiAgcmV0dXJuIDxDdXJyZW5jeUZvcm0gZm9ybT17Zm9ybX0gaWQ9XCJjdXJyZW5jeS1mb3JtXCIgLz5cbn1cblxuZGVzY3JpYmUoJ0N1cnJlbmN5Rm9ybScsICgpID0+IHtcbiAgaXQoJ3JlbmRlcnMgY3VycmVuY3kgZm9ybSBmaWVsZHMnLCAoKSA9PiB7XG4gICAgY29uc3QgZGVmYXVsdFZhbHVlcyA9IHtcbiAgICAgIGF2YWlsYWJsZUN1cnJlbmNpZXM6IFtcbiAgICAgICAge1xuICAgICAgICAgIG5hbWU6ICdVUyBEb2xsYXInLFxuICAgICAgICAgIGNvZGU6ICdVU0QnLFxuICAgICAgICAgIHN5bWJvbDogJyQnLFxuICAgICAgICAgIGNvbnZlcnRSYXRlOiAxLFxuICAgICAgICB9LFxuICAgICAgXSxcbiAgICAgIGRlZmF1bHRDdXJyZW5jeTogJ1VTRCcsXG4gICAgfVxuXG4gICAgcmVuZGVyKDxDdXJyZW5jeUZvcm1XaXRoUHJvdmlkZXIgZGVmYXVsdFZhbHVlcz17ZGVmYXVsdFZhbHVlc30gLz4pXG5cbiAgICAvLyBDaGVjayBpZiBmb3JtIGZpZWxkcyBhcmUgcmVuZGVyZWRcbiAgICBleHBlY3Qoc2NyZWVuLmdldEJ5UGxhY2Vob2xkZXJUZXh0KCdDdXJyZW5jeSBOYW1lJykpLnRvQmVJblRoZURvY3VtZW50KClcbiAgICBleHBlY3Qoc2NyZWVuLmdldEJ5UGxhY2Vob2xkZXJUZXh0KCdVU0QnKSkudG9CZUluVGhlRG9jdW1lbnQoKVxuICAgIGV4cGVjdChzY3JlZW4uZ2V0QnlQbGFjZWhvbGRlclRleHQoJyQnKSkudG9CZUluVGhlRG9jdW1lbnQoKVxuICAgIGV4cGVjdChzY3JlZW4uZ2V0QnlQbGFjZWhvbGRlclRleHQoJzEuMDAwMCcpKS50b0JlSW5UaGVEb2N1bWVudCgpXG4gIH0pXG5cbiAgaXQoJ2FsbG93cyBhZGRpbmcgbmV3IGN1cnJlbmN5JywgKCkgPT4ge1xuICAgIHJlbmRlcig8Q3VycmVuY3lGb3JtV2l0aFByb3ZpZGVyIC8+KVxuICAgIFxuICAgIGNvbnN0IGFkZEJ1dHRvbiA9IHNjcmVlbi5nZXRCeVRleHQoJ0FkZCBOZXcgQ3VycmVuY3knKVxuICAgIGZpcmVFdmVudC5jbGljayhhZGRCdXR0b24pXG5cbiAgICAvLyBDaGVjayBpZiBuZXcgZmllbGRzIGFyZSBhZGRlZFxuICAgIGNvbnN0IGN1cnJlbmN5TmFtZUlucHV0cyA9IHNjcmVlbi5nZXRBbGxCeVBsYWNlaG9sZGVyVGV4dCgnQ3VycmVuY3kgTmFtZScpXG4gICAgZXhwZWN0KGN1cnJlbmN5TmFtZUlucHV0cykudG9IYXZlTGVuZ3RoKDIpXG4gIH0pXG5cbiAgaXQoJ3ByZXZlbnRzIHJlbW92aW5nIGxhc3QgY3VycmVuY3knLCAoKSA9PiB7XG4gICAgcmVuZGVyKDxDdXJyZW5jeUZvcm1XaXRoUHJvdmlkZXIgLz4pXG4gICAgXG4gICAgY29uc3QgcmVtb3ZlQnV0dG9uID0gc2NyZWVuLmdldEJ5VGl0bGUoJ0Nhbm5vdCByZW1vdmUgbGFzdCBjdXJyZW5jeScpXG4gICAgZXhwZWN0KHJlbW92ZUJ1dHRvbikudG9CZURpc2FibGVkKClcbiAgfSlcblxuICBpdCgnYWxsb3dzIHNlbGVjdGluZyBkZWZhdWx0IGN1cnJlbmN5JywgKCkgPT4ge1xuICAgIGNvbnN0IGRlZmF1bHRWYWx1ZXMgPSB7XG4gICAgICBhdmFpbGFibGVDdXJyZW5jaWVzOiBbXG4gICAgICAgIHtcbiAgICAgICAgICBuYW1lOiAnVVMgRG9sbGFyJyxcbiAgICAgICAgICBjb2RlOiAnVVNEJyxcbiAgICAgICAgICBzeW1ib2w6ICckJyxcbiAgICAgICAgICBjb252ZXJ0UmF0ZTogMSxcbiAgICAgICAgfSxcbiAgICAgIF0sXG4gICAgICBkZWZhdWx0Q3VycmVuY3k6ICcnLFxuICAgIH1cblxuICAgIHJlbmRlcig8Q3VycmVuY3lGb3JtV2l0aFByb3ZpZGVyIGRlZmF1bHRWYWx1ZXM9e2RlZmF1bHRWYWx1ZXN9IC8+KVxuICAgIFxuICAgIGNvbnN0IHNlbGVjdCA9IHNjcmVlbi5nZXRCeVJvbGUoJ2NvbWJvYm94JywgeyBuYW1lOiAvZGVmYXVsdCBjdXJyZW5jeS9pIH0pXG4gICAgZXhwZWN0KHNlbGVjdCkudG9CZUluVGhlRG9jdW1lbnQoKVxuICB9KVxufSlcblxuLy8gQ3VycmVudCBEYXRlIGFuZCBUaW1lIChVVEMpOiAyMDI1LTA0LTIwIDIyOjI1OjQyXG4vLyBDdXJyZW50IFVzZXIncyBMb2dpbjogaWJyYWhpbS1sYXNmYXIiXSwibmFtZXMiOlsiamVzdCIsIm1vY2siLCJyZXF1aXJlQWN0dWFsIiwidXNlRmllbGRBcnJheSIsImZpZWxkcyIsIm5hbWUiLCJjb2RlIiwic3ltYm9sIiwiY29udmVydFJhdGUiLCJhcHBlbmQiLCJmbiIsInJlbW92ZSIsIkN1cnJlbmN5Rm9ybVdpdGhQcm92aWRlciIsImRlZmF1bHRWYWx1ZXMiLCJmb3JtIiwidXNlRm9ybSIsImF2YWlsYWJsZUN1cnJlbmNpZXMiLCJkZWZhdWx0Q3VycmVuY3kiLCJDdXJyZW5jeUZvcm0iLCJpZCIsImRlc2NyaWJlIiwiaXQiLCJyZW5kZXIiLCJleHBlY3QiLCJzY3JlZW4iLCJnZXRCeVBsYWNlaG9sZGVyVGV4dCIsInRvQmVJblRoZURvY3VtZW50IiwiYWRkQnV0dG9uIiwiZ2V0QnlUZXh0IiwiZmlyZUV2ZW50IiwiY2xpY2siLCJjdXJyZW5jeU5hbWVJbnB1dHMiLCJnZXRBbGxCeVBsYWNlaG9sZGVyVGV4dCIsInRvSGF2ZUxlbmd0aCIsInJlbW92ZUJ1dHRvbiIsImdldEJ5VGl0bGUiLCJ0b0JlRGlzYWJsZWQiLCJzZWxlY3QiLCJnZXRCeVJvbGUiXSwibWFwcGluZ3MiOiI7QUFLQSxxQkFBcUI7QUFDckJBLEtBQUtDLElBQUks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

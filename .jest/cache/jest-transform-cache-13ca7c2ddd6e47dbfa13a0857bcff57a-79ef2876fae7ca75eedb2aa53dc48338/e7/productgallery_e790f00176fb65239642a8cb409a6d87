@@ -1,0 +1,561 @@
+ab33905a80f1f5890978d3f38499969a
+'use client';
+"use strict";
+
+/* istanbul ignore next */
+function cov_1ffnhsgojf() {
+  var path = "/home/mark/Downloads/nextjs-amazona-main/components/shared/product/product-gallery.tsx";
+  var hash = "a3e0333cc88691e0574a7f0c522d06193d2d4218";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/mark/Downloads/nextjs-amazona-main/components/shared/product/product-gallery.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 3
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 30
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 20
+        },
+        end: {
+          line: 12,
+          column: 48
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 15
+        },
+        end: {
+          line: 13,
+          column: 31
+        }
+      },
+      "5": {
+        start: {
+          line: 14,
+          column: 29
+        },
+        end: {
+          line: 14,
+          column: 76
+        }
+      },
+      "6": {
+        start: {
+          line: 15,
+          column: 44
+        },
+        end: {
+          line: 15,
+          column: 104
+        }
+      },
+      "7": {
+        start: {
+          line: 16,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 51
+        }
+      },
+      "8": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 20,
+          column: 6
+        }
+      },
+      "9": {
+        start: {
+          line: 23,
+          column: 46
+        },
+        end: {
+          line: 23,
+          column: 69
+        }
+      },
+      "10": {
+        start: {
+          line: 24,
+          column: 4
+        },
+        end: {
+          line: 62,
+          column: 7
+        }
+      },
+      "11": {
+        start: {
+          line: 29,
+          column: 67
+        },
+        end: {
+          line: 43,
+          column: 29
+        }
+      },
+      "12": {
+        start: {
+          line: 31,
+          column: 28
+        },
+        end: {
+          line: 31,
+          column: 52
+        }
+      },
+      "13": {
+        start: {
+          line: 34,
+          column: 28
+        },
+        end: {
+          line: 34,
+          column: 52
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 8,
+            column: 9
+          },
+          end: {
+            line: 8,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 20
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "1": {
+        name: "_interop_require_default",
+        decl: {
+          start: {
+            line: 17,
+            column: 9
+          },
+          end: {
+            line: 17,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 39
+          },
+          end: {
+            line: 21,
+            column: 1
+          }
+        },
+        line: 17
+      },
+      "2": {
+        name: "ProductGallery",
+        decl: {
+          start: {
+            line: 22,
+            column: 9
+          },
+          end: {
+            line: 22,
+            column: 23
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 36
+          },
+          end: {
+            line: 63,
+            column: 1
+          }
+        },
+        line: 22
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 29,
+            column: 37
+          },
+          end: {
+            line: 29,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 29,
+            column: 67
+          },
+          end: {
+            line: 43,
+            column: 29
+          }
+        },
+        line: 29
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 30,
+            column: 33
+          },
+          end: {
+            line: 30,
+            column: 34
+          }
+        },
+        loc: {
+          start: {
+            line: 30,
+            column: 37
+          },
+          end: {
+            line: 32,
+            column: 25
+          }
+        },
+        line: 30
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 33,
+            column: 37
+          },
+          end: {
+            line: 33,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 33,
+            column: 41
+          },
+          end: {
+            line: 35,
+            column: 25
+          }
+        },
+        line: 33
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 18,
+            column: 11
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 18,
+            column: 35
+          },
+          end: {
+            line: 18,
+            column: 38
+          }
+        }, {
+          start: {
+            line: 18,
+            column: 41
+          },
+          end: {
+            line: 20,
+            column: 5
+          }
+        }],
+        line: 18
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 18,
+            column: 11
+          },
+          end: {
+            line: 18,
+            column: 32
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 18,
+            column: 11
+          },
+          end: {
+            line: 18,
+            column: 14
+          }
+        }, {
+          start: {
+            line: 18,
+            column: 18
+          },
+          end: {
+            line: 18,
+            column: 32
+          }
+        }],
+        line: 18
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 36,
+            column: 74
+          },
+          end: {
+            line: 36,
+            column: 147
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 36,
+            column: 100
+          },
+          end: {
+            line: 36,
+            column: 122
+          }
+        }, {
+          start: {
+            line: 36,
+            column: 125
+          },
+          end: {
+            line: 36,
+            column: 147
+          }
+        }],
+        line: 36
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      version: 3,
+      sources: ["/home/mark/Downloads/nextjs-amazona-main/components/shared/product/product-gallery.tsx"],
+      sourcesContent: ["'use client'\n\nimport { useState } from 'react'\nimport Image from 'next/image'\nimport Zoom from 'react-medium-image-zoom'\nimport 'react-medium-image-zoom/dist/styles.css'\nexport default function ProductGallery({ images }: { images: string[] }) {\n  const [selectedImage, setSelectedImage] = useState(0)\n  return (\n    <div className=\"flex gap-2\">\n      <div className=\"flex flex-col gap-2 mt-8\">\n        {images.map((image, index) => (\n          <button\n            key={index}\n            onClick={() => {\n              setSelectedImage(index)\n            }}\n            onMouseOver={() => {\n              setSelectedImage(index)\n            }}\n            className={`bg-white rounded-lg overflow-hidden ${\n              selectedImage === index\n                ? 'ring-2 ring-blue-500'\n                : 'ring-1 ring-gray-300'\n            }`}\n          >\n            <Image src={image} alt={'product image'} width={48} height={48} />\n          </button>\n        ))}\n      </div>\n\n      <div className=\"w-full\">\n        <Zoom>\n          <div className=\"relative h-[500px]\">\n            <Image\n              src={images[selectedImage]}\n              alt={'product image'}\n              fill\n              sizes=\"90vw\"\n              className=\"object-contain\"\n              priority\n            />\n          </div>\n        </Zoom>\n      </div>\n    </div>\n  )\n}\n"],
+      names: ["ProductGallery", "images", "selectedImage", "setSelectedImage", "useState", "div", "className", "map", "image", "index", "button", "onClick", "onMouseOver", "Image", "src", "alt", "width", "height", "Zoom", "fill", "sizes", "priority"],
+      mappings: "AAAA;;;;;+BAMA;;;eAAwBA;;;;uBAJC;8DACP;6EACD;QACV;;;;;;AACQ,SAASA,eAAe,EAAEC,MAAM,EAAwB;IACrE,MAAM,CAACC,eAAeC,iBAAiB,GAAGC,IAAAA,eAAQ,EAAC;IACnD,qBACE,sBAACC;QAAIC,WAAU;;0BACb,qBAACD;gBAAIC,WAAU;0BACZL,OAAOM,GAAG,CAAC,CAACC,OAAOC,sBAClB,qBAACC;wBAECC,SAAS;4BACPR,iBAAiBM;wBACnB;wBACAG,aAAa;4BACXT,iBAAiBM;wBACnB;wBACAH,WAAW,CAAC,oCAAoC,EAC9CJ,kBAAkBO,QACd,yBACA,wBACJ;kCAEF,cAAA,qBAACI,cAAK;4BAACC,KAAKN;4BAAOO,KAAK;4BAAiBC,OAAO;4BAAIC,QAAQ;;uBAbvDR;;0BAkBX,qBAACJ;gBAAIC,WAAU;0BACb,cAAA,qBAACY,6BAAI;8BACH,cAAA,qBAACb;wBAAIC,WAAU;kCACb,cAAA,qBAACO,cAAK;4BACJC,KAAKb,MAAM,CAACC,cAAc;4BAC1Ba,KAAK;4BACLI,IAAI;4BACJC,OAAM;4BACNd,WAAU;4BACVe,QAAQ;;;;;;;AAOtB"
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "a3e0333cc88691e0574a7f0c522d06193d2d4218"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1ffnhsgojf = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1ffnhsgojf();
+cov_1ffnhsgojf().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1ffnhsgojf().s[1]++;
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1ffnhsgojf().f[0]++;
+    cov_1ffnhsgojf().s[2]++;
+    return ProductGallery;
+  }
+});
+const _jsxruntime =
+/* istanbul ignore next */
+(cov_1ffnhsgojf().s[3]++, require("react/jsx-runtime"));
+const _react =
+/* istanbul ignore next */
+(cov_1ffnhsgojf().s[4]++, require("react"));
+const _image =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1ffnhsgojf().s[5]++, _interop_require_default(require("next/image")));
+const _reactmediumimagezoom =
+/* istanbul ignore next */
+(/*#__PURE__*/cov_1ffnhsgojf().s[6]++, _interop_require_default(require("react-medium-image-zoom")));
+/* istanbul ignore next */
+cov_1ffnhsgojf().s[7]++;
+require("react-medium-image-zoom/dist/styles.css");
+function _interop_require_default(obj) {
+  /* istanbul ignore next */
+  cov_1ffnhsgojf().f[1]++;
+  cov_1ffnhsgojf().s[8]++;
+  return /* istanbul ignore next */(cov_1ffnhsgojf().b[1][0]++, obj) &&
+  /* istanbul ignore next */
+  (cov_1ffnhsgojf().b[1][1]++, obj.__esModule) ?
+  /* istanbul ignore next */
+  (cov_1ffnhsgojf().b[0][0]++, obj) :
+  /* istanbul ignore next */
+  (cov_1ffnhsgojf().b[0][1]++, {
+    default: obj
+  });
+}
+function ProductGallery({
+  images
+}) {
+  /* istanbul ignore next */
+  cov_1ffnhsgojf().f[2]++;
+  const [selectedImage, setSelectedImage] =
+  /* istanbul ignore next */
+  (cov_1ffnhsgojf().s[9]++, (0, _react.useState)(0));
+  /* istanbul ignore next */
+  cov_1ffnhsgojf().s[10]++;
+  return /*#__PURE__*/(0, _jsxruntime.jsxs)("div", {
+    className: "flex gap-2",
+    children: [/*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+      className: "flex flex-col gap-2 mt-8",
+      children: images.map((image, index) => {
+        /* istanbul ignore next */
+        cov_1ffnhsgojf().f[3]++;
+        cov_1ffnhsgojf().s[11]++;
+        return /*#__PURE__*/(0, _jsxruntime.jsx)("button", {
+          onClick: () => {
+            /* istanbul ignore next */
+            cov_1ffnhsgojf().f[4]++;
+            cov_1ffnhsgojf().s[12]++;
+            setSelectedImage(index);
+          },
+          onMouseOver: () => {
+            /* istanbul ignore next */
+            cov_1ffnhsgojf().f[5]++;
+            cov_1ffnhsgojf().s[13]++;
+            setSelectedImage(index);
+          },
+          className: `bg-white rounded-lg overflow-hidden ${selectedImage === index ?
+          /* istanbul ignore next */
+          (cov_1ffnhsgojf().b[2][0]++, 'ring-2 ring-blue-500') :
+          /* istanbul ignore next */
+          (cov_1ffnhsgojf().b[2][1]++, 'ring-1 ring-gray-300')}`,
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_image.default, {
+            src: image,
+            alt: 'product image',
+            width: 48,
+            height: 48
+          })
+        }, index);
+      })
+    }), /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+      className: "w-full",
+      children: /*#__PURE__*/(0, _jsxruntime.jsx)(_reactmediumimagezoom.default, {
+        children: /*#__PURE__*/(0, _jsxruntime.jsx)("div", {
+          className: "relative h-[500px]",
+          children: /*#__PURE__*/(0, _jsxruntime.jsx)(_image.default, {
+            src: images[selectedImage],
+            alt: 'product image',
+            fill: true,
+            sizes: "90vw",
+            className: "object-contain",
+            priority: true
+          })
+        })
+      })
+    })]
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMWZmbmhzZ29qZiIsImFjdHVhbENvdmVyYWdlIiwicyIsIlByb2R1Y3RHYWxsZXJ5IiwiaW1hZ2VzIiwiZiIsInNlbGVjdGVkSW1hZ2UiLCJzZXRTZWxlY3RlZEltYWdlIiwiX3JlYWN0IiwidXNlU3RhdGUiLCJfanN4cnVudGltZSIsImpzeHMiLCJjbGFzc05hbWUiLCJqc3giLCJtYXAiLCJpbWFnZSIsImluZGV4Iiwib25DbGljayIsIm9uTW91c2VPdmVyIiwiYiIsIl9pbWFnZSIsImRlZmF1bHQiLCJzcmMiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsIl9yZWFjdG1lZGl1bWltYWdlem9vbSIsImZpbGwiLCJzaXplcyIsInByaW9yaXR5Il0sInNvdXJjZXMiOlsiL2hvbWUvbWFyay9Eb3dubG9hZHMvbmV4dGpzLWFtYXpvbmEtbWFpbi9jb21wb25lbnRzL3NoYXJlZC9wcm9kdWN0L3Byb2R1Y3QtZ2FsbGVyeS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5cbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZSdcbmltcG9ydCBab29tIGZyb20gJ3JlYWN0LW1lZGl1bS1pbWFnZS16b29tJ1xuaW1wb3J0ICdyZWFjdC1tZWRpdW0taW1hZ2Utem9vbS9kaXN0L3N0eWxlcy5jc3MnXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQcm9kdWN0R2FsbGVyeSh7IGltYWdlcyB9OiB7IGltYWdlczogc3RyaW5nW10gfSkge1xuICBjb25zdCBbc2VsZWN0ZWRJbWFnZSwgc2V0U2VsZWN0ZWRJbWFnZV0gPSB1c2VTdGF0ZSgwKVxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBnYXAtMlwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGZsZXgtY29sIGdhcC0yIG10LThcIj5cbiAgICAgICAge2ltYWdlcy5tYXAoKGltYWdlLCBpbmRleCkgPT4gKFxuICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgIGtleT17aW5kZXh9XG4gICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7XG4gICAgICAgICAgICAgIHNldFNlbGVjdGVkSW1hZ2UoaW5kZXgpXG4gICAgICAgICAgICB9fVxuICAgICAgICAgICAgb25Nb3VzZU92ZXI9eygpID0+IHtcbiAgICAgICAgICAgICAgc2V0U2VsZWN0ZWRJbWFnZShpbmRleClcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgICBjbGFzc05hbWU9e2BiZy13aGl0ZSByb3VuZGVkLWxnIG92ZXJmbG93LWhpZGRlbiAke1xuICAgICAgICAgICAgICBzZWxlY3RlZEltYWdlID09PSBpbmRleFxuICAgICAgICAgICAgICAgID8gJ3JpbmctMiByaW5nLWJsdWUtNTAwJ1xuICAgICAgICAgICAgICAgIDogJ3JpbmctMSByaW5nLWdyYXktMzAwJ1xuICAgICAgICAgICAgfWB9XG4gICAgICAgICAgPlxuICAgICAgICAgICAgPEltYWdlIHNyYz17aW1hZ2V9IGFsdD17J3Byb2R1Y3QgaW1hZ2UnfSB3aWR0aD17NDh9IGhlaWdodD17NDh9IC8+XG4gICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICkpfVxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwidy1mdWxsXCI+XG4gICAgICAgIDxab29tPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVsYXRpdmUgaC1bNTAwcHhdXCI+XG4gICAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgICAgc3JjPXtpbWFnZXNbc2VsZWN0ZWRJbWFnZV19XG4gICAgICAgICAgICAgIGFsdD17J3Byb2R1Y3QgaW1hZ2UnfVxuICAgICAgICAgICAgICBmaWxsXG4gICAgICAgICAgICAgIHNpemVzPVwiOTB2d1wiXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cIm9iamVjdC1jb250YWluXCJcbiAgICAgICAgICAgICAgcHJpb3JpdHlcbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvWm9vbT5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApXG59XG4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBS087SUFBQUEsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQUMsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQUQsY0FBQTtBQUFBQSxjQUFBLEdBQUFFLENBQUE7Ozs7OzsrQkFDUDs7Ozs7O1dBQXdCQyxjQUFBOzs7Ozs7OztrQ0FKQzs7O3dFQUNQOzs7d0VBQ0Q7QUFBQTtBQUFBSCxjQUFBLEdBQUFFLENBQUE7UUFDVjs7Ozs7Ozs7Ozs7Ozs7O0FBQ1EsU0FBU0MsZUFBZTtFQUFFQztBQUFNLENBQXdCO0VBQUE7RUFBQUosY0FBQSxHQUFBSyxDQUFBO0VBQ3JFLE1BQU0sQ0FBQ0MsYUFBQSxFQUFlQyxnQkFBQSxDQUFpQjtFQUFBO0VBQUEsQ0FBQVAsY0FBQSxHQUFBRSxDQUFBLE9BQUcsSUFBQU0sTUFBQSxDQUFBQyxRQUFRLEVBQUM7RUFBQTtFQUFBVCxjQUFBLEdBQUFFLENBQUE7RUFDbkQsb0JBQ0UsSUFBQVEsV0FBQSxDQUFBQyxJQUFBLEVBQUM7SUFBSUMsU0FBQSxFQUFVOzRCQUNiLElBQUFGLFdBQUEsQ0FBQUcsR0FBQSxFQUFDO01BQUlELFNBQUEsRUFBVTtnQkFDWlIsTUFBQSxDQUFPVSxHQUFHLENBQUMsQ0FBQ0MsS0FBQSxFQUFPQyxLQUFBLEtBQ2xCO1FBQUE7UUFBQWhCLGNBQUEsR0FBQUssQ0FBQTtRQUFBTCxjQUFBLEdBQUFFLENBQUE7UUFBQSxPQURrQixhQUNsQixJQUFBUSxXQUFBLENBQUFHLEdBQUEsRUFBQztVQUVDSSxPQUFBLEVBQVNBLENBQUE7WUFBQTtZQUFBakIsY0FBQSxHQUFBSyxDQUFBO1lBQUFMLGNBQUEsR0FBQUUsQ0FBQTtZQUNQSyxnQkFBQSxDQUFpQlMsS0FBQTtVQUNuQjtVQUNBRSxXQUFBLEVBQWFBLENBQUE7WUFBQTtZQUFBbEIsY0FBQSxHQUFBSyxDQUFBO1lBQUFMLGNBQUEsR0FBQUUsQ0FBQTtZQUNYSyxnQkFBQSxDQUFpQlMsS0FBQTtVQUNuQjtVQUNBSixTQUFBLEVBQVcsdUNBQ1ROLGFBQUEsS0FBa0JVLEtBQUE7VUFBQTtVQUFBLENBQUFoQixjQUFBLEdBQUFtQixDQUFBLFVBQ2Q7VUFBQTtVQUFBLENBQUFuQixjQUFBLEdBQUFtQixDQUFBLFVBQ0EseUJBQ0o7b0JBRUYsaUJBQUFULFdBQUEsQ0FBQUcsR0FBQSxFQUFDTyxNQUFBLENBQUFDLE9BQUs7WUFBQ0MsR0FBQSxFQUFLUCxLQUFBO1lBQU9RLEdBQUEsRUFBSztZQUFpQkMsS0FBQSxFQUFPO1lBQUlDLE1BQUEsRUFBUTs7V0FidkRULEtBQUE7TUFBQTtxQkFrQlgsSUFBQU4sV0FBQSxDQUFBRyxHQUFBLEVBQUM7TUFBSUQsU0FBQSxFQUFVO2dCQUNiLGlCQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQ2EscUJBQUEsQ0FBQUwsT0FBSTtrQkFDSCxpQkFBQVgsV0FBQSxDQUFBRyxHQUFBLEVBQUM7VUFBSUQsU0FBQSxFQUFVO29CQUNiLGlCQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQ08sTUFBQSxDQUFBQyxPQUFLO1lBQ0pDLEdBQUEsRUFBS2xCLE1BQU0sQ0FBQ0UsYUFBQSxDQUFjO1lBQzFCaUIsR0FBQSxFQUFLO1lBQ0xJLElBQUk7WUFDSkMsS0FBQSxFQUFNO1lBQ05oQixTQUFBLEVBQVU7WUFDVmlCLFFBQVE7Ozs7OztBQU90QiIsImlnbm9yZUxpc3QiOltdfQ==

@@ -35,43 +35,43 @@ export default function CartPage() {
   const t = useTranslations()
   return (
     <div>
-      <div className='grid grid-cols-1 md:grid-cols-4  md:gap-4'>
+      <div className="grid grid-cols-1 md:grid-cols-4  md:gap-4">
         {items.length === 0 ? (
-          <Card className='col-span-4 rounded-none'>
-            <CardHeader className='text-3xl  '>
+          <Card className="col-span-4 rounded-none">
+            <CardHeader className="text-3xl  ">
               {t('Cart.Your Shopping Cart is empty')}
             </CardHeader>
             <CardContent>
               {t.rich('Cart.Continue shopping on', {
                 name: site.name,
-                home: (chunks) => <Link href='/'>{chunks}</Link>,
+                home: (chunks) => <Link href="/">{chunks}</Link>,
               })}
             </CardContent>
           </Card>
         ) : (
           <>
-            <div className='col-span-3'>
-              <Card className='rounded-none'>
-                <CardHeader className='text-3xl pb-0'>
+            <div className="col-span-3">
+              <Card className="rounded-none">
+                <CardHeader className="text-3xl pb-0">
                   {t('Cart.Shopping Cart')}
                 </CardHeader>
-                <CardContent className='p-4'>
-                  <div className='flex justify-end border-b mb-4'>
+                <CardContent className="p-4">
+                  <div className="flex justify-end border-b mb-4">
                     {t('Cart.Price')}
                   </div>
 
                   {items.map((item) => (
                     <div
                       key={item.clientId}
-                      className='flex flex-col md:flex-row justify-between py-4 border-b gap-4'
+                      className="flex flex-col md:flex-row justify-between py-4 border-b gap-4"
                     >
                       <Link href={`/product/${item.slug}`}>
-                        <div className='relative w-40 h-40'>
+                        <div className="relative w-40 h-40">
                           <Image
                             src={item.image}
                             alt={item.name}
                             fill
-                            sizes='20vw'
+                            sizes="20vw"
                             style={{
                               objectFit: 'contain',
                             }}
@@ -79,42 +79,42 @@ export default function CartPage() {
                         </div>
                       </Link>
 
-                      <div className='flex-1 space-y-4'>
+                      <div className="flex-1 space-y-4">
                         <Link
                           href={`/product/${item.slug}`}
-                          className='text-lg hover:no-underline  '
+                          className="text-lg hover:no-underline  "
                         >
                           {item.name}
                         </Link>
                         <div>
-                          <p className='text-sm'>
-                            <span className='font-bold'>
+                          <p className="text-sm">
+                            <span className="font-bold">
                               {' '}
                               {t('Cart.Color')}:{' '}
                             </span>{' '}
                             {item.color}
                           </p>
-                          <p className='text-sm'>
-                            <span className='font-bold'>
+                          <p className="text-sm">
+                            <span className="font-bold">
                               {' '}
                               {t('Cart.Size')}:{' '}
                             </span>{' '}
                             {item.size}
                           </p>
                         </div>
-                        <div className='flex gap-2 items-center'>
+                        <div className="flex gap-2 items-center">
                           <Select
                             value={item.quantity.toString()}
                             onValueChange={(value) =>
                               updateItem(item, Number(value))
                             }
                           >
-                            <SelectTrigger className='w-auto'>
+                            <SelectTrigger className="w-auto">
                               <SelectValue>
                                 {t('Cart.Quantity')}: {item.quantity}
                               </SelectValue>
                             </SelectTrigger>
-                            <SelectContent position='popper'>
+                            <SelectContent position="popper">
                               {Array.from({
                                 length: item.countInStock,
                               }).map((_, i) => (
@@ -133,7 +133,7 @@ export default function CartPage() {
                         </div>
                       </div>
                       <div>
-                        <p className='text-right'>
+                        <p className="text-right">
                           {item.quantity > 1 && (
                             <>
                               {item.quantity} x
@@ -142,7 +142,7 @@ export default function CartPage() {
                             </>
                           )}
 
-                          <span className='font-bold text-lg'>
+                          <span className="font-bold text-lg">
                             <ProductPrice
                               price={item.price * item.quantity}
                               plain
@@ -153,11 +153,11 @@ export default function CartPage() {
                     </div>
                   ))}
 
-                  <div className='flex justify-end text-lg my-2'>
+                  <div className="flex justify-end text-lg my-2">
                     {t('Cart.Subtotal')} (
                     {items.reduce((acc, item) => acc + item.quantity, 0)}{' '}
                     {t('Cart.Items')}):{' '}
-                    <span className='font-bold ml-1'>
+                    <span className="font-bold ml-1">
                       <ProductPrice price={itemsPrice} plain />
                     </span>{' '}
                   </div>
@@ -165,12 +165,12 @@ export default function CartPage() {
               </Card>
             </div>
             <div>
-              <Card className='rounded-none'>
-                <CardContent className='py-4 space-y-4'>
+              <Card className="rounded-none">
+                <CardContent className="py-4 space-y-4">
                   {itemsPrice < freeShippingMinPrice ? (
-                    <div className='flex-1'>
+                    <div className="flex-1">
                       {t('Cart.Add')}{' '}
-                      <span className='text-green-700'>
+                      <span className="text-green-700">
                         <ProductPrice
                           price={freeShippingMinPrice - itemsPrice}
                           plain
@@ -181,24 +181,24 @@ export default function CartPage() {
                       )}
                     </div>
                   ) : (
-                    <div className='flex-1'>
-                      <span className='text-green-700'>
+                    <div className="flex-1">
+                      <span className="text-green-700">
                         {t('Cart.Your order qualifies for FREE Shipping')}
                       </span>{' '}
                       {t('Cart.Choose this option at checkout')}
                     </div>
                   )}
-                  <div className='text-lg'>
+                  <div className="text-lg">
                     {t('Cart.Subtotal')} (
                     {items.reduce((acc, item) => acc + item.quantity, 0)}{' '}
                     {t('Cart.items')}):{' '}
-                    <span className='font-bold'>
+                    <span className="font-bold">
                       <ProductPrice price={itemsPrice} plain />
                     </span>{' '}
                   </div>
                   <Button
                     onClick={() => router.push('/checkout')}
-                    className='rounded-full w-full'
+                    className="rounded-full w-full"
                   >
                     {t('Cart.Proceed to Checkout')}
                   </Button>
@@ -208,7 +208,7 @@ export default function CartPage() {
           </>
         )}
       </div>
-      <BrowsingHistoryList className='mt-10' />
+      <BrowsingHistoryList className="mt-10" />
     </div>
   )
 }
